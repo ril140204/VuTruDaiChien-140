@@ -1,0 +1,111 @@
+# ===== Game client binaries (không push - license/bản quyền game) =====
+*.exe
+*.dll
+*.pdb
+*.so
+*.bundle
+*.resources.assets
+*.assets
+*.resS
+*.dat
+*.bin
+!tools/**/*.cs
+!QA_TestBot/**/*.cs
+
+# ===== Game data folders =====
+/V* Tr* Đ*i Ch*n_Data/
+/V* Tr* Đ*i Ch*n/
+/_vũ trụ đại chiến_data/
+*_Data/
+
+# ===== BepInEx runtime (sinh ra khi chạy) =====
+/BepInEx/
+/BepInEx/**/LogOutput.log
+/BepInEx/**/GameExplorer.log
+/BepInEx/**/GamePlay.log
+/BepInEx/**/plugins/*.dll
+/BepInEx/**/doorstop_config.ini
+/BepInEx/cache/
+/BepInEx/config/
+/BepInEx/plugins/
+/BepInEx/monomod/
+/BepInEx/core/
+/BepInEx/doorstop/
+/BepInEx/interop/
+/BepInEx/il2cpp/
+
+# ===== Dotnet runtime bundled =====
+/dotnet/
+
+# ===== Reverse-engineering artifacts (rất lớn, sinh từ game) =====
+/tools/dump/script.json
+/tools/dump/il2cpp.h
+/tools/dump/dump.cs
+/tools/dump/DummyDll/
+/tools/Il2CppDumper/
+/tools/dumpil/
+/tools/cecil/
+/tools/dnlib/
+/tools/decompile/
+/tools/shape_140.json
+/tools/shape_132.json
+/tools/bepinex/
+/tools/interopshape/
+/tools/clientrefs/
+/tools/apicheck/
+/tools/typecheck/
+/tools/unityexplorer/
+/tools/qltk_src/
+/tools/dump_ver132/
+/tools/rt_qltk_mainform.txt
+
+# ===== Secrets / credentials =====
+accounts.json
+**/accounts.json
+QA_TestBot/config/accounts.json
+QA_TestBot/output/
+**/bot_account_config.json
+*.env
+.env
+secrets.json
+**/secrets.json
+
+# ===== Logs / debug =====
+*.log
+debug-*.log
+/logs/
+/output/
+**/output/
+/QA_TestBot/logs/
+/QA_TestBot/output/
+GameCmd.txt
+**/GameCmd.txt
+
+# ===== Build output =====
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+**/bin/
+**/obj/
+*.user
+*.suo
+.vs/
+.vscode/
+.idea/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== OS =====
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ===== Editor / misc =====
+*.swp
+*~

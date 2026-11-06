@@ -1,0 +1,2721 @@
+// ===== TYPE Client.SocketClient
+// base: System.Object
+  FIELD private System.Net.Sockets.TcpClient ‪‭‬‬⁯‭⁭‏‬​​⁬⁬‫‫‎‬‪‭⁬⁯⁬‎‮⁫‏‏‪‮⁮‫⁭‏‮⁯​⁭⁭‎‮‮
+  FIELD private System.Net.Sockets.NetworkStream ‌‭‌‭‏‭⁮‎‮‪⁭‎⁯⁯⁫‪‍⁮⁯‬‎‎‎‍‎‏⁪‏⁭‫‪‪⁫‪⁭‎‏‎‌‎‮
+  FIELD private System.Boolean ‬​⁫‮‫‍‏⁯‭⁪‮‌‎‪‮⁫‭⁮​⁪‏‏​‌‍‍‏‭‫​‪‌‎‎⁪⁪‏‭‫‮‮
+  FIELD private System.Action`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] ⁬‮‏⁯‮‪‭⁮⁬⁯‍⁯⁮‪‍‍‬‫‍‪‏⁭‪‮⁫‮‏‮‮⁫⁭‎⁫‬‍‮⁬​⁬‪‮
+  FIELD private System.Action ‭‎⁭⁭⁮‮‬‬‫​⁭‪⁮‮⁭‎‮⁯‏⁮⁭⁫‍‮‮⁯‪‍‪‮⁫‌‪‭⁮‫‏⁪‍⁯‮
+  FIELD private System.Action ⁮⁪‍⁫⁮‏‎‮⁮‭‫‮⁫⁮‏‎‬‍​⁫‎‎⁬⁭⁭‪‏‫‬‏⁫‌‬‎‎⁬‍‏⁬⁯‮
+
+  // --- METHOD Client.SocketClient::add_OnMessageReceived
+  // sig: System.Void (System.Action`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] value)
+  // IL size: 130
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient::⁬‮‏⁯‮‪‭⁮⁬⁯‍⁯⁮‪‍‍‬‫‍‪‏⁭‪‮⁫‮‏‮‮⁫⁭‎⁫‬‍‮⁬​⁬‪‮
+    IL_0006: stloc.0
+    IL_0007: ldc.i4 1989602976
+    IL_000c: ldc.i4 1193611671
+    IL_0011: xor
+    IL_0012: dup
+    IL_0013: stloc.3
+    IL_0014: ldc.i4.5
+    IL_0015: rem.un
+    IL_0016: switch (IL_fffffff3, IL_0071, IL_002e, IL_0029, IL_0052)
+    IL_002f: br.s IL_0081
+    IL_0031: ldloc.0
+    IL_0032: stloc.1
+    IL_0033: ldc.i4 614373750
+    IL_0038: br.s IL_000c
+    IL_003a: ldloc.1
+    IL_003b: ldarg.1
+    IL_003c: call Client.SocketClient::‭​‮⁮‪‫⁬‬⁬⁯⁪⁪⁯‫‮⁭‪‭⁮‫‬‏⁫⁬⁯‮‏‏‏⁪⁫‬⁮⁯‭​​‪⁯‎‮
+    IL_0041: castclass System.Action`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    IL_0046: stloc.2
+    IL_0047: ldloc.3
+    IL_0048: ldc.i4 -1835214094
+    IL_004d: mul
+    IL_004e: ldc.i4 -680330043
+    IL_0053: xor
+    IL_0054: br.s IL_000c
+    IL_0056: ldarg.0
+    IL_0057: ldflda Client.SocketClient::⁬‮‏⁯‮‪‭⁮⁬⁯‍⁯⁮‪‍‍‬‫‍‪‏⁭‪‮⁫‮‏‮‮⁫⁭‎⁫‬‍‮⁬​⁬‪‮
+    IL_005c: ldloc.2
+    IL_005d: ldloc.1
+    IL_005e: call System.Threading.Interlocked::CompareExchange
+    IL_0063: stloc.0
+    IL_0064: ldloc.0
+    IL_0065: ldloc.1
+    IL_0066: bne.un.s IL_0070
+    IL_0068: ldc.i4 1437169476
+    IL_006d: dup
+    IL_006e: br.s IL_0076
+    IL_0070: ldc.i4 267086560
+    IL_0075: dup
+    IL_0076: pop
+    IL_0077: ldloc.3
+    IL_0078: ldc.i4 1088611998
+    IL_007d: mul
+    IL_007e: xor
+    IL_007f: br.s IL_000c
+    IL_0081: ret
+
+  // --- METHOD Client.SocketClient::remove_OnMessageReceived
+  // sig: System.Void (System.Action`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] value)
+  // IL size: 111
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient::⁬‮‏⁯‮‪‭⁮⁬⁯‍⁯⁮‪‍‍‬‫‍‪‏⁭‪‮⁫‮‏‮‮⁫⁭‎⁫‬‍‮⁬​⁬‪‮
+    IL_0006: stloc.0
+    IL_0007: ldc.i4 668435493
+    IL_000c: ldc.i4 1163314854
+    IL_0011: xor
+    IL_0012: dup
+    IL_0013: stloc.3
+    IL_0014: ldc.i4.4
+    IL_0015: rem.un
+    IL_0016: switch (IL_fffffff7, IL_0045, IL_0066, IL_0029)
+    IL_002b: br.s IL_006e
+    IL_002d: ldloc.0
+    IL_002e: stloc.1
+    IL_002f: ldloc.1
+    IL_0030: ldarg.1
+    IL_0031: call Client.SocketClient::‬‏‪‏‎​‎‫⁭⁬‍⁭⁭‫‏‬⁯‌‮‏‪‮⁯‫⁬​‮⁭⁪⁮‎⁪‮‫‭‌‪‍‏‬‮
+    IL_0036: castclass System.Action`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    IL_003b: stloc.2
+    IL_003c: ldarg.0
+    IL_003d: ldflda Client.SocketClient::⁬‮‏⁯‮‪‭⁮⁬⁯‍⁯⁮‪‍‍‬‫‍‪‏⁭‪‮⁫‮‏‮‮⁫⁭‎⁫‬‍‮⁬​⁬‪‮
+    IL_0042: ldloc.2
+    IL_0043: ldloc.1
+    IL_0044: call System.Threading.Interlocked::CompareExchange
+    IL_0049: stloc.0
+    IL_004a: ldc.i4 1640385411
+    IL_004f: br.s IL_000c
+    IL_0051: ldloc.0
+    IL_0052: ldloc.1
+    IL_0053: bne.un.s IL_005d
+    IL_0055: ldc.i4 525289069
+    IL_005a: dup
+    IL_005b: br.s IL_0063
+    IL_005d: ldc.i4 1255927484
+    IL_0062: dup
+    IL_0063: pop
+    IL_0064: ldloc.3
+    IL_0065: ldc.i4 -975937691
+    IL_006a: mul
+    IL_006b: xor
+    IL_006c: br.s IL_000c
+    IL_006e: ret
+
+  // --- METHOD Client.SocketClient::add_OnConnected
+  // sig: System.Void (System.Action value)
+  // IL size: 130
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient::‭‎⁭⁭⁮‮‬‬‫​⁭‪⁮‮⁭‎‮⁯‏⁮⁭⁫‍‮‮⁯‪‍‪‮⁫‌‪‭⁮‫‏⁪‍⁯‮
+    IL_0006: stloc.0
+    IL_0007: ldc.i4 952553965
+    IL_000c: ldc.i4 877616960
+    IL_0011: xor
+    IL_0012: dup
+    IL_0013: stloc.3
+    IL_0014: ldc.i4.5
+    IL_0015: rem.un
+    IL_0016: switch (IL_0042, IL_002a, IL_0075, IL_ffffffff, IL_002d)
+    IL_002f: br.s IL_0081
+    IL_0031: ldloc.0
+    IL_0032: stloc.1
+    IL_0033: ldc.i4 33785310
+    IL_0038: br.s IL_000c
+    IL_003a: ldloc.1
+    IL_003b: ldarg.1
+    IL_003c: call Client.SocketClient::‭​‮⁮‪‫⁬‬⁬⁯⁪⁪⁯‫‮⁭‪‭⁮‫‬‏⁫⁬⁯‮‏‏‏⁪⁫‬⁮⁯‭​​‪⁯‎‮
+    IL_0041: castclass System.Action
+    IL_0046: stloc.2
+    IL_0047: ldloc.3
+    IL_0048: ldc.i4 828194680
+    IL_004d: mul
+    IL_004e: ldc.i4 52162299
+    IL_0053: xor
+    IL_0054: br.s IL_000c
+    IL_0056: ldarg.0
+    IL_0057: ldflda Client.SocketClient::‭‎⁭⁭⁮‮‬‬‫​⁭‪⁮‮⁭‎‮⁯‏⁮⁭⁫‍‮‮⁯‪‍‪‮⁫‌‪‭⁮‫‏⁪‍⁯‮
+    IL_005c: ldloc.2
+    IL_005d: ldloc.1
+    IL_005e: call System.Threading.Interlocked::CompareExchange
+    IL_0063: stloc.0
+    IL_0064: ldloc.0
+    IL_0065: ldloc.1
+    IL_0066: bne.un.s IL_0070
+    IL_0068: ldc.i4 764779626
+    IL_006d: dup
+    IL_006e: br.s IL_0076
+    IL_0070: ldc.i4 1137599913
+    IL_0075: dup
+    IL_0076: pop
+    IL_0077: ldloc.3
+    IL_0078: ldc.i4 -119672628
+    IL_007d: mul
+    IL_007e: xor
+    IL_007f: br.s IL_000c
+    IL_0081: ret
+
+  // --- METHOD Client.SocketClient::remove_OnConnected
+  // sig: System.Void (System.Action value)
+  // IL size: 111
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient::‭‎⁭⁭⁮‮‬‬‫​⁭‪⁮‮⁭‎‮⁯‏⁮⁭⁫‍‮‮⁯‪‍‪‮⁫‌‪‭⁮‫‏⁪‍⁯‮
+    IL_0006: stloc.0
+    IL_0007: ldc.i4 1775603099
+    IL_000c: ldc.i4 1378706120
+    IL_0011: xor
+    IL_0012: dup
+    IL_0013: stloc.3
+    IL_0014: ldc.i4.4
+    IL_0015: rem.un
+    IL_0016: switch (IL_fffffff7, IL_0062, IL_002e, IL_0029)
+    IL_002b: br.s IL_006e
+    IL_002d: ldloc.0
+    IL_002e: stloc.1
+    IL_002f: ldc.i4 149182430
+    IL_0034: br.s IL_000c
+    IL_0036: ldloc.1
+    IL_0037: ldarg.1
+    IL_0038: call Client.SocketClient::‬‏‪‏‎​‎‫⁭⁬‍⁭⁭‫‏‬⁯‌‮‏‪‮⁯‫⁬​‮⁭⁪⁮‎⁪‮‫‭‌‪‍‏‬‮
+    IL_003d: castclass System.Action
+    IL_0042: stloc.2
+    IL_0043: ldarg.0
+    IL_0044: ldflda Client.SocketClient::‭‎⁭⁭⁮‮‬‬‫​⁭‪⁮‮⁭‎‮⁯‏⁮⁭⁫‍‮‮⁯‪‍‪‮⁫‌‪‭⁮‫‏⁪‍⁯‮
+    IL_0049: ldloc.2
+    IL_004a: ldloc.1
+    IL_004b: call System.Threading.Interlocked::CompareExchange
+    IL_0050: stloc.0
+    IL_0051: ldloc.0
+    IL_0052: ldloc.1
+    IL_0053: bne.un.s IL_005d
+    IL_0055: ldc.i4 153462057
+    IL_005a: dup
+    IL_005b: br.s IL_0063
+    IL_005d: ldc.i4 303860411
+    IL_0062: dup
+    IL_0063: pop
+    IL_0064: ldloc.3
+    IL_0065: ldc.i4 1353403568
+    IL_006a: mul
+    IL_006b: xor
+    IL_006c: br.s IL_000c
+    IL_006e: ret
+
+  // --- METHOD Client.SocketClient::add_OnDisconnected
+  // sig: System.Void (System.Action value)
+  // IL size: 111
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient::⁮⁪‍⁫⁮‏‎‮⁮‭‫‮⁫⁮‏‎‬‍​⁫‎‎⁬⁭⁭‪‏‫‬‏⁫‌‬‎‎⁬‍‏⁬⁯‮
+    IL_0006: stloc.0
+    IL_0007: ldc.i4 -1895030914
+    IL_000c: ldc.i4 -1549285953
+    IL_0011: xor
+    IL_0012: dup
+    IL_0013: stloc.3
+    IL_0014: ldc.i4.4
+    IL_0015: rem.un
+    IL_0016: switch (IL_fffffff7, IL_0021, IL_0066, IL_004d)
+    IL_002b: br.s IL_006e
+    IL_002d: ldloc.0
+    IL_002e: stloc.1
+    IL_002f: ldloc.1
+    IL_0030: ldarg.1
+    IL_0031: call Client.SocketClient::‭​‮⁮‪‫⁬‬⁬⁯⁪⁪⁯‫‮⁭‪‭⁮‫‬‏⁫⁬⁯‮‏‏‏⁪⁫‬⁮⁯‭​​‪⁯‎‮
+    IL_0036: castclass System.Action
+    IL_003b: stloc.2
+    IL_003c: ldarg.0
+    IL_003d: ldflda Client.SocketClient::⁮⁪‍⁫⁮‏‎‮⁮‭‫‮⁫⁮‏‎‬‍​⁫‎‎⁬⁭⁭‪‏‫‬‏⁫‌‬‎‎⁬‍‏⁬⁯‮
+    IL_0042: ldloc.2
+    IL_0043: ldloc.1
+    IL_0044: call System.Threading.Interlocked::CompareExchange
+    IL_0049: stloc.0
+    IL_004a: ldc.i4 -1074586504
+    IL_004f: br.s IL_000c
+    IL_0051: ldloc.0
+    IL_0052: ldloc.1
+    IL_0053: bne.un.s IL_005d
+    IL_0055: ldc.i4 1204955280
+    IL_005a: dup
+    IL_005b: br.s IL_0063
+    IL_005d: ldc.i4 1785225619
+    IL_0062: dup
+    IL_0063: pop
+    IL_0064: ldloc.3
+    IL_0065: ldc.i4 -1153908309
+    IL_006a: mul
+    IL_006b: xor
+    IL_006c: br.s IL_000c
+    IL_006e: ret
+
+  // --- METHOD Client.SocketClient::remove_OnDisconnected
+  // sig: System.Void (System.Action value)
+  // IL size: 111
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient::⁮⁪‍⁫⁮‏‎‮⁮‭‫‮⁫⁮‏‎‬‍​⁫‎‎⁬⁭⁭‪‏‫‬‏⁫‌‬‎‎⁬‍‏⁬⁯‮
+    IL_0006: stloc.0
+    IL_0007: ldc.i4 1575220578
+    IL_000c: ldc.i4 1236187508
+    IL_0011: xor
+    IL_0012: dup
+    IL_0013: stloc.3
+    IL_0014: ldc.i4.4
+    IL_0015: rem.un
+    IL_0016: switch (IL_005e, IL_002a, IL_0025, IL_0003)
+    IL_002b: br.s IL_006e
+    IL_002d: ldloc.0
+    IL_002e: stloc.1
+    IL_002f: ldc.i4 320418953
+    IL_0034: br.s IL_000c
+    IL_0036: ldloc.1
+    IL_0037: ldarg.1
+    IL_0038: call Client.SocketClient::‬‏‪‏‎​‎‫⁭⁬‍⁭⁭‫‏‬⁯‌‮‏‪‮⁯‫⁬​‮⁭⁪⁮‎⁪‮‫‭‌‪‍‏‬‮
+    IL_003d: castclass System.Action
+    IL_0042: stloc.2
+    IL_0043: ldarg.0
+    IL_0044: ldflda Client.SocketClient::⁮⁪‍⁫⁮‏‎‮⁮‭‫‮⁫⁮‏‎‬‍​⁫‎‎⁬⁭⁭‪‏‫‬‏⁫‌‬‎‎⁬‍‏⁬⁯‮
+    IL_0049: ldloc.2
+    IL_004a: ldloc.1
+    IL_004b: call System.Threading.Interlocked::CompareExchange
+    IL_0050: stloc.0
+    IL_0051: ldloc.0
+    IL_0052: ldloc.1
+    IL_0053: bne.un.s IL_005d
+    IL_0055: ldc.i4 668602451
+    IL_005a: dup
+    IL_005b: br.s IL_0063
+    IL_005d: ldc.i4 2014243581
+    IL_0062: dup
+    IL_0063: pop
+    IL_0064: ldloc.3
+    IL_0065: ldc.i4 -2014304053
+    IL_006a: mul
+    IL_006b: xor
+    IL_006c: br.s IL_000c
+    IL_006e: ret
+
+  // --- METHOD Client.SocketClient::ConnectAsync
+  // sig: System.Void (System.String ip, System.Int32 port)
+  // IL size: 127
+    IL_0000: ldloca.s 0
+    IL_0002: call System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Create
+    IL_0007: stfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁫‌⁯‎‭‍‪‪‏‫‍⁪‮‍‫⁬‎‌‍⁮‬‎⁮‎‎⁮⁬‏‍⁯⁯⁫⁫‭​‌⁪‎‍⁫‮
+    IL_000c: ldloca.s 0
+    IL_000e: ldarg.0
+    IL_000f: stfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‭‌⁬‫⁭‍‫‫‪‍‌⁯⁯‮‫⁭‎⁬⁬‍​⁫⁯⁪⁮⁫⁫‮‬⁪⁬‏⁮⁭⁭‏‏‍‬⁭‮
+    IL_0014: ldc.i4 1531069137
+    IL_0019: ldc.i4 916267852
+    IL_001e: xor
+    IL_001f: dup
+    IL_0020: stloc.1
+    IL_0021: ldc.i4.4
+    IL_0022: rem.un
+    IL_0023: switch (IL_006e, IL_002e, IL_0049, IL_0010)
+    IL_0038: br.s IL_007e
+    IL_003a: ldloca.s 0
+    IL_003c: ldarg.1
+    IL_003d: stfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁯⁬⁬‫⁯⁪⁭‫‬‮‮‎⁬⁫‏‪⁬‪​⁬‮⁪‪⁭⁮‪⁭‬⁬‫‍​⁬⁪⁯⁭​⁪⁬⁮‮
+    IL_0042: ldloc.1
+    IL_0043: ldc.i4 1250135211
+    IL_0048: mul
+    IL_0049: ldc.i4 -781263183
+    IL_004e: xor
+    IL_004f: br.s IL_0019
+    IL_0051: ldloca.s 0
+    IL_0053: ldarg.2
+    IL_0054: stfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‎⁯‭⁭⁬‪​‌‪‬⁮‮⁫‏‫⁯‎‌‌‎‎‏⁯‎‏‮‮‭‫‪‎‎‌‫‏‮‮​‍‫‮
+    IL_0059: ldloca.s 0
+    IL_005b: ldc.i4.m1
+    IL_005c: stfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‏‭⁪⁭‬‎⁮‌‭⁮‪⁪‌⁪‎‌​‍‮⁬‪⁭⁮​⁯⁪⁯‏‪‪‫‮‎⁬⁫‫‎⁮⁬⁪‮
+    IL_0061: ldloca.s 0
+    IL_0063: ldflda Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁫‌⁯‎‭‍‪‪‏‫‍⁪‮‍‫⁬‎‌‍⁮‬‎⁮‎‎⁮⁬‏‍⁯⁯⁫⁫‭​‌⁪‎‍⁫‮
+    IL_0068: ldloca.s 0
+    IL_006a: call System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start
+    IL_006f: ldloc.1
+    IL_0070: ldc.i4 -1119339750
+    IL_0075: mul
+    IL_0076: ldc.i4 536200596
+    IL_007b: xor
+    IL_007c: br.s IL_0019
+    IL_007e: ret
+
+  // --- METHOD Client.SocketClient::‍⁮​‪​‪‌‪‭⁯⁭​‎⁯‏​‍⁯⁫⁪‪‎⁪​‭⁪⁪‍‭⁬⁯⁪‍‮⁯‮⁫‫‬‍‮
+  // sig: System.Threading.Tasks.Task ()
+  // IL size: 142
+    IL_0000: ldloca.s 0
+    IL_0002: call System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Create
+    IL_0007: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‫⁫⁮‫‬⁯‏⁫⁮‍‫‪‎⁫‍‬‎‫‮⁬‎⁮‌⁫⁬⁯‭​⁪‍‬⁫‍‎⁮⁯‏⁮‏‮‮
+    IL_000c: ldc.i4 1063853531
+    IL_0011: ldc.i4 977332035
+    IL_0016: xor
+    IL_0017: dup
+    IL_0018: stloc.1
+    IL_0019: ldc.i4.5
+    IL_001a: rem.un
+    IL_001b: switch (IL_006d, IL_0043, IL_002a, IL_0062, IL_0008)
+    IL_0034: br.s IL_0081
+    IL_0036: ldloca.s 0
+    IL_0038: ldflda Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‫⁫⁮‫‬⁯‏⁫⁮‍‫‪‎⁫‍‬‎‫‮⁬‎⁮‌⁫⁬⁯‭​⁪‍‬⁫‍‎⁮⁯‏⁮‏‮‮
+    IL_003d: ldloca.s 0
+    IL_003f: call System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start
+    IL_0044: ldloc.1
+    IL_0045: ldc.i4 -751763977
+    IL_004a: mul
+    IL_004b: ldc.i4 -1318345018
+    IL_0050: xor
+    IL_0051: br.s IL_0011
+    IL_0053: ldloca.s 0
+    IL_0055: ldc.i4.m1
+    IL_0056: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁯‏‏‏⁮‍⁯‫‌‭‭‌‮⁫‭‪‪⁫‪‭‫‍‮⁭‮​‭‭‌⁭‏⁬‮⁪⁬‬‬⁬⁯⁮‮
+    IL_005b: ldloc.1
+    IL_005c: ldc.i4 -446479689
+    IL_0061: mul
+    IL_0062: ldc.i4 -503339145
+    IL_0067: xor
+    IL_0068: br.s IL_0011
+    IL_006a: ldloca.s 0
+    IL_006c: ldarg.0
+    IL_006d: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‮⁯⁭‭‫‏‍⁮⁮‪‭‪‪​‮⁬⁯⁪‏‌‬‌‫‬⁭‏‫⁫‬‬⁪​‎⁫‪​⁫‏‏‮‮
+    IL_0072: ldloc.1
+    IL_0073: ldc.i4 -1726303013
+    IL_0078: mul
+    IL_0079: ldc.i4 1600253868
+    IL_007e: xor
+    IL_007f: br.s IL_0011
+    IL_0081: ldloca.s 0
+    IL_0083: ldflda Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‫⁫⁮‫‬⁯‏⁫⁮‍‫‪‎⁫‍‬‎‫‮⁬‎⁮‌⁫⁬⁯‭​⁪‍‬⁫‍‎⁮⁯‏⁮‏‮‮
+    IL_0088: call System.Runtime.CompilerServices.AsyncTaskMethodBuilder::get_Task
+    IL_008d: ret
+
+  // --- METHOD Client.SocketClient::⁪​‫⁯‮⁫‬‭‏‏⁭⁬‏⁭⁫‫‬⁯‫⁪⁮​‌⁬‏‍⁮⁮⁭‮⁫‬⁭⁬⁮‫⁯⁫‌‬‮
+  // sig: System.Void (Client.Message2 )
+  // IL size: 1263
+    IL_0000: newobj Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::.ctor
+    IL_0005: stloc.0
+    IL_0006: ldc.i4 -496211857
+    IL_000b: ldc.i4 -467906347
+    IL_0010: xor
+    IL_0011: dup
+    IL_0012: stloc.3
+    IL_0013: ldc.i4.s 31
+    IL_0015: rem.un
+    IL_0016: switch (IL_ffffff8a, IL_0112, IL_0050, IL_0311, IL_03c4, IL_034c, IL_0439, IL_0387, IL_0227, IL_0298, IL_01c5, IL_0195, IL_0104, IL_0225, IL_03fe, IL_02ea, IL_01bb, IL_03c5, IL_012e, IL_0298, IL_0326, IL_0074, IL_00d8, IL_0221, IL_034c, IL_015c, IL_02a2, IL_0114, IL_02fa, IL_01b5, IL_0314)
+    IL_0097: br IL_049d
+    IL_009c: ldsfld ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::‪⁯‭⁬⁯‪⁭⁫‌‬⁪⁬⁮⁯‫‮⁮⁪⁮⁮⁯‪⁭⁬‭‪⁫‍⁬‌‎‫‮​‎‭⁭‬⁫⁬‮
+    IL_00a1: ldloc.0
+    IL_00a2: ldftn Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁭⁯⁭⁮​‪‪⁪⁫⁬⁬‍‌‫⁫⁪‭‎‍‌‮‮⁮⁫⁯⁭‫‫⁪‌‍‎⁮‌‭‌‏​⁭‌‮
+    IL_00a8: newobj System.Action::.ctor
+    IL_00ad: callvirt System.Collections.Generic.Queue`1[[System.Action, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::Enqueue
+    IL_00b2: ldloc.3
+    IL_00b3: ldc.i4 705773514
+    IL_00b8: mul
+    IL_00b9: ldc.i4 1674413274
+    IL_00be: xor
+    IL_00bf: br IL_000b
+    IL_00c4: ldloc.0
+    IL_00c5: ldarg.1
+    IL_00c6: callvirt Client.Message2::ReadInt
+    IL_00cb: stfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎⁪‏‮‫⁮‪‭‍⁭⁯⁭‮⁮⁬‮‪‎‭‫‌‭⁯​​⁫‬‬‌‭⁯‪⁪⁭‫⁬‎‪‏‌‮
+    IL_00d0: ldloc.0
+    IL_00d1: ldarg.1
+    IL_00d2: callvirt Client.Message2::ReadInt
+    IL_00d7: stfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::​‮‮⁬⁬‏‬⁭⁫⁯⁫‮‫⁫‪‪‏⁭‬⁯⁯⁬⁬⁫​⁮⁮‭‏⁪‪‪⁬⁭‪​​⁬‏‎‮
+    IL_00dc: ldsfld ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::‪⁯‭⁬⁯‪⁭⁫‌‬⁪⁬⁮⁯‫‮⁮⁪⁮⁮⁯‪⁭⁬‭‪⁫‍⁬‌‎‫‮​‎‭⁭‬⁫⁬‮
+    IL_00e1: ldloc.0
+    IL_00e2: ldftn Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎‭‌‬‪⁭‬‏⁮‭‪‮⁮‬‮‎⁭⁯⁫⁯‬‮‬⁬‫‎⁪‬‌‏‌‬​‪⁭‫​‭‫‏‮
+    IL_00e8: newobj System.Action::.ctor
+    IL_00ed: callvirt System.Collections.Generic.Queue`1[[System.Action, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::Enqueue
+    IL_00f2: ldc.i4 -1453036114
+    IL_00f7: br IL_000b
+    IL_00fc: ldsfld ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::‪⁯‭⁬⁯‪⁭⁫‌‬⁪⁬⁮⁯‫‮⁮⁪⁮⁮⁯‪⁭⁬‭‪⁫‍⁬‌‎‫‮​‎‭⁭‬⁫⁬‮
+    IL_0101: ldloc.0
+    IL_0102: ldftn Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁪‮‪‭‎⁭‎‌‌‎​⁪‬⁬⁫⁪‫​‫‮‬‍‪⁬‫‭‍⁬‭‪‎⁮‌‭⁭⁪‫‭‏⁮‮
+    IL_0108: newobj System.Action::.ctor
+    IL_010d: callvirt System.Collections.Generic.Queue`1[[System.Action, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::Enqueue
+    IL_0112: ldloc.3
+    IL_0113: ldc.i4 760918248
+    IL_0118: mul
+    IL_0119: ldc.i4 1981987790
+    IL_011e: xor
+    IL_011f: br IL_000b
+    IL_0124: ldloc.0
+    IL_0125: ldarg.1
+    IL_0126: callvirt Client.Message2::ReadString
+    IL_012b: stfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁭‌‫⁫⁪⁯‌‪⁭‍‍⁮⁫‌⁪‮⁬​⁯‍‎⁮‮‮‎⁮‮⁭⁪‫⁭‌⁮‪​⁪‪⁪⁯‬‮
+    IL_0130: ldsfld ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::‪⁯‭⁬⁯‪⁭⁫‌‬⁪⁬⁮⁯‫‮⁮⁪⁮⁮⁯‪⁭⁬‭‪⁫‍⁬‌‎‫‮​‎‭⁭‬⁫⁬‮
+    IL_0135: ldloc.0
+    IL_0136: ldftn Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁯⁯‮⁭‬⁭‍‬⁪‬‪‭‏‌⁪‌​‫⁫⁭⁯‭⁯‮⁬⁭‭‍⁫⁭‮‫‏⁯‎⁮⁫‍⁪‌‮
+    IL_013c: newobj System.Action::.ctor
+    IL_0141: callvirt System.Collections.Generic.Queue`1[[System.Action, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::Enqueue
+    IL_0146: ldc.i4 -1217800721
+    IL_014b: br IL_000b
+    IL_0150: ldloc.3
+    IL_0151: ldc.i4 1008101072
+    IL_0156: mul
+    IL_0157: ldc.i4 793079886
+    IL_015c: xor
+    IL_015d: br IL_000b
+    IL_0162: ldloc.3
+    IL_0163: ldc.i4 619889216
+    IL_0168: mul
+    IL_0169: ldc.i4 -1404096722
+    IL_016e: xor
+    IL_016f: br IL_000b
+    IL_0174: ldloc.0
+    IL_0175: ldarg.1
+    IL_0176: callvirt Client.Message2::ReadInt
+    IL_017b: stfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::​‏⁪‪‭⁬‫‍⁯‪‪‌⁫‎​‏⁬‏⁫‪‍‏⁪⁯‫‌‏‏​‏‫‌​‮⁫‍‌⁮‪‬‮
+    IL_0180: ldc.i4 -105919255
+    IL_0185: br IL_000b
+    IL_018a: ldsfld ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::‪⁯‭⁬⁯‪⁭⁫‌‬⁪⁬⁮⁯‫‮⁮⁪⁮⁮⁯‪⁭⁬‭‪⁫‍⁬‌‎‫‮​‎‭⁭‬⁫⁬‮
+    IL_018f: ldsfld Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::<>9__15_4
+    IL_0194: dup
+    IL_0195: brtrue.s IL_01ae
+    IL_0197: pop
+    IL_0198: ldsfld Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::<>9
+    IL_019d: ldftn Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::⁮⁪‮⁫‏⁫⁭‭​‬‎‎‌​‭‍‌‭⁬⁮‎‮‬⁭‪‏‭​⁬‫⁯⁯‏‮‌⁬⁪​‭‬‮
+    IL_01a3: newobj System.Action::.ctor
+    IL_01a8: dup
+    IL_01a9: stsfld Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::<>9__15_4
+    IL_01ae: callvirt System.Collections.Generic.Queue`1[[System.Action, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::Enqueue
+    IL_01b3: ldc.i4 -746488092
+    IL_01b8: br IL_000b
+    IL_01bd: ldsfld ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::‪⁯‭⁬⁯‪⁭⁫‌‬⁪⁬⁮⁯‫‮⁮⁪⁮⁮⁯‪⁭⁬‭‪⁫‍⁬‌‎‫‮​‎‭⁭‬⁫⁬‮
+    IL_01c2: ldloc.0
+    IL_01c3: ldftn Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁪⁭⁭⁪‭⁯⁭⁬‪​⁯‭​‏‬⁯‍‫⁮‍‪‪⁭⁪‭‮⁭⁮‫‌‎⁭‍‏‮⁬⁬‪⁭‍‮
+    IL_01c9: newobj System.Action::.ctor
+    IL_01ce: callvirt System.Collections.Generic.Queue`1[[System.Action, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::Enqueue
+    IL_01d3: ldloc.3
+    IL_01d4: ldc.i4 1579609637
+    IL_01d9: mul
+    IL_01da: ldc.i4 -1730983649
+    IL_01df: xor
+    IL_01e0: br IL_000b
+    IL_01e5: ldloc.3
+    IL_01e6: ldc.i4 388785148
+    IL_01eb: mul
+    IL_01ec: ldc.i4 1108802282
+    IL_01f1: xor
+    IL_01f2: br IL_000b
+    IL_01f7: ldloc.0
+    IL_01f8: ldarg.1
+    IL_01f9: callvirt Client.Message2::ReadInt
+    IL_01fe: stfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‍​‮‭‍‪‭⁫‌‭‮‮‏‪‬‫⁯‮‏⁭⁪‏​⁬⁮‬‪‭‍⁯‎‫‍⁪‬‍‫‮⁯⁬‮
+    IL_0203: ldloc.0
+    IL_0204: ldarg.1
+    IL_0205: callvirt Client.Message2::ReadInt
+    IL_020a: stfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁬⁫‮​​‭‪‌‬‪⁪‎⁫⁯⁪‪‪‮‭⁮⁫‎‍⁯‫‎‏‎​⁬⁮‫‪‫⁬⁬⁫⁮‮‮‮
+    IL_020f: ldc.i4 -738887891
+    IL_0214: br IL_000b
+    IL_0219: ldsfld ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::‪⁯‭⁬⁯‪⁭⁫‌‬⁪⁬⁮⁯‫‮⁮⁪⁮⁮⁯‪⁭⁬‭‪⁫‍⁬‌‎‫‮​‎‭⁭‬⁫⁬‮
+    IL_021e: ldloc.0
+    IL_021f: ldftn Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎‭‌‎⁯‫⁫‎‭⁬‌⁯⁭⁪‮‍‪‏‏⁪‪‏‫⁭‍‫‬⁫‪‏‫⁯‬⁫‭‪‪‮‬‍‮
+    IL_0225: newobj System.Action::.ctor
+    IL_022a: callvirt System.Collections.Generic.Queue`1[[System.Action, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::Enqueue
+    IL_022f: ldloc.3
+    IL_0230: ldc.i4 409624112
+    IL_0235: mul
+    IL_0236: ldc.i4 868527454
+    IL_023b: xor
+    IL_023c: br IL_000b
+    IL_0241: ldloc.0
+    IL_0242: ldarg.1
+    IL_0243: callvirt Client.Message2::ReadInt
+    IL_0248: stfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁬​​‭‍‭‏‍⁪‫‬‌‮‎⁯⁭⁫⁫⁮⁪⁬‌⁫⁪​‫‪‫‎⁫⁯⁮⁯⁪⁯‌⁯‌‪‪‮
+    IL_024d: ldsfld ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::‪⁯‭⁬⁯‪⁭⁫‌‬⁪⁬⁮⁯‫‮⁮⁪⁮⁮⁯‪⁭⁬‭‪⁫‍⁬‌‎‫‮​‎‭⁭‬⁫⁬‮
+    IL_0252: ldloc.0
+    IL_0253: ldftn Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎‮⁫⁫⁪‭⁪⁯‏‮⁮⁬‎⁬⁪‌‮‫‏⁮⁭‏‪⁮‮‪​‏‍⁫⁪⁯‎⁫‍⁭⁯‍‍‎‮
+    IL_0259: newobj System.Action::.ctor
+    IL_025e: callvirt System.Collections.Generic.Queue`1[[System.Action, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::Enqueue
+    IL_0263: ldc.i4 -1453036114
+    IL_0268: br IL_000b
+    IL_026d: ldloc.0
+    IL_026e: ldarg.1
+    IL_026f: callvirt Client.Message2::ReadInt
+    IL_0274: stfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::​‍‪‭‍⁫⁫‍‮⁫‏⁮⁪​‮⁪‍⁮⁭⁭⁮‬‭‮​⁪⁯‫⁪‪‏‎⁮⁪‏⁯‏‌‪‭‮
+    IL_0279: ldc.i4 -401382681
+    IL_027e: br IL_000b
+    IL_0283: ldsfld ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::‪⁯‭⁬⁯‪⁭⁫‌‬⁪⁬⁮⁯‫‮⁮⁪⁮⁮⁯‪⁭⁬‭‪⁫‍⁬‌‎‫‮​‎‭⁭‬⁫⁬‮
+    IL_0288: ldsfld Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::<>9__15_2
+    IL_028d: dup
+    IL_028e: brtrue.s IL_02a7
+    IL_0290: pop
+    IL_0291: ldsfld Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::<>9
+    IL_0296: ldftn Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::⁯⁪⁪‍‪‮‮‫‭‏⁭⁪‌‍​‎‎‬‏‫‭⁬⁪‌⁯‭⁫‍⁯‍⁮‭⁫⁮⁬⁫⁪‏‫⁮‮
+    IL_029c: newobj System.Action::.ctor
+    IL_02a1: dup
+    IL_02a2: stsfld Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::<>9__15_2
+    IL_02a7: callvirt System.Collections.Generic.Queue`1[[System.Action, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::Enqueue
+    IL_02ac: ldc.i4 -789995014
+    IL_02b1: br IL_000b
+    IL_02b6: ldloc.3
+    IL_02b7: ldc.i4 -164979990
+    IL_02bc: mul
+    IL_02bd: ldc.i4 1266582388
+    IL_02c2: xor
+    IL_02c3: br IL_000b
+    IL_02c8: ldsfld ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::‪⁯‭⁬⁯‪⁭⁫‌‬⁪⁬⁮⁯‫‮⁮⁪⁮⁮⁯‪⁭⁬‭‪⁫‍⁬‌‎‫‮​‎‭⁭‬⁫⁬‮
+    IL_02cd: ldloc.0
+    IL_02ce: ldftn Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‮⁮⁪‪⁯‫‫‬‭⁯‪‬⁫⁭⁬‍⁭⁪⁬⁫⁬‬​⁫‫‬⁮‪‌⁬‪‎⁭‬‌‏‎‏⁪⁯‮
+    IL_02d4: newobj System.Action::.ctor
+    IL_02d9: callvirt System.Collections.Generic.Queue`1[[System.Action, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::Enqueue
+    IL_02de: ldloc.3
+    IL_02df: ldc.i4 1963717363
+    IL_02e4: mul
+    IL_02e5: ldc.i4 20251638
+    IL_02ea: xor
+    IL_02eb: br IL_000b
+    IL_02f0: ldloc.0
+    IL_02f1: ldarg.1
+    IL_02f2: callvirt Client.Message2::ReadInt
+    IL_02f7: stfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎⁭‭⁭​‌⁯⁯⁮‌‍⁪‍‪‮‏‌​‬⁪⁪‪‪‏​‍‎‏⁫⁬‏‏⁪‪‎​⁮⁪⁪‮
+    IL_02fc: ldc.i4 -1616484304
+    IL_0301: br IL_000b
+    IL_0306: ldloc.3
+    IL_0307: ldc.i4 932476429
+    IL_030c: mul
+    IL_030d: ldc.i4 1439995075
+    IL_0312: xor
+    IL_0313: br IL_000b
+    IL_0318: ldloc.3
+    IL_0319: ldc.i4 394809124
+    IL_031e: mul
+    IL_031f: ldc.i4 -318246838
+    IL_0324: xor
+    IL_0325: br IL_000b
+    IL_032a: ldsfld ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::‪⁯‭⁬⁯‪⁭⁫‌‬⁪⁬⁮⁯‫‮⁮⁪⁮⁮⁯‪⁭⁬‭‪⁫‍⁬‌‎‫‮​‎‭⁭‬⁫⁬‮
+    IL_032f: ldloc.0
+    IL_0330: ldftn Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁯​‫‪⁪⁪‬⁯⁫‏⁪‍‬‎‮‬⁯‪‍⁬⁯‭⁮‬‬​‫‫‮⁮⁮⁭‮‬⁭⁯‍⁯⁯‭‮
+    IL_0336: newobj System.Action::.ctor
+    IL_033b: callvirt System.Collections.Generic.Queue`1[[System.Action, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::Enqueue
+    IL_0340: ldloc.3
+    IL_0341: ldc.i4 -232005981
+    IL_0346: mul
+    IL_0347: ldc.i4 1503784774
+    IL_034c: xor
+    IL_034d: br IL_000b
+    IL_0352: ldloc.0
+    IL_0353: ldarg.1
+    IL_0354: callvirt Client.Message2::ReadInt
+    IL_0359: stfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁫‌‬⁭‍‍⁪‭⁬⁪‪⁯‭‏⁮⁫‬‪‮⁬‏‏⁮‪‪‬‎⁯‎‪‌⁫‪‌‏⁮⁪‪‌‎‮
+    IL_035e: ldc.i4 -957517050
+    IL_0363: br IL_000b
+    IL_0368: ldarg.1
+    IL_0369: callvirt Client.Message2::get_Command
+    IL_036e: stloc.1
+    IL_036f: ldloc.3
+    IL_0370: ldc.i4 -459480871
+    IL_0375: mul
+    IL_0376: ldc.i4 1035871163
+    IL_037b: xor
+    IL_037c: br IL_000b
+    IL_0381: ldsfld ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::‪⁯‭⁬⁯‪⁭⁫‌‬⁪⁬⁮⁯‫‮⁮⁪⁮⁮⁯‪⁭⁬‭‪⁫‍⁬‌‎‫‮​‎‭⁭‬⁫⁬‮
+    IL_0386: ldsfld Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::<>9__15_3
+    IL_038b: dup
+    IL_038c: brtrue.s IL_03a5
+    IL_038e: pop
+    IL_038f: ldsfld Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::<>9
+    IL_0394: ldftn Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::‬‪⁯‪‍⁬‏⁭‎‬‌⁯⁮⁮‌‌​‏‪‭⁬​‮​‮‎⁯‮⁭‌⁫⁮⁭‎‌‌‌⁮⁫‬‮
+    IL_039a: newobj System.Action::.ctor
+    IL_039f: dup
+    IL_03a0: stsfld Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::<>9__15_3
+    IL_03a5: callvirt System.Collections.Generic.Queue`1[[System.Action, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::Enqueue
+    IL_03aa: ldc.i4 -1213708236
+    IL_03af: br IL_000b
+    IL_03b4: ldsfld ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::‪⁯‭⁬⁯‪⁭⁫‌‬⁪⁬⁮⁯‫‮⁮⁪⁮⁮⁯‪⁭⁬‭‪⁫‍⁬‌‎‫‮​‎‭⁭‬⁫⁬‮
+    IL_03b9: ldsfld Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::<>9__15_0
+    IL_03be: dup
+    IL_03bf: brtrue.s IL_03d8
+    IL_03c1: pop
+    IL_03c2: ldsfld Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::<>9
+    IL_03c7: ldftn Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::‬⁪⁭‎‭⁮‍⁯‎‮‎​⁫‏​⁬⁮⁯⁬‮‫⁪⁯‎⁫⁬‫‍‎⁪‮‭‎‌‫‏⁫⁪‮‏‮
+    IL_03cd: newobj System.Action::.ctor
+    IL_03d2: dup
+    IL_03d3: stsfld Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::<>9__15_0
+    IL_03d8: callvirt System.Collections.Generic.Queue`1[[System.Action, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::Enqueue
+    IL_03dd: ldc.i4 -1453036114
+    IL_03e2: br IL_000b
+    IL_03e7: ldloc.0
+    IL_03e8: ldarg.1
+    IL_03e9: callvirt Client.Message2::ReadInt
+    IL_03ee: stfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‬⁫⁯⁮​⁭‏‍‪‏‪⁭⁪‍‭⁬⁯​‭⁮‮‍‪‍⁯‫‏‍‮‌‌⁯‮‍‍‮‪⁯⁮‬‮
+    IL_03f3: ldc.i4 -463163747
+    IL_03f8: br IL_000b
+    IL_03fd: ldsfld ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::‪⁯‭⁬⁯‪⁭⁫‌‬⁪⁬⁮⁯‫‮⁮⁪⁮⁮⁯‪⁭⁬‭‪⁫‍⁬‌‎‫‮​‎‭⁭‬⁫⁬‮
+    IL_0402: ldsfld Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::<>9__15_1
+    IL_0407: dup
+    IL_0408: brtrue.s IL_0421
+    IL_040a: pop
+    IL_040b: ldsfld Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::<>9
+    IL_0410: ldftn Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::‬‫⁫⁭⁯‭‍‌‭‌‏‍‎⁫‌⁯‏‮⁯⁮⁪‪⁭⁫⁭‍⁮‬⁬⁭⁯⁪⁭‪‭⁫‪‏‍‍‮
+    IL_0416: newobj System.Action::.ctor
+    IL_041b: dup
+    IL_041c: stsfld Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::<>9__15_1
+    IL_0421: callvirt System.Collections.Generic.Queue`1[[System.Action, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::Enqueue
+    IL_0426: ldc.i4 -1220291005
+    IL_042b: br IL_000b
+    IL_0430: ldloc.3
+    IL_0431: ldc.i4 -146233411
+    IL_0436: mul
+    IL_0437: ldc.i4 -931183857
+    IL_043c: xor
+    IL_043d: br IL_000b
+    IL_0442: ldloc.1
+    IL_0443: ldc.i4.s -102
+    IL_0445: sub
+    IL_0446: switch (IL_03a7, IL_0316, IL_013c, IL_02bc, IL_023d, IL_0215, IL_01cf, IL_0100, IL_047d, IL_00a8, IL_0172, IL_036d, IL_0273, IL_03f1, IL_03ac, IL_0499)
+    IL_048b: ldloc.3
+    IL_048c: ldc.i4 1423163782
+    IL_0491: mul
+    IL_0492: ldc.i4 -1981532844
+    IL_0497: xor
+    IL_0498: br IL_000b
+    IL_049d: leave.s IL_04ee
+    IL_049f: stloc.2
+    IL_04a0: ldc.i4 -858081486
+    IL_04a5: ldc.i4 -467906347
+    IL_04aa: xor
+    IL_04ab: dup
+    IL_04ac: stloc.3
+    IL_04ad: ldc.i4.3
+    IL_04ae: rem.un
+    IL_04af: switch (IL_04d9, IL_04ba, IL_049c)
+    IL_04c0: br.s IL_04e5
+    IL_04c2: ldc.i4 -1108076312
+    IL_04c7: br.s IL_04c9
+    IL_04c9: call ::‌‎‫⁬​‭‮⁮‍‬⁮‍‪‬‮⁫‫‌‬‪‍⁮‫‫‪‪⁬‬​⁭‫‎‪‪⁯‬⁫⁪⁮‬‮
+    IL_04ce: ldloc.2
+    IL_04cf: call Client.SocketClient::‏⁬⁫⁯‮⁮⁪‍⁭‎‭‮‮‬⁪‮‭⁯‭‮⁪‮⁮‎​​‮‌⁬‫⁭‏‮⁪⁬‎‍‍⁫⁮‮
+    IL_04d4: call Client.SocketClient::⁭‎⁯‬‫‏‬‏‬​⁭‎‭⁪⁫‬‮⁫‌‌⁮‎‎‮‫⁭⁬‫⁭‬‮⁮‪‏‬⁫‮‭​‭‮
+    IL_04d9: call Client.SocketClient::⁭‪​⁭​‬‮⁫‮​‭‍‭‪‌‎⁭‏​‮‪⁫‭‪‎⁮⁯‮‬‬‭‏‏⁭​‍‎‪‫⁮‮
+    IL_04de: ldc.i4 -970584593
+    IL_04e3: br.s IL_04a5
+    IL_04e5: leave.s IL_04ee
+    IL_04e7: ldarg.1
+    IL_04e8: callvirt Client.Message2::Cleanup
+    IL_04ed: endfinally
+    IL_04ee: ret
+
+  // --- METHOD Client.SocketClient::⁭⁫‏⁯‏‭‏‍⁪⁬‎‮⁯‏⁮⁮⁫⁪⁫‍⁮⁮⁭‭‌‫‪‬‎‬‫‮‏⁮‪‏⁪⁮‮‏‮
+  // sig: System.Void (System.String )
+  // IL size: 18
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient::⁬‮‏⁯‮‪‭⁮⁬⁯‍⁯⁮‪‍‍‬‫‍‪‏⁭‪‮⁫‮‏‮‮⁫⁭‎⁫‬‍‮⁬​⁬‪‮
+    IL_0006: dup
+    IL_0007: brtrue.s IL_000b
+    IL_0009: pop
+    IL_000a: ret
+    IL_000b: ldarg.1
+    IL_000c: callvirt System.Action`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::Invoke
+    IL_0011: ret
+
+  // --- METHOD Client.SocketClient::Send
+  // sig: System.Void (System.String message)
+  // IL size: 199
+    IL_0000: newobj Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::.ctor
+    IL_0005: stloc.0
+    IL_0006: ldc.i4 -1574604375
+    IL_000b: ldc.i4 -663409622
+    IL_0010: xor
+    IL_0011: dup
+    IL_0012: stloc.1
+    IL_0013: ldc.i4.7
+    IL_0014: rem.un
+    IL_0015: switch (IL_0098, IL_0083, IL_0024, IL_fffffff6, IL_004d, IL_007a, IL_0076)
+    IL_0036: br.s IL_00b4
+    IL_0038: ldarg.0
+    IL_0039: ldfld Client.SocketClient::‬​⁫‮‫‍‏⁯‭⁪‮‌‎‪‮⁫‭⁮​⁪‏‏​‌‍‍‏‭‫​‪‌‎‎⁪⁪‏‭‫‮‮
+    IL_003e: brfalse.s IL_0048
+    IL_0040: ldc.i4 1724798382
+    IL_0045: dup
+    IL_0046: br.s IL_004e
+    IL_0048: ldc.i4 134728670
+    IL_004d: dup
+    IL_004e: pop
+    IL_004f: ldloc.1
+    IL_0050: ldc.i4 284380497
+    IL_0055: mul
+    IL_0056: xor
+    IL_0057: br.s IL_000b
+    IL_0059: ldarg.0
+    IL_005a: ldfld Client.SocketClient::‌‭‌‭‏‭⁮‎‮‪⁭‎⁯⁯⁫‪‍⁮⁯‬‎‎‎‍‎‏⁪‏⁭‫‪‪⁫‪⁭‎‏‎‌‎‮
+    IL_005f: brtrue.s IL_0069
+    IL_0061: ldc.i4 -2079262981
+    IL_0066: dup
+    IL_0067: br.s IL_006f
+    IL_0069: ldc.i4 -1980047979
+    IL_006e: dup
+    IL_006f: pop
+    IL_0070: ldloc.1
+    IL_0071: ldc.i4 -1497369986
+    IL_0076: mul
+    IL_0077: xor
+    IL_0078: br.s IL_000b
+    IL_007a: ret
+    IL_007b: ldc.i4 -1763222657
+    IL_0080: br.s IL_000b
+    IL_0082: ldloc.0
+    IL_0083: ldarg.0
+    IL_0084: stfld Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::⁮‍‮⁫​‍‍‎⁮‍‍‍‎⁬⁯‪⁫⁫⁪‌‬‪⁪​⁬‍⁪‍⁮⁬‫‎⁬‫‬‎‪‎⁮‍‮
+    IL_0089: ldloc.1
+    IL_008a: ldc.i4 -1041331328
+    IL_008f: mul
+    IL_0090: ldc.i4 -1720510155
+    IL_0095: xor
+    IL_0096: br IL_000b
+    IL_009b: ldloc.0
+    IL_009c: ldarg.1
+    IL_009d: stfld Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‬⁪⁮⁮‌​‏‬‫⁯‏‍‌‬‮‬⁪⁮​‬‬‬‫⁯⁫‏⁫⁪‌⁯‌‮‮‌‭‏‮⁮‪‪‮
+    IL_00a2: ldloc.1
+    IL_00a3: ldc.i4 -1643857249
+    IL_00a8: mul
+    IL_00a9: ldc.i4 1364768411
+    IL_00ae: xor
+    IL_00af: br IL_000b
+    IL_00b4: ldloc.0
+    IL_00b5: ldftn Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‭‌‫⁯‬⁭⁮⁭‫‍‭⁮⁬​‎‬‫⁭‬⁪⁬⁪‍‎‍‬‏​‪‭‍​‌‬⁮‎⁯⁭⁮‎‮
+    IL_00bb: newobj System.Action::.ctor
+    IL_00c0: call Client.SocketClient::‍⁫‍‫⁯‬⁬‍⁯‫⁭‫‏‬‌‎⁮⁮‮‏⁯⁫⁯‪⁫⁯​⁭‍⁬‍‪⁭​​‏⁭‪‍‪‮
+    IL_00c5: pop
+    IL_00c6: ret
+
+  // --- METHOD Client.SocketClient::Disconnect
+  // sig: System.Void ()
+  // IL size: 163
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient::‬​⁫‮‫‍‏⁯‭⁪‮‌‎‪‮⁫‭⁮​⁪‏‏​‌‍‍‏‭‫​‪‌‎‎⁪⁪‏‭‫‮‮
+    IL_0006: brtrue.s IL_0061
+    IL_0008: ldc.i4 1978639657
+    IL_000d: ldc.i4 225175062
+    IL_0012: xor
+    IL_0013: dup
+    IL_0014: stloc.0
+    IL_0015: ldc.i4.7
+    IL_0016: rem.un
+    IL_0017: switch (IL_ffffffec, IL_0022, IL_004d, IL_005f, IL_0096, IL_0042, IL_0083)
+    IL_0038: br.s IL_00a2
+    IL_003a: ret
+    IL_003b: ldloc.0
+    IL_003c: ldc.i4 -265743076
+    IL_0041: mul
+    IL_0042: ldc.i4 -14948839
+    IL_0047: xor
+    IL_0048: br.s IL_000d
+    IL_004a: ldarg.0
+    IL_004b: ldfld Client.SocketClient::⁮⁪‍⁫⁮‏‎‮⁮‭‫‮⁫⁮‏‎‬‍​⁫‎‎⁬⁭⁭‪‏‫‬‏⁫‌‬‎‎⁬‍‏⁬⁯‮
+    IL_0050: dup
+    IL_0051: brtrue.s IL_0055
+    IL_0053: pop
+    IL_0054: ret
+    IL_0055: callvirt System.Action::Invoke
+    IL_005a: ldc.i4 2122801567
+    IL_005f: br.s IL_000d
+    IL_0061: ldarg.0
+    IL_0062: ldc.i4.0
+    IL_0063: stfld Client.SocketClient::‬​⁫‮‫‍‏⁯‭⁪‮‌‎‪‮⁫‭⁮​⁪‏‏​‌‍‍‏‭‫​‪‌‎‎⁪⁪‏‭‫‮‮
+    IL_0068: ldc.i4 1342803829
+    IL_006d: br.s IL_000d
+    IL_006f: ldarg.0
+    IL_0070: ldfld Client.SocketClient::‌‭‌‭‏‭⁮‎‮‪⁭‎⁯⁯⁫‪‍⁮⁯‬‎‎‎‍‎‏⁪‏⁭‫‪‪⁫‪⁭‎‏‎‌‎‮
+    IL_0075: dup
+    IL_0076: brtrue.s IL_007b
+    IL_0078: pop
+    IL_0079: br.s IL_0087
+    IL_007b: call Client.SocketClient::‎⁮‍‮‫‌‏‫⁫‬​‌⁬‎⁫‪‪⁭‍‫⁬‏‬​‪‎⁫⁬‌‪⁬‬‌⁮‬‍⁪‫⁫‬‮
+    IL_0080: ldc.i4 53625567
+    IL_0085: br.s IL_000d
+    IL_0087: ldarg.0
+    IL_0088: ldfld Client.SocketClient::‪‭‬‬⁯‭⁭‏‬​​⁬⁬‫‫‎‬‪‭⁬⁯⁬‎‮⁫‏‏‪‮⁮‫⁭‏‮⁯​⁭⁭‎‮‮
+    IL_008d: dup
+    IL_008e: brtrue.s IL_0093
+    IL_0090: pop
+    IL_0091: br.s IL_004a
+    IL_0093: call Client.SocketClient::​‏‏‮‍‬‫⁬‎‬‪‍‎‬‎⁭​‫⁭⁭‪‬‭‪‌‫‍⁭‌⁮‫‬‎​‬⁪⁯​‫⁭‮
+    IL_0098: ldc.i4 252325435
+    IL_009d: br IL_000d
+    IL_00a2: ret
+
+  // --- METHOD Client.SocketClient::‭​‮⁮‪‫⁬‬⁬⁯⁪⁪⁯‫‮⁭‪‭⁮‫‬‏⁫⁬⁯‮‏‏‏⁪⁫‬⁮⁯‭​​‪⁯‎‮
+  // sig: System.Delegate (System.Delegate , System.Delegate )
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: call System.Delegate::Combine
+    IL_0007: ret
+
+  // --- METHOD Client.SocketClient::‬‏‪‏‎​‎‫⁭⁬‍⁭⁭‫‏‬⁯‌‮‏‪‮⁯‫⁬​‮⁭⁪⁮‎⁪‮‫‭‌‪‍‏‬‮
+  // sig: System.Delegate (System.Delegate , System.Delegate )
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: call System.Delegate::Remove
+    IL_0007: ret
+
+  // --- METHOD Client.SocketClient::‏⁬⁫⁯‮⁮⁪‍⁭‎‭‮‮‬⁪‮‭⁯‭‮⁪‮⁮‎​​‮‌⁬‫⁭‏‮⁪⁬‎‍‍⁫⁮‮
+  // sig: System.String (System.Exception )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.Exception::get_Message
+    IL_0006: ret
+
+  // --- METHOD Client.SocketClient::⁭‎⁯‬‫‏‬‏‬​⁭‎‭⁪⁫‬‮⁫‌‌⁮‎‎‮‫⁭⁬‫⁭‬‮⁮‪‏‬⁫‮‭​‭‮
+  // sig: System.String (System.String , System.String )
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: call System.String::Concat
+    IL_0007: ret
+
+  // --- METHOD Client.SocketClient::⁭‪​⁭​‬‮⁫‮​‭‍‭‪‌‎⁭‏​‮‪⁫‭‪‎⁮⁯‮‬‬‭‏‏⁭​‍‎‪‫⁮‮
+  // sig: System.Void (System.String )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: call System.Console::WriteLine
+    IL_0006: ret
+
+  // --- METHOD Client.SocketClient::‍⁫‍‫⁯‬⁬‍⁯‫⁭‫‏‬‌‎⁮⁮‮‏⁯⁫⁯‪⁫⁯​⁭‍⁬‍‪⁭​​‏⁭‪‍‪‮
+  // sig: System.Threading.Tasks.Task (System.Action )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: call System.Threading.Tasks.Task::Run
+    IL_0006: ret
+
+  // --- METHOD Client.SocketClient::‎⁮‍‮‫‌‏‫⁫‬​‌⁬‎⁫‪‪⁭‍‫⁬‏‬​‪‎⁫⁬‌‪⁬‬‌⁮‬‍⁪‫⁫‬‮
+  // sig: System.Void (System.IO.Stream )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.IO.Stream::Close
+    IL_0006: ret
+
+  // --- METHOD Client.SocketClient::​‏‏‮‍‬‫⁬‎‬‪‍‎‬‎⁭​‫⁭⁭‪‬‭‪‌‫‍⁭‌⁮‫‬‎​‬⁪⁯​‫⁭‮
+  // sig: System.Void (System.Net.Sockets.TcpClient )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: call System.Net.Sockets.TcpClient::Close
+    IL_0006: ret
+
+
+// ===== TYPE Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮
+// base: System.Object
+  FIELD public static System.Action <>9__15_4
+  FIELD public static readonly Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮ <>9
+  FIELD public static System.Action <>9__15_2
+  FIELD public static System.Action <>9__15_3
+  FIELD public static System.Action <>9__15_0
+  FIELD public static System.Action <>9__15_1
+
+  // --- METHOD Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::⁮⁪‮⁫‏⁫⁭‭​‬‎‎‌​‭‍‌‭⁬⁮‎‮‬⁭‪‏‭​⁬‫⁯⁯‏‮‌⁬⁪​‭‬‮
+  // sig: System.Void ()
+  // IL size: 11
+    IL_0000: call Client.ItemFunc::use5BinhItem
+    IL_0005: call Client.ItemFunc::sapXepItem
+    IL_000a: ret
+
+  // --- METHOD Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::⁯⁪⁪‍‪‮‮‫‭‏⁭⁪‌‍​‎‎‬‏‫‭⁬⁪‌⁯‭⁫‍⁯‍⁮‭⁫⁮⁬⁫⁪‏‫⁮‮
+  // sig: System.Void ()
+  // IL size: 16
+    IL_0000: ldc.i4.1
+    IL_0001: ldc.i4.3
+    IL_0002: ldc.i4.4
+    IL_0003: ldc.i4.s 100
+    IL_0005: call Client.MenuMod::muaItem
+    IL_000a: call Client.ItemFunc::sapXepItem
+    IL_000f: ret
+
+  // --- METHOD Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::‬‪⁯‪‍⁬‏⁭‎‬‌⁯⁮⁮‌‌​‏‪‭⁬​‮​‮‎⁯‮⁭‌⁫⁮⁭‎‌‌‌⁮⁫‬‮
+  // sig: System.Void ()
+  // IL size: 6
+    IL_0000: call Client.MenuMod::mua5binh
+    IL_0005: ret
+
+  // --- METHOD Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::‬⁪⁭‎‭⁮‍⁯‎‮‎​⁫‏​⁬⁮⁯⁬‮‫⁪⁯‎⁫⁬‫‍‎⁪‮‭‎‌‫‏⁫⁪‮‏‮
+  // sig: System.Void ()
+  // IL size: 12
+    IL_0000: call Client.ItemFunc::sapXepItem
+    IL_0005: ldc.i4.3
+    IL_0006: call Client.ItemFunc::muaItemLv
+    IL_000b: ret
+
+  // --- METHOD Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::‬‫⁫⁭⁯‭‍‌‭‌‏‍‎⁫‌⁯‏‮⁯⁮⁪‪⁭⁫⁭‍⁮‬⁬⁭⁯⁪⁭‪‭⁫‪‏‍‍‮
+  // sig: System.Void ()
+  // IL size: 11
+    IL_0000: call Client.MenuMod::get_Instance
+    IL_0005: callvirt Client.MenuMod::sendInfo
+    IL_000a: ret
+
+
+// ===== TYPE Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮
+// base: System.Object
+  FIELD public System.Int32 ‎⁪‏‮‫⁮‪‭‍⁭⁯⁭‮⁮⁬‮‪‎‭‫‌‭⁯​​⁫‬‬‌‭⁯‪⁪⁭‫⁬‎‪‏‌‮
+  FIELD public System.Int32 ​‮‮⁬⁬‏‬⁭⁫⁯⁫‮‫⁫‪‪‏⁭‬⁯⁯⁬⁬⁫​⁮⁮‭‏⁪‪‪⁬⁭‪​​⁬‏‎‮
+  FIELD public System.String ⁭‌‫⁫⁪⁯‌‪⁭‍‍⁮⁫‌⁪‮⁬​⁯‍‎⁮‮‮‎⁮‮⁭⁪‫⁭‌⁮‪​⁪‪⁪⁯‬‮
+  FIELD public System.Int32 ​‏⁪‪‭⁬‫‍⁯‪‪‌⁫‎​‏⁬‏⁫‪‍‏⁪⁯‫‌‏‏​‏‫‌​‮⁫‍‌⁮‪‬‮
+  FIELD public System.Int32 ‍​‮‭‍‪‭⁫‌‭‮‮‏‪‬‫⁯‮‏⁭⁪‏​⁬⁮‬‪‭‍⁯‎‫‍⁪‬‍‫‮⁯⁬‮
+  FIELD public System.Int32 ⁬⁫‮​​‭‪‌‬‪⁪‎⁫⁯⁪‪‪‮‭⁮⁫‎‍⁯‫‎‏‎​⁬⁮‫‪‫⁬⁬⁫⁮‮‮‮
+  FIELD public System.Int32 ⁬​​‭‍‭‏‍⁪‫‬‌‮‎⁯⁭⁫⁫⁮⁪⁬‌⁫⁪​‫‪‫‎⁫⁯⁮⁯⁪⁯‌⁯‌‪‪‮
+  FIELD public System.Int32 ​‍‪‭‍⁫⁫‍‮⁫‏⁮⁪​‮⁪‍⁮⁭⁭⁮‬‭‮​⁪⁯‫⁪‪‏‎⁮⁪‏⁯‏‌‪‭‮
+  FIELD public System.Int32 ‎⁭‭⁭​‌⁯⁯⁮‌‍⁪‍‪‮‏‌​‬⁪⁪‪‪‏​‍‎‏⁫⁬‏‏⁪‪‎​⁮⁪⁪‮
+  FIELD public System.Int32 ⁫‌‬⁭‍‍⁪‭⁬⁪‪⁯‭‏⁮⁫‬‪‮⁬‏‏⁮‪‪‬‎⁯‎‪‌⁫‪‌‏⁮⁪‪‌‎‮
+  FIELD public System.Int32 ‬⁫⁯⁮​⁭‏‍‪‏‪⁭⁪‍‭⁬⁯​‭⁮‮‍‪‍⁯‫‏‍‮‌‌⁯‮‍‍‮‪⁯⁮‬‮
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁭⁯⁭⁮​‪‪⁪⁫⁬⁬‍‌‫⁫⁪‭‎‍‌‮‮⁮⁫⁯⁭‫‫⁪‌‍‎⁮‌‭‌‏​⁭‌‮
+  // sig: System.Void ()
+  // IL size: 258
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::​‍‪‭‍⁫⁫‍‮⁫‏⁮⁪​‮⁪‍⁮⁭⁭⁮‬‭‮​⁪⁯‫⁪‪‏‎⁮⁪‏⁯‏‌‪‭‮
+    IL_0006: stloc.0
+    IL_0007: ldc.i4 -994152575
+    IL_000c: ldc.i4 -651716333
+    IL_0011: xor
+    IL_0012: dup
+    IL_0013: stloc.1
+    IL_0014: ldc.i4.s 11
+    IL_0016: rem.un
+    IL_0017: switch (IL_004e, IL_0070, IL_0087, IL_009c, IL_ffffffeb, IL_00d9, IL_00cc, IL_0077, IL_0041, IL_00c7, IL_00fd)
+    IL_0048: br IL_0101
+    IL_004d: ldloc.0
+    IL_004e: switch (IL_0093, IL_0073, IL_00bf, IL_00d4, IL_00e9, IL_0076)
+    IL_006b: ldloc.1
+    IL_006c: ldc.i4 -458682326
+    IL_0071: mul
+    IL_0072: ldc.i4 -1301207545
+    IL_0077: xor
+    IL_0078: br.s IL_000c
+    IL_007a: ldc.i4.1
+    IL_007b: stsfld Client.Xmap::autoNhatAll
+    IL_0080: ldc.i4 -1470625203
+    IL_0085: br.s IL_000c
+    IL_0087: ldc.i4.1
+    IL_0088: stsfld Client.Xmap::autoNhatzGem
+    IL_008d: ret
+    IL_008e: ldc.i4 -1623154204
+    IL_0093: br IL_000c
+    IL_0098: ret
+    IL_0099: ldloc.1
+    IL_009a: ldc.i4 -1783975221
+    IL_009f: mul
+    IL_00a0: ldc.i4 -1247796814
+    IL_00a5: xor
+    IL_00a6: br IL_000c
+    IL_00ab: ldc.i4.0
+    IL_00ac: stsfld Client.Xmap::autoNhatzGem
+    IL_00b1: ret
+    IL_00b2: ldc.i4 -1344671196
+    IL_00b7: br IL_000c
+    IL_00bc: ret
+    IL_00bd: ldloc.1
+    IL_00be: ldc.i4 -2130934303
+    IL_00c3: mul
+    IL_00c4: ldc.i4 1834093612
+    IL_00c9: xor
+    IL_00ca: br IL_000c
+    IL_00cf: ldc.i4.0
+    IL_00d0: stsfld Client.Xmap::autoNhatZeni
+    IL_00d5: ret
+    IL_00d6: ldc.i4 -2059254995
+    IL_00db: br IL_000c
+    IL_00e0: ldc.i4.1
+    IL_00e1: stsfld Client.Xmap::autoNhatZeni
+    IL_00e6: ret
+    IL_00e7: ldc.i4 -73749453
+    IL_00ec: br IL_000c
+    IL_00f1: ldc.i4.0
+    IL_00f2: stsfld Client.Xmap::autoNhatAll
+    IL_00f7: ldc.i4 -154839876
+    IL_00fc: br IL_000c
+    IL_0101: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎‭‌‬‪⁭‬‏⁮‭‪‮⁮‬‮‎⁭⁯⁫⁯‬‮‬⁬‫‎⁪‬‌‏‌‬​‪⁭‫​‭‫‏‮
+  // sig: System.Void ()
+  // IL size: 19
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎⁪‏‮‫⁮‪‭‍⁭⁯⁭‮⁮⁬‮‪‎‭‫‌‭⁯​​⁫‬‬‌‭⁯‪⁪⁭‫⁬‎‪‏‌‮
+    IL_0006: ldarg.0
+    IL_0007: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::​‮‮⁬⁬‏‬⁭⁫⁯⁫‮‫⁫‪‪‏⁭‬⁯⁯⁬⁬⁫​⁮⁮‭‏⁪‪‪⁬⁭‪​​⁬‏‎‮
+    IL_000c: ldc.i4.0
+    IL_000d: call Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁪‍⁫​⁯‌‪​‌⁯‎‭⁫⁮⁯‏‮‭‌⁯‫‬‮⁬‬‭⁯​‎⁭​⁮‫‮‫‌‎⁫‬⁭‮
+    IL_0012: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁪‮‪‭‎⁭‎‌‌‎​⁪‬⁬⁫⁪‫​‫‮‬‍‪⁬‫‭‍⁬‭‪‎⁮‌‭⁭⁪‫‭‏⁮‮
+  // sig: System.Void ()
+  // IL size: 12
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::​‏⁪‪‭⁬‫‍⁯‪‪‌⁫‎​‏⁬‏⁫‪‍‏⁪⁯‫‌‏‏​‏‫‌​‮⁫‍‌⁮‪‬‮
+    IL_0006: call Client.CharFunc::GotoMapID
+    IL_000b: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁯⁯‮⁭‬⁭‍‬⁪‬‪‭‏‌⁪‌​‫⁫⁭⁯‭⁯‮⁬⁭‭‍⁫⁭‮‫‏⁯‎⁮⁫‍⁪‌‮
+  // sig: System.Void ()
+  // IL size: 17
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁭‌‫⁫⁪⁯‌‪⁭‍‍⁮⁫‌⁪‮⁬​⁯‍‎⁮‮‮‎⁮‮⁭⁪‫⁭‌⁮‪​⁪‪⁪⁯‬‮
+    IL_0006: call System.Int32::Parse
+    IL_000b: stsfld Client.KepFullKhu::hpB
+    IL_0010: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁪⁭⁭⁪‭⁯⁭⁬‪​⁯‭​‏‬⁯‍‫⁮‍‪‪⁭⁪‭‮⁭⁮‫‌‎⁭‍‏‮⁬⁬‪⁭‍‮
+  // sig: System.Void ()
+  // IL size: 12
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁫‌‬⁭‍‍⁪‭⁬⁪‪⁯‭‏⁮⁫‬‪‮⁬‏‏⁮‪‪‬‎⁯‎‪‌⁫‪‌‏⁮⁪‪‌‎‮
+    IL_0006: call Client.MenuMod::CongChiSo
+    IL_000b: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎‭‌‎⁯‫⁫‎‭⁬‌⁯⁭⁪‮‍‪‏‏⁪‪‏‫⁭‍‫‬⁫‪‏‫⁯‬⁫‭‪‪‮‬‍‮
+  // sig: System.Void ()
+  // IL size: 12
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎⁭‭⁭​‌⁯⁯⁮‌‍⁪‍‪‮‏‌​‬⁪⁪‪‪‏​‍‎‏⁫⁬‏‏⁪‪‎​⁮⁪⁪‮
+    IL_0006: call Client.ZoneFunc::ThucHienChuyenKhu
+    IL_000b: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎‮⁫⁫⁪‭⁪⁯‏‮⁮⁬‎⁬⁪‌‮‫‏⁮⁭‏‪⁮‮‪​‏‍⁫⁪⁯‎⁫‍⁭⁯‍‍‎‮
+  // sig: System.Void ()
+  // IL size: 21
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁬​​‭‍‭‏‍⁪‫‬‌‮‎⁯⁭⁫⁫⁮⁪⁬‌⁫⁪​‫‪‫‎⁫⁯⁮⁯⁪⁯‌⁯‌‪‪‮
+    IL_0006: ldc.i4.0
+    IL_0007: cgt.un
+    IL_0009: dup
+    IL_000a: stsfld Client.CharFunc::isAttack
+    IL_000f: call ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::⁪‫⁬‮‬‫‌‎‫⁬‮‍⁮‭⁬⁪⁯‫​‫‌‫‪⁯‭⁮⁯⁯‍​⁫‌⁫⁫​⁬‎‍⁫‬‮
+    IL_0014: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‮⁮⁪‪⁯‫‫‬‭⁯‪‬⁫⁭⁬‍⁭⁪⁬⁫⁬‬​⁫‫‬⁮‪‌⁬‪‎⁭‬‌‏‎‏⁪⁯‮
+  // sig: System.Void ()
+  // IL size: 18
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‬⁫⁯⁮​⁭‏‍‪‏‪⁭⁪‍‭⁬⁯​‭⁮‮‍‪‍⁯‫‏‍‮‌‌⁯‮‍‍‮‪⁯⁮‬‮
+    IL_0006: call Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‌‪⁮‫⁮‍‫⁫⁬‌‌‎⁮⁪⁯⁭‫‏‭‌‮‭⁯‬​‎‌⁪‎‮​‮‭‪⁭‪‏‬‫‏‮
+    IL_000b: ldc.i4.0
+    IL_000c: call Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‫⁫‮‏‬‏‪‬‭‭⁬‫⁮‪‍⁭⁯‌‌‏‌‌‌​⁫⁭​‌‫‎⁫‮​⁫‏⁫‪‪‭⁬‮
+    IL_0011: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁯​‫‪⁪⁪‬⁯⁫‏⁪‍‬‎‮‬⁯‪‍⁬⁯‭⁮‬‬​‫‫‮⁮⁮⁭‮‬⁭⁯‍⁯⁯‭‮
+  // sig: System.Void ()
+  // IL size: 29
+    IL_0000: ldc.i4.1
+    IL_0001: stsfld Client.KepFullKhu::isKepFullKhu
+    IL_0006: ldarg.0
+    IL_0007: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‍​‮‭‍‪‭⁫‌‭‮‮‏‪‬‫⁯‮‏⁭⁪‏​⁬⁮‬‪‭‍⁯‎‫‍⁪‬‍‫‮⁯⁬‮
+    IL_000c: stsfld Client.KepFullKhu::mapid
+    IL_0011: ldarg.0
+    IL_0012: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁬⁫‮​​‭‪‌‬‪⁪‎⁫⁯⁪‪‪‮‭⁮⁫‎‍⁯‫‎‏‎​⁬⁮‫‪‫⁬⁬⁫⁮‮‮‮
+    IL_0017: stsfld Client.KepFullKhu::zoneid
+    IL_001c: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁪‍⁫​⁯‌‪​‌⁯‎‭⁫⁮⁯‏‮‭‌⁯‫‬‮⁬‬‭⁯​‎⁭​⁮‫‮‫‌‎⁫‬⁭‮
+  // sig: System.Void (System.Int32 , System.Int32 , System.Boolean )
+  // IL size: 9
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: ldarg.2
+    IL_0003: call UnityEngine.Screen::SetResolution
+    IL_0008: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‌‪⁮‫⁮‍‫⁫⁬‌‌‎⁮⁪⁯⁭‫‏‭‌‮‭⁯‬​‎‌⁪‎‮​‮‭‪⁭‪‏‬‫‏‮
+  // sig: System.Void (System.Int32 )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: call UnityEngine.Application::set_targetFrameRate
+    IL_0006: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‫⁫‮‏‬‏‪‬‭‭⁬‫⁮‪‍⁭⁯‌‌‏‌‌‌​⁫⁭​‌‫‎⁫‮​⁫‏⁫‪‪‭⁬‮
+  // sig: System.Void (System.Int32 )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: call UnityEngine.QualitySettings::set_vSyncCount
+    IL_0006: ret
+
+
+// ===== TYPE Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮
+// base: System.Object
+  FIELD public Client.SocketClient ⁮‍‮⁫​‍‍‎⁮‍‍‍‎⁬⁯‪⁫⁫⁪‌‬‪⁪​⁬‍⁪‍⁮⁬‫‎⁬‫‬‎‪‎⁮‍‮
+  FIELD public System.String ‬⁪⁮⁮‌​‏‬‫⁯‏‍‌‬‮‬⁪⁮​‬‬‬‫⁯⁫‏⁫⁪‌⁯‌‮‮‌‭‏‮⁮‪‪‮
+
+  // --- METHOD Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‭‌‫⁯‬⁭⁮⁭‫‍‭⁮⁬​‎‬‫⁭‬⁪⁬⁪‍‎‍‬‏​‪‭‍​‌‬⁮‎⁯⁭⁮‎‮
+  // sig: System.Void ()
+  // IL size: 120
+    IL_0000: call Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‫⁭‏‪⁯‍‫‫‏‏‏‮‮⁮⁪⁮​⁫‌⁮‫⁪⁪‫⁫‪‪​‍​‬⁭‎‌‎‬⁬‭‍⁬‮
+    IL_0005: ldarg.0
+    IL_0006: ldfld Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‬⁪⁮⁮‌​‏‬‫⁯‏‍‌‬‮‬⁪⁮​‬‬‬‫⁯⁫‏⁫⁪‌⁯‌‮‮‌‭‏‮⁮‪‪‮
+    IL_000b: call Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‍⁬‪​‪‬‎​‪‌​‍‫⁪⁭‭‫‫‍‏⁮⁭‎​‍‍‏‏‍‬⁬⁬⁫⁭⁬⁮‏‮⁫⁭‮
+    IL_0010: stloc.0
+    IL_0011: ldarg.0
+    IL_0012: ldfld Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::⁮‍‮⁫​‍‍‎⁮‍‍‍‎⁬⁯‪⁫⁫⁪‌‬‪⁪​⁬‍⁪‍⁮⁬‫‎⁬‫‬‎‪‎⁮‍‮
+    IL_0017: ldfld Client.SocketClient::‌‭‌‭‏‭⁮‎‮‪⁭‎⁯⁯⁫‪‍⁮⁯‬‎‎‎‍‎‏⁪‏⁭‫‪‪⁫‪⁭‎‏‎‌‎‮
+    IL_001c: ldloc.0
+    IL_001d: ldc.i4.0
+    IL_001e: ldloc.0
+    IL_001f: ldlen
+    IL_0020: conv.i4
+    IL_0021: call Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‌​⁯​⁮⁬‎⁬⁮‍‎⁬‍⁯‬‭‪⁬⁫⁬‏⁮⁬⁪⁭⁫⁭‪‮‮‫​‪‏‪‬⁫‫⁪⁫‮
+    IL_0026: ldc.i4 713042361
+    IL_002b: ldc.i4 397695777
+    IL_0030: xor
+    IL_0031: dup
+    IL_0032: stloc.1
+    IL_0033: ldc.i4.3
+    IL_0034: rem.un
+    IL_0035: switch (IL_005b, IL_0040, IL_0022)
+    IL_0046: br.s IL_0067
+    IL_0048: ldarg.0
+    IL_0049: ldfld Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::⁮‍‮⁫​‍‍‎⁮‍‍‍‎⁬⁯‪⁫⁫⁪‌‬‪⁪​⁬‍⁪‍⁮⁬‫‎⁬‫‬‎‪‎⁮‍‮
+    IL_004e: ldfld Client.SocketClient::‌‭‌‭‏‭⁮‎‮‪⁭‎⁯⁯⁫‪‍⁮⁯‬‎‎‎‍‎‏⁪‏⁭‫‪‪⁫‪⁭‎‏‎‌‎‮
+    IL_0053: call Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::⁬⁪​⁬⁪‏⁫⁯‮‪⁫‭‫‮‏‎‭‌⁫⁫⁫⁫‮​‫⁮⁬​‬‌⁭‫‭⁬‎⁬‮‬‭‏‮
+    IL_0058: ldloc.1
+    IL_0059: ldc.i4 629620521
+    IL_005e: mul
+    IL_005f: ldc.i4 233810302
+    IL_0064: xor
+    IL_0065: br.s IL_002b
+    IL_0067: leave.s IL_0077
+    IL_0069: pop
+    IL_006a: ldarg.0
+    IL_006b: ldfld Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::⁮‍‮⁫​‍‍‎⁮‍‍‍‎⁬⁯‪⁫⁫⁪‌‬‪⁪​⁬‍⁪‍⁮⁬‫‎⁬‫‬‎‪‎⁮‍‮
+    IL_0070: call Client.SocketClient::Disconnect
+    IL_0075: leave.s IL_0077
+    IL_0077: ret
+
+  // --- METHOD Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‫⁭‏‪⁯‍‫‫‏‏‏‮‮⁮⁪⁮​⁫‌⁮‫⁪⁪‫⁫‪‪​‍​‬⁭‎‌‎‬⁬‭‍⁬‮
+  // sig: System.Text.Encoding ()
+  // IL size: 6
+    IL_0000: call System.Text.Encoding::get_UTF8
+    IL_0005: ret
+
+  // --- METHOD Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‍⁬‪​‪‬‎​‪‌​‍‫⁪⁭‭‫‫‍‏⁮⁭‎​‍‍‏‏‍‬⁬⁬⁫⁭⁬⁮‏‮⁫⁭‮
+  // sig: System.Byte[] (System.Text.Encoding , System.String )
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: callvirt System.Text.Encoding::GetBytes
+    IL_0007: ret
+
+  // --- METHOD Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‌​⁯​⁮⁬‎⁬⁮‍‎⁬‍⁯‬‭‪⁬⁫⁬‏⁮⁬⁪⁭⁫⁭‪‮‮‫​‪‏‪‬⁫‫⁪⁫‮
+  // sig: System.Void (System.IO.Stream , System.Byte[] , System.Int32 , System.Int32 )
+  // IL size: 10
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: ldarg.2
+    IL_0003: ldarg.3
+    IL_0004: callvirt System.IO.Stream::Write
+    IL_0009: ret
+
+  // --- METHOD Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::⁬⁪​⁬⁪‏⁫⁯‮‪⁫‭‫‮‏‎‭‌⁫⁫⁫⁫‮​‫⁮⁬​‬‌⁭‫‭⁬‎⁬‮‬‭‏‮
+  // sig: System.Void (System.IO.Stream )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.IO.Stream::Flush
+    IL_0006: ret
+
+
+// ===== TYPE Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#
+// base: System.ValueType
+  FIELD public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ⁫‌⁯‎‭‍‪‪‏‫‍⁪‮‍‫⁬‎‌‍⁮‬‎⁮‎‎⁮⁬‏‍⁯⁯⁫⁫‭​‌⁪‎‍⁫‮
+  FIELD public Client.SocketClient ‭‌⁬‫⁭‍‫‫‪‍‌⁯⁯‮‫⁭‎⁬⁬‍​⁫⁯⁪⁮⁫⁫‮‬⁪⁬‏⁮⁭⁭‏‏‍‬⁭‮
+  FIELD public System.String ⁯⁬⁬‫⁯⁪⁭‫‬‮‮‎⁬⁫‏‪⁬‪​⁬‮⁪‪⁭⁮‪⁭‬⁬‫‍​⁬⁪⁯⁭​⁪⁬⁮‮
+  FIELD public System.Int32 ‎⁯‭⁭⁬‪​‌‪‬⁮‮⁫‏‫⁯‎‌‌‎‎‏⁯‎‏‮‮‭‫‪‎‎‌‫‏‮‮​‍‫‮
+  FIELD public System.Int32 ‏‭⁪⁭‬‎⁮‌‭⁮‪⁪‌⁪‎‌​‍‮⁬‪⁭⁮​⁯⁪⁯‏‪‪‫‮‎⁬⁫‫‎⁮⁬⁪‮
+  FIELD private System.Runtime.CompilerServices.TaskAwaiter ⁪‎⁭⁭‪‎‪‏⁭⁬⁫‎‫‪⁬⁫‬‬‏‮‭⁯‎‪⁫‏⁮⁬​‬‫‏‭‍‭‏‪‫‌‭‮
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::MoveNext
+  // sig: System.Void ()
+  // IL size: 638
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‏‭⁪⁭‬‎⁮‌‭⁮‪⁪‌⁪‎‌​‍‮⁬‪⁭⁮​⁯⁪⁯‏‪‪‫‮‎⁬⁫‫‎⁮⁬⁪‮
+    IL_0006: stloc.0
+    IL_0007: ldarg.0
+    IL_0008: ldfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‭‌⁬‫⁭‍‫‫‪‍‌⁯⁯‮‫⁭‎⁬⁬‍​⁫⁯⁪⁮⁫⁫‮‬⁪⁬‏⁮⁭⁭‏‏‍‬⁭‮
+    IL_000d: stloc.1
+    IL_000e: ldloc.0
+    IL_000f: brfalse.s IL_006f
+    IL_0011: ldc.i4 -42765808
+    IL_0016: ldc.i4 -940139847
+    IL_001b: xor
+    IL_001c: dup
+    IL_001d: stloc.s 5
+    IL_001f: ldc.i4.4
+    IL_0020: rem.un
+    IL_0021: switch (IL_005f, IL_002c, IL_0009, IL_0056)
+    IL_0036: br.s IL_006f
+    IL_0038: ldloc.1
+    IL_0039: ldfld Client.SocketClient::‬​⁫‮‫‍‏⁯‭⁪‮‌‎‪‮⁫‭⁮​⁪‏‏​‌‍‍‏‭‫​‪‌‎‎⁪⁪‏‭‫‮‮
+    IL_003e: brfalse.s IL_0048
+    IL_0040: ldc.i4 1634345305
+    IL_0045: dup
+    IL_0046: br.s IL_004e
+    IL_0048: ldc.i4 1343301078
+    IL_004d: dup
+    IL_004e: pop
+    IL_004f: ldloc.s 5
+    IL_0051: ldc.i4 405942151
+    IL_0056: mul
+    IL_0057: xor
+    IL_0058: br.s IL_0016
+    IL_005a: leave IL_026a
+    IL_005f: ldloc.s 5
+    IL_0061: ldc.i4 -1784881315
+    IL_0066: mul
+    IL_0067: ldc.i4 1292175722
+    IL_006c: xor
+    IL_006d: br.s IL_0016
+    IL_006f: nop
+    IL_0070: ldloc.0
+    IL_0071: brfalse IL_01b4
+    IL_0076: ldc.i4 -1396880712
+    IL_007b: ldc.i4 -940139847
+    IL_0080: xor
+    IL_0081: dup
+    IL_0082: stloc.s 5
+    IL_0084: ldc.i4.s 11
+    IL_0086: rem.un
+    IL_0087: switch (IL_01ae, IL_00e2, IL_01d0, IL_0133, IL_00a1, IL_005e, IL_01a0, IL_00d4, IL_00bf, IL_0171, IL_0124)
+    IL_00b8: br IL_01f4
+    IL_00bd: ldloca.s 2
+    IL_00bf: call System.Runtime.CompilerServices.TaskAwaiter::GetResult
+    IL_00c4: ldc.i4 -1116712819
+    IL_00c9: br.s IL_007b
+    IL_00cb: ldarg.0
+    IL_00cc: ldc.i4.0
+    IL_00cd: dup
+    IL_00ce: stloc.0
+    IL_00cf: stfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‏‭⁪⁭‬‎⁮‌‭⁮‪⁪‌⁪‎‌​‍‮⁬‪⁭⁮​⁯⁪⁯‏‪‪‫‮‎⁬⁫‫‎⁮⁬⁪‮
+    IL_00d4: ldloc.s 5
+    IL_00d6: ldc.i4 102713118
+    IL_00db: mul
+    IL_00dc: ldc.i4 722007919
+    IL_00e1: xor
+    IL_00e2: br.s IL_007b
+    IL_00e4: ldloca.s 2
+    IL_00e6: call System.Runtime.CompilerServices.TaskAwaiter::get_IsCompleted
+    IL_00eb: brtrue.s IL_00f5
+    IL_00ed: ldc.i4 -55279321
+    IL_00f2: dup
+    IL_00f3: br.s IL_00fb
+    IL_00f5: ldc.i4 -2018972983
+    IL_00fa: dup
+    IL_00fb: pop
+    IL_00fc: ldloc.s 5
+    IL_00fe: ldc.i4 714715549
+    IL_0103: mul
+    IL_0104: xor
+    IL_0105: br IL_007b
+    IL_010a: ldloc.1
+    IL_010b: ldfld Client.SocketClient::‭‎⁭⁭⁮‮‬‬‫​⁭‪⁮‮⁭‎‮⁯‏⁮⁭⁫‍‮‮⁯‪‍‪‮⁫‌‪‭⁮‫‏⁪‍⁯‮
+    IL_0110: dup
+    IL_0111: brtrue.s IL_0119
+    IL_0113: pop
+    IL_0114: br IL_01f4
+    IL_0119: callvirt System.Action::Invoke
+    IL_011e: ldc.i4 -509016799
+    IL_0123: br IL_007b
+    IL_0128: ldloc.1
+    IL_0129: ldloc.1
+    IL_012a: ldfld Client.SocketClient::‪‭‬‬⁯‭⁭‏‬​​⁬⁬‫‫‎‬‪‭⁬⁯⁬‎‮⁫‏‏‪‮⁮‫⁭‏‮⁯​⁭⁭‎‮‮
+    IL_012f: call Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁫⁫‫‪‭⁮⁮⁬‮‎‫⁪‎​⁮‪⁪‍⁭⁬‌‎‎‌‫⁯⁯​⁬‪‮⁬‍⁮‎‎⁪​⁯‮‮
+    IL_0134: stfld Client.SocketClient::‌‭‌‭‏‭⁮‎‮‪⁭‎⁯⁯⁫‪‍⁮⁯‬‎‎‎‍‎‏⁪‏⁭‫‪‪⁫‪⁭‎‏‎‌‎‮
+    IL_0139: ldloc.1
+    IL_013a: ldc.i4.1
+    IL_013b: stfld Client.SocketClient::‬​⁫‮‫‍‏⁯‭⁪‮‌‎‪‮⁫‭⁮​⁪‏‏​‌‍‍‏‭‫​‪‌‎‎⁪⁪‏‭‫‮‮
+    IL_0140: ldloc.s 5
+    IL_0142: ldc.i4 -1280297311
+    IL_0147: mul
+    IL_0148: ldc.i4 1321045217
+    IL_014d: xor
+    IL_014e: br IL_007b
+    IL_0153: ldarg.0
+    IL_0154: ldflda Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁫‌⁯‎‭‍‪‪‏‫‍⁪‮‍‫⁬‎‌‍⁮‬‎⁮‎‎⁮⁬‏‍⁯⁯⁫⁫‭​‌⁪‎‍⁫‮
+    IL_0159: ldloca.s 2
+    IL_015b: ldarg.0
+    IL_015c: call System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted
+    IL_0161: leave IL_027d
+    IL_0166: ldloc.s 5
+    IL_0168: ldc.i4 774344225
+    IL_016d: mul
+    IL_016e: ldc.i4 -1175295668
+    IL_0173: xor
+    IL_0174: br IL_007b
+    IL_0179: ldloc.1
+    IL_017a: call Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁪‮​⁯​‭⁫‌‬⁭‪⁯​⁪‍‫⁯⁮‎‪⁯‌‏‫‏‫‌​‎⁭⁮‏⁮‮‫‮‏‏‭⁪‮
+    IL_017f: stfld Client.SocketClient::‪‭‬‬⁯‭⁭‏‬​​⁬⁬‫‫‎‬‪‭⁬⁯⁬‎‮⁫‏‏‪‮⁮‫⁭‏‮⁯​⁭⁭‎‮‮
+    IL_0184: ldloc.1
+    IL_0185: ldfld Client.SocketClient::‪‭‬‬⁯‭⁭‏‬​​⁬⁬‫‫‎‬‪‭⁬⁯⁬‎‮⁫‏‏‪‮⁮‫⁭‏‮⁯​⁭⁭‎‮‮
+    IL_018a: ldarg.0
+    IL_018b: ldfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁯⁬⁬‫⁯⁪⁭‫‬‮‮‎⁬⁫‏‪⁬‪​⁬‮⁪‪⁭⁮‪⁭‬⁬‫‍​⁬⁪⁯⁭​⁪⁬⁮‮
+    IL_0190: ldarg.0
+    IL_0191: ldfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‎⁯‭⁭⁬‪​‌‪‬⁮‮⁫‏‫⁯‎‌‌‎‎‏⁯‎‏‮‮‭‫‪‎‎‌‫‏‮‮​‍‫‮
+    IL_0196: call Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁬​‮‌‮‏‭‬​⁯⁯⁯‬‭⁯⁪​‏‏⁫⁮‭​⁮‍⁭⁬‮‮​‬‌‍⁮⁫⁭⁮‬‏⁭‮
+    IL_019b: call Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‪⁫‮⁪‬‍‬‌‮⁭⁪‎⁯⁫⁯‭⁫‌‭⁪⁯‎‌​⁫⁭⁯⁬‌⁯‏⁮‏‪‏‮‍⁪‍⁫‮
+    IL_01a0: stloc.2
+    IL_01a1: ldloc.s 5
+    IL_01a3: ldc.i4 -1789299099
+    IL_01a8: mul
+    IL_01a9: ldc.i4 -977231324
+    IL_01ae: xor
+    IL_01af: br IL_007b
+    IL_01b4: ldarg.0
+    IL_01b5: ldfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁪‎⁭⁭‪‎‪‏⁭⁬⁫‎‫‪⁬⁫‬‬‏‮‭⁯‎‪⁫‏⁮⁬​‬‫‏‭‍‭‏‪‫‌‭‮
+    IL_01ba: stloc.2
+    IL_01bb: ldarg.0
+    IL_01bc: ldflda Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁪‎⁭⁭‪‎‪‏⁭⁬⁫‎‫‪⁬⁫‬‬‏‮‭⁯‎‪⁫‏⁮⁬​‬‫‏‭‍‭‏‪‫‌‭‮
+    IL_01c1: initobj System.Runtime.CompilerServices.TaskAwaiter
+    IL_01c7: ldarg.0
+    IL_01c8: ldc.i4.m1
+    IL_01c9: dup
+    IL_01ca: stloc.0
+    IL_01cb: stfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‏‭⁪⁭‬‎⁮‌‭⁮‪⁪‌⁪‎‌​‍‮⁬‪⁭⁮​⁯⁪⁯‏‪‪‫‮‎⁬⁫‫‎⁮⁬⁪‮
+    IL_01d0: ldc.i4 -346915631
+    IL_01d5: br IL_007b
+    IL_01da: ldarg.0
+    IL_01db: ldloc.2
+    IL_01dc: stfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁪‎⁭⁭‪‎‪‏⁭⁬⁫‎‫‪⁬⁫‬‬‏‮‭⁯‎‪⁫‏⁮⁬​‬‫‏‭‍‭‏‪‫‌‭‮
+    IL_01e1: ldloc.s 5
+    IL_01e3: ldc.i4 -2026817111
+    IL_01e8: mul
+    IL_01e9: ldc.i4 1721099661
+    IL_01ee: xor
+    IL_01ef: br IL_007b
+    IL_01f4: ldloc.1
+    IL_01f5: call Client.SocketClient::‍⁮​‪​‪‌‪‭⁯⁭​‎⁯‏​‍⁯⁫⁪‪‎⁪​‭⁪⁪‍‭⁬⁯⁪‍‮⁯‮⁫‫‬‍‮
+    IL_01fa: pop
+    IL_01fb: leave.s IL_021c
+    IL_01fd: stloc.3
+    IL_01fe: ldc.i4 -1310772963
+    IL_0203: br.s IL_0205
+    IL_0205: call ::⁯⁮‎‎‎⁫⁭⁯​‭⁮‪⁮‮‌‮‍‌⁭‎‪‮‍⁮‪⁬⁯‎⁭⁭‭‮‏⁮⁯‎‎⁬‪‬‮
+    IL_020a: ldloc.3
+    IL_020b: call Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‬⁮⁬⁬​‌‪‏⁭‬‭‎‭​⁭‪⁮⁭‎⁮​‫​‌‫⁭‫⁮⁮‮‬‪⁬⁪‮‫⁫​⁬⁫‮
+    IL_0210: call Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‫‬‮‭⁪‬​⁬⁯⁯‬⁯‎‫‌‮⁭⁭⁭⁭‭‎​‫‭‎‎‭⁭⁫⁭⁬‪⁭⁭​⁪​‏⁬‮
+    IL_0215: call Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁭⁪⁪⁮‎‌⁬⁭​‮⁮‌⁯‪‮​‎⁮⁬⁬‫‬‎‏⁬⁬⁭‭⁯⁯‏⁮‌‬‮⁭‎‏‬‏‮
+    IL_021a: leave.s IL_021c
+    IL_021c: leave.s IL_026a
+    IL_021e: stloc.s 4
+    IL_0220: ldc.i4 -1509331922
+    IL_0225: ldc.i4 -940139847
+    IL_022a: xor
+    IL_022b: dup
+    IL_022c: stloc.s 5
+    IL_022e: ldc.i4.3
+    IL_022f: rem.un
+    IL_0230: switch (IL_0214, IL_0260, IL_023f)
+    IL_0241: br.s IL_0268
+    IL_0243: ldarg.0
+    IL_0244: ldc.i4.s -2
+    IL_0246: stfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‏‭⁪⁭‬‎⁮‌‭⁮‪⁪‌⁪‎‌​‍‮⁬‪⁭⁮​⁯⁪⁯‏‪‪‫‮‎⁬⁫‫‎⁮⁬⁪‮
+    IL_024b: ldarg.0
+    IL_024c: ldflda Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁫‌⁯‎‭‍‪‪‏‫‍⁪‮‍‫⁬‎‌‍⁮‬‎⁮‎‎⁮⁬‏‍⁯⁯⁫⁫‭​‌⁪‎‍⁫‮
+    IL_0251: ldloc.s 4
+    IL_0253: call System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetException
+    IL_0258: ldloc.s 5
+    IL_025a: ldc.i4 -2032120897
+    IL_025f: mul
+    IL_0260: ldc.i4 2067208222
+    IL_0265: xor
+    IL_0266: br.s IL_0225
+    IL_0268: leave.s IL_027d
+    IL_026a: ldarg.0
+    IL_026b: ldc.i4.s -2
+    IL_026d: stfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‏‭⁪⁭‬‎⁮‌‭⁮‪⁪‌⁪‎‌​‍‮⁬‪⁭⁮​⁯⁪⁯‏‪‪‫‮‎⁬⁫‫‎⁮⁬⁪‮
+    IL_0272: ldarg.0
+    IL_0273: ldflda Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁫‌⁯‎‭‍‪‪‏‫‍⁪‮‍‫⁬‎‌‍⁮‬‎⁮‎‎⁮⁬‏‍⁯⁯⁫⁫‭​‌⁪‎‍⁫‮
+    IL_0278: call System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetResult
+    IL_027d: ret
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::SetStateMachine
+  // sig: System.Void (System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
+  // IL size: 13
+    IL_0000: ldarg.0
+    IL_0001: ldflda Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁫‌⁯‎‭‍‪‪‏‫‍⁪‮‍‫⁬‎‌‍⁮‬‎⁮‎‎⁮⁬‏‍⁯⁯⁫⁫‭​‌⁪‎‍⁫‮
+    IL_0006: ldarg.1
+    IL_0007: call System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetStateMachine
+    IL_000c: ret
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁪‮​⁯​‭⁫‌‬⁭‪⁯​⁪‍‫⁯⁮‎‪⁯‌‏‫‏‫‌​‎⁭⁮‏⁮‮‫‮‏‏‭⁪‮
+  // sig: System.Net.Sockets.TcpClient ()
+  // IL size: 6
+    IL_0000: newobj System.Net.Sockets.TcpClient::.ctor
+    IL_0005: ret
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁬​‮‌‮‏‭‬​⁯⁯⁯‬‭⁯⁪​‏‏⁫⁮‭​⁮‍⁭⁬‮‮​‬‌‍⁮⁫⁭⁮‬‏⁭‮
+  // sig: System.Threading.Tasks.Task (System.Net.Sockets.TcpClient , System.String , System.Int32 )
+  // IL size: 9
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: ldarg.2
+    IL_0003: callvirt System.Net.Sockets.TcpClient::ConnectAsync
+    IL_0008: ret
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‪⁫‮⁪‬‍‬‌‮⁭⁪‎⁯⁫⁯‭⁫‌‭⁪⁯‎‌​⁫⁭⁯⁬‌⁯‏⁮‏‪‏‮‍⁪‍⁫‮
+  // sig: System.Runtime.CompilerServices.TaskAwaiter (System.Threading.Tasks.Task )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.Threading.Tasks.Task::GetAwaiter
+    IL_0006: ret
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁫⁫‫‪‭⁮⁮⁬‮‎‫⁪‎​⁮‪⁪‍⁭⁬‌‎‎‌‫⁯⁯​⁬‪‮⁬‍⁮‎‎⁪​⁯‮‮
+  // sig: System.Net.Sockets.NetworkStream (System.Net.Sockets.TcpClient )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.Net.Sockets.TcpClient::GetStream
+    IL_0006: ret
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‬⁮⁬⁬​‌‪‏⁭‬‭‎‭​⁭‪⁮⁭‎⁮​‫​‌‫⁭‫⁮⁮‮‬‪⁬⁪‮‫⁫​⁬⁫‮
+  // sig: System.String (System.Exception )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.Exception::get_Message
+    IL_0006: ret
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‫‬‮‭⁪‬​⁬⁯⁯‬⁯‎‫‌‮⁭⁭⁭⁭‭‎​‫‭‎‎‭⁭⁫⁭⁬‪⁭⁭​⁪​‏⁬‮
+  // sig: System.String (System.String , System.String )
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: call System.String::Concat
+    IL_0007: ret
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁭⁪⁪⁮‎‌⁬⁭​‮⁮‌⁯‪‮​‎⁮⁬⁬‫‬‎‏⁬⁬⁭‭⁯⁯‏⁮‌‬‮⁭‎‏‬‏‮
+  // sig: System.Void (System.String )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: call System.Console::WriteLine
+    IL_0006: ret
+
+
+// ===== TYPE Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,
+// base: System.ValueType
+  FIELD public System.Runtime.CompilerServices.AsyncTaskMethodBuilder ‫⁫⁮‫‬⁯‏⁫⁮‍‫‪‎⁫‍‬‎‫‮⁬‎⁮‌⁫⁬⁯‭​⁪‍‬⁫‍‎⁮⁯‏⁮‏‮‮
+  FIELD public System.Int32 ⁯‏‏‏⁮‍⁯‫‌‭‭‌‮⁫‭‪‪⁫‪‭‫‍‮⁭‮​‭‭‌⁭‏⁬‮⁪⁬‬‬⁬⁯⁮‮
+  FIELD public Client.SocketClient ‮⁯⁭‭‫‏‍⁮⁮‪‭‪‪​‮⁬⁯⁪‏‌‬‌‫‬⁭‏‫⁫‬‬⁪​‎⁫‪​⁫‏‏‮‮
+  FIELD private System.Byte[] ​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+  FIELD private System.Runtime.CompilerServices.TaskAwaiter`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] ‪‌⁫‮‬‮⁯⁯‌⁭⁪⁭⁫‎⁮‌‪‬​⁮​⁬‍‭‬‬‮​‪‬⁭⁬‪‏‌‫‫​⁪‭‮
+
+  // --- METHOD Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::MoveNext
+  // sig: System.Void ()
+  // IL size: 832
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁯‏‏‏⁮‍⁯‫‌‭‭‌‮⁫‭‪‪⁫‪‭‫‍‮⁭‮​‭‭‌⁭‏⁬‮⁪⁬‬‬⁬⁯⁮‮
+    IL_0006: stloc.0
+    IL_0007: ldarg.0
+    IL_0008: ldfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‮⁯⁭‭‫‏‍⁮⁮‪‭‪‪​‮⁬⁯⁪‏‌‬‌‫‬⁭‏‫⁫‬‬⁪​‎⁫‪​⁫‏‏‮‮
+    IL_000d: stloc.1
+    IL_000e: ldloc.0
+    IL_000f: brfalse.s IL_0054
+    IL_0011: ldc.i4 -831754754
+    IL_0016: ldc.i4 -848940521
+    IL_001b: xor
+    IL_001c: dup
+    IL_001d: stloc.s 7
+    IL_001f: ldc.i4.3
+    IL_0020: rem.un
+    IL_0021: switch (IL_0005, IL_004c, IL_0030)
+    IL_0032: br.s IL_0054
+    IL_0034: ldarg.0
+    IL_0035: ldc.i4 2048
+    IL_003a: newarr System.Byte
+    IL_003f: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+    IL_0044: ldloc.s 7
+    IL_0046: ldc.i4 -376348640
+    IL_004b: mul
+    IL_004c: ldc.i4 2114848078
+    IL_0051: xor
+    IL_0052: br.s IL_0016
+    IL_0054: nop
+    IL_0055: ldloc.0
+    IL_0056: brfalse IL_01ce
+    IL_005b: ldc.i4 -1078759423
+    IL_0060: ldc.i4 -848940521
+    IL_0065: xor
+    IL_0066: dup
+    IL_0067: stloc.s 7
+    IL_0069: ldc.i4.s 15
+    IL_006b: rem.un
+    IL_006c: switch (IL_0192, IL_0131, IL_00d1, IL_0183, IL_015c, IL_01dc, IL_011f, IL_0257, IL_00bf, IL_0214, IL_009e, IL_0241, IL_00b6, IL_01d8, IL_0057)
+    IL_00ad: br IL_0277
+    IL_00b2: ldloc.s 7
+    IL_00b4: ldc.i4 2089114114
+    IL_00b9: mul
+    IL_00ba: ldc.i4 1881004222
+    IL_00bf: xor
+    IL_00c0: br.s IL_0060
+    IL_00c2: ldloc.1
+    IL_00c3: ldfld Client.SocketClient::‬​⁫‮‫‍‏⁯‭⁪‮‌‎‪‮⁫‭⁮​⁪‏‏​‌‍‍‏‭‫​‪‌‎‎⁪⁪‏‭‫‮‮
+    IL_00c8: brfalse.s IL_00d2
+    IL_00ca: ldc.i4 -1029703087
+    IL_00cf: dup
+    IL_00d0: br.s IL_00d8
+    IL_00d2: ldc.i4 -424131065
+    IL_00d7: dup
+    IL_00d8: pop
+    IL_00d9: br.s IL_0060
+    IL_00db: ldloc.1
+    IL_00dc: ldfld Client.SocketClient::‪‭‬‬⁯‭⁭‏‬​​⁬⁬‫‫‎‬‪‭⁬⁯⁬‎‮⁫‏‏‪‮⁮‫⁭‏‮⁯​⁭⁭‎‮‮
+    IL_00e1: call Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁭⁬‌‏‭‪‭⁬⁭⁯⁫⁪‍‌⁮⁪⁮‎‮⁫​‏⁮⁬‫‌⁬⁪‪‮​‫‮⁭⁯​‏‎​‭‮
+    IL_00e6: brtrue.s IL_00f0
+    IL_00e8: ldc.i4 -1810776841
+    IL_00ed: dup
+    IL_00ee: br.s IL_00f6
+    IL_00f0: ldc.i4 -599286157
+    IL_00f5: dup
+    IL_00f6: pop
+    IL_00f7: ldloc.s 7
+    IL_00f9: ldc.i4 -693393956
+    IL_00fe: mul
+    IL_00ff: xor
+    IL_0100: br IL_0060
+    IL_0105: ldarg.0
+    IL_0106: ldfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+    IL_010b: ldc.i4.0
+    IL_010c: ldelem.u1
+    IL_010d: conv.i1
+    IL_010e: ldloc.2
+    IL_010f: ldc.i4.1
+    IL_0110: sub
+    IL_0111: newarr System.Byte
+    IL_0116: stloc.3
+    IL_0117: ldarg.0
+    IL_0118: ldfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+    IL_011d: ldc.i4.1
+    IL_011e: ldloc.3
+    IL_011f: ldc.i4.0
+    IL_0120: ldloc.2
+    IL_0121: ldc.i4.1
+    IL_0122: sub
+    IL_0123: call Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‫⁭‪‎‎‍‏‭⁬​‍⁮‬‌‎​‬​‭‍‏‏‍‍⁫⁬⁭‮‬‎⁭⁮‎⁬⁮‪‪‪‬‍‮
+    IL_0128: ldloc.3
+    IL_0129: newobj Client.Message2::.ctor
+    IL_012e: stloc.s 4
+    IL_0130: ldloc.s 7
+    IL_0132: ldc.i4 -1861353471
+    IL_0137: mul
+    IL_0138: ldc.i4 1226120037
+    IL_013d: xor
+    IL_013e: br IL_0060
+    IL_0143: ldarg.0
+    IL_0144: ldflda Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‫⁫⁮‫‬⁯‏⁫⁮‍‫‪‎⁫‍‬‎‫‮⁬‎⁮‌⁫⁬⁯‭​⁪‍‬⁫‍‎⁮⁯‏⁮‏‮‮
+    IL_0149: ldloca.s 5
+    IL_014b: ldarg.0
+    IL_014c: call System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted
+    IL_0151: leave IL_033f
+    IL_0156: ldloc.s 7
+    IL_0158: ldc.i4 -984707513
+    IL_015d: mul
+    IL_015e: ldc.i4 1232643956
+    IL_0163: xor
+    IL_0164: br IL_0060
+    IL_0169: ldloca.s 5
+    IL_016b: call System.Runtime.CompilerServices.TaskAwaiter`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::GetResult
+    IL_0170: stloc.2
+    IL_0171: ldloc.2
+    IL_0172: brfalse.s IL_017c
+    IL_0174: ldc.i4 -568866292
+    IL_0179: dup
+    IL_017a: br.s IL_0182
+    IL_017c: ldc.i4 -424131065
+    IL_0181: dup
+    IL_0182: pop
+    IL_0183: br IL_0060
+    IL_0188: ldloc.1
+    IL_0189: ldfld Client.SocketClient::‌‭‌‭‏‭⁮‎‮‪⁭‎⁯⁯⁫‪‍⁮⁯‬‎‎‎‍‎‏⁪‏⁭‫‪‪⁫‪⁭‎‏‎‌‎‮
+    IL_018e: ldarg.0
+    IL_018f: ldfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+    IL_0194: ldc.i4.0
+    IL_0195: ldarg.0
+    IL_0196: ldfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+    IL_019b: ldlen
+    IL_019c: conv.i4
+    IL_019d: call Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁯‬‭‍​⁬‭​‌⁯‍‍⁪⁯⁪‬‏‭‬⁫⁮‍‫‭‏‫‮⁯‌‍‪‮⁮‎⁭‪⁪‫‭‮
+    IL_01a2: callvirt System.Threading.Tasks.Task`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::GetAwaiter
+    IL_01a7: stloc.s 5
+    IL_01a9: ldc.i4 -1745982878
+    IL_01ae: br IL_0060
+    IL_01b3: ldloc.1
+    IL_01b4: ldloc.s 4
+    IL_01b6: call Client.SocketClient::⁪​‫⁯‮⁫‬‭‏‏⁭⁬‏⁭⁫‫‬⁯‫⁪⁮​‌⁬‏‍⁮⁮⁭‮⁫‬⁭⁬⁮‫⁯⁫‌‬‮
+    IL_01bb: ldloc.s 7
+    IL_01bd: ldc.i4 -68195594
+    IL_01c2: mul
+    IL_01c3: ldc.i4 -1277416332
+    IL_01c8: xor
+    IL_01c9: br IL_0060
+    IL_01ce: ldarg.0
+    IL_01cf: ldfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‪‌⁫‮‬‮⁯⁯‌⁭⁪⁭⁫‎⁮‌‪‬​⁮​⁬‍‭‬‬‮​‪‬⁭⁬‪‏‌‫‫​⁪‭‮
+    IL_01d4: stloc.s 5
+    IL_01d6: ldc.i4 -480200917
+    IL_01db: br IL_0060
+    IL_01e0: ldarg.0
+    IL_01e1: ldc.i4.0
+    IL_01e2: dup
+    IL_01e3: stloc.0
+    IL_01e4: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁯‏‏‏⁮‍⁯‫‌‭‭‌‮⁫‭‪‪⁫‪‭‫‍‮⁭‮​‭‭‌⁭‏⁬‮⁪⁬‬‬⁬⁯⁮‮
+    IL_01e9: ldarg.0
+    IL_01ea: ldloc.s 5
+    IL_01ec: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‪‌⁫‮‬‮⁯⁯‌⁭⁪⁭⁫‎⁮‌‪‬​⁮​⁬‍‭‬‬‮​‪‬⁭⁬‪‏‌‫‫​⁪‭‮
+    IL_01f1: ldloc.s 7
+    IL_01f3: ldc.i4 -604304193
+    IL_01f8: mul
+    IL_01f9: ldc.i4 -1581797521
+    IL_01fe: xor
+    IL_01ff: br IL_0060
+    IL_0204: ldarg.0
+    IL_0205: ldflda Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‪‌⁫‮‬‮⁯⁯‌⁭⁪⁭⁫‎⁮‌‪‬​⁮​⁬‍‭‬‬‮​‪‬⁭⁬‪‏‌‫‫​⁪‭‮
+    IL_020a: initobj System.Runtime.CompilerServices.TaskAwaiter`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    IL_0210: ldarg.0
+    IL_0211: ldc.i4.m1
+    IL_0212: dup
+    IL_0213: stloc.0
+    IL_0214: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁯‏‏‏⁮‍⁯‫‌‭‭‌‮⁫‭‪‪⁫‪‭‫‍‮⁭‮​‭‭‌⁭‏⁬‮⁪⁬‬‬⁬⁯⁮‮
+    IL_0219: ldloc.s 7
+    IL_021b: ldc.i4 -1931965412
+    IL_0220: mul
+    IL_0221: ldc.i4 670174299
+    IL_0226: xor
+    IL_0227: br IL_0060
+    IL_022c: ldloc.1
+    IL_022d: ldfld Client.SocketClient::‪‭‬‬⁯‭⁭‏‬​​⁬⁬‫‫‎‬‪‭⁬⁯⁬‎‮⁫‏‏‪‮⁮‫⁭‏‮⁯​⁭⁭‎‮‮
+    IL_0232: brtrue.s IL_023c
+    IL_0234: ldc.i4 -2053725795
+    IL_0239: dup
+    IL_023a: br.s IL_0242
+    IL_023c: ldc.i4 -1306594391
+    IL_0241: dup
+    IL_0242: pop
+    IL_0243: ldloc.s 7
+    IL_0245: ldc.i4 1099239247
+    IL_024a: mul
+    IL_024b: xor
+    IL_024c: br IL_0060
+    IL_0251: ldloca.s 5
+    IL_0253: call System.Runtime.CompilerServices.TaskAwaiter`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::get_IsCompleted
+    IL_0258: brfalse.s IL_0262
+    IL_025a: ldc.i4 914852599
+    IL_025f: dup
+    IL_0260: br.s IL_0268
+    IL_0262: ldc.i4 1272717127
+    IL_0267: dup
+    IL_0268: pop
+    IL_0269: ldloc.s 7
+    IL_026b: ldc.i4 68807628
+    IL_0270: mul
+    IL_0271: xor
+    IL_0272: br IL_0060
+    IL_0277: leave.s IL_027c
+    IL_0279: pop
+    IL_027a: leave.s IL_027c
+    IL_027c: leave.s IL_02bc
+    IL_027e: ldloc.0
+    IL_027f: ldc.i4.0
+    IL_0280: bge.s IL_02bb
+    IL_0282: ldc.i4 -1488258671
+    IL_0287: ldc.i4 -848940521
+    IL_028c: xor
+    IL_028d: dup
+    IL_028e: stloc.s 7
+    IL_0290: ldc.i4.3
+    IL_0291: rem.un
+    IL_0292: switch (IL_02af, IL_029d, IL_027e)
+    IL_02a3: br.s IL_02bb
+    IL_02a5: ldloc.1
+    IL_02a6: call Client.SocketClient::Disconnect
+    IL_02ab: ldloc.s 7
+    IL_02ad: ldc.i4 -1488813294
+    IL_02b2: mul
+    IL_02b3: ldc.i4 -1777426139
+    IL_02b8: xor
+    IL_02b9: br.s IL_0287
+    IL_02bb: endfinally
+    IL_02bc: leave.s IL_0325
+    IL_02be: stloc.s 6
+    IL_02c0: ldc.i4 -1536980839
+    IL_02c5: ldc.i4 -848940521
+    IL_02ca: xor
+    IL_02cb: dup
+    IL_02cc: stloc.s 7
+    IL_02ce: ldc.i4.4
+    IL_02cf: rem.un
+    IL_02d0: switch (IL_02b0, IL_02f3, IL_02df, IL_0312)
+    IL_02e5: br.s IL_0316
+    IL_02e7: ldarg.0
+    IL_02e8: ldc.i4.s -2
+    IL_02ea: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁯‏‏‏⁮‍⁯‫‌‭‭‌‮⁫‭‪‪⁫‪‭‫‍‮⁭‮​‭‭‌⁭‏⁬‮⁪⁬‬‬⁬⁯⁮‮
+    IL_02ef: ldloc.s 7
+    IL_02f1: ldc.i4 -148300658
+    IL_02f6: mul
+    IL_02f7: ldc.i4 1779691534
+    IL_02fc: xor
+    IL_02fd: br.s IL_02c5
+    IL_02ff: ldarg.0
+    IL_0300: ldnull
+    IL_0301: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+    IL_0306: ldloc.s 7
+    IL_0308: ldc.i4 -1299072521
+    IL_030d: mul
+    IL_030e: ldc.i4 1345624595
+    IL_0313: xor
+    IL_0314: br.s IL_02c5
+    IL_0316: ldarg.0
+    IL_0317: ldflda Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‫⁫⁮‫‬⁯‏⁫⁮‍‫‪‎⁫‍‬‎‫‮⁬‎⁮‌⁫⁬⁯‭​⁪‍‬⁫‍‎⁮⁯‏⁮‏‮‮
+    IL_031c: ldloc.s 6
+    IL_031e: call System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetException
+    IL_0323: leave.s IL_033f
+    IL_0325: ldarg.0
+    IL_0326: ldc.i4.s -2
+    IL_0328: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁯‏‏‏⁮‍⁯‫‌‭‭‌‮⁫‭‪‪⁫‪‭‫‍‮⁭‮​‭‭‌⁭‏⁬‮⁪⁬‬‬⁬⁯⁮‮
+    IL_032d: ldarg.0
+    IL_032e: ldnull
+    IL_032f: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+    IL_0334: ldarg.0
+    IL_0335: ldflda Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‫⁫⁮‫‬⁯‏⁫⁮‍‫‪‎⁫‍‬‎‫‮⁬‎⁮‌⁫⁬⁯‭​⁪‍‬⁫‍‎⁮⁯‏⁮‏‮‮
+    IL_033a: call System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetResult
+    IL_033f: ret
+
+  // --- METHOD Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::SetStateMachine
+  // sig: System.Void (System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
+  // IL size: 13
+    IL_0000: ldarg.0
+    IL_0001: ldflda Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‫⁫⁮‫‬⁯‏⁫⁮‍‫‪‎⁫‍‬‎‫‮⁬‎⁮‌⁫⁬⁯‭​⁪‍‬⁫‍‎⁮⁯‏⁮‏‮‮
+    IL_0006: ldarg.1
+    IL_0007: call System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetStateMachine
+    IL_000c: ret
+
+  // --- METHOD Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁯‬‭‍​⁬‭​‌⁯‍‍⁪⁯⁪‬‏‭‬⁫⁮‍‫‭‏‫‮⁯‌‍‪‮⁮‎⁭‪⁪‫‭‮
+  // sig: System.Threading.Tasks.Task`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] (System.IO.Stream , System.Byte[] , System.Int32 , System.Int32 )
+  // IL size: 10
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: ldarg.2
+    IL_0003: ldarg.3
+    IL_0004: callvirt System.IO.Stream::ReadAsync
+    IL_0009: ret
+
+  // --- METHOD Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‫⁭‪‎‎‍‏‭⁬​‍⁮‬‌‎​‬​‭‍‏‏‍‍⁫⁬⁭‮‬‎⁭⁮‎⁬⁮‪‪‪‬‍‮
+  // sig: System.Void (System.Array , System.Int32 , System.Array , System.Int32 , System.Int32 )
+  // IL size: 12
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: ldarg.2
+    IL_0003: ldarg.3
+    IL_0004: ldarg.s 4
+    IL_0006: call System.Buffer::BlockCopy
+    IL_000b: ret
+
+  // --- METHOD Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁭⁬‌‏‭‪‭⁬⁭⁯⁫⁪‍‌⁮⁪⁮‎‮⁫​‏⁮⁬‫‌⁬⁪‪‮​‫‮⁭⁯​‏‎​‭‮
+  // sig: System.Boolean (System.Net.Sockets.TcpClient )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.Net.Sockets.TcpClient::get_Connected
+    IL_0006: ret
+
+
+// ===== TYPE Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮
+// base: System.Object
+  FIELD public static System.Action <>9__15_4
+  FIELD public static readonly Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮ <>9
+  FIELD public static System.Action <>9__15_2
+  FIELD public static System.Action <>9__15_3
+  FIELD public static System.Action <>9__15_0
+  FIELD public static System.Action <>9__15_1
+
+  // --- METHOD Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::⁮⁪‮⁫‏⁫⁭‭​‬‎‎‌​‭‍‌‭⁬⁮‎‮‬⁭‪‏‭​⁬‫⁯⁯‏‮‌⁬⁪​‭‬‮
+  // sig: System.Void ()
+  // IL size: 11
+    IL_0000: call Client.ItemFunc::use5BinhItem
+    IL_0005: call Client.ItemFunc::sapXepItem
+    IL_000a: ret
+
+  // --- METHOD Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::⁯⁪⁪‍‪‮‮‫‭‏⁭⁪‌‍​‎‎‬‏‫‭⁬⁪‌⁯‭⁫‍⁯‍⁮‭⁫⁮⁬⁫⁪‏‫⁮‮
+  // sig: System.Void ()
+  // IL size: 16
+    IL_0000: ldc.i4.1
+    IL_0001: ldc.i4.3
+    IL_0002: ldc.i4.4
+    IL_0003: ldc.i4.s 100
+    IL_0005: call Client.MenuMod::muaItem
+    IL_000a: call Client.ItemFunc::sapXepItem
+    IL_000f: ret
+
+  // --- METHOD Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::‬‪⁯‪‍⁬‏⁭‎‬‌⁯⁮⁮‌‌​‏‪‭⁬​‮​‮‎⁯‮⁭‌⁫⁮⁭‎‌‌‌⁮⁫‬‮
+  // sig: System.Void ()
+  // IL size: 6
+    IL_0000: call Client.MenuMod::mua5binh
+    IL_0005: ret
+
+  // --- METHOD Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::‬⁪⁭‎‭⁮‍⁯‎‮‎​⁫‏​⁬⁮⁯⁬‮‫⁪⁯‎⁫⁬‫‍‎⁪‮‭‎‌‫‏⁫⁪‮‏‮
+  // sig: System.Void ()
+  // IL size: 12
+    IL_0000: call Client.ItemFunc::sapXepItem
+    IL_0005: ldc.i4.3
+    IL_0006: call Client.ItemFunc::muaItemLv
+    IL_000b: ret
+
+  // --- METHOD Client.SocketClient+‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::‬‫⁫⁭⁯‭‍‌‭‌‏‍‎⁫‌⁯‏‮⁯⁮⁪‪⁭⁫⁭‍⁮‬⁬⁭⁯⁪⁭‪‭⁫‪‏‍‍‮
+  // sig: System.Void ()
+  // IL size: 11
+    IL_0000: call Client.MenuMod::get_Instance
+    IL_0005: callvirt Client.MenuMod::sendInfo
+    IL_000a: ret
+
+
+// ===== TYPE Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮
+// base: System.Object
+  FIELD public System.Int32 ‎⁪‏‮‫⁮‪‭‍⁭⁯⁭‮⁮⁬‮‪‎‭‫‌‭⁯​​⁫‬‬‌‭⁯‪⁪⁭‫⁬‎‪‏‌‮
+  FIELD public System.Int32 ​‮‮⁬⁬‏‬⁭⁫⁯⁫‮‫⁫‪‪‏⁭‬⁯⁯⁬⁬⁫​⁮⁮‭‏⁪‪‪⁬⁭‪​​⁬‏‎‮
+  FIELD public System.String ⁭‌‫⁫⁪⁯‌‪⁭‍‍⁮⁫‌⁪‮⁬​⁯‍‎⁮‮‮‎⁮‮⁭⁪‫⁭‌⁮‪​⁪‪⁪⁯‬‮
+  FIELD public System.Int32 ​‏⁪‪‭⁬‫‍⁯‪‪‌⁫‎​‏⁬‏⁫‪‍‏⁪⁯‫‌‏‏​‏‫‌​‮⁫‍‌⁮‪‬‮
+  FIELD public System.Int32 ‍​‮‭‍‪‭⁫‌‭‮‮‏‪‬‫⁯‮‏⁭⁪‏​⁬⁮‬‪‭‍⁯‎‫‍⁪‬‍‫‮⁯⁬‮
+  FIELD public System.Int32 ⁬⁫‮​​‭‪‌‬‪⁪‎⁫⁯⁪‪‪‮‭⁮⁫‎‍⁯‫‎‏‎​⁬⁮‫‪‫⁬⁬⁫⁮‮‮‮
+  FIELD public System.Int32 ⁬​​‭‍‭‏‍⁪‫‬‌‮‎⁯⁭⁫⁫⁮⁪⁬‌⁫⁪​‫‪‫‎⁫⁯⁮⁯⁪⁯‌⁯‌‪‪‮
+  FIELD public System.Int32 ​‍‪‭‍⁫⁫‍‮⁫‏⁮⁪​‮⁪‍⁮⁭⁭⁮‬‭‮​⁪⁯‫⁪‪‏‎⁮⁪‏⁯‏‌‪‭‮
+  FIELD public System.Int32 ‎⁭‭⁭​‌⁯⁯⁮‌‍⁪‍‪‮‏‌​‬⁪⁪‪‪‏​‍‎‏⁫⁬‏‏⁪‪‎​⁮⁪⁪‮
+  FIELD public System.Int32 ⁫‌‬⁭‍‍⁪‭⁬⁪‪⁯‭‏⁮⁫‬‪‮⁬‏‏⁮‪‪‬‎⁯‎‪‌⁫‪‌‏⁮⁪‪‌‎‮
+  FIELD public System.Int32 ‬⁫⁯⁮​⁭‏‍‪‏‪⁭⁪‍‭⁬⁯​‭⁮‮‍‪‍⁯‫‏‍‮‌‌⁯‮‍‍‮‪⁯⁮‬‮
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁭⁯⁭⁮​‪‪⁪⁫⁬⁬‍‌‫⁫⁪‭‎‍‌‮‮⁮⁫⁯⁭‫‫⁪‌‍‎⁮‌‭‌‏​⁭‌‮
+  // sig: System.Void ()
+  // IL size: 258
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::​‍‪‭‍⁫⁫‍‮⁫‏⁮⁪​‮⁪‍⁮⁭⁭⁮‬‭‮​⁪⁯‫⁪‪‏‎⁮⁪‏⁯‏‌‪‭‮
+    IL_0006: stloc.0
+    IL_0007: ldc.i4 -994152575
+    IL_000c: ldc.i4 -651716333
+    IL_0011: xor
+    IL_0012: dup
+    IL_0013: stloc.1
+    IL_0014: ldc.i4.s 11
+    IL_0016: rem.un
+    IL_0017: switch (IL_004e, IL_0070, IL_0087, IL_009c, IL_ffffffeb, IL_00d9, IL_00cc, IL_0077, IL_0041, IL_00c7, IL_00fd)
+    IL_0048: br IL_0101
+    IL_004d: ldloc.0
+    IL_004e: switch (IL_0093, IL_0073, IL_00bf, IL_00d4, IL_00e9, IL_0076)
+    IL_006b: ldloc.1
+    IL_006c: ldc.i4 -458682326
+    IL_0071: mul
+    IL_0072: ldc.i4 -1301207545
+    IL_0077: xor
+    IL_0078: br.s IL_000c
+    IL_007a: ldc.i4.1
+    IL_007b: stsfld Client.Xmap::autoNhatAll
+    IL_0080: ldc.i4 -1470625203
+    IL_0085: br.s IL_000c
+    IL_0087: ldc.i4.1
+    IL_0088: stsfld Client.Xmap::autoNhatzGem
+    IL_008d: ret
+    IL_008e: ldc.i4 -1623154204
+    IL_0093: br IL_000c
+    IL_0098: ret
+    IL_0099: ldloc.1
+    IL_009a: ldc.i4 -1783975221
+    IL_009f: mul
+    IL_00a0: ldc.i4 -1247796814
+    IL_00a5: xor
+    IL_00a6: br IL_000c
+    IL_00ab: ldc.i4.0
+    IL_00ac: stsfld Client.Xmap::autoNhatzGem
+    IL_00b1: ret
+    IL_00b2: ldc.i4 -1344671196
+    IL_00b7: br IL_000c
+    IL_00bc: ret
+    IL_00bd: ldloc.1
+    IL_00be: ldc.i4 -2130934303
+    IL_00c3: mul
+    IL_00c4: ldc.i4 1834093612
+    IL_00c9: xor
+    IL_00ca: br IL_000c
+    IL_00cf: ldc.i4.0
+    IL_00d0: stsfld Client.Xmap::autoNhatZeni
+    IL_00d5: ret
+    IL_00d6: ldc.i4 -2059254995
+    IL_00db: br IL_000c
+    IL_00e0: ldc.i4.1
+    IL_00e1: stsfld Client.Xmap::autoNhatZeni
+    IL_00e6: ret
+    IL_00e7: ldc.i4 -73749453
+    IL_00ec: br IL_000c
+    IL_00f1: ldc.i4.0
+    IL_00f2: stsfld Client.Xmap::autoNhatAll
+    IL_00f7: ldc.i4 -154839876
+    IL_00fc: br IL_000c
+    IL_0101: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎‭‌‬‪⁭‬‏⁮‭‪‮⁮‬‮‎⁭⁯⁫⁯‬‮‬⁬‫‎⁪‬‌‏‌‬​‪⁭‫​‭‫‏‮
+  // sig: System.Void ()
+  // IL size: 19
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎⁪‏‮‫⁮‪‭‍⁭⁯⁭‮⁮⁬‮‪‎‭‫‌‭⁯​​⁫‬‬‌‭⁯‪⁪⁭‫⁬‎‪‏‌‮
+    IL_0006: ldarg.0
+    IL_0007: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::​‮‮⁬⁬‏‬⁭⁫⁯⁫‮‫⁫‪‪‏⁭‬⁯⁯⁬⁬⁫​⁮⁮‭‏⁪‪‪⁬⁭‪​​⁬‏‎‮
+    IL_000c: ldc.i4.0
+    IL_000d: call Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁪‍⁫​⁯‌‪​‌⁯‎‭⁫⁮⁯‏‮‭‌⁯‫‬‮⁬‬‭⁯​‎⁭​⁮‫‮‫‌‎⁫‬⁭‮
+    IL_0012: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁪‮‪‭‎⁭‎‌‌‎​⁪‬⁬⁫⁪‫​‫‮‬‍‪⁬‫‭‍⁬‭‪‎⁮‌‭⁭⁪‫‭‏⁮‮
+  // sig: System.Void ()
+  // IL size: 12
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::​‏⁪‪‭⁬‫‍⁯‪‪‌⁫‎​‏⁬‏⁫‪‍‏⁪⁯‫‌‏‏​‏‫‌​‮⁫‍‌⁮‪‬‮
+    IL_0006: call Client.CharFunc::GotoMapID
+    IL_000b: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁯⁯‮⁭‬⁭‍‬⁪‬‪‭‏‌⁪‌​‫⁫⁭⁯‭⁯‮⁬⁭‭‍⁫⁭‮‫‏⁯‎⁮⁫‍⁪‌‮
+  // sig: System.Void ()
+  // IL size: 17
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁭‌‫⁫⁪⁯‌‪⁭‍‍⁮⁫‌⁪‮⁬​⁯‍‎⁮‮‮‎⁮‮⁭⁪‫⁭‌⁮‪​⁪‪⁪⁯‬‮
+    IL_0006: call System.Int32::Parse
+    IL_000b: stsfld Client.KepFullKhu::hpB
+    IL_0010: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁪⁭⁭⁪‭⁯⁭⁬‪​⁯‭​‏‬⁯‍‫⁮‍‪‪⁭⁪‭‮⁭⁮‫‌‎⁭‍‏‮⁬⁬‪⁭‍‮
+  // sig: System.Void ()
+  // IL size: 12
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁫‌‬⁭‍‍⁪‭⁬⁪‪⁯‭‏⁮⁫‬‪‮⁬‏‏⁮‪‪‬‎⁯‎‪‌⁫‪‌‏⁮⁪‪‌‎‮
+    IL_0006: call Client.MenuMod::CongChiSo
+    IL_000b: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎‭‌‎⁯‫⁫‎‭⁬‌⁯⁭⁪‮‍‪‏‏⁪‪‏‫⁭‍‫‬⁫‪‏‫⁯‬⁫‭‪‪‮‬‍‮
+  // sig: System.Void ()
+  // IL size: 12
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎⁭‭⁭​‌⁯⁯⁮‌‍⁪‍‪‮‏‌​‬⁪⁪‪‪‏​‍‎‏⁫⁬‏‏⁪‪‎​⁮⁪⁪‮
+    IL_0006: call Client.ZoneFunc::ThucHienChuyenKhu
+    IL_000b: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎‮⁫⁫⁪‭⁪⁯‏‮⁮⁬‎⁬⁪‌‮‫‏⁮⁭‏‪⁮‮‪​‏‍⁫⁪⁯‎⁫‍⁭⁯‍‍‎‮
+  // sig: System.Void ()
+  // IL size: 21
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁬​​‭‍‭‏‍⁪‫‬‌‮‎⁯⁭⁫⁫⁮⁪⁬‌⁫⁪​‫‪‫‎⁫⁯⁮⁯⁪⁯‌⁯‌‪‪‮
+    IL_0006: ldc.i4.0
+    IL_0007: cgt.un
+    IL_0009: dup
+    IL_000a: stsfld Client.CharFunc::isAttack
+    IL_000f: call ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::⁪‫⁬‮‬‫‌‎‫⁬‮‍⁮‭⁬⁪⁯‫​‫‌‫‪⁯‭⁮⁯⁯‍​⁫‌⁫⁫​⁬‎‍⁫‬‮
+    IL_0014: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‮⁮⁪‪⁯‫‫‬‭⁯‪‬⁫⁭⁬‍⁭⁪⁬⁫⁬‬​⁫‫‬⁮‪‌⁬‪‎⁭‬‌‏‎‏⁪⁯‮
+  // sig: System.Void ()
+  // IL size: 18
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‬⁫⁯⁮​⁭‏‍‪‏‪⁭⁪‍‭⁬⁯​‭⁮‮‍‪‍⁯‫‏‍‮‌‌⁯‮‍‍‮‪⁯⁮‬‮
+    IL_0006: call Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‌‪⁮‫⁮‍‫⁫⁬‌‌‎⁮⁪⁯⁭‫‏‭‌‮‭⁯‬​‎‌⁪‎‮​‮‭‪⁭‪‏‬‫‏‮
+    IL_000b: ldc.i4.0
+    IL_000c: call Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‫⁫‮‏‬‏‪‬‭‭⁬‫⁮‪‍⁭⁯‌‌‏‌‌‌​⁫⁭​‌‫‎⁫‮​⁫‏⁫‪‪‭⁬‮
+    IL_0011: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁯​‫‪⁪⁪‬⁯⁫‏⁪‍‬‎‮‬⁯‪‍⁬⁯‭⁮‬‬​‫‫‮⁮⁮⁭‮‬⁭⁯‍⁯⁯‭‮
+  // sig: System.Void ()
+  // IL size: 29
+    IL_0000: ldc.i4.1
+    IL_0001: stsfld Client.KepFullKhu::isKepFullKhu
+    IL_0006: ldarg.0
+    IL_0007: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‍​‮‭‍‪‭⁫‌‭‮‮‏‪‬‫⁯‮‏⁭⁪‏​⁬⁮‬‪‭‍⁯‎‫‍⁪‬‍‫‮⁯⁬‮
+    IL_000c: stsfld Client.KepFullKhu::mapid
+    IL_0011: ldarg.0
+    IL_0012: ldfld Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁬⁫‮​​‭‪‌‬‪⁪‎⁫⁯⁪‪‪‮‭⁮⁫‎‍⁯‫‎‏‎​⁬⁮‫‪‫⁬⁬⁫⁮‮‮‮
+    IL_0017: stsfld Client.KepFullKhu::zoneid
+    IL_001c: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁪‍⁫​⁯‌‪​‌⁯‎‭⁫⁮⁯‏‮‭‌⁯‫‬‮⁬‬‭⁯​‎⁭​⁮‫‮‫‌‎⁫‬⁭‮
+  // sig: System.Void (System.Int32 , System.Int32 , System.Boolean )
+  // IL size: 9
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: ldarg.2
+    IL_0003: call UnityEngine.Screen::SetResolution
+    IL_0008: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‌‪⁮‫⁮‍‫⁫⁬‌‌‎⁮⁪⁯⁭‫‏‭‌‮‭⁯‬​‎‌⁪‎‮​‮‭‪⁭‪‏‬‫‏‮
+  // sig: System.Void (System.Int32 )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: call UnityEngine.Application::set_targetFrameRate
+    IL_0006: ret
+
+  // --- METHOD Client.SocketClient+‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‫⁫‮‏‬‏‪‬‭‭⁬‫⁮‪‍⁭⁯‌‌‏‌‌‌​⁫⁭​‌‫‎⁫‮​⁫‏⁫‪‪‭⁬‮
+  // sig: System.Void (System.Int32 )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: call UnityEngine.QualitySettings::set_vSyncCount
+    IL_0006: ret
+
+
+// ===== TYPE Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮
+// base: System.Object
+  FIELD public Client.SocketClient ⁮‍‮⁫​‍‍‎⁮‍‍‍‎⁬⁯‪⁫⁫⁪‌‬‪⁪​⁬‍⁪‍⁮⁬‫‎⁬‫‬‎‪‎⁮‍‮
+  FIELD public System.String ‬⁪⁮⁮‌​‏‬‫⁯‏‍‌‬‮‬⁪⁮​‬‬‬‫⁯⁫‏⁫⁪‌⁯‌‮‮‌‭‏‮⁮‪‪‮
+
+  // --- METHOD Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‭‌‫⁯‬⁭⁮⁭‫‍‭⁮⁬​‎‬‫⁭‬⁪⁬⁪‍‎‍‬‏​‪‭‍​‌‬⁮‎⁯⁭⁮‎‮
+  // sig: System.Void ()
+  // IL size: 120
+    IL_0000: call Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‫⁭‏‪⁯‍‫‫‏‏‏‮‮⁮⁪⁮​⁫‌⁮‫⁪⁪‫⁫‪‪​‍​‬⁭‎‌‎‬⁬‭‍⁬‮
+    IL_0005: ldarg.0
+    IL_0006: ldfld Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‬⁪⁮⁮‌​‏‬‫⁯‏‍‌‬‮‬⁪⁮​‬‬‬‫⁯⁫‏⁫⁪‌⁯‌‮‮‌‭‏‮⁮‪‪‮
+    IL_000b: call Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‍⁬‪​‪‬‎​‪‌​‍‫⁪⁭‭‫‫‍‏⁮⁭‎​‍‍‏‏‍‬⁬⁬⁫⁭⁬⁮‏‮⁫⁭‮
+    IL_0010: stloc.0
+    IL_0011: ldarg.0
+    IL_0012: ldfld Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::⁮‍‮⁫​‍‍‎⁮‍‍‍‎⁬⁯‪⁫⁫⁪‌‬‪⁪​⁬‍⁪‍⁮⁬‫‎⁬‫‬‎‪‎⁮‍‮
+    IL_0017: ldfld Client.SocketClient::‌‭‌‭‏‭⁮‎‮‪⁭‎⁯⁯⁫‪‍⁮⁯‬‎‎‎‍‎‏⁪‏⁭‫‪‪⁫‪⁭‎‏‎‌‎‮
+    IL_001c: ldloc.0
+    IL_001d: ldc.i4.0
+    IL_001e: ldloc.0
+    IL_001f: ldlen
+    IL_0020: conv.i4
+    IL_0021: call Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‌​⁯​⁮⁬‎⁬⁮‍‎⁬‍⁯‬‭‪⁬⁫⁬‏⁮⁬⁪⁭⁫⁭‪‮‮‫​‪‏‪‬⁫‫⁪⁫‮
+    IL_0026: ldc.i4 713042361
+    IL_002b: ldc.i4 397695777
+    IL_0030: xor
+    IL_0031: dup
+    IL_0032: stloc.1
+    IL_0033: ldc.i4.3
+    IL_0034: rem.un
+    IL_0035: switch (IL_005b, IL_0040, IL_0022)
+    IL_0046: br.s IL_0067
+    IL_0048: ldarg.0
+    IL_0049: ldfld Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::⁮‍‮⁫​‍‍‎⁮‍‍‍‎⁬⁯‪⁫⁫⁪‌‬‪⁪​⁬‍⁪‍⁮⁬‫‎⁬‫‬‎‪‎⁮‍‮
+    IL_004e: ldfld Client.SocketClient::‌‭‌‭‏‭⁮‎‮‪⁭‎⁯⁯⁫‪‍⁮⁯‬‎‎‎‍‎‏⁪‏⁭‫‪‪⁫‪⁭‎‏‎‌‎‮
+    IL_0053: call Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::⁬⁪​⁬⁪‏⁫⁯‮‪⁫‭‫‮‏‎‭‌⁫⁫⁫⁫‮​‫⁮⁬​‬‌⁭‫‭⁬‎⁬‮‬‭‏‮
+    IL_0058: ldloc.1
+    IL_0059: ldc.i4 629620521
+    IL_005e: mul
+    IL_005f: ldc.i4 233810302
+    IL_0064: xor
+    IL_0065: br.s IL_002b
+    IL_0067: leave.s IL_0077
+    IL_0069: pop
+    IL_006a: ldarg.0
+    IL_006b: ldfld Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::⁮‍‮⁫​‍‍‎⁮‍‍‍‎⁬⁯‪⁫⁫⁪‌‬‪⁪​⁬‍⁪‍⁮⁬‫‎⁬‫‬‎‪‎⁮‍‮
+    IL_0070: call Client.SocketClient::Disconnect
+    IL_0075: leave.s IL_0077
+    IL_0077: ret
+
+  // --- METHOD Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‫⁭‏‪⁯‍‫‫‏‏‏‮‮⁮⁪⁮​⁫‌⁮‫⁪⁪‫⁫‪‪​‍​‬⁭‎‌‎‬⁬‭‍⁬‮
+  // sig: System.Text.Encoding ()
+  // IL size: 6
+    IL_0000: call System.Text.Encoding::get_UTF8
+    IL_0005: ret
+
+  // --- METHOD Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‍⁬‪​‪‬‎​‪‌​‍‫⁪⁭‭‫‫‍‏⁮⁭‎​‍‍‏‏‍‬⁬⁬⁫⁭⁬⁮‏‮⁫⁭‮
+  // sig: System.Byte[] (System.Text.Encoding , System.String )
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: callvirt System.Text.Encoding::GetBytes
+    IL_0007: ret
+
+  // --- METHOD Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‌​⁯​⁮⁬‎⁬⁮‍‎⁬‍⁯‬‭‪⁬⁫⁬‏⁮⁬⁪⁭⁫⁭‪‮‮‫​‪‏‪‬⁫‫⁪⁫‮
+  // sig: System.Void (System.IO.Stream , System.Byte[] , System.Int32 , System.Int32 )
+  // IL size: 10
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: ldarg.2
+    IL_0003: ldarg.3
+    IL_0004: callvirt System.IO.Stream::Write
+    IL_0009: ret
+
+  // --- METHOD Client.SocketClient+‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::⁬⁪​⁬⁪‏⁫⁯‮‪⁫‭‫‮‏‎‭‌⁫⁫⁫⁫‮​‫⁮⁬​‬‌⁭‫‭⁬‎⁬‮‬‭‏‮
+  // sig: System.Void (System.IO.Stream )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.IO.Stream::Flush
+    IL_0006: ret
+
+
+// ===== TYPE Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#
+// base: System.ValueType
+  FIELD public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ⁫‌⁯‎‭‍‪‪‏‫‍⁪‮‍‫⁬‎‌‍⁮‬‎⁮‎‎⁮⁬‏‍⁯⁯⁫⁫‭​‌⁪‎‍⁫‮
+  FIELD public Client.SocketClient ‭‌⁬‫⁭‍‫‫‪‍‌⁯⁯‮‫⁭‎⁬⁬‍​⁫⁯⁪⁮⁫⁫‮‬⁪⁬‏⁮⁭⁭‏‏‍‬⁭‮
+  FIELD public System.String ⁯⁬⁬‫⁯⁪⁭‫‬‮‮‎⁬⁫‏‪⁬‪​⁬‮⁪‪⁭⁮‪⁭‬⁬‫‍​⁬⁪⁯⁭​⁪⁬⁮‮
+  FIELD public System.Int32 ‎⁯‭⁭⁬‪​‌‪‬⁮‮⁫‏‫⁯‎‌‌‎‎‏⁯‎‏‮‮‭‫‪‎‎‌‫‏‮‮​‍‫‮
+  FIELD public System.Int32 ‏‭⁪⁭‬‎⁮‌‭⁮‪⁪‌⁪‎‌​‍‮⁬‪⁭⁮​⁯⁪⁯‏‪‪‫‮‎⁬⁫‫‎⁮⁬⁪‮
+  FIELD private System.Runtime.CompilerServices.TaskAwaiter ⁪‎⁭⁭‪‎‪‏⁭⁬⁫‎‫‪⁬⁫‬‬‏‮‭⁯‎‪⁫‏⁮⁬​‬‫‏‭‍‭‏‪‫‌‭‮
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::MoveNext
+  // sig: System.Void ()
+  // IL size: 638
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‏‭⁪⁭‬‎⁮‌‭⁮‪⁪‌⁪‎‌​‍‮⁬‪⁭⁮​⁯⁪⁯‏‪‪‫‮‎⁬⁫‫‎⁮⁬⁪‮
+    IL_0006: stloc.0
+    IL_0007: ldarg.0
+    IL_0008: ldfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‭‌⁬‫⁭‍‫‫‪‍‌⁯⁯‮‫⁭‎⁬⁬‍​⁫⁯⁪⁮⁫⁫‮‬⁪⁬‏⁮⁭⁭‏‏‍‬⁭‮
+    IL_000d: stloc.1
+    IL_000e: ldloc.0
+    IL_000f: brfalse.s IL_006f
+    IL_0011: ldc.i4 -42765808
+    IL_0016: ldc.i4 -940139847
+    IL_001b: xor
+    IL_001c: dup
+    IL_001d: stloc.s 5
+    IL_001f: ldc.i4.4
+    IL_0020: rem.un
+    IL_0021: switch (IL_005f, IL_002c, IL_0009, IL_0056)
+    IL_0036: br.s IL_006f
+    IL_0038: ldloc.1
+    IL_0039: ldfld Client.SocketClient::‬​⁫‮‫‍‏⁯‭⁪‮‌‎‪‮⁫‭⁮​⁪‏‏​‌‍‍‏‭‫​‪‌‎‎⁪⁪‏‭‫‮‮
+    IL_003e: brfalse.s IL_0048
+    IL_0040: ldc.i4 1634345305
+    IL_0045: dup
+    IL_0046: br.s IL_004e
+    IL_0048: ldc.i4 1343301078
+    IL_004d: dup
+    IL_004e: pop
+    IL_004f: ldloc.s 5
+    IL_0051: ldc.i4 405942151
+    IL_0056: mul
+    IL_0057: xor
+    IL_0058: br.s IL_0016
+    IL_005a: leave IL_026a
+    IL_005f: ldloc.s 5
+    IL_0061: ldc.i4 -1784881315
+    IL_0066: mul
+    IL_0067: ldc.i4 1292175722
+    IL_006c: xor
+    IL_006d: br.s IL_0016
+    IL_006f: nop
+    IL_0070: ldloc.0
+    IL_0071: brfalse IL_01b4
+    IL_0076: ldc.i4 -1396880712
+    IL_007b: ldc.i4 -940139847
+    IL_0080: xor
+    IL_0081: dup
+    IL_0082: stloc.s 5
+    IL_0084: ldc.i4.s 11
+    IL_0086: rem.un
+    IL_0087: switch (IL_01ae, IL_00e2, IL_01d0, IL_0133, IL_00a1, IL_005e, IL_01a0, IL_00d4, IL_00bf, IL_0171, IL_0124)
+    IL_00b8: br IL_01f4
+    IL_00bd: ldloca.s 2
+    IL_00bf: call System.Runtime.CompilerServices.TaskAwaiter::GetResult
+    IL_00c4: ldc.i4 -1116712819
+    IL_00c9: br.s IL_007b
+    IL_00cb: ldarg.0
+    IL_00cc: ldc.i4.0
+    IL_00cd: dup
+    IL_00ce: stloc.0
+    IL_00cf: stfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‏‭⁪⁭‬‎⁮‌‭⁮‪⁪‌⁪‎‌​‍‮⁬‪⁭⁮​⁯⁪⁯‏‪‪‫‮‎⁬⁫‫‎⁮⁬⁪‮
+    IL_00d4: ldloc.s 5
+    IL_00d6: ldc.i4 102713118
+    IL_00db: mul
+    IL_00dc: ldc.i4 722007919
+    IL_00e1: xor
+    IL_00e2: br.s IL_007b
+    IL_00e4: ldloca.s 2
+    IL_00e6: call System.Runtime.CompilerServices.TaskAwaiter::get_IsCompleted
+    IL_00eb: brtrue.s IL_00f5
+    IL_00ed: ldc.i4 -55279321
+    IL_00f2: dup
+    IL_00f3: br.s IL_00fb
+    IL_00f5: ldc.i4 -2018972983
+    IL_00fa: dup
+    IL_00fb: pop
+    IL_00fc: ldloc.s 5
+    IL_00fe: ldc.i4 714715549
+    IL_0103: mul
+    IL_0104: xor
+    IL_0105: br IL_007b
+    IL_010a: ldloc.1
+    IL_010b: ldfld Client.SocketClient::‭‎⁭⁭⁮‮‬‬‫​⁭‪⁮‮⁭‎‮⁯‏⁮⁭⁫‍‮‮⁯‪‍‪‮⁫‌‪‭⁮‫‏⁪‍⁯‮
+    IL_0110: dup
+    IL_0111: brtrue.s IL_0119
+    IL_0113: pop
+    IL_0114: br IL_01f4
+    IL_0119: callvirt System.Action::Invoke
+    IL_011e: ldc.i4 -509016799
+    IL_0123: br IL_007b
+    IL_0128: ldloc.1
+    IL_0129: ldloc.1
+    IL_012a: ldfld Client.SocketClient::‪‭‬‬⁯‭⁭‏‬​​⁬⁬‫‫‎‬‪‭⁬⁯⁬‎‮⁫‏‏‪‮⁮‫⁭‏‮⁯​⁭⁭‎‮‮
+    IL_012f: call Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁫⁫‫‪‭⁮⁮⁬‮‎‫⁪‎​⁮‪⁪‍⁭⁬‌‎‎‌‫⁯⁯​⁬‪‮⁬‍⁮‎‎⁪​⁯‮‮
+    IL_0134: stfld Client.SocketClient::‌‭‌‭‏‭⁮‎‮‪⁭‎⁯⁯⁫‪‍⁮⁯‬‎‎‎‍‎‏⁪‏⁭‫‪‪⁫‪⁭‎‏‎‌‎‮
+    IL_0139: ldloc.1
+    IL_013a: ldc.i4.1
+    IL_013b: stfld Client.SocketClient::‬​⁫‮‫‍‏⁯‭⁪‮‌‎‪‮⁫‭⁮​⁪‏‏​‌‍‍‏‭‫​‪‌‎‎⁪⁪‏‭‫‮‮
+    IL_0140: ldloc.s 5
+    IL_0142: ldc.i4 -1280297311
+    IL_0147: mul
+    IL_0148: ldc.i4 1321045217
+    IL_014d: xor
+    IL_014e: br IL_007b
+    IL_0153: ldarg.0
+    IL_0154: ldflda Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁫‌⁯‎‭‍‪‪‏‫‍⁪‮‍‫⁬‎‌‍⁮‬‎⁮‎‎⁮⁬‏‍⁯⁯⁫⁫‭​‌⁪‎‍⁫‮
+    IL_0159: ldloca.s 2
+    IL_015b: ldarg.0
+    IL_015c: call System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted
+    IL_0161: leave IL_027d
+    IL_0166: ldloc.s 5
+    IL_0168: ldc.i4 774344225
+    IL_016d: mul
+    IL_016e: ldc.i4 -1175295668
+    IL_0173: xor
+    IL_0174: br IL_007b
+    IL_0179: ldloc.1
+    IL_017a: call Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁪‮​⁯​‭⁫‌‬⁭‪⁯​⁪‍‫⁯⁮‎‪⁯‌‏‫‏‫‌​‎⁭⁮‏⁮‮‫‮‏‏‭⁪‮
+    IL_017f: stfld Client.SocketClient::‪‭‬‬⁯‭⁭‏‬​​⁬⁬‫‫‎‬‪‭⁬⁯⁬‎‮⁫‏‏‪‮⁮‫⁭‏‮⁯​⁭⁭‎‮‮
+    IL_0184: ldloc.1
+    IL_0185: ldfld Client.SocketClient::‪‭‬‬⁯‭⁭‏‬​​⁬⁬‫‫‎‬‪‭⁬⁯⁬‎‮⁫‏‏‪‮⁮‫⁭‏‮⁯​⁭⁭‎‮‮
+    IL_018a: ldarg.0
+    IL_018b: ldfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁯⁬⁬‫⁯⁪⁭‫‬‮‮‎⁬⁫‏‪⁬‪​⁬‮⁪‪⁭⁮‪⁭‬⁬‫‍​⁬⁪⁯⁭​⁪⁬⁮‮
+    IL_0190: ldarg.0
+    IL_0191: ldfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‎⁯‭⁭⁬‪​‌‪‬⁮‮⁫‏‫⁯‎‌‌‎‎‏⁯‎‏‮‮‭‫‪‎‎‌‫‏‮‮​‍‫‮
+    IL_0196: call Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁬​‮‌‮‏‭‬​⁯⁯⁯‬‭⁯⁪​‏‏⁫⁮‭​⁮‍⁭⁬‮‮​‬‌‍⁮⁫⁭⁮‬‏⁭‮
+    IL_019b: call Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‪⁫‮⁪‬‍‬‌‮⁭⁪‎⁯⁫⁯‭⁫‌‭⁪⁯‎‌​⁫⁭⁯⁬‌⁯‏⁮‏‪‏‮‍⁪‍⁫‮
+    IL_01a0: stloc.2
+    IL_01a1: ldloc.s 5
+    IL_01a3: ldc.i4 -1789299099
+    IL_01a8: mul
+    IL_01a9: ldc.i4 -977231324
+    IL_01ae: xor
+    IL_01af: br IL_007b
+    IL_01b4: ldarg.0
+    IL_01b5: ldfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁪‎⁭⁭‪‎‪‏⁭⁬⁫‎‫‪⁬⁫‬‬‏‮‭⁯‎‪⁫‏⁮⁬​‬‫‏‭‍‭‏‪‫‌‭‮
+    IL_01ba: stloc.2
+    IL_01bb: ldarg.0
+    IL_01bc: ldflda Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁪‎⁭⁭‪‎‪‏⁭⁬⁫‎‫‪⁬⁫‬‬‏‮‭⁯‎‪⁫‏⁮⁬​‬‫‏‭‍‭‏‪‫‌‭‮
+    IL_01c1: initobj System.Runtime.CompilerServices.TaskAwaiter
+    IL_01c7: ldarg.0
+    IL_01c8: ldc.i4.m1
+    IL_01c9: dup
+    IL_01ca: stloc.0
+    IL_01cb: stfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‏‭⁪⁭‬‎⁮‌‭⁮‪⁪‌⁪‎‌​‍‮⁬‪⁭⁮​⁯⁪⁯‏‪‪‫‮‎⁬⁫‫‎⁮⁬⁪‮
+    IL_01d0: ldc.i4 -346915631
+    IL_01d5: br IL_007b
+    IL_01da: ldarg.0
+    IL_01db: ldloc.2
+    IL_01dc: stfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁪‎⁭⁭‪‎‪‏⁭⁬⁫‎‫‪⁬⁫‬‬‏‮‭⁯‎‪⁫‏⁮⁬​‬‫‏‭‍‭‏‪‫‌‭‮
+    IL_01e1: ldloc.s 5
+    IL_01e3: ldc.i4 -2026817111
+    IL_01e8: mul
+    IL_01e9: ldc.i4 1721099661
+    IL_01ee: xor
+    IL_01ef: br IL_007b
+    IL_01f4: ldloc.1
+    IL_01f5: call Client.SocketClient::‍⁮​‪​‪‌‪‭⁯⁭​‎⁯‏​‍⁯⁫⁪‪‎⁪​‭⁪⁪‍‭⁬⁯⁪‍‮⁯‮⁫‫‬‍‮
+    IL_01fa: pop
+    IL_01fb: leave.s IL_021c
+    IL_01fd: stloc.3
+    IL_01fe: ldc.i4 -1310772963
+    IL_0203: br.s IL_0205
+    IL_0205: call ::⁯⁮‎‎‎⁫⁭⁯​‭⁮‪⁮‮‌‮‍‌⁭‎‪‮‍⁮‪⁬⁯‎⁭⁭‭‮‏⁮⁯‎‎⁬‪‬‮
+    IL_020a: ldloc.3
+    IL_020b: call Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‬⁮⁬⁬​‌‪‏⁭‬‭‎‭​⁭‪⁮⁭‎⁮​‫​‌‫⁭‫⁮⁮‮‬‪⁬⁪‮‫⁫​⁬⁫‮
+    IL_0210: call Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‫‬‮‭⁪‬​⁬⁯⁯‬⁯‎‫‌‮⁭⁭⁭⁭‭‎​‫‭‎‎‭⁭⁫⁭⁬‪⁭⁭​⁪​‏⁬‮
+    IL_0215: call Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁭⁪⁪⁮‎‌⁬⁭​‮⁮‌⁯‪‮​‎⁮⁬⁬‫‬‎‏⁬⁬⁭‭⁯⁯‏⁮‌‬‮⁭‎‏‬‏‮
+    IL_021a: leave.s IL_021c
+    IL_021c: leave.s IL_026a
+    IL_021e: stloc.s 4
+    IL_0220: ldc.i4 -1509331922
+    IL_0225: ldc.i4 -940139847
+    IL_022a: xor
+    IL_022b: dup
+    IL_022c: stloc.s 5
+    IL_022e: ldc.i4.3
+    IL_022f: rem.un
+    IL_0230: switch (IL_0214, IL_0260, IL_023f)
+    IL_0241: br.s IL_0268
+    IL_0243: ldarg.0
+    IL_0244: ldc.i4.s -2
+    IL_0246: stfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‏‭⁪⁭‬‎⁮‌‭⁮‪⁪‌⁪‎‌​‍‮⁬‪⁭⁮​⁯⁪⁯‏‪‪‫‮‎⁬⁫‫‎⁮⁬⁪‮
+    IL_024b: ldarg.0
+    IL_024c: ldflda Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁫‌⁯‎‭‍‪‪‏‫‍⁪‮‍‫⁬‎‌‍⁮‬‎⁮‎‎⁮⁬‏‍⁯⁯⁫⁫‭​‌⁪‎‍⁫‮
+    IL_0251: ldloc.s 4
+    IL_0253: call System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetException
+    IL_0258: ldloc.s 5
+    IL_025a: ldc.i4 -2032120897
+    IL_025f: mul
+    IL_0260: ldc.i4 2067208222
+    IL_0265: xor
+    IL_0266: br.s IL_0225
+    IL_0268: leave.s IL_027d
+    IL_026a: ldarg.0
+    IL_026b: ldc.i4.s -2
+    IL_026d: stfld Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‏‭⁪⁭‬‎⁮‌‭⁮‪⁪‌⁪‎‌​‍‮⁬‪⁭⁮​⁯⁪⁯‏‪‪‫‮‎⁬⁫‫‎⁮⁬⁪‮
+    IL_0272: ldarg.0
+    IL_0273: ldflda Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁫‌⁯‎‭‍‪‪‏‫‍⁪‮‍‫⁬‎‌‍⁮‬‎⁮‎‎⁮⁬‏‍⁯⁯⁫⁫‭​‌⁪‎‍⁫‮
+    IL_0278: call System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetResult
+    IL_027d: ret
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::SetStateMachine
+  // sig: System.Void (System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
+  // IL size: 13
+    IL_0000: ldarg.0
+    IL_0001: ldflda Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁫‌⁯‎‭‍‪‪‏‫‍⁪‮‍‫⁬‎‌‍⁮‬‎⁮‎‎⁮⁬‏‍⁯⁯⁫⁫‭​‌⁪‎‍⁫‮
+    IL_0006: ldarg.1
+    IL_0007: call System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetStateMachine
+    IL_000c: ret
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁪‮​⁯​‭⁫‌‬⁭‪⁯​⁪‍‫⁯⁮‎‪⁯‌‏‫‏‫‌​‎⁭⁮‏⁮‮‫‮‏‏‭⁪‮
+  // sig: System.Net.Sockets.TcpClient ()
+  // IL size: 6
+    IL_0000: newobj System.Net.Sockets.TcpClient::.ctor
+    IL_0005: ret
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁬​‮‌‮‏‭‬​⁯⁯⁯‬‭⁯⁪​‏‏⁫⁮‭​⁮‍⁭⁬‮‮​‬‌‍⁮⁫⁭⁮‬‏⁭‮
+  // sig: System.Threading.Tasks.Task (System.Net.Sockets.TcpClient , System.String , System.Int32 )
+  // IL size: 9
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: ldarg.2
+    IL_0003: callvirt System.Net.Sockets.TcpClient::ConnectAsync
+    IL_0008: ret
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‪⁫‮⁪‬‍‬‌‮⁭⁪‎⁯⁫⁯‭⁫‌‭⁪⁯‎‌​⁫⁭⁯⁬‌⁯‏⁮‏‪‏‮‍⁪‍⁫‮
+  // sig: System.Runtime.CompilerServices.TaskAwaiter (System.Threading.Tasks.Task )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.Threading.Tasks.Task::GetAwaiter
+    IL_0006: ret
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁫⁫‫‪‭⁮⁮⁬‮‎‫⁪‎​⁮‪⁪‍⁭⁬‌‎‎‌‫⁯⁯​⁬‪‮⁬‍⁮‎‎⁪​⁯‮‮
+  // sig: System.Net.Sockets.NetworkStream (System.Net.Sockets.TcpClient )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.Net.Sockets.TcpClient::GetStream
+    IL_0006: ret
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‬⁮⁬⁬​‌‪‏⁭‬‭‎‭​⁭‪⁮⁭‎⁮​‫​‌‫⁭‫⁮⁮‮‬‪⁬⁪‮‫⁫​⁬⁫‮
+  // sig: System.String (System.Exception )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.Exception::get_Message
+    IL_0006: ret
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::‫‬‮‭⁪‬​⁬⁯⁯‬⁯‎‫‌‮⁭⁭⁭⁭‭‎​‫‭‎‎‭⁭⁫⁭⁬‪⁭⁭​⁪​‏⁬‮
+  // sig: System.String (System.String , System.String )
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: call System.String::Concat
+    IL_0007: ret
+
+  // --- METHOD Client.SocketClient+ov:}$2p8wSR445F|ml8d5'3b#::⁭⁪⁪⁮‎‌⁬⁭​‮⁮‌⁯‪‮​‎⁮⁬⁬‫‬‎‏⁬⁬⁭‭⁯⁯‏⁮‌‬‮⁭‎‏‬‏‮
+  // sig: System.Void (System.String )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: call System.Console::WriteLine
+    IL_0006: ret
+
+
+// ===== TYPE Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,
+// base: System.ValueType
+  FIELD public System.Runtime.CompilerServices.AsyncTaskMethodBuilder ‫⁫⁮‫‬⁯‏⁫⁮‍‫‪‎⁫‍‬‎‫‮⁬‎⁮‌⁫⁬⁯‭​⁪‍‬⁫‍‎⁮⁯‏⁮‏‮‮
+  FIELD public System.Int32 ⁯‏‏‏⁮‍⁯‫‌‭‭‌‮⁫‭‪‪⁫‪‭‫‍‮⁭‮​‭‭‌⁭‏⁬‮⁪⁬‬‬⁬⁯⁮‮
+  FIELD public Client.SocketClient ‮⁯⁭‭‫‏‍⁮⁮‪‭‪‪​‮⁬⁯⁪‏‌‬‌‫‬⁭‏‫⁫‬‬⁪​‎⁫‪​⁫‏‏‮‮
+  FIELD private System.Byte[] ​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+  FIELD private System.Runtime.CompilerServices.TaskAwaiter`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] ‪‌⁫‮‬‮⁯⁯‌⁭⁪⁭⁫‎⁮‌‪‬​⁮​⁬‍‭‬‬‮​‪‬⁭⁬‪‏‌‫‫​⁪‭‮
+
+  // --- METHOD Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::MoveNext
+  // sig: System.Void ()
+  // IL size: 832
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁯‏‏‏⁮‍⁯‫‌‭‭‌‮⁫‭‪‪⁫‪‭‫‍‮⁭‮​‭‭‌⁭‏⁬‮⁪⁬‬‬⁬⁯⁮‮
+    IL_0006: stloc.0
+    IL_0007: ldarg.0
+    IL_0008: ldfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‮⁯⁭‭‫‏‍⁮⁮‪‭‪‪​‮⁬⁯⁪‏‌‬‌‫‬⁭‏‫⁫‬‬⁪​‎⁫‪​⁫‏‏‮‮
+    IL_000d: stloc.1
+    IL_000e: ldloc.0
+    IL_000f: brfalse.s IL_0054
+    IL_0011: ldc.i4 -831754754
+    IL_0016: ldc.i4 -848940521
+    IL_001b: xor
+    IL_001c: dup
+    IL_001d: stloc.s 7
+    IL_001f: ldc.i4.3
+    IL_0020: rem.un
+    IL_0021: switch (IL_0005, IL_004c, IL_0030)
+    IL_0032: br.s IL_0054
+    IL_0034: ldarg.0
+    IL_0035: ldc.i4 2048
+    IL_003a: newarr System.Byte
+    IL_003f: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+    IL_0044: ldloc.s 7
+    IL_0046: ldc.i4 -376348640
+    IL_004b: mul
+    IL_004c: ldc.i4 2114848078
+    IL_0051: xor
+    IL_0052: br.s IL_0016
+    IL_0054: nop
+    IL_0055: ldloc.0
+    IL_0056: brfalse IL_01ce
+    IL_005b: ldc.i4 -1078759423
+    IL_0060: ldc.i4 -848940521
+    IL_0065: xor
+    IL_0066: dup
+    IL_0067: stloc.s 7
+    IL_0069: ldc.i4.s 15
+    IL_006b: rem.un
+    IL_006c: switch (IL_0192, IL_0131, IL_00d1, IL_0183, IL_015c, IL_01dc, IL_011f, IL_0257, IL_00bf, IL_0214, IL_009e, IL_0241, IL_00b6, IL_01d8, IL_0057)
+    IL_00ad: br IL_0277
+    IL_00b2: ldloc.s 7
+    IL_00b4: ldc.i4 2089114114
+    IL_00b9: mul
+    IL_00ba: ldc.i4 1881004222
+    IL_00bf: xor
+    IL_00c0: br.s IL_0060
+    IL_00c2: ldloc.1
+    IL_00c3: ldfld Client.SocketClient::‬​⁫‮‫‍‏⁯‭⁪‮‌‎‪‮⁫‭⁮​⁪‏‏​‌‍‍‏‭‫​‪‌‎‎⁪⁪‏‭‫‮‮
+    IL_00c8: brfalse.s IL_00d2
+    IL_00ca: ldc.i4 -1029703087
+    IL_00cf: dup
+    IL_00d0: br.s IL_00d8
+    IL_00d2: ldc.i4 -424131065
+    IL_00d7: dup
+    IL_00d8: pop
+    IL_00d9: br.s IL_0060
+    IL_00db: ldloc.1
+    IL_00dc: ldfld Client.SocketClient::‪‭‬‬⁯‭⁭‏‬​​⁬⁬‫‫‎‬‪‭⁬⁯⁬‎‮⁫‏‏‪‮⁮‫⁭‏‮⁯​⁭⁭‎‮‮
+    IL_00e1: call Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁭⁬‌‏‭‪‭⁬⁭⁯⁫⁪‍‌⁮⁪⁮‎‮⁫​‏⁮⁬‫‌⁬⁪‪‮​‫‮⁭⁯​‏‎​‭‮
+    IL_00e6: brtrue.s IL_00f0
+    IL_00e8: ldc.i4 -1810776841
+    IL_00ed: dup
+    IL_00ee: br.s IL_00f6
+    IL_00f0: ldc.i4 -599286157
+    IL_00f5: dup
+    IL_00f6: pop
+    IL_00f7: ldloc.s 7
+    IL_00f9: ldc.i4 -693393956
+    IL_00fe: mul
+    IL_00ff: xor
+    IL_0100: br IL_0060
+    IL_0105: ldarg.0
+    IL_0106: ldfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+    IL_010b: ldc.i4.0
+    IL_010c: ldelem.u1
+    IL_010d: conv.i1
+    IL_010e: ldloc.2
+    IL_010f: ldc.i4.1
+    IL_0110: sub
+    IL_0111: newarr System.Byte
+    IL_0116: stloc.3
+    IL_0117: ldarg.0
+    IL_0118: ldfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+    IL_011d: ldc.i4.1
+    IL_011e: ldloc.3
+    IL_011f: ldc.i4.0
+    IL_0120: ldloc.2
+    IL_0121: ldc.i4.1
+    IL_0122: sub
+    IL_0123: call Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‫⁭‪‎‎‍‏‭⁬​‍⁮‬‌‎​‬​‭‍‏‏‍‍⁫⁬⁭‮‬‎⁭⁮‎⁬⁮‪‪‪‬‍‮
+    IL_0128: ldloc.3
+    IL_0129: newobj Client.Message2::.ctor
+    IL_012e: stloc.s 4
+    IL_0130: ldloc.s 7
+    IL_0132: ldc.i4 -1861353471
+    IL_0137: mul
+    IL_0138: ldc.i4 1226120037
+    IL_013d: xor
+    IL_013e: br IL_0060
+    IL_0143: ldarg.0
+    IL_0144: ldflda Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‫⁫⁮‫‬⁯‏⁫⁮‍‫‪‎⁫‍‬‎‫‮⁬‎⁮‌⁫⁬⁯‭​⁪‍‬⁫‍‎⁮⁯‏⁮‏‮‮
+    IL_0149: ldloca.s 5
+    IL_014b: ldarg.0
+    IL_014c: call System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted
+    IL_0151: leave IL_033f
+    IL_0156: ldloc.s 7
+    IL_0158: ldc.i4 -984707513
+    IL_015d: mul
+    IL_015e: ldc.i4 1232643956
+    IL_0163: xor
+    IL_0164: br IL_0060
+    IL_0169: ldloca.s 5
+    IL_016b: call System.Runtime.CompilerServices.TaskAwaiter`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::GetResult
+    IL_0170: stloc.2
+    IL_0171: ldloc.2
+    IL_0172: brfalse.s IL_017c
+    IL_0174: ldc.i4 -568866292
+    IL_0179: dup
+    IL_017a: br.s IL_0182
+    IL_017c: ldc.i4 -424131065
+    IL_0181: dup
+    IL_0182: pop
+    IL_0183: br IL_0060
+    IL_0188: ldloc.1
+    IL_0189: ldfld Client.SocketClient::‌‭‌‭‏‭⁮‎‮‪⁭‎⁯⁯⁫‪‍⁮⁯‬‎‎‎‍‎‏⁪‏⁭‫‪‪⁫‪⁭‎‏‎‌‎‮
+    IL_018e: ldarg.0
+    IL_018f: ldfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+    IL_0194: ldc.i4.0
+    IL_0195: ldarg.0
+    IL_0196: ldfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+    IL_019b: ldlen
+    IL_019c: conv.i4
+    IL_019d: call Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁯‬‭‍​⁬‭​‌⁯‍‍⁪⁯⁪‬‏‭‬⁫⁮‍‫‭‏‫‮⁯‌‍‪‮⁮‎⁭‪⁪‫‭‮
+    IL_01a2: callvirt System.Threading.Tasks.Task`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::GetAwaiter
+    IL_01a7: stloc.s 5
+    IL_01a9: ldc.i4 -1745982878
+    IL_01ae: br IL_0060
+    IL_01b3: ldloc.1
+    IL_01b4: ldloc.s 4
+    IL_01b6: call Client.SocketClient::⁪​‫⁯‮⁫‬‭‏‏⁭⁬‏⁭⁫‫‬⁯‫⁪⁮​‌⁬‏‍⁮⁮⁭‮⁫‬⁭⁬⁮‫⁯⁫‌‬‮
+    IL_01bb: ldloc.s 7
+    IL_01bd: ldc.i4 -68195594
+    IL_01c2: mul
+    IL_01c3: ldc.i4 -1277416332
+    IL_01c8: xor
+    IL_01c9: br IL_0060
+    IL_01ce: ldarg.0
+    IL_01cf: ldfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‪‌⁫‮‬‮⁯⁯‌⁭⁪⁭⁫‎⁮‌‪‬​⁮​⁬‍‭‬‬‮​‪‬⁭⁬‪‏‌‫‫​⁪‭‮
+    IL_01d4: stloc.s 5
+    IL_01d6: ldc.i4 -480200917
+    IL_01db: br IL_0060
+    IL_01e0: ldarg.0
+    IL_01e1: ldc.i4.0
+    IL_01e2: dup
+    IL_01e3: stloc.0
+    IL_01e4: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁯‏‏‏⁮‍⁯‫‌‭‭‌‮⁫‭‪‪⁫‪‭‫‍‮⁭‮​‭‭‌⁭‏⁬‮⁪⁬‬‬⁬⁯⁮‮
+    IL_01e9: ldarg.0
+    IL_01ea: ldloc.s 5
+    IL_01ec: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‪‌⁫‮‬‮⁯⁯‌⁭⁪⁭⁫‎⁮‌‪‬​⁮​⁬‍‭‬‬‮​‪‬⁭⁬‪‏‌‫‫​⁪‭‮
+    IL_01f1: ldloc.s 7
+    IL_01f3: ldc.i4 -604304193
+    IL_01f8: mul
+    IL_01f9: ldc.i4 -1581797521
+    IL_01fe: xor
+    IL_01ff: br IL_0060
+    IL_0204: ldarg.0
+    IL_0205: ldflda Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‪‌⁫‮‬‮⁯⁯‌⁭⁪⁭⁫‎⁮‌‪‬​⁮​⁬‍‭‬‬‮​‪‬⁭⁬‪‏‌‫‫​⁪‭‮
+    IL_020a: initobj System.Runtime.CompilerServices.TaskAwaiter`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    IL_0210: ldarg.0
+    IL_0211: ldc.i4.m1
+    IL_0212: dup
+    IL_0213: stloc.0
+    IL_0214: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁯‏‏‏⁮‍⁯‫‌‭‭‌‮⁫‭‪‪⁫‪‭‫‍‮⁭‮​‭‭‌⁭‏⁬‮⁪⁬‬‬⁬⁯⁮‮
+    IL_0219: ldloc.s 7
+    IL_021b: ldc.i4 -1931965412
+    IL_0220: mul
+    IL_0221: ldc.i4 670174299
+    IL_0226: xor
+    IL_0227: br IL_0060
+    IL_022c: ldloc.1
+    IL_022d: ldfld Client.SocketClient::‪‭‬‬⁯‭⁭‏‬​​⁬⁬‫‫‎‬‪‭⁬⁯⁬‎‮⁫‏‏‪‮⁮‫⁭‏‮⁯​⁭⁭‎‮‮
+    IL_0232: brtrue.s IL_023c
+    IL_0234: ldc.i4 -2053725795
+    IL_0239: dup
+    IL_023a: br.s IL_0242
+    IL_023c: ldc.i4 -1306594391
+    IL_0241: dup
+    IL_0242: pop
+    IL_0243: ldloc.s 7
+    IL_0245: ldc.i4 1099239247
+    IL_024a: mul
+    IL_024b: xor
+    IL_024c: br IL_0060
+    IL_0251: ldloca.s 5
+    IL_0253: call System.Runtime.CompilerServices.TaskAwaiter`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]::get_IsCompleted
+    IL_0258: brfalse.s IL_0262
+    IL_025a: ldc.i4 914852599
+    IL_025f: dup
+    IL_0260: br.s IL_0268
+    IL_0262: ldc.i4 1272717127
+    IL_0267: dup
+    IL_0268: pop
+    IL_0269: ldloc.s 7
+    IL_026b: ldc.i4 68807628
+    IL_0270: mul
+    IL_0271: xor
+    IL_0272: br IL_0060
+    IL_0277: leave.s IL_027c
+    IL_0279: pop
+    IL_027a: leave.s IL_027c
+    IL_027c: leave.s IL_02bc
+    IL_027e: ldloc.0
+    IL_027f: ldc.i4.0
+    IL_0280: bge.s IL_02bb
+    IL_0282: ldc.i4 -1488258671
+    IL_0287: ldc.i4 -848940521
+    IL_028c: xor
+    IL_028d: dup
+    IL_028e: stloc.s 7
+    IL_0290: ldc.i4.3
+    IL_0291: rem.un
+    IL_0292: switch (IL_02af, IL_029d, IL_027e)
+    IL_02a3: br.s IL_02bb
+    IL_02a5: ldloc.1
+    IL_02a6: call Client.SocketClient::Disconnect
+    IL_02ab: ldloc.s 7
+    IL_02ad: ldc.i4 -1488813294
+    IL_02b2: mul
+    IL_02b3: ldc.i4 -1777426139
+    IL_02b8: xor
+    IL_02b9: br.s IL_0287
+    IL_02bb: endfinally
+    IL_02bc: leave.s IL_0325
+    IL_02be: stloc.s 6
+    IL_02c0: ldc.i4 -1536980839
+    IL_02c5: ldc.i4 -848940521
+    IL_02ca: xor
+    IL_02cb: dup
+    IL_02cc: stloc.s 7
+    IL_02ce: ldc.i4.4
+    IL_02cf: rem.un
+    IL_02d0: switch (IL_02b0, IL_02f3, IL_02df, IL_0312)
+    IL_02e5: br.s IL_0316
+    IL_02e7: ldarg.0
+    IL_02e8: ldc.i4.s -2
+    IL_02ea: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁯‏‏‏⁮‍⁯‫‌‭‭‌‮⁫‭‪‪⁫‪‭‫‍‮⁭‮​‭‭‌⁭‏⁬‮⁪⁬‬‬⁬⁯⁮‮
+    IL_02ef: ldloc.s 7
+    IL_02f1: ldc.i4 -148300658
+    IL_02f6: mul
+    IL_02f7: ldc.i4 1779691534
+    IL_02fc: xor
+    IL_02fd: br.s IL_02c5
+    IL_02ff: ldarg.0
+    IL_0300: ldnull
+    IL_0301: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+    IL_0306: ldloc.s 7
+    IL_0308: ldc.i4 -1299072521
+    IL_030d: mul
+    IL_030e: ldc.i4 1345624595
+    IL_0313: xor
+    IL_0314: br.s IL_02c5
+    IL_0316: ldarg.0
+    IL_0317: ldflda Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‫⁫⁮‫‬⁯‏⁫⁮‍‫‪‎⁫‍‬‎‫‮⁬‎⁮‌⁫⁬⁯‭​⁪‍‬⁫‍‎⁮⁯‏⁮‏‮‮
+    IL_031c: ldloc.s 6
+    IL_031e: call System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetException
+    IL_0323: leave.s IL_033f
+    IL_0325: ldarg.0
+    IL_0326: ldc.i4.s -2
+    IL_0328: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁯‏‏‏⁮‍⁯‫‌‭‭‌‮⁫‭‪‪⁫‪‭‫‍‮⁭‮​‭‭‌⁭‏⁬‮⁪⁬‬‬⁬⁯⁮‮
+    IL_032d: ldarg.0
+    IL_032e: ldnull
+    IL_032f: stfld Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+    IL_0334: ldarg.0
+    IL_0335: ldflda Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‫⁫⁮‫‬⁯‏⁫⁮‍‫‪‎⁫‍‬‎‫‮⁬‎⁮‌⁫⁬⁯‭​⁪‍‬⁫‍‎⁮⁯‏⁮‏‮‮
+    IL_033a: call System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetResult
+    IL_033f: ret
+
+  // --- METHOD Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::SetStateMachine
+  // sig: System.Void (System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
+  // IL size: 13
+    IL_0000: ldarg.0
+    IL_0001: ldflda Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‫⁫⁮‫‬⁯‏⁫⁮‍‫‪‎⁫‍‬‎‫‮⁬‎⁮‌⁫⁬⁯‭​⁪‍‬⁫‍‎⁮⁯‏⁮‏‮‮
+    IL_0006: ldarg.1
+    IL_0007: call System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetStateMachine
+    IL_000c: ret
+
+  // --- METHOD Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁯‬‭‍​⁬‭​‌⁯‍‍⁪⁯⁪‬‏‭‬⁫⁮‍‫‭‏‫‮⁯‌‍‪‮⁮‎⁭‪⁪‫‭‮
+  // sig: System.Threading.Tasks.Task`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] (System.IO.Stream , System.Byte[] , System.Int32 , System.Int32 )
+  // IL size: 10
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: ldarg.2
+    IL_0003: ldarg.3
+    IL_0004: callvirt System.IO.Stream::ReadAsync
+    IL_0009: ret
+
+  // --- METHOD Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::‫⁭‪‎‎‍‏‭⁬​‍⁮‬‌‎​‬​‭‍‏‏‍‍⁫⁬⁭‮‬‎⁭⁮‎⁬⁮‪‪‪‬‍‮
+  // sig: System.Void (System.Array , System.Int32 , System.Array , System.Int32 , System.Int32 )
+  // IL size: 12
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: ldarg.2
+    IL_0003: ldarg.3
+    IL_0004: ldarg.s 4
+    IL_0006: call System.Buffer::BlockCopy
+    IL_000b: ret
+
+  // --- METHOD Client.SocketClient+74b639Q-|TMOI"0_$x\,AEx-;\,::⁭⁬‌‏‭‪‭⁬⁭⁯⁫⁪‍‌⁮⁪⁮‎‮⁫​‏⁮⁬‫‌⁬⁪‪‮​‫‮⁭⁯​‏‎​‭‮
+  // sig: System.Boolean (System.Net.Sockets.TcpClient )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.Net.Sockets.TcpClient::get_Connected
+    IL_0006: ret
+

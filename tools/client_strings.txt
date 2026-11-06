@@ -1,0 +1,5 @@
+// Module: Client.dll
+// Types: 24
+
+=== User Strings (#US heap) ===
+  (UserStringsHeap unavailable)

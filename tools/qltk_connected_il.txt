@@ -1,0 +1,53 @@
+// ===== TYPE QLTK.ConnectedClient
+// base: System.Object
+private System.Net.Sockets.TcpClient <Client>k__BackingField
+private System.String <STT>k__BackingField
+// property: System.Net.Sockets.TcpClient () Client
+// property: System.String () STT
+
+  // --- METHOD System.Net.Sockets.TcpClient QLTK.ConnectedClient::get_Client()
+  // sig: System.Net.Sockets.TcpClient (QLTK.ConnectedClient )
+  mkrefany
+  stind.i8
+  UNKNOWN1
+  ldind.u1
+  ldc.i8 8841204665762445432
+  ldloc.2
+  ldelem.u4
+  ldind.i2
+  UNKNOWN1
+  UNKNOWN1
+  bge.un
+  UNKNOWN1
+  bge
+  UNKNOWN1
+  UNKNOWN1
+  brtrue
+  UNKNOWN1
+  ldelem
+
+  // --- METHOD System.Void QLTK.ConnectedClient::set_Client(System.Net.Sockets.TcpClient)
+  // sig: System.Void (QLTK.ConnectedClient , System.Net.Sockets.TcpClient value)
+
+  // --- METHOD System.String QLTK.ConnectedClient::get_STT()
+  // sig: System.String (QLTK.ConnectedClient )
+
+  // --- METHOD System.Void QLTK.ConnectedClient::set_STT(System.String)
+  // sig: System.Void (QLTK.ConnectedClient , System.String value)
+  ldarg.0
+  bgt.un.s
+  sub.ovf.un
+  UNKNOWN1
+  UNKNOWN1
+  ldind.u4
+  UNKNOWN1
+  UNKNOWN1
+  starg.s
+  shl
+  ldind.i4
+  ldind.r4
+  rem.un
+
+  // --- METHOD System.Void QLTK.ConnectedClient::.ctor()
+  // sig: System.Void (QLTK.ConnectedClient )
+

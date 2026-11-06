@@ -1,0 +1,122 @@
+// ===== TYPE QLTK.Message2
+// base: System.Object
+  FIELD private System.SByte <Command>k__BackingField
+  FIELD private System.IO.MemoryStream ms
+  FIELD private System.IO.BinaryWriter writer
+
+  // --- METHOD QLTK.Message2::get_Command
+  // sig: System.SByte ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Message2::<Command>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.Message2::set_Command
+  // sig: System.Void (System.SByte value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.Message2::<Command>k__BackingField
+    IL_0007: ret
+
+  // --- METHOD QLTK.Message2::WriteByte
+  // sig: System.Void (System.SByte value)
+  // IL size: 13
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Message2::writer
+    IL_0006: ldarg.1
+    IL_0007: callvirt System.IO.BinaryWriter::Write
+    IL_000c: ret
+
+  // --- METHOD QLTK.Message2::WriteShort
+  // sig: System.Void (System.Int16 value)
+  // IL size: 13
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Message2::writer
+    IL_0006: ldarg.1
+    IL_0007: callvirt System.IO.BinaryWriter::Write
+    IL_000c: ret
+
+  // --- METHOD QLTK.Message2::WriteInt
+  // sig: System.Void (System.Int32 value)
+  // IL size: 13
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Message2::writer
+    IL_0006: ldarg.1
+    IL_0007: callvirt System.IO.BinaryWriter::Write
+    IL_000c: ret
+
+  // --- METHOD QLTK.Message2::WriteString
+  // sig: System.Void (System.String value)
+  // IL size: 13
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Message2::writer
+    IL_0006: ldarg.1
+    IL_0007: callvirt System.IO.BinaryWriter::Write
+    IL_000c: ret
+
+  // --- METHOD QLTK.Message2::GetData
+  // sig: System.Byte[] ()
+  // IL size: 96
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Message2::ms
+    IL_0006: callvirt System.IO.MemoryStream::ToArray
+    IL_000b: stloc.0
+    IL_000c: ldc.i4.1
+    IL_000d: ldloc.0
+    IL_000e: ldlen
+    IL_000f: conv.i4
+    IL_0010: add
+    IL_0011: newarr System.Byte
+    IL_0016: stloc.1
+    IL_0017: ldc.i4 670000979
+    IL_001c: ldc.i4 605749893
+    IL_0021: xor
+    IL_0022: dup
+    IL_0023: stloc.2
+    IL_0024: ldc.i4.3
+    IL_0025: rem.un
+    IL_0026: switch (IL_000b, IL_0031, IL_005a)
+    IL_0037: br.s IL_005e
+    IL_0039: ldloc.1
+    IL_003a: ldc.i4.0
+    IL_003b: ldarg.0
+    IL_003c: call QLTK.Message2::get_Command
+    IL_0041: conv.u1
+    IL_0042: stelem.i1
+    IL_0043: ldloc.0
+    IL_0044: ldc.i4.0
+    IL_0045: ldloc.1
+    IL_0046: ldc.i4.1
+    IL_0047: ldloc.0
+    IL_0048: ldlen
+    IL_0049: conv.i4
+    IL_004a: call System.Buffer::BlockCopy
+    IL_004f: ldloc.2
+    IL_0050: ldc.i4 984768594
+    IL_0055: mul
+    IL_0056: ldc.i4 325054695
+    IL_005b: xor
+    IL_005c: br.s IL_001c
+    IL_005e: ldloc.1
+    IL_005f: ret
+
+  // --- METHOD QLTK.Message2::Cleanup
+  // sig: System.Void ()
+  // IL size: 34
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Message2::writer
+    IL_0006: dup
+    IL_0007: brtrue.s IL_000c
+    IL_0009: pop
+    IL_000a: br.s IL_0011
+    IL_000c: callvirt System.IO.BinaryWriter::Close
+    IL_0011: ldarg.0
+    IL_0012: ldfld QLTK.Message2::ms
+    IL_0017: dup
+    IL_0018: brtrue.s IL_001c
+    IL_001a: pop
+    IL_001b: ret
+    IL_001c: callvirt System.IO.Stream::Close
+    IL_0021: ret
+

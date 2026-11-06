@@ -1,0 +1,140 @@
+// ===== TYPE Client.Message2
+// base: System.Object
+  FIELD private System.SByte ⁬‎‮‫⁫‭​‪⁪‎‎‪‌‬‪⁪‎⁭‎‫⁯‮‎‎‮⁪‬⁬⁫‫‬‌‌⁮‏⁯‌​⁮⁫‮
+  FIELD private System.IO.MemoryStream ‏⁪‎‎‭‎‭‬⁬‍⁬⁬⁬⁬⁫‍‎‌⁭‪‮⁪‫‭‮⁮‬‌‏⁯‍‬⁪⁫⁭‬‫‌‏‫‮
+  FIELD private System.IO.BinaryReader ‎‫‏‮‎‭⁫‮⁫⁭‏‭‭⁪⁭‌​​⁮‮‎‫⁯‬‫⁪‫⁮‬⁬⁯‌​‍⁭‍⁪​⁭‫‮
+
+  // --- METHOD Client.Message2::get_Command
+  // sig: System.SByte ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.Message2::⁬‎‮‫⁫‭​‪⁪‎‎‪‌‬‪⁪‎⁭‎‫⁯‮‎‎‮⁪‬⁬⁫‫‬‌‌⁮‏⁯‌​⁮⁫‮
+    IL_0006: ret
+
+  // --- METHOD Client.Message2::⁮‬⁯⁬‌⁪‪‫‬⁯⁯‌‪‮‫‏‫⁫​⁭‏​​‬​⁬‭⁯⁮⁮​‪⁭⁭⁮‎‍​‌⁪‮
+  // sig: System.Void (System.SByte )
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld Client.Message2::⁬‎‮‫⁫‭​‪⁪‎‎‪‌‬‪⁪‎⁭‎‫⁯‮‎‎‮⁪‬⁬⁫‫‬‌‌⁮‏⁯‌​⁮⁫‮
+    IL_0007: ret
+
+  // --- METHOD Client.Message2::ReadByte
+  // sig: System.SByte ()
+  // IL size: 13
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.Message2::‎‫‏‮‎‭⁫‮⁫⁭‏‭‭⁪⁭‌​​⁮‮‎‫⁯‬‫⁪‫⁮‬⁬⁯‌​‍⁭‍⁪​⁭‫‮
+    IL_0006: call Client.Message2::‮‌‎⁬‌‍⁫​⁯⁬⁬‭‭‏‎⁭‫⁯⁫⁬‪‍‍⁯‌‫‌‎‌‮​⁭‌‏⁮⁬⁫⁪‎‍‮
+    IL_000b: conv.i1
+    IL_000c: ret
+
+  // --- METHOD Client.Message2::ReadShort
+  // sig: System.Int16 ()
+  // IL size: 12
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.Message2::‎‫‏‮‎‭⁫‮⁫⁭‏‭‭⁪⁭‌​​⁮‮‎‫⁯‬‫⁪‫⁮‬⁬⁯‌​‍⁭‍⁪​⁭‫‮
+    IL_0006: call Client.Message2::‮‭⁬‮‬⁬‮‭⁫‮​⁯⁪‬‪‪‫‎⁪​⁪‌‬‌‪⁯⁪‫‫⁪⁮‫‎‭​‮‎‌⁫‫‮
+    IL_000b: ret
+
+  // --- METHOD Client.Message2::ReadInt
+  // sig: System.Int32 ()
+  // IL size: 12
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.Message2::‎‫‏‮‎‭⁫‮⁫⁭‏‭‭⁪⁭‌​​⁮‮‎‫⁯‬‫⁪‫⁮‬⁬⁯‌​‍⁭‍⁪​⁭‫‮
+    IL_0006: call Client.Message2::⁬⁯‍⁮‭⁫⁯‎‌​⁯⁬‭‪⁭⁮​‭⁯​‭⁪⁬⁯⁬‮‌⁯‏‬‍​‪‎‌⁬‬‮⁮‏‮
+    IL_000b: ret
+
+  // --- METHOD Client.Message2::ReadString
+  // sig: System.String ()
+  // IL size: 12
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.Message2::‎‫‏‮‎‭⁫‮⁫⁭‏‭‭⁪⁭‌​​⁮‮‎‫⁯‬‫⁪‫⁮‬⁬⁯‌​‍⁭‍⁪​⁭‫‮
+    IL_0006: call Client.Message2::‬⁮‍​‎‎‬​⁫‭‭‫⁫⁪⁭‍‮‭⁬‮⁯‫‌‬⁫⁬‍⁮‍⁮‪‬‬‌‬‏⁫‎‎⁫‮
+    IL_000b: ret
+
+  // --- METHOD Client.Message2::Cleanup
+  // sig: System.Void ()
+  // IL size: 75
+    IL_0000: ldarg.0
+    IL_0001: ldfld Client.Message2::‎‫‏‮‎‭⁫‮⁫⁭‏‭‭⁪⁭‌​​⁮‮‎‫⁯‬‫⁪‫⁮‬⁬⁯‌​‍⁭‍⁪​⁭‫‮
+    IL_0006: dup
+    IL_0007: brtrue.s IL_000c
+    IL_0009: pop
+    IL_000a: br.s IL_0033
+    IL_000c: call Client.Message2::‫‬‮⁬⁯‮⁭‭‬⁮‌⁮⁬⁯​⁪​⁫​⁬‫‭‌⁮‮⁭‌⁪‬⁯‫⁭​‭​‌⁬⁮‍⁯‮
+    IL_0011: ldc.i4 1688465452
+    IL_0016: ldc.i4 1346997071
+    IL_001b: xor
+    IL_001c: dup
+    IL_001d: stloc.0
+    IL_001e: ldc.i4.3
+    IL_001f: rem.un
+    IL_0020: switch (IL_003e, IL_002b, IL_000d)
+    IL_0031: br.s IL_004a
+    IL_0033: ldarg.0
+    IL_0034: ldfld Client.Message2::‏⁪‎‎‭‎‭‬⁬‍⁬⁬⁬⁬⁫‍‎‌⁭‪‮⁪‫‭‮⁮‬‌‏⁯‍‬⁪⁫⁭‬‫‌‏‫‮
+    IL_0039: dup
+    IL_003a: brtrue.s IL_003e
+    IL_003c: pop
+    IL_003d: ret
+    IL_003e: call Client.Message2::‫⁮‭⁬‍‍⁪‎⁬‮‎​⁫‮​⁬‏​‪‌‌‪⁫⁭⁬‬‬⁬‎‪⁭​⁫⁬‎⁫‌‏‪⁯‮
+    IL_0043: ldc.i4 1187066631
+    IL_0048: br.s IL_0016
+    IL_004a: ret
+
+  // --- METHOD Client.Message2::⁮‍⁮⁬‮⁪⁬⁫⁫⁬‌‌‎‬​‎‮‬⁮⁭‪‍‎⁯‎​‍⁯⁪‫⁯‫⁬‍‎⁪‮⁮‮⁪‮
+  // sig: System.IO.MemoryStream (System.Byte[] )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: newobj System.IO.MemoryStream::.ctor
+    IL_0006: ret
+
+  // --- METHOD Client.Message2::⁬⁯‌‮‌‪‬‭‎‌‬‍‎​‮‍⁯⁪‮‍‪⁫‌⁮‫‎⁬⁪⁬⁯‬⁫⁪⁮‫⁬⁬‌⁮‮‮
+  // sig: System.IO.BinaryReader (System.IO.Stream )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: newobj System.IO.BinaryReader::.ctor
+    IL_0006: ret
+
+  // --- METHOD Client.Message2::‮‌‎⁬‌‍⁫​⁯⁬⁬‭‭‏‎⁭‫⁯⁫⁬‪‍‍⁯‌‫‌‎‌‮​⁭‌‏⁮⁬⁫⁪‎‍‮
+  // sig: System.Byte (System.IO.BinaryReader )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.IO.BinaryReader::ReadByte
+    IL_0006: ret
+
+  // --- METHOD Client.Message2::‮‭⁬‮‬⁬‮‭⁫‮​⁯⁪‬‪‪‫‎⁪​⁪‌‬‌‪⁯⁪‫‫⁪⁮‫‎‭​‮‎‌⁫‫‮
+  // sig: System.Int16 (System.IO.BinaryReader )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.IO.BinaryReader::ReadInt16
+    IL_0006: ret
+
+  // --- METHOD Client.Message2::⁬⁯‍⁮‭⁫⁯‎‌​⁯⁬‭‪⁭⁮​‭⁯​‭⁪⁬⁯⁬‮‌⁯‏‬‍​‪‎‌⁬‬‮⁮‏‮
+  // sig: System.Int32 (System.IO.BinaryReader )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.IO.BinaryReader::ReadInt32
+    IL_0006: ret
+
+  // --- METHOD Client.Message2::‬⁮‍​‎‎‬​⁫‭‭‫⁫⁪⁭‍‮‭⁬‮⁯‫‌‬⁫⁬‍⁮‍⁮‪‬‬‌‬‏⁫‎‎⁫‮
+  // sig: System.String (System.IO.BinaryReader )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.IO.BinaryReader::ReadString
+    IL_0006: ret
+
+  // --- METHOD Client.Message2::‫‬‮⁬⁯‮⁭‭‬⁮‌⁮⁬⁯​⁪​⁫​⁬‫‭‌⁮‮⁭‌⁪‬⁯‫⁭​‭​‌⁬⁮‍⁯‮
+  // sig: System.Void (System.IO.BinaryReader )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.IO.BinaryReader::Close
+    IL_0006: ret
+
+  // --- METHOD Client.Message2::‫⁮‭⁬‍‍⁪‎⁬‮‎​⁫‮​⁬‏​‪‌‌‪⁫⁭⁬‬‬⁬‎‪⁭​⁫⁬‎⁫‌‏‪⁯‮
+  // sig: System.Void (System.IO.Stream )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.IO.Stream::Close
+    IL_0006: ret
+

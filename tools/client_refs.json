@@ -1,0 +1,243 @@
+{
+  "typeRefs": [
+    "AutoAttackButton",
+    "BLCDHGMIHPL",
+    "BPOKMCKCJKJ",
+    "CLKCLOAPJML",
+    "COOBGHGGLAL",
+    "Character",
+    "CharacterChoosingPanel",
+    "CharacterMenu",
+    "CharacterPotentialPanel",
+    "CharacterSelfPanel",
+    "DIFKNIIGPCC",
+    "DJLADAKKHMP",
+    "DNFBLONPLOA",
+    "DOOIELMMGKB",
+    "DeathPanel",
+    "EFFCFPNCBJD",
+    "EJFBNIODBLG",
+    "EJKPNMNFEOE",
+    "FJEDEOJGFNK",
+    "GCFNAPKFNCO",
+    "GKBHCLMJGAN",
+    "GLLHIFOACHM",
+    "GameManager",
+    "IJCIBJAMPJN",
+    "IPJOFEIIKBB",
+    "ItemMapObject",
+    "JAOMCLLDEPL",
+    "JBAINENAHKL",
+    "JCJHIGFEGDA",
+    "JEFLEIBIONE",
+    "KJBCMIBCOFO",
+    "LAGOHDMMBBJ",
+    "LOCMCJKLLHM",
+    "LoginPanel",
+    "LoginUIManager",
+    "MBDDAGDNLOC",
+    "MCCLODPEBLN",
+    "MFEOGLCPIEI",
+    "MPEHLILNBOF",
+    "MainGame",
+    "MainPlayer",
+    "MapGateway",
+    "Mob",
+    "MyButton",
+    "MyButtonNoText",
+    "MyInputField",
+    "NHKOFKMGEJL",
+    "NOACOHGAEHH",
+    "NPC",
+    "NameNpcController",
+    "NotifyPopup",
+    "OMPGBEPPNHL",
+    "PGNDOJHLPCB",
+    "ParallaxBackground",
+    "Player",
+    "PlayerGuild",
+    "ZoneObject",
+    "ZonePanel"
+  ],
+  "members": {
+    "BLCDHGMIHPL": [
+      "M Il2CppSystem.Collections.Generic.List\u00601 get_JCCCGADGFPI()"
+    ],
+    "BPOKMCKCJKJ": [
+      "M System.Int32 get_EOEPCAIFAOL()",
+      "M System.Int32 get_HECCHOGCMED()",
+      "M System.Int32 get_IJHPCLBDEFE()",
+      "M System.Int32 get_KKBMABNNJPK()",
+      "M System.Int32 get_PFPEPAAPCNM()"
+    ],
+    "CLKCLOAPJML": [
+      "M System.Int32 get_MODGFKMJMAC()",
+      "M System.Int64 get_GELEEIMJMAD()"
+    ],
+    "COOBGHGGLAL": [
+      "M System.Int32 BGMANEHJENG()",
+      "M System.Int32 MIMIIFKKMOO()",
+      "M System.Int64 get_KOEKMOPGGFJ()"
+    ],
+    "Character": [
+      "M System.Int32 getId()",
+      "M System.Void setPosition(UnityEngine.Vector2)",
+      "M UnityEngine.Vector2 getPosition()"
+    ],
+    "CharacterMenu": [
+      "M CharacterMenu create(System.Int32)",
+      "M CharacterSelfPanel get_characterSelfPanel()"
+    ],
+    "CharacterPotentialPanel": [
+      "M System.Int32 get_LDLKCIFNIGO()"
+    ],
+    "CharacterSelfPanel": [
+      "M CharacterPotentialPanel get_potentialPanel()"
+    ],
+    "DJLADAKKHMP": [
+      "M System.Int32 IJJIJDCKOOH()"
+    ],
+    "DNFBLONPLOA": [
+      "M Il2CppSystem.Threading.Tasks.Task\u00601 OIABELHLAEG(System.String)"
+    ],
+    "DOOIELMMGKB": [
+      "M DeathPanel JJEMLLGGGKJ()",
+      "M ZonePanel MKMKEOFCOBJ()"
+    ],
+    "DeathPanel": [
+      "M MyButton get_returnButton()"
+    ],
+    "EFFCFPNCBJD": [
+      "M Il2CppSystem.Collections.Generic.List\u00601 get_GGEEPLHKCBF()"
+    ],
+    "EJFBNIODBLG": [
+      "M System.Int32 get_JLKKPJHKBHP()"
+    ],
+    "EJKPNMNFEOE": [
+      "M System.Int32 get_BBAGHOLHFAH()",
+      "M System.Int32 get_EPBJMINDMEF()",
+      "M System.Int32 get_GIKBNAJMKPH()",
+      "M System.Int32 get_NAKCAKAPBGP()"
+    ],
+    "FJEDEOJGFNK": [
+      "M Il2CppSystem.Collections.Generic.Dictionary\u00602 get_MKFJFMCMEOM()"
+    ],
+    "GameManager": [
+      "M GameManager gI()",
+      "M JAOMCLLDEPL get_EHPCKPCNHKP()",
+      "M KJBCMIBCOFO get_EKMKBMOBNAI()",
+      "M MainPlayer getMyPlayer()",
+      "M NOACOHGAEHH get_BAHMMHAIGKE()"
+    ],
+    "IJCIBJAMPJN": [
+      "M System.Void set_GKDECGNBDFJ(System.String)",
+      "M System.Void set_KGFDJIJNPDM(System.Int32)"
+    ],
+    "ItemMapObject": [
+      "M COOBGHGGLAL get_ILNBLLPOOKI()",
+      "M System.Boolean isPicked()",
+      "M System.Void interact()",
+      "M UnityEngine.Vector2 getCurrPosition()"
+    ],
+    "JAOMCLLDEPL": [
+      "M EFFCFPNCBJD get_OOPJDFFBMFI()",
+      "M GLLHIFOACHM get_JMBGBLEMBBD()",
+      "M OMPGBEPPNHL get_JPPLHGMGPIK()"
+    ],
+    "JBAINENAHKL": [
+      "M Il2CppInterop.Runtime.InteropTypes.Arrays.Il2CppReferenceArray\u00601 get_MOJJFMIGODK()"
+    ],
+    "JEFLEIBIONE": [
+      "M FJEDEOJGFNK get_KPECONEBLNB()",
+      "M IPJOFEIIKBB get_NIEPOAFCHJD()",
+      "M JEFLEIBIONE get_IOGMNBMOJGD()"
+    ],
+    "KJBCMIBCOFO": [
+      "M MCCLODPEBLN get_GOOBMCFMAOE()"
+    ],
+    "LAGOHDMMBBJ": [
+      "M System.Int32 get_PFPEPAAPCNM()",
+      "M System.String get_ACEPIEJKIJH()"
+    ],
+    "LOCMCJKLLHM": [
+      "M System.Int32 get_GNPMGPMANEM()",
+      "M System.Int32 get_GPOHMPIBGLF()"
+    ],
+    "LoginPanel": [
+      "M MyInputField get_accountField()",
+      "M MyInputField get_passwordField()",
+      "M System.Void invokeLoginBtn()"
+    ],
+    "LoginUIManager": [
+      "M CharacterChoosingPanel get_characterChoosingPanel()",
+      "M LoginPanel get_loginPanel()",
+      "M LoginUIManager gI()"
+    ],
+    "MBDDAGDNLOC": [
+      "M System.Int32 get_FADIHJMKCOD()",
+      "M System.Int32 get_KKBMABNNJPK()"
+    ],
+    "MCCLODPEBLN": [
+      "M System.Int32 get_AHJHNBHHAJK()",
+      "M System.Int32 get_BLLOGDLPHNK()",
+      "M System.Int32 get_PFPEPAAPCNM()"
+    ],
+    "MainGame": [
+      "M MainGame gI()",
+      "M System.Boolean get__HHKKHJFAPDE_k__BackingField()"
+    ],
+    "MainPlayer": [
+      "M MPEHLILNBOF LBMKGDMOPMH()",
+      "M System.Void moveTo(System.Single,System.Single)"
+    ],
+    "MapGateway": [
+      "M System.Int32 getToMapId()",
+      "M System.String getToMapName()"
+    ],
+    "Mob": [
+      "M MBDDAGDNLOC get_JOMMPHAGIHL()"
+    ],
+    "MyButtonNoText": [
+      "M UnityEngine.UI.Button get_button()"
+    ],
+    "MyInputField": [
+      "M System.Void setText(System.String)"
+    ],
+    "NOACOHGAEHH": [
+      "M Il2CppSystem.Collections.Generic.List\u00601 get_DIBPPNOEMMO()"
+    ],
+    "NPC": [
+      "M EJFBNIODBLG get_KHOIMADEJJH()",
+      "M NameNpcController get_nameController()"
+    ],
+    "NameNpcController": [
+      "M TMPro.TextMeshProUGUI get_npcName()"
+    ],
+    "PGNDOJHLPCB": [
+      "M System.Void CKBENJOCLGD(System.Int32)",
+      "M System.Void HEIJIMCJPAF(System.Int32,System.Int32,System.Int32,System.Int32)",
+      "M System.Void HHIHPKDEAKF(System.Int32,System.Int32)",
+      "M System.Void HLKELBGGLAL()",
+      "M System.Void IEKIFBLPHPO(System.Int32)",
+      "M System.Void JCLILCGNEBG()",
+      "M System.Void MJJHHAGDMMD(System.Int32)",
+      "M System.Void NNNLHPHOHHG(System.Int32)",
+      "M System.Void OEFPPLKFPHH(System.Int32)",
+      "M System.Void OEPGNBOENIL(Il2CppSystem.Collections.Generic.Dictionary\u00602)",
+      "M System.Void PMKMEFJPENG(System.Int32)"
+    ],
+    "Player": [
+      "M EJKPNMNFEOE get_FLJIHHILJEE()",
+      "M LAGOHDMMBBJ get_OCOHKKHDIDA()",
+      "M PlayerGuild get_playerGuild()"
+    ],
+    "PlayerGuild": [
+      "M TMPro.TextMeshProUGUI get_guildName()"
+    ],
+    "ZonePanel": [
+      "M BLCDHGMIHPL get_FPLDODNFMPA()",
+      "M MyButton get_closeButton()",
+      "M System.Void onTabSelect(System.Int32)"
+    ]
+  }
+}

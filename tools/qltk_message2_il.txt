@@ -1,0 +1,34 @@
+// ===== TYPE QLTK.Message2
+// base: System.Object
+private System.SByte <Command>k__BackingField
+private System.IO.MemoryStream ms
+private System.IO.BinaryWriter writer
+// property: System.SByte () Command
+
+  // --- METHOD System.SByte QLTK.Message2::get_Command()
+  // sig: System.SByte (QLTK.Message2 )
+
+  // --- METHOD System.Void QLTK.Message2::set_Command(System.SByte)
+  // sig: System.Void (QLTK.Message2 , System.SByte value)
+
+  // --- METHOD System.Void QLTK.Message2::.ctor(System.SByte)
+  // sig: System.Void (QLTK.Message2 , System.SByte command)
+
+  // --- METHOD System.Void QLTK.Message2::WriteByte(System.SByte)
+  // sig: System.Void (QLTK.Message2 , System.SByte value)
+
+  // --- METHOD System.Void QLTK.Message2::WriteShort(System.Int16)
+  // sig: System.Void (QLTK.Message2 , System.Int16 value)
+
+  // --- METHOD System.Void QLTK.Message2::WriteInt(System.Int32)
+  // sig: System.Void (QLTK.Message2 , System.Int32 value)
+
+  // --- METHOD System.Void QLTK.Message2::WriteString(System.String)
+  // sig: System.Void (QLTK.Message2 , System.String value)
+
+  // --- METHOD System.Byte[] QLTK.Message2::GetData()
+  // sig: System.Byte[] (QLTK.Message2 )
+
+  // --- METHOD System.Void QLTK.Message2::Cleanup()
+  // sig: System.Void (QLTK.Message2 )
+

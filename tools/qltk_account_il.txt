@@ -1,0 +1,190 @@
+// ===== TYPE QLTK.Account
+// base: System.Object
+private System.Boolean <IsSelected>k__BackingField
+private System.Boolean <Nhat>k__BackingField
+private System.String <Username>k__BackingField
+private System.String <Password>k__BackingField
+private System.String <Server>k__BackingField
+private System.String <CharIndex>k__BackingField
+private System.String <Resolution>k__BackingField
+private System.String <Note>k__BackingField
+private System.Boolean <UseProxy>k__BackingField
+private System.String <ProxyHost>k__BackingField
+private System.String <ProxyPort>k__BackingField
+private System.String <ProxyUser>k__BackingField
+private System.String <ProxyPass>k__BackingField
+private System.String <ProxyStatus>k__BackingField
+// property: System.Boolean () IsSelected
+// property: System.Boolean () Nhat
+// property: System.String () Username
+// property: System.String () Password
+// property: System.String () Server
+// property: System.String () CharIndex
+// property: System.String () Resolution
+// property: System.String () Note
+// property: System.Boolean () UseProxy
+// property: System.String () ProxyHost
+// property: System.String () ProxyPort
+// property: System.String () ProxyUser
+// property: System.String () ProxyPass
+// property: System.String () ProxyDisplay
+// property: System.String () ProxyStatus
+
+  // --- METHOD System.Boolean QLTK.Account::get_IsSelected()
+  // sig: System.Boolean (QLTK.Account )
+
+  // --- METHOD System.Void QLTK.Account::set_IsSelected(System.Boolean)
+  // sig: System.Void (QLTK.Account , System.Boolean value)
+
+  // --- METHOD System.Boolean QLTK.Account::get_Nhat()
+  // sig: System.Boolean (QLTK.Account )
+
+  // --- METHOD System.Void QLTK.Account::set_Nhat(System.Boolean)
+  // sig: System.Void (QLTK.Account , System.Boolean value)
+
+  // --- METHOD System.String QLTK.Account::get_Username()
+  // sig: System.String (QLTK.Account )
+
+  // --- METHOD System.Void QLTK.Account::set_Username(System.String)
+  // sig: System.Void (QLTK.Account , System.String value)
+
+  // --- METHOD System.String QLTK.Account::get_Password()
+  // sig: System.String (QLTK.Account )
+
+  // --- METHOD System.Void QLTK.Account::set_Password(System.String)
+  // sig: System.Void (QLTK.Account , System.String value)
+
+  // --- METHOD System.String QLTK.Account::get_Server()
+  // sig: System.String (QLTK.Account )
+
+  // --- METHOD System.Void QLTK.Account::set_Server(System.String)
+  // sig: System.Void (QLTK.Account , System.String value)
+
+  // --- METHOD System.String QLTK.Account::get_CharIndex()
+  // sig: System.String (QLTK.Account )
+
+  // --- METHOD System.Void QLTK.Account::set_CharIndex(System.String)
+  // sig: System.Void (QLTK.Account , System.String value)
+  mkrefany
+  call
+  stind.i1
+  stind.i
+  shl
+  conv.u8
+  bge.un
+  dup
+  UNKNOWN1
+  or
+  ldarga.s
+  br
+  conv.ovf.u2.un
+  ldc.i4.6
+  ldc.r4 -3.8763048E-07
+  stloc.1
+  UNKNOWN1
+  bgt
+  blt.un
+  bge
+  blt.un
+  unbox.any
+
+  // --- METHOD System.String QLTK.Account::get_Resolution()
+  // sig: System.String (QLTK.Account )
+
+  // --- METHOD System.Void QLTK.Account::set_Resolution(System.String)
+  // sig: System.Void (QLTK.Account , System.String value)
+
+  // --- METHOD System.String QLTK.Account::get_Note()
+  // sig: System.String (QLTK.Account )
+
+  // --- METHOD System.Void QLTK.Account::set_Note(System.String)
+  // sig: System.Void (QLTK.Account , System.String value)
+
+  // --- METHOD System.Boolean QLTK.Account::get_UseProxy()
+  // sig: System.Boolean (QLTK.Account )
+  ldarg.1
+  xor
+  ldfld
+  div.un
+  xor
+  stelem.i2
+  UNKNOWN1
+  starg.s
+  ldelem.ref
+  ldelem.ref
+  conv.r.un
+  UNKNOWN1
+  conv.ovf.u
+  pop
+  UNKNOWN1
+  ble.un.s
+  UNKNOWN1
+  ldelem.r4
+  ldc.i4.s -107
+  ldsflda
+  conv.i4
+  conv.ovf.u1
+  UNKNOWN1
+  ldind.u4
+  UNKNOWN1
+  ldstr ""
+  UNKNOWN1
+  UNKNOWN1
+  UNKNOWN1
+  ldelem.i4
+  UNKNOWN1
+  bgt.un
+  prefix5
+  UNKNOWN1
+  stelem
+
+  // --- METHOD System.Void QLTK.Account::set_UseProxy(System.Boolean)
+  // sig: System.Void (QLTK.Account , System.Boolean value)
+
+  // --- METHOD System.String QLTK.Account::get_ProxyHost()
+  // sig: System.String (QLTK.Account )
+
+  // --- METHOD System.Void QLTK.Account::set_ProxyHost(System.String)
+  // sig: System.Void (QLTK.Account , System.String value)
+
+  // --- METHOD System.String QLTK.Account::get_ProxyPort()
+  // sig: System.String (QLTK.Account )
+
+  // --- METHOD System.Void QLTK.Account::set_ProxyPort(System.String)
+  // sig: System.Void (QLTK.Account , System.String value)
+
+  // --- METHOD System.String QLTK.Account::get_ProxyUser()
+  // sig: System.String (QLTK.Account )
+
+  // --- METHOD System.Void QLTK.Account::set_ProxyUser(System.String)
+  // sig: System.Void (QLTK.Account , System.String value)
+
+  // --- METHOD System.String QLTK.Account::get_ProxyPass()
+  // sig: System.String (QLTK.Account )
+
+  // --- METHOD System.Void QLTK.Account::set_ProxyPass(System.String)
+  // sig: System.Void (QLTK.Account , System.String value)
+
+  // --- METHOD System.String QLTK.Account::get_ProxyDisplay()
+  // sig: System.String (QLTK.Account )
+  UNKNOWN1
+  stsfld
+  conv.u4
+  add.ovf.un
+  UNKNOWN1
+  ldloc.2
+  UNKNOWN1
+  ldloc.s
+  conv.u
+  newarr
+  switch ()
+
+  // --- METHOD System.String QLTK.Account::get_ProxyStatus()
+  // sig: System.String (QLTK.Account )
+
+  // --- METHOD System.Void QLTK.Account::set_ProxyStatus(System.String)
+  // sig: System.Void (QLTK.Account , System.String value)
+
+  // --- METHOD System.Void QLTK.Account::.ctor()
+  // sig: System.Void (QLTK.Account )
+

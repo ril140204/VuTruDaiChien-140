@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"$env:LOCALAPPDATA\\\\Microsoft\\\\dotnet\\\\dotnet.exe\" build \"D:\\\\game\\\\VuTruDaiChien_140\\\\tools\\\\plugin140\\\\QLTK.Client140.csproj\" -c Release 2>&1 | Select-Object -Last 30)"
+    ]
+  }
+}

@@ -1,0 +1,1867 @@
+// ===== TYPE Client.LoginMod
+// base: System.Object
+  FIELD public static System.Boolean nhatItem
+  FIELD public System.String autoUser
+  FIELD private System.String ‫‮‍‭​‪‎‍​‮⁫⁭‭‏⁬‮‭‍⁪‪‏‮⁬⁯⁯⁬⁮⁬⁪⁫⁫‏‎⁯​‌⁯​‮⁯‮
+  FIELD private System.String ‎‌‎⁪‏‪‫‌‭‪⁪‭​‮‬‪⁬‭⁫‏⁪⁭⁫‏‬⁪⁫‍⁪‬⁮‍‎⁫‎⁬‎‫‍‪‮
+  FIELD private System.Boolean ‎⁫‍‪⁫‮‬‌‏​‍⁮‪‬⁭‍⁮⁫⁯‪‬‫⁬‮‬‎‏‪‫‮⁮‪‭‪‍‮‫‬‎‮
+  FIELD private System.Boolean ‫⁭‭​‎⁯‌⁬‪‌⁬​‮‫‌‪‌‬‮​‍‌⁫⁮⁮‮⁮‭⁪‫‬​‭‮⁪‭⁭‍‭‭‮
+  FIELD private System.Boolean ‍⁯‮⁯‍‬‏‪​⁬⁯‍⁮⁮⁪‍⁫⁭‪‏‪‭⁯⁬⁮⁭‎⁫⁯‎‮‍​‌‬‬​‬⁮‍‮
+  FIELD private System.Single ‍‬⁭⁫⁭⁫‪‭⁭‫‭⁮‪‌⁮​‎⁪‏‍‏⁬‏⁮‎‫⁪​⁭‌​‏‎⁫‎​⁪⁮‮‪‮
+  FIELD private System.String ‬‏⁫⁪‭⁭⁭‏‎‭‬‭‏‫‬‎⁫‮‬⁪⁫‫​‎‏‌⁭⁭‌‍​⁬​‌⁬‬‭‮⁯‮
+  FIELD private System.String ‫⁬‌‭⁯‭‫‪‪⁮⁪‌⁪‬⁫⁭‬⁯‭​​⁪‪⁬⁭⁫‎⁮‏⁫​‌‮⁭⁭‭⁯‭⁭⁪‮
+  FIELD private System.String ⁫⁮‬‪​⁭⁬‬‍‌‬‬‎‫‫‮⁬⁪​‍‍⁪​⁫‏⁮​‭‭‏‬⁭​‎⁮‪⁪⁬‏⁪‮
+  FIELD private System.Single ⁭‎‭‪⁯‪‪​‌⁬⁮⁫⁯⁪⁯​⁪‭⁫‭‍⁯‫‫⁫⁪⁮‪‏⁪‮⁯‪‎⁭⁬⁫⁭⁫‮
+  FIELD private System.Boolean ⁯‎⁯‫‬⁪‫‏‪‪‭‪‬‫⁪‫‪‫‮⁭‮‎‮⁫‌‪⁫⁫‭⁫‪‫‌⁯‮⁭⁬⁯‎⁫‮
+  FIELD private System.Single ⁫‏⁮‬‭⁭‮‬‌‏‌​‪‍⁮‮‫‪⁯‪‌‪‍‏‌‏‭⁭‮⁮‫⁫‍⁬⁫⁫‎⁮‎‪‮
+  FIELD public static System.Int32 STT
+
+  // --- METHOD Client.LoginMod::Start
+  // sig: System.Void ()
+  // IL size: 1035
+    IL_0000: call Client.LoginMod::‪​‫‭‫‍⁭​​‭‪‭‍‭‮‫‫‮‭⁮⁯⁬‎⁬‫⁬​⁯‍‭⁬⁯⁫⁯‫⁪‍‌​‮‮
+    IL_0005: stloc.0
+    IL_0006: ldc.i4.0
+    IL_0007: stloc.1
+    IL_0008: br IL_0354
+    IL_000d: ldc.i4 -1746786247
+    IL_0012: ldc.i4 -2036822485
+    IL_0017: xor
+    IL_0018: dup
+    IL_0019: stloc.s 5
+    IL_001b: ldc.i4.s 27
+    IL_001d: rem.un
+    IL_001e: switch (IL_024c, IL_0323, IL_0216, IL_0287, IL_0378, IL_ffffffb5, IL_01b3, IL_031e, IL_01ce, IL_00f2, IL_0114, IL_0054, IL_025e, IL_014b, IL_021c, IL_03da, IL_01a9, IL_00e6, IL_0207, IL_038f, IL_00a2, IL_033c, IL_02e1, IL_0302, IL_03e5, IL_00da, IL_01a4)
+    IL_008f: br IL_040a
+    IL_0094: ldloc.0
+    IL_0095: ldloc.1
+    IL_0096: ldelem.ref
+    IL_0097: ldc.i4 979133711
+    IL_009c: br.s IL_009e
+    IL_009e: call ::‌⁯⁪⁭‫⁪‍‏⁭‫⁮⁪‌‏‭​‎⁫‭⁮‎​‎‌‫‪⁭‍‍‎⁯‍‬⁯​​⁯⁫‭‪‮
+    IL_00a3: call Client.LoginMod::⁮‬​⁯‮‌⁭⁬‭⁬‬⁫⁮⁬‭‫⁬‌‍‏⁫⁭‫‍⁭⁫‫‮‪⁮‍‭‏⁬⁫‌​‮‬‭‮
+    IL_00a8: brfalse.s IL_00b2
+    IL_00aa: ldc.i4 -1474288574
+    IL_00af: dup
+    IL_00b0: br.s IL_00b8
+    IL_00b2: ldc.i4 -108232764
+    IL_00b7: dup
+    IL_00b8: pop
+    IL_00b9: br IL_0012
+    IL_00be: ldloc.s 4
+    IL_00c0: stsfld Client.DirectProxyConfig::ProxyPort
+    IL_00c5: ldstr ""
+    IL_00ca: stsfld Client.DirectProxyConfig::ProxyUser
+    IL_00cf: ldloc.s 5
+    IL_00d1: ldc.i4 1110925879
+    IL_00d6: mul
+    IL_00d7: ldc.i4 492253669
+    IL_00dc: xor
+    IL_00dd: br IL_0012
+    IL_00e2: ldloc.0
+    IL_00e3: ldloc.1
+    IL_00e4: ldc.i4.3
+    IL_00e5: add
+    IL_00e6: ldelem.ref
+    IL_00e7: ldc.i4 54436863
+    IL_00ec: br.s IL_00ee
+    IL_00ee: call ::‌⁮‍‬​‏⁯​‎⁬⁭‪‭‮‬⁮‪‪‭‎⁭‭‮‏‮‏⁪‍‫‭​‪⁪‍⁫‎‬‍‫⁭‮
+    IL_00f3: call Client.LoginMod::⁪⁭⁯⁫⁫⁬‍‭‍​‬⁮⁭‏‭⁮‍⁫⁬⁮‏‌⁫⁯⁬‫‬‍‪⁬⁪​‎‮‏‌​‮‪⁬‮
+    IL_00f8: brtrue.s IL_0102
+    IL_00fa: ldc.i4 -108232764
+    IL_00ff: dup
+    IL_0100: br.s IL_0108
+    IL_0102: ldc.i4 -81415047
+    IL_0107: dup
+    IL_0108: pop
+    IL_0109: br IL_0012
+    IL_010e: ldloc.0
+    IL_010f: ldloc.1
+    IL_0110: ldc.i4.3
+    IL_0111: add
+    IL_0112: ldelem.ref
+    IL_0113: ldc.i4 1766771226
+    IL_0118: br.s IL_011a
+    IL_011a: call ::‪‎‏‮‌⁪‫‭‮⁫‍​⁬⁮⁭‬‫‪‫​‪‎‪‬‏‮⁬‌⁮‭‮⁪‏‬‌‎‪⁫‏⁪‮
+    IL_011f: call Client.LoginMod::⁪⁭⁯⁫⁫⁬‍‭‍​‬⁮⁭‏‭⁮‍⁫⁬⁮‏‌⁫⁯⁬‫‬‍‪⁬⁪​‎‮‏‌​‮‪⁬‮
+    IL_0124: brtrue.s IL_012e
+    IL_0126: ldc.i4 -108232764
+    IL_012b: dup
+    IL_012c: br.s IL_0134
+    IL_012e: ldc.i4 -1775579027
+    IL_0133: dup
+    IL_0134: pop
+    IL_0135: br IL_0012
+    IL_013a: ldarg.0
+    IL_013b: ldloc.0
+    IL_013c: ldloc.1
+    IL_013d: ldc.i4.7
+    IL_013e: add
+    IL_013f: ldelem.ref
+    IL_0140: stfld Client.LoginMod::⁫⁮‬‪​⁭⁬‬‍‌‬‬‎‫‫‮⁬⁪​‍‍⁪​⁫‏⁮​‭‭‏‬⁭​‎⁮‪⁪⁬‏⁪‮
+    IL_0145: ldloc.s 5
+    IL_0147: ldc.i4 -1209973821
+    IL_014c: mul
+    IL_014d: ldc.i4 -434419495
+    IL_0152: xor
+    IL_0153: br IL_0012
+    IL_0158: ldloc.0
+    IL_0159: ldloc.1
+    IL_015a: ldc.i4.2
+    IL_015b: add
+    IL_015c: ldelem.ref
+    IL_015d: ldloca.s 4
+    IL_015f: call System.Int32::TryParse
+    IL_0164: brtrue.s IL_016e
+    IL_0166: ldc.i4 -1521852342
+    IL_016b: dup
+    IL_016c: br.s IL_0174
+    IL_016e: ldc.i4 -2108043118
+    IL_0173: dup
+    IL_0174: pop
+    IL_0175: ldloc.s 5
+    IL_0177: ldc.i4 -1628503691
+    IL_017c: mul
+    IL_017d: xor
+    IL_017e: br IL_0012
+    IL_0183: ldloc.1
+    IL_0184: ldc.i4.2
+    IL_0185: add
+    IL_0186: ldloc.0
+    IL_0187: ldlen
+    IL_0188: conv.i4
+    IL_0189: blt.s IL_0193
+    IL_018b: ldc.i4 167280273
+    IL_0190: dup
+    IL_0191: br.s IL_0199
+    IL_0193: ldc.i4 1392937927
+    IL_0198: dup
+    IL_0199: pop
+    IL_019a: ldloc.s 5
+    IL_019c: ldc.i4 489245197
+    IL_01a1: mul
+    IL_01a2: xor
+    IL_01a3: br IL_0012
+    IL_01a8: ldloc.0
+    IL_01a9: ldloc.1
+    IL_01aa: ldc.i4.8
+    IL_01ab: add
+    IL_01ac: ldelem.ref
+    IL_01ad: stloc.2
+    IL_01ae: ldloc.2
+    IL_01af: ldloca.s 3
+    IL_01b1: call System.Int32::TryParse
+    IL_01b6: brfalse.s IL_01c0
+    IL_01b8: ldc.i4 506298917
+    IL_01bd: dup
+    IL_01be: br.s IL_01c6
+    IL_01c0: ldc.i4 817123301
+    IL_01c5: dup
+    IL_01c6: pop
+    IL_01c7: ldloc.s 5
+    IL_01c9: ldc.i4 597063486
+    IL_01ce: mul
+    IL_01cf: xor
+    IL_01d0: br IL_0012
+    IL_01d5: ldsfld ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::⁪‮⁪‌⁯‏‮‍⁯‪‌⁫⁯⁭‬‫⁯‫‫‍‎‍⁯⁮⁫‮⁫‮‌‭‭‫​⁮⁪‌‭‫⁫‭‮
+    IL_01da: ldc.i4 -531561917
+    IL_01df: br.s IL_01e1
+    IL_01e1: call ::‪‎‏‮‌⁪‫‭‮⁫‍​⁬⁮⁭‬‫‪‫​‪‎‪‬‏‮⁬‌⁮‭‮⁪‏‬‌‎‪⁫‏⁪‮
+    IL_01e6: ldloc.2
+    IL_01e7: ldc.i4 -529033398
+    IL_01ec: br.s IL_01ee
+    IL_01ee: call ::‌‎‫⁬​‭‮⁮‍‬⁮‍‪‬‮⁫‫‌‬‪‍⁮‫‫‪‪⁬‬​⁭‫‎‪‪⁯‬⁫⁪⁮‬‮
+    IL_01f3: call Client.LoginMod::‫‭‮‌‪⁪‫‫​‬‪‎⁪‪‏⁭‮‭‍‫⁯⁫‌‪‬‌‬⁬​‎‍‮⁪⁯‪‌‎⁫‭‮
+    IL_01f8: callvirt Client.SocketClient::Send
+    IL_01fd: ldc.i4 -830898489
+    IL_0202: br IL_0012
+    IL_0207: ldloc.s 5
+    IL_0209: ldc.i4 126076666
+    IL_020e: mul
+    IL_020f: ldc.i4 -433694034
+    IL_0214: xor
+    IL_0215: br IL_0012
+    IL_021a: ldarg.0
+    IL_021b: ldc.i4.1
+    IL_021c: stfld Client.LoginMod::‎⁫‍‪⁫‮‬‌‏​‍⁮‪‬⁭‍⁮⁫⁯‪‬‫⁬‮‬‎‏‪‫‮⁮‪‭‪‍‮‫‬‎‮
+    IL_0221: ldc.i4 -969619589
+    IL_0226: br IL_0012
+    IL_022b: ldloc.0
+    IL_022c: ldloc.1
+    IL_022d: ldc.i4.6
+    IL_022e: add
+    IL_022f: ldelem.ref
+    IL_0230: ldc.i4 1686552247
+    IL_0235: br.s IL_0237
+    IL_0237: call ::‌⁮‍‬​‏⁯​‎⁬⁭‪‭‮‬⁮‪‪‭‎⁭‭‮‏‮‏⁪‍‫‭​‪⁪‍⁫‎‬‍‫⁭‮
+    IL_023c: call Client.LoginMod::⁮‬​⁯‮‌⁭⁬‭⁬‬⁫⁮⁬‭‫⁬‌‍‏⁫⁭‫‍⁭⁫‫‮‪⁮‍‭‏⁬⁫‌​‮‬‭‮
+    IL_0241: stsfld Client.LoginMod::nhatItem
+    IL_0246: ldc.i4 -2030118188
+    IL_024b: br IL_0012
+    IL_0250: ldloc.0
+    IL_0251: ldloc.1
+    IL_0252: ldelem.ref
+    IL_0253: ldc.i4 1766771226
+    IL_0258: br.s IL_025a
+    IL_025a: call ::‪‎‏‮‌⁪‫‭‮⁫‍​⁬⁮⁭‬‫‪‫​‪‎‪‬‏‮⁬‌⁮‭‮⁪‏‬‌‎‪⁫‏⁪‮
+    IL_025f: call Client.LoginMod::⁮‬​⁯‮‌⁭⁬‭⁬‬⁫⁮⁬‭‫⁬‌‍‏⁫⁭‫‍⁭⁫‫‮‪⁮‍‭‏⁬⁫‌​‮‬‭‮
+    IL_0264: brfalse.s IL_026e
+    IL_0266: ldc.i4 -668076311
+    IL_026b: dup
+    IL_026c: br.s IL_0274
+    IL_026e: ldc.i4 -969619589
+    IL_0273: dup
+    IL_0274: pop
+    IL_0275: br IL_0012
+    IL_027a: call Client.MenuMod::get_Instance
+    IL_027f: ldc.i4 1648151894
+    IL_0284: br.s IL_0286
+    IL_0286: call ::‌‎‫⁬​‭‮⁮‍‬⁮‍‪‬‮⁫‫‌‬‪‍⁮‫‫‪‪⁬‬​⁭‫‎‪‪⁯‬⁫⁪⁮‬‮
+    IL_028b: callvirt Client.MenuMod::inLog
+    IL_0290: ldc.i4 -898781262
+    IL_0295: br IL_0012
+    IL_029a: ldarg.0
+    IL_029b: ldloc.0
+    IL_029c: ldloc.1
+    IL_029d: ldc.i4.5
+    IL_029e: add
+    IL_029f: ldelem.ref
+    IL_02a0: stfld Client.LoginMod::‫⁬‌‭⁯‭‫‪‪⁮⁪‌⁪‬⁫⁭‬⁯‭​​⁪‪⁬⁭⁫‎⁮‏⁫​‌‮⁭⁭‭⁯‭⁭⁪‮
+    IL_02a5: ldloc.s 5
+    IL_02a7: ldc.i4 1493756499
+    IL_02ac: mul
+    IL_02ad: ldc.i4 1343288501
+    IL_02b2: xor
+    IL_02b3: br IL_0012
+    IL_02b8: ldstr ""
+    IL_02bd: stsfld Client.DirectProxyConfig::ProxyPass
+    IL_02c2: ldloc.1
+    IL_02c3: ldc.i4.4
+    IL_02c4: add
+    IL_02c5: ldloc.0
+    IL_02c6: ldlen
+    IL_02c7: conv.i4
+    IL_02c8: bge.s IL_02d2
+    IL_02ca: ldc.i4 1098956991
+    IL_02cf: dup
+    IL_02d0: br.s IL_02d8
+    IL_02d2: ldc.i4 2042357784
+    IL_02d7: dup
+    IL_02d8: pop
+    IL_02d9: ldloc.s 5
+    IL_02db: ldc.i4 1827903652
+    IL_02e0: mul
+    IL_02e1: xor
+    IL_02e2: br IL_0012
+    IL_02e7: ldloc.1
+    IL_02e8: ldc.i4.1
+    IL_02e9: add
+    IL_02ea: stloc.1
+    IL_02eb: ldc.i4 -591570964
+    IL_02f0: br IL_0012
+    IL_02f5: ldloc.0
+    IL_02f6: ldloc.1
+    IL_02f7: ldc.i4.4
+    IL_02f8: add
+    IL_02f9: ldelem.ref
+    IL_02fa: stsfld Client.DirectProxyConfig::ProxyPass
+    IL_02ff: ldloc.s 5
+    IL_0301: ldc.i4 -438604890
+    IL_0306: mul
+    IL_0307: ldc.i4 -307463786
+    IL_030c: xor
+    IL_030d: br IL_0012
+    IL_0312: ldarg.0
+    IL_0313: ldarg.0
+    IL_0314: ldloc.0
+    IL_0315: ldloc.1
+    IL_0316: ldc.i4.1
+    IL_0317: add
+    IL_0318: ldelem.ref
+    IL_0319: call Client.LoginMod::‌⁪‫‬⁯⁬‍‫‌⁫‪‮‬⁪⁯​‎‮⁯⁯‎‍​‌‏​‬‌‏‪‎‫‪⁭⁯‭⁫​‪⁭‮
+    IL_031e: stfld Client.LoginMod::autoUser
+    IL_0323: ldarg.0
+    IL_0324: ldarg.0
+    IL_0325: ldloc.0
+    IL_0326: ldloc.1
+    IL_0327: ldc.i4.2
+    IL_0328: add
+    IL_0329: ldelem.ref
+    IL_032a: call Client.LoginMod::‌⁪‫‬⁯⁬‍‫‌⁫‪‮‬⁪⁯​‎‮⁯⁯‎‍​‌‏​‬‌‏‪‎‫‪⁭⁯‭⁫​‪⁭‮
+    IL_032f: stfld Client.LoginMod::‫‮‍‭​‪‎‍​‮⁫⁭‭‏⁬‮‭‍⁪‪‏‮⁬⁯⁯⁬⁮⁬⁪⁫⁫‏‎⁯​‌⁯​‮⁯‮
+    IL_0334: ldarg.0
+    IL_0335: ldloc.0
+    IL_0336: ldloc.1
+    IL_0337: ldc.i4.3
+    IL_0338: add
+    IL_0339: ldelem.ref
+    IL_033a: stfld Client.LoginMod::‎‌‎⁪‏‪‫‌‭‪⁪‭​‮‬‪⁬‭⁫‏⁪⁭⁫‏‬⁪⁫‍⁪‬⁮‍‎⁫‎⁬‎‫‍‪‮
+    IL_033f: ldarg.0
+    IL_0340: ldloc.0
+    IL_0341: ldloc.1
+    IL_0342: ldc.i4.4
+    IL_0343: add
+    IL_0344: ldelem.ref
+    IL_0345: stfld Client.LoginMod::‬‏⁫⁪‭⁭⁭‏‎‭‬‭‏‫‬‎⁫‮‬⁪⁫‫​‎‏‌⁭⁭‌‍​⁬​‌⁬‬‭‮⁯‮
+    IL_034a: ldc.i4 -632325832
+    IL_034f: br IL_0012
+    IL_0354: ldloc.1
+    IL_0355: ldloc.0
+    IL_0356: ldlen
+    IL_0357: conv.i4
+    IL_0358: bge.s IL_0362
+    IL_035a: ldc.i4 -1746786247
+    IL_035f: dup
+    IL_0360: br.s IL_0368
+    IL_0362: ldc.i4 -683008655
+    IL_0367: dup
+    IL_0368: pop
+    IL_0369: br IL_0012
+    IL_036e: ldloc.0
+    IL_036f: ldloc.1
+    IL_0370: ldc.i4.3
+    IL_0371: add
+    IL_0372: ldelem.ref
+    IL_0373: stsfld Client.DirectProxyConfig::ProxyUser
+    IL_0378: ldloc.s 5
+    IL_037a: ldc.i4 1888845908
+    IL_037f: mul
+    IL_0380: ldc.i4 1844950352
+    IL_0385: xor
+    IL_0386: br IL_0012
+    IL_038b: ldsfld ⁪‎⁯‌‎‪‎‬‌⁮‭‍‮‭⁪⁭⁫‏⁭‫⁫‫⁬‎‪⁮‮⁮‌​⁪‌⁫‬‬⁭⁬‍‎‮::⁪‮⁪‌⁯‏‮‍⁯‪‌⁫⁯⁭‬‫⁯‫‫‍‎‍⁯⁮⁫‮⁫‮‌‭‭‫​⁮⁪‌‭‫⁫‭‮
+    IL_0390: brfalse.s IL_039a
+    IL_0392: ldc.i4 -1054578610
+    IL_0397: dup
+    IL_0398: br.s IL_03a0
+    IL_039a: ldc.i4 -1081765489
+    IL_039f: dup
+    IL_03a0: pop
+    IL_03a1: ldloc.s 5
+    IL_03a3: ldc.i4 1328587093
+    IL_03a8: mul
+    IL_03a9: xor
+    IL_03aa: br IL_0012
+    IL_03af: ldloc.1
+    IL_03b0: ldc.i4.8
+    IL_03b1: add
+    IL_03b2: ldloc.0
+    IL_03b3: ldlen
+    IL_03b4: conv.i4
+    IL_03b5: bge.s IL_03bf
+    IL_03b7: ldc.i4 2123974234
+    IL_03bc: dup
+    IL_03bd: br.s IL_03c5
+    IL_03bf: ldc.i4 1792866539
+    IL_03c4: dup
+    IL_03c5: pop
+    IL_03c6: ldloc.s 5
+    IL_03c8: ldc.i4 -37946742
+    IL_03cd: mul
+    IL_03ce: xor
+    IL_03cf: br IL_0012
+    IL_03d4: ldloc.0
+    IL_03d5: ldloc.1
+    IL_03d6: ldc.i4.1
+    IL_03d7: add
+    IL_03d8: ldelem.ref
+    IL_03d9: stsfld Client.DirectProxyConfig::ProxyHost
+    IL_03de: ldloc.s 5
+    IL_03e0: ldc.i4 -1462930441
+    IL_03e5: mul
+    IL_03e6: ldc.i4 1205778114
+    IL_03eb: xor
+    IL_03ec: br IL_0012
+    IL_03f1: ldloc.3
+    IL_03f2: stsfld Client.LoginMod::STT
+    IL_03f7: ldloc.s 5
+    IL_03f9: ldc.i4 -1917251301
+    IL_03fe: mul
+    IL_03ff: ldc.i4 -657587289
+    IL_0404: xor
+    IL_0405: br IL_0012
+    IL_040a: ret
+
+  // --- METHOD Client.LoginMod::Update
+  // sig: System.Void ()
+  // IL size: 1555
+    IL_0000: ldc.i4 -1634842796
+    IL_0005: br.s IL_0007
+    IL_0007: call ::‌⁯⁪⁭‫⁪‍‏⁭‫⁮⁪‌‏‭​‎⁫‭⁮‎​‎‌‫‪⁭‍‍‎⁯‍‬⁯​​⁯⁫‭‪‮
+    IL_000c: call Client.LoginMod::‎‌⁪‬‪​⁮‌‪‏‭‮⁫‎‪‭⁪​‏‌‬‭​‍‍‫⁪‍‬⁭‪‪‍‎⁪​‫‍‫‍‮
+    IL_0011: stloc.0
+    IL_0012: ldc.i4 2080344959
+    IL_0017: ldc.i4 1163483771
+    IL_001c: xor
+    IL_001d: dup
+    IL_001e: stloc.s 6
+    IL_0020: ldc.i4.s 25
+    IL_0022: rem.un
+    IL_0023: switch (IL_ffffffae, IL_0286, IL_02b0, IL_0266, IL_02e5, IL_0347, IL_00de, IL_020f, IL_00be, IL_0170, IL_0341, IL_0384, IL_0168, IL_010f, IL_023f, IL_0158, IL_0088, IL_01be, IL_014a, IL_01bb, IL_00c4, IL_0081, IL_0347, IL_028f, IL_0237)
+    IL_008c: br IL_03bc
+    IL_0091: ldarg.0
+    IL_0092: call Client.LoginMod::‌‮‍‪⁫‎‫⁭‍⁫‫‏​⁮⁫⁮‎⁫‪⁯⁭‏‌‎‫‏‍⁭‪‍‪⁫‭‏‏‫‮⁬⁭‬‮
+    IL_0097: ldc.r4 1
+    IL_009c: add
+    IL_009d: stfld Client.LoginMod::⁭‎‭‪⁯‪‪​‌⁬⁮⁫⁯⁪⁯​⁪‭⁫‭‍⁯‫‫⁫⁪⁮‪‏⁪‮⁯‪‎⁭⁬⁫⁭⁫‮
+    IL_00a2: ldc.i4 906354413
+    IL_00a7: br IL_0017
+    IL_00ac: ldloc.0
+    IL_00ad: callvirt UnityEngine.GameObject::GetComponentsInChildren
+    IL_00b2: call Il2CppInterop.Runtime.InteropTypes.Arrays.Il2CppArrayBase`1[[UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]::op_Implicit
+    IL_00b7: stloc.1
+    IL_00b8: ldloc.1
+    IL_00b9: brtrue.s IL_00c3
+    IL_00bb: ldc.i4 2103438660
+    IL_00c0: dup
+    IL_00c1: br.s IL_00c9
+    IL_00c3: ldc.i4 2142296041
+    IL_00c8: dup
+    IL_00c9: pop
+    IL_00ca: ldloc.s 6
+    IL_00cc: ldc.i4 -160473513
+    IL_00d1: mul
+    IL_00d2: xor
+    IL_00d3: br IL_0017
+    IL_00d8: ldarg.0
+    IL_00d9: ldfld Client.LoginMod::⁫⁮‬‪​⁭⁬‬‍‌‬‬‎‫‫‮⁬⁪​‍‍⁪​⁫‏⁮​‭‭‏‬⁭​‎⁮‪⁪⁬‏⁪‮
+    IL_00de: call Client.LoginMod::chooseServer
+    IL_00e3: brtrue.s IL_00ed
+    IL_00e5: ldc.i4 -1778522847
+    IL_00ea: dup
+    IL_00eb: br.s IL_00f3
+    IL_00ed: ldc.i4 -2121427188
+    IL_00f2: dup
+    IL_00f3: pop
+    IL_00f4: ldloc.s 6
+    IL_00f6: ldc.i4 -580137315
+    IL_00fb: mul
+    IL_00fc: xor
+    IL_00fd: br IL_0017
+    IL_0102: ldarg.0
+    IL_0103: ldfld Client.LoginMod::‎‌‎⁪‏‪‫‌‭‪⁪‭​‮‬‪⁬‭⁫‏⁪⁭⁫‏‬⁪⁫‍⁪‬⁮‍‎⁫‎⁬‎‫‍‪‮
+    IL_0108: call System.Int32::Parse
+    IL_010d: ldc.i4.1
+    IL_010e: sub
+    IL_010f: conv.r4
+    IL_0110: ldc.r4 3
+    IL_0115: mul
+    IL_0116: stloc.2
+    IL_0117: ldloc.s 6
+    IL_0119: ldc.i4 -1249956443
+    IL_011e: mul
+    IL_011f: ldc.i4 349085807
+    IL_0124: xor
+    IL_0125: br IL_0017
+    IL_012a: ldarg.0
+    IL_012b: ldfld Client.LoginMod::‫⁭‭​‎⁯‌⁬‪‌⁬​‮‫‌‪‌‬‮​‍‌⁫⁮⁮‮⁮‭⁪‫‬​‭‮⁪‭⁭‍‭‭‮
+    IL_0130: brtrue IL_0455
+    IL_0135: ldc.i4 216439364
+    IL_013a: br IL_0017
+    IL_013f: ldarg.0
+    IL_0140: call Client.LoginMod::‌‮‍‪⁫‎‫⁭‍⁫‫‏​⁮⁫⁮‎⁫‪⁯⁭‏‌‎‫‏‍⁭‪‍‪⁫‭‏‏‫‮⁬⁭‬‮
+    IL_0145: ldloc.2
+    IL_0146: add
+    IL_0147: stfld Client.LoginMod::⁫‏⁮‬‭⁭‮‬‌‏‌​‪‍⁮‮‫‪⁯‪‌‪‍‏‌‏‭⁭‮⁮‫⁫‍⁬⁫⁫‎⁮‎‪‮
+    IL_014c: ldarg.0
+    IL_014d: ldc.i4.1
+    IL_014e: stfld Client.LoginMod::⁯‎⁯‫‬⁪‫‏‪‪‭‪‬‫⁪‫‪‫‮⁭‮‎‮⁫‌‪⁫⁫‭⁫‪‫‌⁯‮⁭⁬⁯‎⁫‮
+    IL_0153: ldloc.s 6
+    IL_0155: ldc.i4 2061917582
+    IL_015a: mul
+    IL_015b: ldc.i4 1612825078
+    IL_0160: xor
+    IL_0161: br IL_0017
+    IL_0166: ldarg.0
+    IL_0167: ldc.i4.0
+    IL_0168: stfld Client.LoginMod::‍⁯‮⁯‍‬‏‪​⁬⁯‍⁮⁮⁪‍⁫⁭‪‏‪‭⁯⁬⁮⁭‎⁫⁯‎‮‍​‌‬‬​‬⁮‍‮
+    IL_016d: ldloc.s 6
+    IL_016f: ldc.i4 1176635690
+    IL_0174: mul
+    IL_0175: ldc.i4 2029480197
+    IL_017a: xor
+    IL_017b: br IL_0017
+    IL_0180: ldarg.0
+    IL_0181: ldfld Client.LoginMod::⁯‎⁯‫‬⁪‫‏‪‪‭‪‬‫⁪‫‪‫‮⁭‮‎‮⁫‌‪⁫⁫‭⁫‪‫‌⁯‮⁭⁬⁯‎⁫‮
+    IL_0186: brtrue.s IL_0190
+    IL_0188: ldc.i4 2115793596
+    IL_018d: dup
+    IL_018e: br.s IL_0196
+    IL_0190: ldc.i4 1185667238
+    IL_0195: dup
+    IL_0196: pop
+    IL_0197: br IL_0017
+    IL_019c: ret
+    IL_019d: ldloc.s 6
+    IL_019f: ldc.i4 1807455184
+    IL_01a4: mul
+    IL_01a5: ldc.i4 1044788291
+    IL_01aa: xor
+    IL_01ab: br IL_0017
+    IL_01b0: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_01b5: ldnull
+    IL_01b6: call Client.LoginMod::‭‮‭⁪⁯⁭⁮​‏⁪‫⁮⁯‭‎⁮⁭‍⁯⁭‭⁮‬⁯‭‮‏⁪‬⁮‭‎‬‬‌⁮‬‬⁭‫‮
+    IL_01bb: brfalse IL_0612
+    IL_01c0: ldloc.s 6
+    IL_01c2: ldc.i4 -2009498237
+    IL_01c7: mul
+    IL_01c8: ldc.i4 -25039012
+    IL_01cd: xor
+    IL_01ce: br IL_0017
+    IL_01d3: ret
+    IL_01d4: ldc.i4 431324869
+    IL_01d9: br IL_0017
+    IL_01de: call Client.MenuMod::get_Instance
+    IL_01e3: ldarg.0
+    IL_01e4: ldfld Client.LoginMod::‬‏⁫⁪‭⁭⁭‏‎‭‬‭‏‫‬‎⁫‮‬⁪⁫‫​‎‏‌⁭⁭‌‍​⁬​‌⁬‬‭‮⁯‮
+    IL_01e9: ldarg.0
+    IL_01ea: ldfld Client.LoginMod::‫⁬‌‭⁯‭‫‪‪⁮⁪‌⁪‬⁫⁭‬⁯‭​​⁪‪⁬⁭⁫‎⁮‏⁫​‌‮⁭⁭‭⁯‭⁭⁪‮
+    IL_01ef: callvirt Client.MenuMod::ApplyStartupResize
+    IL_01f4: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_01f9: call Client.LoginMod::⁬⁮‏‍‎⁬‬⁭⁬⁪‪⁭‪‍‬​⁫‌​‬‭‌‬‏‪‪⁪⁯‫⁪‌‬‬⁭⁬‏⁫‭⁯‮
+    IL_01fe: call Client.LoginMod::⁫⁫⁮⁭‭‏‎⁯​​‭‏⁯​⁯⁮⁫‮‎‭‮‬⁪⁮‬⁮​‫‫‍‭⁮⁯‏⁮⁭​‭‭⁯‮
+    IL_0203: ldarg.0
+    IL_0204: ldfld Client.LoginMod::autoUser
+    IL_0209: call Client.LoginMod::⁫‎‫⁫‪‮⁫‏‍‫‬‏‏‍‌​⁭⁪‫‮‌⁬​‭‏‌‪‍‬‬​‌‫⁭⁭‪⁬‭⁬⁫‮
+    IL_020e: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_0213: call Client.LoginMod::⁬⁮‏‍‎⁬‬⁭⁬⁪‪⁭‪‍‬​⁫‌​‬‭‌‬‏‪‪⁪⁯‫⁪‌‬‬⁭⁬‏⁫‭⁯‮
+    IL_0218: call Client.LoginMod::⁫‬⁭‫⁯⁫‪⁫‪‪⁫⁬‌‍⁫‏‭⁮‌‍‪‬‫⁭⁮‮⁬‬‪​‏‪⁫⁪​‮‫⁭‮‫‮
+    IL_021d: ldarg.0
+    IL_021e: ldfld Client.LoginMod::‫‮‍‭​‪‎‍​‮⁫⁭‭‏⁬‮‭‍⁪‪‏‮⁬⁯⁯⁬⁮⁬⁪⁫⁫‏‎⁯​‌⁯​‮⁯‮
+    IL_0223: call Client.LoginMod::⁫‎‫⁫‪‮⁫‏‍‫‬‏‏‍‌​⁭⁪‫‮‌⁬​‭‏‌‪‍‬‬​‌‫⁭⁭‪⁬‭⁬⁫‮
+    IL_0228: ldloc.s 6
+    IL_022a: ldc.i4 -1451003777
+    IL_022f: mul
+    IL_0230: ldc.i4 -1352878370
+    IL_0235: xor
+    IL_0236: br IL_0017
+    IL_023b: ldarg.0
+    IL_023c: ldfld Client.LoginMod::‎⁫‍‪⁫‮‬‌‏​‍⁮‪‬⁭‍⁮⁫⁯‪‬‫⁬‮‬‎‏‪‫‮⁮‪‭‪‍‮‫‬‎‮
+    IL_0241: brfalse.s IL_024b
+    IL_0243: ldc.i4 2102820339
+    IL_0248: dup
+    IL_0249: br.s IL_0251
+    IL_024b: ldc.i4 1728772300
+    IL_0250: dup
+    IL_0251: pop
+    IL_0252: br IL_0017
+    IL_0257: ret
+    IL_0258: ldloc.s 6
+    IL_025a: ldc.i4 79481816
+    IL_025f: mul
+    IL_0260: ldc.i4 1666890385
+    IL_0265: xor
+    IL_0266: br IL_0017
+    IL_026b: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_0270: call Client.LoginMod::⁬⁮‏‍‎⁬‬⁭⁬⁪‪⁭‪‍‬​⁫‌​‬‭‌‬‏‪‪⁪⁯‫⁪‌‬‬⁭⁬‏⁫‭⁯‮
+    IL_0275: call Client.LoginMod::⁯⁫​⁪‬⁭⁭​⁬⁭‪‭⁮‫‮‬⁭‍‪⁮⁬⁭⁭‭⁭⁮‫‍⁮‫‎‍‭⁬‬⁯⁬⁬‬⁫‮
+    IL_027a: call Client.LoginMod::‮‭‍‪‪⁮⁭‫‭‫‏‍‪‏‭‎​​⁭‏‭⁬⁪⁯⁮‭‍‍‍⁮‬⁮⁫‍‌⁮⁮‍⁮‫‮
+    IL_027f: brfalse IL_0612
+    IL_0284: ldloc.s 6
+    IL_0286: ldc.i4 -1733770600
+    IL_028b: mul
+    IL_028c: ldc.i4 1858928359
+    IL_0291: xor
+    IL_0292: br IL_0017
+    IL_0297: ldloc.1
+    IL_0298: ldc.i4.0
+    IL_0299: ldelem.ref
+    IL_029a: call Client.LoginMod::⁫​⁭‪​⁯‮⁭‪​‬⁪‏‮‫‪⁯‎⁪‮⁯‎‬⁯‍‎‌⁭⁪‏‏⁭‌‭⁮‌‏‪⁭‭‮
+    IL_029f: call Client.LoginMod::⁯‍‍‪‭​‫⁯⁫⁫‎‮⁭​‏⁬‬‏‏‫‍‏⁭⁮‎⁮‭‬​‬‬‭‎‭​⁯‮‪‪‪‮
+    IL_02a4: ldarg.0
+    IL_02a5: ldc.i4.0
+    IL_02a6: stfld Client.LoginMod::‫⁭‭​‎⁯‌⁬‪‌⁬​‮‫‌‪‌‬‮​‍‌⁫⁮⁮‮⁮‭⁪‫‬​‭‮⁪‭⁭‍‭‭‮
+    IL_02ab: ldloc.s 6
+    IL_02ad: ldc.i4 1254592968
+    IL_02b2: mul
+    IL_02b3: ldc.i4 1842325791
+    IL_02b8: xor
+    IL_02b9: br IL_0017
+    IL_02be: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_02c3: call Client.LoginMod::⁬⁮‏‍‎⁬‬⁭⁬⁪‪⁭‪‍‬​⁫‌​‬‭‌‬‏‪‪⁪⁯‫⁪‌‬‬⁭⁬‏⁫‭⁯‮
+    IL_02c8: ldnull
+    IL_02c9: call Client.LoginMod::‭‮‭⁪⁯⁭⁮​‏⁪‫⁮⁯‭‎⁮⁭‍⁯⁭‭⁮‬⁯‭‮‏⁪‬⁮‭‎‬‬‌⁮‬‬⁭‫‮
+    IL_02ce: brfalse IL_0612
+    IL_02d3: ldloc.s 6
+    IL_02d5: ldc.i4 -627536886
+    IL_02da: mul
+    IL_02db: ldc.i4 -1962053477
+    IL_02e0: xor
+    IL_02e1: br IL_0017
+    IL_02e6: ldloc.0
+    IL_02e7: ldnull
+    IL_02e8: call Client.LoginMod::‭‮‭⁪⁯⁭⁮​‏⁪‫⁮⁯‭‎⁮⁭‍⁯⁭‭⁮‬⁯‭‮‏⁪‬⁮‭‎‬‬‌⁮‬‬⁭‫‮
+    IL_02ed: brtrue.s IL_02f7
+    IL_02ef: ldc.i4 1793054057
+    IL_02f4: dup
+    IL_02f5: br.s IL_02fd
+    IL_02f7: ldc.i4 93667151
+    IL_02fc: dup
+    IL_02fd: pop
+    IL_02fe: ldloc.s 6
+    IL_0300: ldc.i4 888169515
+    IL_0305: mul
+    IL_0306: xor
+    IL_0307: br IL_0017
+    IL_030c: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_0311: call Client.LoginMod::⁬⁮‏‍‎⁬‬⁭⁬⁪‪⁭‪‍‬​⁫‌​‬‭‌‬‏‪‪⁪⁯‫⁪‌‬‬⁭⁬‏⁫‭⁯‮
+    IL_0316: call Client.LoginMod::⁫⁫⁮⁭‭‏‎⁯​​‭‏⁯​⁯⁮⁫‮‎‭‮‬⁪⁮‬⁮​‫‫‍‭⁮⁯‏⁮⁭​‭‭⁯‮
+    IL_031b: ldnull
+    IL_031c: call Client.LoginMod::‭‮‭⁪⁯⁭⁮​‏⁪‫⁮⁯‭‎⁮⁭‍⁯⁭‭⁮‬⁯‭‮‏⁪‬⁮‭‎‬‬‌⁮‬‬⁭‫‮
+    IL_0321: brfalse IL_0612
+    IL_0326: ldloc.s 6
+    IL_0328: ldc.i4 -1381748953
+    IL_032d: mul
+    IL_032e: ldc.i4 -320240026
+    IL_0333: xor
+    IL_0334: br IL_0017
+    IL_0339: ldarg.0
+    IL_033a: ldc.i4.1
+    IL_033b: stfld Client.LoginMod::‎⁫‍‪⁫‮‬‌‏​‍⁮‪‬⁭‍⁮⁫⁯‪‬‫⁬‮‬‎‏‪‫‮⁮‪‭‪‍‮‫‬‎‮
+    IL_0340: ldloc.s 6
+    IL_0342: ldc.i4 770970534
+    IL_0347: mul
+    IL_0348: ldc.i4 -1275003700
+    IL_034d: xor
+    IL_034e: br IL_0017
+    IL_0353: call Client.LoginMod::‌‮‍‪⁫‎‫⁭‍⁫‫‏​⁮⁫⁮‎⁫‪⁯⁭‏‌‎‫‏‍⁭‪‍‪⁫‭‏‏‫‮⁬⁭‬‮
+    IL_0358: ldarg.0
+    IL_0359: ldfld Client.LoginMod::⁭‎‭‪⁯‪‪​‌⁬⁮⁫⁯⁪⁯​⁪‭⁫‭‍⁯‫‫⁫⁪⁮‪‏⁪‮⁯‪‎⁭⁬⁫⁭⁫‮
+    IL_035e: bge.un.s IL_0368
+    IL_0360: ldc.i4 -1717348833
+    IL_0365: dup
+    IL_0366: br.s IL_036e
+    IL_0368: ldc.i4 -665689655
+    IL_036d: dup
+    IL_036e: pop
+    IL_036f: ldloc.s 6
+    IL_0371: ldc.i4 16958382
+    IL_0376: mul
+    IL_0377: xor
+    IL_0378: br IL_0017
+    IL_037d: ldarg.0
+    IL_037e: ldc.i4.0
+    IL_037f: stfld Client.LoginMod::⁯‎⁯‫‬⁪‫‏‪‪‭‪‬‫⁪‫‪‫‮⁭‮‎‮⁫‌‪⁫⁫‭⁫‪‫‌⁯‮⁭⁬⁯‎⁫‮
+    IL_0384: ldloc.s 6
+    IL_0386: ldc.i4 1849237592
+    IL_038b: mul
+    IL_038c: ldc.i4 148346380
+    IL_0391: xor
+    IL_0392: br IL_0017
+    IL_0397: ldloc.0
+    IL_0398: call Client.LoginMod::‮‭‍‪‪⁮⁭‫‭‫‏‍‪‏‭‎​​⁭‏‭⁬⁪⁯⁮‭‍‍‍⁮‬⁮⁫‍‌⁮⁮‍⁮‫‮
+    IL_039d: brfalse.s IL_03a7
+    IL_039f: ldc.i4 -598911020
+    IL_03a4: dup
+    IL_03a5: br.s IL_03ad
+    IL_03a7: ldc.i4 -197979835
+    IL_03ac: dup
+    IL_03ad: pop
+    IL_03ae: ldloc.s 6
+    IL_03b0: ldc.i4 -1613835184
+    IL_03b5: mul
+    IL_03b6: xor
+    IL_03b7: br IL_0017
+    IL_03bc: call Client.LoginMod::‌‮‍‪⁫‎‫⁭‍⁫‫‏​⁮⁫⁮‎⁫‪⁯⁭‏‌‎‫‏‍⁭‪‍‪⁫‭‏‏‫‮⁬⁭‬‮
+    IL_03c1: ldarg.0
+    IL_03c2: ldfld Client.LoginMod::⁫‏⁮‬‭⁭‮‬‌‏‌​‪‍⁮‮‫‪⁯‪‌‪‍‏‌‏‭⁭‮⁮‫⁫‍⁬⁫⁫‎⁮‎‪‮
+    IL_03c7: blt.un IL_0612
+    IL_03cc: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_03d1: call Client.LoginMod::⁬⁮‏‍‎⁬‬⁭⁬⁪‪⁭‪‍‬​⁫‌​‬‭‌‬‏‪‪⁪⁯‫⁪‌‬‬⁭⁬‏⁫‭⁯‮
+    IL_03d6: call Client.LoginMod::⁯‎‏‮⁪‏⁭‍‪​⁯‮⁪‍‍‍⁯‏‪‍‏​‪‪⁭‎⁪‫‎‫‬‏⁪‮⁭⁮‪⁭⁫⁪‮
+    IL_03db: leave.s IL_03e0
+    IL_03dd: pop
+    IL_03de: leave.s IL_03e0
+    IL_03e0: ldarg.0
+    IL_03e1: ldc.i4.1
+    IL_03e2: stfld Client.LoginMod::‫⁭‭​‎⁯‌⁬‪‌⁬​‮‫‌‪‌‬‮​‍‌⁫⁮⁮‮⁮‭⁪‫‬​‭‮⁪‭⁭‍‭‭‮
+    IL_03e7: ldarg.0
+    IL_03e8: call Client.LoginMod::‌‮‍‪⁫‎‫⁭‍⁫‫‏​⁮⁫⁮‎⁫‪⁯⁭‏‌‎‫‏‍⁭‪‍‪⁫‭‏‏‫‮⁬⁭‬‮
+    IL_03ed: ldc.r4 3
+    IL_03f2: add
+    IL_03f3: stfld Client.LoginMod::‍‬⁭⁫⁭⁫‪‭⁭‫‭⁮‪‌⁮​‎⁪‏‍‏⁬‏⁮‎‫⁪​⁭‌​‏‎⁫‎​⁪⁮‮‪‮
+    IL_03f8: ldarg.0
+    IL_03f9: ldc.i4.0
+    IL_03fa: stfld Client.LoginMod::⁯‎⁯‫‬⁪‫‏‪‪‭‪‬‫⁪‫‪‫‮⁭‮‎‮⁫‌‪⁫⁫‭⁫‪‫‌⁯‮⁭⁬⁯‎⁫‮
+    IL_03ff: ldc.i4 33939418
+    IL_0404: ldc.i4 1163483771
+    IL_0409: xor
+    IL_040a: dup
+    IL_040b: stloc.s 6
+    IL_040d: ldc.i4.7
+    IL_040e: rem.un
+    IL_040f: switch (IL_03e3, IL_0486, IL_0421, IL_047a, IL_04ba, IL_045f, IL_0451)
+    IL_0430: br IL_04c6
+    IL_0435: call Client.LoginMod::‌‮‍‪⁫‎‫⁭‍⁫‫‏​⁮⁫⁮‎⁫‪⁯⁭‏‌‎‫‏‍⁭‪‍‪⁫‭‏‏‫‮⁬⁭‬‮
+    IL_043a: ldarg.0
+    IL_043b: ldfld Client.LoginMod::‍‬⁭⁫⁭⁫‪‭⁭‫‭⁮‪‌⁮​‎⁪‏‍‏⁬‏⁮‎‫⁪​⁭‌​‏‎⁫‎​⁪⁮‮‪‮
+    IL_0440: blt.un IL_0612
+    IL_0445: ldloc.s 6
+    IL_0447: ldc.i4 1693891298
+    IL_044c: mul
+    IL_044d: ldc.i4 1599278049
+    IL_0452: xor
+    IL_0453: br.s IL_0404
+    IL_0455: ldarg.0
+    IL_0456: ldfld Client.LoginMod::‍⁯‮⁯‍‬‏‪​⁬⁯‍⁮⁮⁪‍⁫⁭‪‏‪‭⁯⁬⁮⁭‎⁫⁯‎‮‍​‌‬‬​‬⁮‍‮
+    IL_045b: brtrue IL_0612
+    IL_0460: ldc.i4 92765333
+    IL_0465: br.s IL_0404
+    IL_0467: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_046c: ldnull
+    IL_046d: call Client.LoginMod::‭‮‭⁪⁯⁭⁮​‏⁪‫⁮⁯‭‎⁮⁭‍⁯⁭‭⁮‬⁯‭‮‏⁪‬⁮‭‎‬‬‌⁮‬‬⁭‫‮
+    IL_0472: brfalse IL_0612
+    IL_0477: ldloc.s 6
+    IL_0479: ldc.i4 879924114
+    IL_047e: mul
+    IL_047f: ldc.i4 1574037739
+    IL_0484: xor
+    IL_0485: br IL_0404
+    IL_048a: ret
+    IL_048b: ldloc.s 6
+    IL_048d: ldc.i4 -1216595345
+    IL_0492: mul
+    IL_0493: ldc.i4 -1535899356
+    IL_0498: xor
+    IL_0499: br IL_0404
+    IL_049e: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_04a3: call Client.LoginMod::⁭‏‭‬⁭‎‪⁮‪‎‫‫‭⁪‪‍‪‮‭‌‬‌⁮⁯‬‏‫⁬‪‏‬​‮‪‎⁮⁪‌‬⁯‮
+    IL_04a8: ldnull
+    IL_04a9: call Client.LoginMod::‭‮‭⁪⁯⁭⁮​‏⁪‫⁮⁯‭‎⁮⁭‍⁯⁭‭⁮‬⁯‭‮‏⁪‬⁮‭‎‬‬‌⁮‬‬⁭‫‮
+    IL_04ae: brfalse IL_0612
+    IL_04b3: ldloc.s 6
+    IL_04b5: ldc.i4 464706157
+    IL_04ba: mul
+    IL_04bb: ldc.i4 288241745
+    IL_04c0: xor
+    IL_04c1: br IL_0404
+    IL_04c6: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_04cb: call Client.LoginMod::⁭‏‭‬⁭‎‪⁮‪‎‫‫‭⁪‪‍‪‮‭‌‬‌⁮⁯‬‏‫⁬‪‏‬​‮‪‎⁮⁪‌‬⁯‮
+    IL_04d0: call Client.LoginMod::⁯⁫​⁪‬⁭⁭​⁬⁭‪‭⁮‫‮‬⁭‍‪⁮⁬⁭⁭‭⁭⁮‫‍⁮‫‎‍‭⁬‬⁯⁬⁬‬⁫‮
+    IL_04d5: call Client.LoginMod::‮‭‍‪‪⁮⁭‫‭‫‏‍‪‏‭‎​​⁭‏‭⁬⁪⁯⁮‭‍‍‍⁮‬⁮⁫‍‌⁮⁮‍⁮‫‮
+    IL_04da: brfalse IL_0612
+    IL_04df: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_04e4: call Client.LoginMod::⁭‏‭‬⁭‎‪⁮‪‎‫‫‭⁪‪‍‪‮‭‌‬‌⁮⁯‬‏‫⁬‪‏‬​‮‪‎⁮⁪‌‬⁯‮
+    IL_04e9: callvirt UnityEngine.Component::GetComponentsInChildren
+    IL_04ee: stloc.3
+    IL_04ef: ldc.i4 1591815193
+    IL_04f4: ldc.i4 1163483771
+    IL_04f9: xor
+    IL_04fa: dup
+    IL_04fb: stloc.s 6
+    IL_04fd: ldc.i4.8
+    IL_04fe: rem.un
+    IL_04ff: switch (IL_05ca, IL_0543, IL_0557, IL_057b, IL_0519, IL_05c4, IL_04e7, IL_05b1)
+    IL_0524: br IL_05ea
+    IL_0529: ldarg.0
+    IL_052a: ldfld Client.LoginMod::‎‌‎⁪‏‪‫‌‭‪⁪‭​‮‬‪⁬‭⁫‏⁪⁭⁫‏‬⁪⁫‍⁪‬⁮‍‎⁫‎⁬‎‫‍‪‮
+    IL_052f: call System.Int32::Parse
+    IL_0534: stloc.s 4
+    IL_0536: ldloc.3
+    IL_0537: ldloc.s 4
+    IL_0539: callvirt Il2CppInterop.Runtime.InteropTypes.Arrays.Il2CppArrayBase`1[[UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]::get_Item
+    IL_053e: call Client.LoginMod::⁫​⁭‪​⁯‮⁭‪​‬⁪‏‮‫‪⁯‎⁪‮⁯‎‬⁯‍‎‌⁭⁪‏‏⁭‌‭⁮‌‏‪⁭‭‮
+    IL_0543: call Client.LoginMod::⁯‍‍‪‭​‫⁯⁫⁫‎‮⁭​‏⁬‬‏‏‫‍‏⁭⁮‎⁮‭‬​‬‬‭‎‭​⁯‮‪‪‪‮
+    IL_0548: ldarg.0
+    IL_0549: ldc.i4.1
+    IL_054a: stfld Client.LoginMod::‍⁯‮⁯‍‬‏‪​⁬⁯‍⁮⁮⁪‍⁫⁭‪‏‪‭⁯⁬⁮⁭‎⁫⁯‎‮‍​‌‬‬​‬⁮‍‮
+    IL_054f: ldloc.s 6
+    IL_0551: ldc.i4 1620519602
+    IL_0556: mul
+    IL_0557: ldc.i4 1331535558
+    IL_055c: xor
+    IL_055d: br.s IL_04f4
+    IL_055f: ldloc.s 6
+    IL_0561: ldc.i4 395606574
+    IL_0566: mul
+    IL_0567: ldc.i4 -526085715
+    IL_056c: xor
+    IL_056d: br.s IL_04f4
+    IL_056f: ldloc.3
+    IL_0570: brtrue.s IL_057a
+    IL_0572: ldc.i4 675679222
+    IL_0577: dup
+    IL_0578: br.s IL_0580
+    IL_057a: ldc.i4 1687431386
+    IL_057f: dup
+    IL_0580: pop
+    IL_0581: ldloc.s 6
+    IL_0583: ldc.i4 -1052848691
+    IL_0588: mul
+    IL_0589: xor
+    IL_058a: br IL_04f4
+    IL_058f: ldloc.3
+    IL_0590: callvirt Il2CppInterop.Runtime.InteropTypes.Arrays.Il2CppArrayBase`1[[UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]::get_Length
+    IL_0595: ldc.i4.2
+    IL_0596: blt.s IL_05a0
+    IL_0598: ldc.i4 59052534
+    IL_059d: dup
+    IL_059e: br.s IL_05a6
+    IL_05a0: ldc.i4 766134237
+    IL_05a5: dup
+    IL_05a6: pop
+    IL_05a7: ldloc.s 6
+    IL_05a9: ldc.i4 -1264505021
+    IL_05ae: mul
+    IL_05af: xor
+    IL_05b0: br IL_04f4
+    IL_05b5: ldarg.0
+    IL_05b6: call Client.LoginMod::‌‮‍‪⁫‎‫⁭‍⁫‫‏​⁮⁫⁮‎⁫‪⁯⁭‏‌‎‫‏‍⁭‪‍‪⁫‭‏‏‫‮⁬⁭‬‮
+    IL_05bb: ldc.r4 1
+    IL_05c0: add
+    IL_05c1: stfld Client.LoginMod::‍‬⁭⁫⁭⁫‪‭⁭‫‭⁮‪‌⁮​‎⁪‏‍‏⁬‏⁮‎‫⁪​⁭‌​‏‎⁫‎​⁪⁮‮‪‮
+    IL_05c6: ldc.i4 1041814931
+    IL_05cb: br IL_04f4
+    IL_05d0: ldarg.0
+    IL_05d1: ldc.i4.0
+    IL_05d2: stfld Client.LoginMod::‎⁫‍‪⁫‮‬‌‏​‍⁮‪‬⁭‍⁮⁫⁯‪‬‫⁬‮‬‎‏‪‫‮⁮‪‭‪‍‮‫‬‎‮
+    IL_05d7: ldloc.s 6
+    IL_05d9: ldc.i4 1848549595
+    IL_05de: mul
+    IL_05df: ldc.i4 -568377531
+    IL_05e4: xor
+    IL_05e5: br IL_04f4
+    IL_05ea: leave.s IL_0612
+    IL_05ec: stloc.s 5
+    IL_05ee: call Client.MenuMod::get_Instance
+    IL_05f3: ldc.i4 -67572042
+    IL_05f8: br.s IL_05fa
+    IL_05fa: call ::‌‎‫⁬​‭‮⁮‍‬⁮‍‪‬‮⁫‫‌‬‪‍⁮‫‫‪‪⁬‬​⁭‫‎‪‪⁯‬⁫⁪⁮‬‮
+    IL_05ff: ldloc.s 5
+    IL_0601: call Client.LoginMod::‍‏⁭‬‭​⁬‪‮⁮‮‎‮​⁯‬‭⁭‌‪‍⁭⁯‮‭​‫⁯‎‫‮‬‪‭⁯⁮‌‬‫⁬‮
+    IL_0606: call Client.LoginMod::​‪‭⁮⁬‫‪⁯‎⁬⁪‭‪‎‪​⁯⁭‌‮⁪⁪‭‮⁬‬⁬‭‪‫‪⁮‬‏‍⁬‭‫⁫‬‮
+    IL_060b: callvirt Client.MenuMod::inLog
+    IL_0610: leave.s IL_0612
+    IL_0612: ret
+
+  // --- METHOD Client.LoginMod::Update22
+  // sig: System.Void ()
+  // IL size: 1418
+    IL_0000: call Client.LoginMod::‌‮‍‪⁫‎‫⁭‍⁫‫‏​⁮⁫⁮‎⁫‪⁯⁭‏‌‎‫‏‍⁭‪‍‪⁫‭‏‏‫‮⁬⁭‬‮
+    IL_0005: stloc.0
+    IL_0006: ldloc.0
+    IL_0007: ldarg.0
+    IL_0008: ldfld Client.LoginMod::⁭‎‭‪⁯‪‪​‌⁬⁮⁫⁯⁪⁯​⁪‭⁫‭‍⁯‫‫⁫⁪⁮‪‏⁪‮⁯‪‎⁭⁬⁫⁭⁫‮
+    IL_000d: blt IL_03a0
+    IL_0012: ldc.i4 2102253882
+    IL_0017: ldc.i4 112380500
+    IL_001c: xor
+    IL_001d: dup
+    IL_001e: stloc.s 8
+    IL_0020: ldc.i4.s 27
+    IL_0022: rem.un
+    IL_0023: switch (IL_002d, IL_0248, IL_026b, IL_02fa, IL_022f, IL_03c1, IL_034c, IL_ffffffc2, IL_0156, IL_00a2, IL_0120, IL_01fc, IL_0107, IL_0373, IL_023b, IL_00e0, IL_009e, IL_02ea, IL_0322, IL_03ab, IL_03d3, IL_010f, IL_0366, IL_042a, IL_01c5, IL_0220, IL_01fc)
+    IL_0094: br IL_043a
+    IL_0099: ldarg.0
+    IL_009a: ldfld Client.LoginMod::‬‏⁫⁪‭⁭⁭‏‎‭‬‭‏‫‬‎⁫‮‬⁪⁫‫​‎‏‌⁭⁭‌‍​⁬​‌⁬‬‭‮⁯‮
+    IL_009f: call System.Int32::Parse
+    IL_00a4: ldarg.0
+    IL_00a5: ldfld Client.LoginMod::‫⁬‌‭⁯‭‫‪‪⁮⁪‌⁪‬⁫⁭‬⁯‭​​⁪‪⁬⁭⁫‎⁮‏⁫​‌‮⁭⁭‭⁯‭⁭⁪‮
+    IL_00aa: call System.Int32::Parse
+    IL_00af: stloc.3
+    IL_00b0: ldloc.3
+    IL_00b1: ldc.i4.0
+    IL_00b2: call Client.LoginMod::‮‌‫‪‪‏‌⁮⁯‫‍‏⁪‪‍‌‪‎‍‪⁯⁬⁪‬‏⁭‍‌‌‭​‪‮‏‎‮‮⁪‍‌‮
+    IL_00b7: ldloc.s 8
+    IL_00b9: ldc.i4 515202785
+    IL_00be: mul
+    IL_00bf: ldc.i4 1369343633
+    IL_00c4: xor
+    IL_00c5: br IL_0017
+    IL_00ca: ldarg.0
+    IL_00cb: ldloc.0
+    IL_00cc: ldc.r4 1
+    IL_00d1: add
+    IL_00d2: stfld Client.LoginMod::⁭‎‭‪⁯‪‪​‌⁬⁮⁫⁯⁪⁯​⁪‭⁫‭‍⁯‫‫⁫⁪⁮‪‏⁪‮⁯‪‎⁭⁬⁫⁭⁫‮
+    IL_00d7: ldloc.s 8
+    IL_00d9: ldc.i4 1702278175
+    IL_00de: mul
+    IL_00df: ldc.i4 -1152374972
+    IL_00e4: xor
+    IL_00e5: br IL_0017
+    IL_00ea: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_00ef: call Client.LoginMod::⁭‏‭‬⁭‎‪⁮‪‎‫‫‭⁪‪‍‪‮‭‌‬‌⁮⁯‬‏‫⁬‪‏‬​‮‪‎⁮⁪‌‬⁯‮
+    IL_00f4: call Client.LoginMod::⁯⁫​⁪‬⁭⁭​⁬⁭‪‭⁮‫‮‬⁭‍‪⁮⁬⁭⁭‭⁭⁮‫‍⁮‫‎‍‭⁬‬⁯⁬⁬‬⁫‮
+    IL_00f9: call Client.LoginMod::‮‭‍‪‪⁮⁭‫‭‫‏‍‪‏‭‎​​⁭‏‭⁬⁪⁯⁮‭‍‍‍⁮‬⁮⁫‍‌⁮⁮‍⁮‫‮
+    IL_00fe: br.s IL_0101
+    IL_0100: ldc.i4.0
+    IL_0101: brtrue IL_043a
+    IL_0106: ldc.i4 165194495
+    IL_010b: br IL_0017
+    IL_0110: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_0115: ldnull
+    IL_0116: call Client.LoginMod::‭‮‭⁪⁯⁭⁮​‏⁪‫⁮⁯‭‎⁮⁭‍⁯⁭‭⁮‬⁯‭‮‏⁪‬⁮‭‎‬‬‌⁮‬‬⁭‫‮
+    IL_011b: brfalse.s IL_0100
+    IL_011d: ldc.i4 265227183
+    IL_0122: br IL_0017
+    IL_0127: ldarg.0
+    IL_0128: call Client.LoginMod::‌‮‍‪⁫‎‫⁭‍⁫‫‏​⁮⁫⁮‎⁫‪⁯⁭‏‌‎‫‏‍⁭‪‍‪⁫‭‏‏‫‮⁬⁭‬‮
+    IL_012d: ldc.r4 1
+    IL_0132: add
+    IL_0133: stfld Client.LoginMod::⁭‎‭‪⁯‪‪​‌⁬⁮⁫⁯⁪⁯​⁪‭⁫‭‍⁯‫‫⁫⁪⁮‪‏⁪‮⁯‪‎⁭⁬⁫⁭⁫‮
+    IL_0138: ret
+    IL_0139: ldc.i4 2000679099
+    IL_013e: br IL_0017
+    IL_0143: ldloc.2
+    IL_0144: ldlen
+    IL_0145: brtrue.s IL_014f
+    IL_0147: ldc.i4 -1484273773
+    IL_014c: dup
+    IL_014d: br.s IL_0155
+    IL_014f: ldc.i4 -874597019
+    IL_0154: dup
+    IL_0155: pop
+    IL_0156: ldloc.s 8
+    IL_0158: ldc.i4 371684765
+    IL_015d: mul
+    IL_015e: xor
+    IL_015f: br IL_0017
+    IL_0164: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_0169: call Client.LoginMod::⁬⁮‏‍‎⁬‬⁭⁬⁪‪⁭‪‍‬​⁫‌​‬‭‌‬‏‪‪⁪⁯‫⁪‌‬‬⁭⁬‏⁫‭⁯‮
+    IL_016e: call Client.LoginMod::⁫⁫⁮⁭‭‏‎⁯​​‭‏⁯​⁯⁮⁫‮‎‭‮‬⁪⁮‬⁮​‫‫‍‭⁮⁯‏⁮⁭​‭‭⁯‮
+    IL_0173: ldarg.0
+    IL_0174: ldfld Client.LoginMod::autoUser
+    IL_0179: call Client.LoginMod::⁫‎‫⁫‪‮⁫‏‍‫‬‏‏‍‌​⁭⁪‫‮‌⁬​‭‏‌‪‍‬‬​‌‫⁭⁭‪⁬‭⁬⁫‮
+    IL_017e: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_0183: call Client.LoginMod::⁬⁮‏‍‎⁬‬⁭⁬⁪‪⁭‪‍‬​⁫‌​‬‭‌‬‏‪‪⁪⁯‫⁪‌‬‬⁭⁬‏⁫‭⁯‮
+    IL_0188: call Client.LoginMod::⁫‬⁭‫⁯⁫‪⁫‪‪⁫⁬‌‍⁫‏‭⁮‌‍‪‬‫⁭⁮‮⁬‬‪​‏‪⁫⁪​‮‫⁭‮‫‮
+    IL_018d: ldarg.0
+    IL_018e: ldfld Client.LoginMod::‫‮‍‭​‪‎‍​‮⁫⁭‭‏⁬‮‭‍⁪‪‏‮⁬⁯⁯⁬⁮⁬⁪⁫⁫‏‎⁯​‌⁯​‮⁯‮
+    IL_0193: call Client.LoginMod::⁫‎‫⁫‪‮⁫‏‍‫‬‏‏‍‌​⁭⁪‫‮‌⁬​‭‏‌‪‍‬‬​‌‫⁭⁭‪⁬‭⁬⁫‮
+    IL_0198: ldc.i4 551790461
+    IL_019d: br IL_0017
+    IL_01a2: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_01a7: call Client.LoginMod::⁬⁮‏‍‎⁬‬⁭⁬⁪‪⁭‪‍‬​⁫‌​‬‭‌‬‏‪‪⁪⁯‫⁪‌‬‬⁭⁬‏⁫‭⁯‮
+    IL_01ac: ldnull
+    IL_01ad: call Client.LoginMod::‭‮‭⁪⁯⁭⁮​‏⁪‫⁮⁯‭‎⁮⁭‍⁯⁭‭⁮‬⁯‭‮‏⁪‬⁮‭‎‬‬‌⁮‬‬⁭‫‮
+    IL_01b2: brfalse.s IL_01bc
+    IL_01b4: ldc.i4 -559430368
+    IL_01b9: dup
+    IL_01ba: br.s IL_01c2
+    IL_01bc: ldc.i4 -386085296
+    IL_01c1: dup
+    IL_01c2: pop
+    IL_01c3: ldloc.s 8
+    IL_01c5: ldc.i4 1423538770
+    IL_01ca: mul
+    IL_01cb: xor
+    IL_01cc: br IL_0017
+    IL_01d1: ldarg.0
+    IL_01d2: ldfld Client.LoginMod::autoUser
+    IL_01d7: ldstr ""
+    IL_01dc: call Client.LoginMod::‫‬‪‭‭‮⁫‌‪‪‌‫⁭‭‫⁬‬‌⁬‏‫⁯‌⁫‪​⁯‎‬⁪‪‏‭‮‭‪⁬‮‌⁬‮
+    IL_01e1: brfalse.s IL_01eb
+    IL_01e3: ldc.i4 -67454464
+    IL_01e8: dup
+    IL_01e9: br.s IL_01f1
+    IL_01eb: ldc.i4 -422004481
+    IL_01f0: dup
+    IL_01f1: pop
+    IL_01f2: ldloc.s 8
+    IL_01f4: ldc.i4 -759964493
+    IL_01f9: mul
+    IL_01fa: xor
+    IL_01fb: br IL_0017
+    IL_0200: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_0205: call Client.LoginMod::⁭‏‭‬⁭‎‪⁮‪‎‫‫‭⁪‪‍‪‮‭‌‬‌⁮⁯‬‏‫⁬‪‏‬​‮‪‎⁮⁪‌‬⁯‮
+    IL_020a: ldnull
+    IL_020b: call Client.LoginMod::‭‮‭⁪⁯⁭⁮​‏⁪‫⁮⁯‭‎⁮⁭‍⁯⁭‭⁮‬⁯‭‮‏⁪‬⁮‭‎‬‬‌⁮‬‬⁭‫‮
+    IL_0210: brfalse IL_0100
+    IL_0215: ldloc.s 8
+    IL_0217: ldc.i4 638608097
+    IL_021c: mul
+    IL_021d: ldc.i4 -390651656
+    IL_0222: xor
+    IL_0223: br IL_0017
+    IL_0228: ret
+    IL_0229: ldloc.s 8
+    IL_022b: ldc.i4 -927556031
+    IL_0230: mul
+    IL_0231: ldc.i4 973581529
+    IL_0236: xor
+    IL_0237: br IL_0017
+    IL_023c: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_0241: call Client.LoginMod::⁬⁮‏‍‎⁬‬⁭⁬⁪‪⁭‪‍‬​⁫‌​‬‭‌‬‏‪‪⁪⁯‫⁪‌‬‬⁭⁬‏⁫‭⁯‮
+    IL_0246: call Client.LoginMod::⁯⁫​⁪‬⁭⁭​⁬⁭‪‭⁮‫‮‬⁭‍‪⁮⁬⁭⁭‭⁭⁮‫‍⁮‫‎‍‭⁬‬⁯⁬⁬‬⁫‮
+    IL_024b: call Client.LoginMod::‮‭‍‪‪⁮⁭‫‭‫‏‍‪‏‭‎​​⁭‏‭⁬⁪⁯⁮‭‍‍‍⁮‬⁮⁫‍‌⁮⁮‍⁮‫‮
+    IL_0250: brfalse.s IL_025a
+    IL_0252: ldc.i4 186675107
+    IL_0257: dup
+    IL_0258: br.s IL_0260
+    IL_025a: ldc.i4 13514148
+    IL_025f: dup
+    IL_0260: pop
+    IL_0261: ldloc.s 8
+    IL_0263: ldc.i4 -1120537663
+    IL_0268: mul
+    IL_0269: xor
+    IL_026a: br IL_0017
+    IL_026f: ldc.i4 1273935824
+    IL_0274: br.s IL_0276
+    IL_0276: call ::‪‎‏‮‌⁪‫‭‮⁫‍​⁬⁮⁭‬‫‪‫​‪‎‪‬‏‮⁬‌⁮‭‮⁪‏‬‌‎‪⁫‏⁪‮
+    IL_027b: call Client.LoginMod::‎‌⁪‬‪​⁮‌‪‏‭‮⁫‎‪‭⁪​‏‌‬‭​‍‍‫⁪‍‬⁭‪‪‍‎⁪​‫‍‫‍‮
+    IL_0280: stloc.1
+    IL_0281: ldc.i4 1446183036
+    IL_0286: br IL_0017
+    IL_028b: ldloc.1
+    IL_028c: call Client.LoginMod::‮‭‍‪‪⁮⁭‫‭‫‏‍‪‏‭‎​​⁭‏‭⁬⁪⁯⁮‭‍‍‍⁮‬⁮⁫‍‌⁮⁮‍⁮‫‮
+    IL_0291: brfalse.s IL_029b
+    IL_0293: ldc.i4 -1777290763
+    IL_0298: dup
+    IL_0299: br.s IL_02a1
+    IL_029b: ldc.i4 -28926629
+    IL_02a0: dup
+    IL_02a1: pop
+    IL_02a2: ldloc.s 8
+    IL_02a4: ldc.i4 1216869892
+    IL_02a9: mul
+    IL_02aa: xor
+    IL_02ab: br IL_0017
+    IL_02b0: ldloc.1
+    IL_02b1: callvirt UnityEngine.GameObject::GetComponentsInChildren
+    IL_02b6: call Il2CppInterop.Runtime.InteropTypes.Arrays.Il2CppArrayBase`1[[UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]::op_Implicit
+    IL_02bb: stloc.2
+    IL_02bc: ldloc.s 8
+    IL_02be: ldc.i4 1754679445
+    IL_02c3: mul
+    IL_02c4: ldc.i4 1475219745
+    IL_02c9: xor
+    IL_02ca: br IL_0017
+    IL_02cf: ldarg.0
+    IL_02d0: ldfld Client.LoginMod::‎‌‎⁪‏‪‫‌‭‪⁪‭​‮‬‪⁬‭⁫‏⁪⁭⁫‏‬⁪⁫‍⁪‬⁮‍‎⁫‎⁬‎‫‍‪‮
+    IL_02d5: call System.Int32::Parse
+    IL_02da: ldc.i4.1
+    IL_02db: sub
+    IL_02dc: conv.r4
+    IL_02dd: ldc.r4 3
+    IL_02e2: mul
+    IL_02e3: stloc.s 4
+    IL_02e5: ldarg.0
+    IL_02e6: ldloc.0
+    IL_02e7: ldloc.s 4
+    IL_02e9: add
+    IL_02ea: stfld Client.LoginMod::⁭‎‭‪⁯‪‪​‌⁬⁮⁫⁯⁪⁯​⁪‭⁫‭‍⁯‫‫⁫⁪⁮‪‏⁪‮⁯‪‎⁭⁬⁫⁭⁫‮
+    IL_02ef: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_02f4: call Client.LoginMod::⁬⁮‏‍‎⁬‬⁭⁬⁪‪⁭‪‍‬​⁫‌​‬‭‌‬‏‪‪⁪⁯‫⁪‌‬‬⁭⁬‏⁫‭⁯‮
+    IL_02f9: call Client.LoginMod::⁯‎‏‮⁪‏⁭‍‪​⁯‮⁪‍‍‍⁯‏‪‍‏​‪‪⁭‎⁪‫‎‫‬‏⁪‮⁭⁮‪⁭⁫⁪‮
+    IL_02fe: ret
+    IL_02ff: ldloc.s 8
+    IL_0301: ldc.i4 -1665193939
+    IL_0306: mul
+    IL_0307: ldc.i4 -2068318493
+    IL_030c: xor
+    IL_030d: br IL_0017
+    IL_0312: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_0317: call Client.LoginMod::⁬⁮‏‍‎⁬‬⁭⁬⁪‪⁭‪‍‬​⁫‌​‬‭‌‬‏‪‪⁪⁯‫⁪‌‬‬⁭⁬‏⁫‭⁯‮
+    IL_031c: call Client.LoginMod::⁫⁫⁮⁭‭‏‎⁯​​‭‏⁯​⁯⁮⁫‮‎‭‮‬⁪⁮‬⁮​‫‫‍‭⁮⁯‏⁮⁭​‭‭⁯‮
+    IL_0321: ldnull
+    IL_0322: call Client.LoginMod::‭‮‭⁪⁯⁭⁮​‏⁪‫⁮⁯‭‎⁮⁭‍⁯⁭‭⁮‬⁯‭‮‏⁪‬⁮‭‎‬‬‌⁮‬‬⁭‫‮
+    IL_0327: brfalse.s IL_0331
+    IL_0329: ldc.i4 -871596102
+    IL_032e: dup
+    IL_032f: br.s IL_0337
+    IL_0331: ldc.i4 -2135444830
+    IL_0336: dup
+    IL_0337: pop
+    IL_0338: ldloc.s 8
+    IL_033a: ldc.i4 1001969380
+    IL_033f: mul
+    IL_0340: xor
+    IL_0341: br IL_0017
+    IL_0346: ret
+    IL_0347: ldloc.s 8
+    IL_0349: ldc.i4 -1191838373
+    IL_034e: mul
+    IL_034f: ldc.i4 -315666034
+    IL_0354: xor
+    IL_0355: br IL_0017
+    IL_035a: ldloc.2
+    IL_035b: ldc.i4.0
+    IL_035c: ldelem.ref
+    IL_035d: call Client.LoginMod::⁫​⁭‪​⁯‮⁭‪​‬⁪‏‮‫‪⁯‎⁪‮⁯‎‬⁯‍‎‌⁭⁪‏‏⁭‌‭⁮‌‏‪⁭‭‮
+    IL_0362: call Client.LoginMod::⁯‍‍‪‭​‫⁯⁫⁫‎‮⁭​‏⁬‬‏‏‫‍‏⁭⁮‎⁮‭‬​‬‬‭‎‭​⁯‮‪‪‪‮
+    IL_0367: ldloc.s 8
+    IL_0369: ldc.i4 1803992038
+    IL_036e: mul
+    IL_036f: ldc.i4 1005837097
+    IL_0374: xor
+    IL_0375: br IL_0017
+    IL_037a: ldloc.1
+    IL_037b: ldnull
+    IL_037c: call Client.LoginMod::‭‮‭⁪⁯⁭⁮​‏⁪‫⁮⁯‭‎⁮⁭‍⁯⁭‭⁮‬⁯‭‮‏⁪‬⁮‭‎‬‬‌⁮‬‬⁭‫‮
+    IL_0381: brtrue.s IL_038b
+    IL_0383: ldc.i4 -1069222773
+    IL_0388: dup
+    IL_0389: br.s IL_0391
+    IL_038b: ldc.i4 -959919844
+    IL_0390: dup
+    IL_0391: pop
+    IL_0392: ldloc.s 8
+    IL_0394: ldc.i4 -1909370930
+    IL_0399: mul
+    IL_039a: xor
+    IL_039b: br IL_0017
+    IL_03a0: ret
+    IL_03a1: ldc.i4 1596957973
+    IL_03a6: br IL_0017
+    IL_03ab: ldloc.2
+    IL_03ac: brtrue.s IL_03b6
+    IL_03ae: ldc.i4 -605109609
+    IL_03b3: dup
+    IL_03b4: br.s IL_03bc
+    IL_03b6: ldc.i4 -730653056
+    IL_03bb: dup
+    IL_03bc: pop
+    IL_03bd: ldloc.s 8
+    IL_03bf: ldc.i4 -1480699645
+    IL_03c4: mul
+    IL_03c5: xor
+    IL_03c6: br IL_0017
+    IL_03cb: ldarg.0
+    IL_03cc: call Client.LoginMod::‌‮‍‪⁫‎‫⁭‍⁫‫‏​⁮⁫⁮‎⁫‪⁯⁭‏‌‎‫‏‍⁭‪‍‪⁫‭‏‏‫‮⁬⁭‬‮
+    IL_03d1: ldc.r4 3
+    IL_03d6: add
+    IL_03d7: stfld Client.LoginMod::⁭‎‭‪⁯‪‪​‌⁬⁮⁫⁯⁪⁯​⁪‭⁫‭‍⁯‫‫⁫⁪⁮‪‏⁪‮⁯‪‎⁭⁬⁫⁭⁫‮
+    IL_03dc: ldloc.s 8
+    IL_03de: ldc.i4 1380080891
+    IL_03e3: mul
+    IL_03e4: ldc.i4 1758974431
+    IL_03e9: xor
+    IL_03ea: br IL_0017
+    IL_03ef: ldarg.0
+    IL_03f0: ldfld Client.LoginMod::⁫⁮‬‪​⁭⁬‬‍‌‬‬‎‫‫‮⁬⁪​‍‍⁪​⁫‏⁮​‭‭‏‬⁭​‎⁮‪⁪⁬‏⁪‮
+    IL_03f5: call Client.LoginMod::chooseServer
+    IL_03fa: brfalse.s IL_0404
+    IL_03fc: ldc.i4 852571744
+    IL_0401: dup
+    IL_0402: br.s IL_040a
+    IL_0404: ldc.i4 830956494
+    IL_0409: dup
+    IL_040a: pop
+    IL_040b: ldloc.s 8
+    IL_040d: ldc.i4 -441620454
+    IL_0412: mul
+    IL_0413: xor
+    IL_0414: br IL_0017
+    IL_0419: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_041e: ldnull
+    IL_041f: call Client.LoginMod::‭‮‭⁪⁯⁭⁮​‏⁪‫⁮⁯‭‎⁮⁭‍⁯⁭‭⁮‬⁯‭‮‏⁪‬⁮‭‎‬‬‌⁮‬‬⁭‫‮
+    IL_0424: brtrue.s IL_042e
+    IL_0426: ldc.i4 1715629782
+    IL_042b: dup
+    IL_042c: br.s IL_0434
+    IL_042e: ldc.i4 1963649503
+    IL_0433: dup
+    IL_0434: pop
+    IL_0435: br IL_0017
+    IL_043a: nop
+    IL_043b: call Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+    IL_0440: call Client.LoginMod::⁭‏‭‬⁭‎‪⁮‪‎‫‫‭⁪‪‍‪‮‭‌‬‌⁮⁯‬‏‫⁬‪‏‬​‮‪‎⁮⁪‌‬⁯‮
+    IL_0445: callvirt UnityEngine.Component::GetComponentsInChildren
+    IL_044a: stloc.s 5
+    IL_044c: ldc.i4 991315571
+    IL_0451: ldc.i4 112380500
+    IL_0456: xor
+    IL_0457: dup
+    IL_0458: stloc.s 8
+    IL_045a: ldc.i4.7
+    IL_045b: rem.un
+    IL_045c: switch (IL_0430, IL_046a, IL_0523, IL_049d, IL_0510, IL_04ee, IL_04ca)
+    IL_047d: br IL_0537
+    IL_0482: ldarg.0
+    IL_0483: ldfld Client.LoginMod::‎‌‎⁪‏‪‫‌‭‪⁪‭​‮‬‪⁬‭⁫‏⁪⁭⁫‏‬⁪⁫‍⁪‬⁮‍‎⁫‎⁬‎‫‍‪‮
+    IL_0488: call System.Int32::Parse
+    IL_048d: stloc.s 6
+    IL_048f: ldloc.s 5
+    IL_0491: brfalse.s IL_049b
+    IL_0493: ldc.i4 -1457728928
+    IL_0498: dup
+    IL_0499: br.s IL_04a1
+    IL_049b: ldc.i4 -458868267
+    IL_04a0: dup
+    IL_04a1: pop
+    IL_04a2: ldloc.s 8
+    IL_04a4: ldc.i4 -187389040
+    IL_04a9: mul
+    IL_04aa: xor
+    IL_04ab: br.s IL_0451
+    IL_04ad: ldarg.0
+    IL_04ae: call Client.LoginMod::‌‮‍‪⁫‎‫⁭‍⁫‫‏​⁮⁫⁮‎⁫‪⁯⁭‏‌‎‫‏‍⁭‪‍‪⁫‭‏‏‫‮⁬⁭‬‮
+    IL_04b3: ldc.r4 2.5
+    IL_04b8: add
+    IL_04b9: stfld Client.LoginMod::⁭‎‭‪⁯‪‪​‌⁬⁮⁫⁯⁪⁯​⁪‭⁫‭‍⁯‫‫⁫⁪⁮‪‏⁪‮⁯‪‎⁭⁬⁫⁭⁫‮
+    IL_04be: ldloc.s 8
+    IL_04c0: ldc.i4 -194798850
+    IL_04c5: mul
+    IL_04c6: ldc.i4 1807573908
+    IL_04cb: xor
+    IL_04cc: br.s IL_0451
+    IL_04ce: ldloc.s 5
+    IL_04d0: callvirt Il2CppInterop.Runtime.InteropTypes.Arrays.Il2CppArrayBase`1[[UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]::get_Length
+    IL_04d5: ldloc.s 6
+    IL_04d7: bgt.s IL_04e1
+    IL_04d9: ldc.i4 604751537
+    IL_04de: dup
+    IL_04df: br.s IL_04e7
+    IL_04e1: ldc.i4 304627788
+    IL_04e6: dup
+    IL_04e7: pop
+    IL_04e8: ldloc.s 8
+    IL_04ea: ldc.i4 44321013
+    IL_04ef: mul
+    IL_04f0: xor
+    IL_04f1: br IL_0451
+    IL_04f6: ldloc.s 5
+    IL_04f8: ldloc.s 6
+    IL_04fa: callvirt Il2CppInterop.Runtime.InteropTypes.Arrays.Il2CppArrayBase`1[[UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]::get_Item
+    IL_04ff: call Client.LoginMod::⁫​⁭‪​⁯‮⁭‪​‬⁪‏‮‫‪⁯‎⁪‮⁯‎‬⁯‍‎‌⁭⁪‏‏⁭‌‭⁮‌‏‪⁭‭‮
+    IL_0504: call Client.LoginMod::⁯‍‍‪‭​‫⁯⁫⁫‎‮⁭​‏⁬‬‏‏‫‍‏⁭⁮‎⁮‭‬​‬‬‭‎‭​⁯‮‪‪‪‮
+    IL_0509: ldloc.s 8
+    IL_050b: ldc.i4 -121609455
+    IL_0510: mul
+    IL_0511: ldc.i4 1339529384
+    IL_0516: xor
+    IL_0517: br IL_0451
+    IL_051c: ldarg.0
+    IL_051d: call Client.LoginMod::‌‮‍‪⁫‎‫⁭‍⁫‫‏​⁮⁫⁮‎⁫‪⁯⁭‏‌‎‫‏‍⁭‪‍‪⁫‭‏‏‫‮⁬⁭‬‮
+    IL_0522: ldc.r4 2
+    IL_0527: add
+    IL_0528: stfld Client.LoginMod::⁭‎‭‪⁯‪‪​‌⁬⁮⁫⁯⁪⁯​⁪‭⁫‭‍⁯‫‫⁫⁪⁮‪‏⁪‮⁯‪‎⁭⁬⁫⁭⁫‮
+    IL_052d: ldc.i4 25469236
+    IL_0532: br IL_0451
+    IL_0537: leave.s IL_0589
+    IL_0539: stloc.s 7
+    IL_053b: ldc.i4 590312904
+    IL_0540: ldc.i4 112380500
+    IL_0545: xor
+    IL_0546: dup
+    IL_0547: stloc.s 8
+    IL_0549: ldc.i4.3
+    IL_054a: rem.un
+    IL_054b: switch (IL_057b, IL_0556, IL_0537)
+    IL_055c: br.s IL_0587
+    IL_055e: call Client.MenuMod::get_Instance
+    IL_0563: ldc.i4 -1085302745
+    IL_0568: br.s IL_056a
+    IL_056a: call ::⁯⁮‎‎‎⁫⁭⁯​‭⁮‪⁮‮‌‮‍‌⁭‎‪‮‍⁮‪⁬⁯‎⁭⁭‭‮‏⁮⁯‎‎⁬‪‬‮
+    IL_056f: ldloc.s 7
+    IL_0571: call Client.LoginMod::‍‏⁭‬‭​⁬‪‮⁮‮‎‮​⁯‬‭⁭‌‪‍⁭⁯‮‭​‫⁯‎‫‮‬‪‭⁯⁮‌‬‫⁬‮
+    IL_0576: call Client.LoginMod::​‪‭⁮⁬‫‪⁯‎⁬⁪‭‪‎‪​⁯⁭‌‮⁪⁪‭‮⁬‬⁬‭‪‫‪⁮‬‏‍⁬‭‫⁫‬‮
+    IL_057b: callvirt Client.MenuMod::inLog
+    IL_0580: ldc.i4 1764396430
+    IL_0585: br.s IL_0540
+    IL_0587: leave.s IL_0589
+    IL_0589: ret
+
+  // --- METHOD Client.LoginMod::‌⁪‫‬⁯⁬‍‫‌⁫‪‮‬⁪⁯​‎‮⁯⁯‎‍​‌‏​‬‌‏‪‎‫‪⁭⁯‭⁫​‪⁭‮
+  // sig: System.String (System.String )
+  // IL size: 163
+    IL_0000: ldarg.1
+    IL_0001: call Client.LoginMod::⁯‎‮‪⁯‍‫⁪‮⁫⁪‌‏‫‮⁬⁪‭‮​⁭​⁪‫⁮‌‬‎⁪⁬⁬​‏​⁬⁯‬⁪⁪⁮‮
+    IL_0006: stloc.0
+    IL_0007: call Client.MenuMod::get_Instance
+    IL_000c: ldc.i4 84760619
+    IL_0011: br.s IL_0013
+    IL_0013: call ::‌⁯⁪⁭‫⁪‍‏⁭‫⁮⁪‌‏‭​‎⁫‭⁮‎​‎‌‫‪⁭‍‍‎⁯‍‬⁯​​⁯⁫‭‪‮
+    IL_0018: call Client.LoginMod::‬‫⁪⁫‫⁮​‪⁭‌‬‬‬‎​⁪⁪‭⁪⁬‭‫⁯‭⁬⁯⁯‫‌​‎​‎⁪​‫⁪⁮‏‮‮
+    IL_001d: ldloc.0
+    IL_001e: call Client.LoginMod::‭⁬⁯‭⁭‫‏​⁫⁯⁪⁬‭⁪⁫‏‏​‬⁮⁮⁫‪⁭⁪​‎‫‪‫‍‮‎‪‭⁬‬‫⁪‫‮
+    IL_0023: call Client.LoginMod::​‪‭⁮⁬‫‪⁯‎⁬⁪‭‪‎‪​⁯⁭‌‮⁪⁪‭‮⁬‬⁬‭‪‫‪⁮‬‏‍⁬‭‫⁫‬‮
+    IL_0028: callvirt Client.MenuMod::inLog
+    IL_002d: call Client.LoginMod::‬‫⁪⁫‫⁮​‪⁭‌‬‬‬‎​⁪⁪‭⁪⁬‭‫⁯‭⁬⁯⁯‫‌​‎​‎⁪​‫⁪⁮‏‮‮
+    IL_0032: ldloc.0
+    IL_0033: call Client.LoginMod::‭⁬⁯‭⁭‫‏​⁫⁯⁪⁬‭⁪⁫‏‏​‬⁮⁮⁫‪⁭⁪​‎‫‪‫‍‮‎‪‭⁬‬‫⁪‫‮
+    IL_0038: stloc.1
+    IL_0039: leave.s IL_00a1
+    IL_003b: stloc.2
+    IL_003c: ldc.i4 -1000835634
+    IL_0041: ldc.i4 -76806977
+    IL_0046: xor
+    IL_0047: dup
+    IL_0048: stloc.3
+    IL_0049: ldc.i4.4
+    IL_004a: rem.un
+    IL_004b: switch (IL_007a, IL_0056, IL_0034, IL_009b)
+    IL_0060: br.s IL_009f
+    IL_0062: call Client.MenuMod::get_Instance
+    IL_0067: ldc.i4 -1763650422
+    IL_006c: br.s IL_006e
+    IL_006e: call ::‪‎‏‮‌⁪‫‭‮⁫‍​⁬⁮⁭‬‫‪‫​‪‎‪‬‏‮⁬‌⁮‭‮⁪‏‬‌‎‪⁫‏⁪‮
+    IL_0073: ldloc.2
+    IL_0074: call Client.LoginMod::‍‏⁭‬‭​⁬‪‮⁮‮‎‮​⁯‬‭⁭‌‪‍⁭⁯‮‭​‫⁯‎‫‮‬‪‭⁯⁮‌‬‫⁬‮
+    IL_0079: call Client.LoginMod::​‪‭⁮⁬‫‪⁯‎⁬⁪‭‪‎‪​⁯⁭‌‮⁪⁪‭‮⁬‬⁬‭‪‫‪⁮‬‏‍⁬‭‫⁫‬‮
+    IL_007e: callvirt Client.MenuMod::inLog
+    IL_0083: ldc.i4 -110205113
+    IL_0088: br.s IL_0041
+    IL_008a: ldstr ""
+    IL_008f: stloc.1
+    IL_0090: ldloc.3
+    IL_0091: ldc.i4 -945681332
+    IL_0096: mul
+    IL_0097: ldc.i4 1724505996
+    IL_009c: xor
+    IL_009d: br.s IL_0041
+    IL_009f: leave.s IL_00a1
+    IL_00a1: ldloc.1
+    IL_00a2: ret
+
+  // --- METHOD Client.LoginMod::ClickButtonViaPath
+  // sig: System.Void (System.String path)
+  // IL size: 194
+    IL_0000: ldarg.0
+    IL_0001: call Client.LoginMod::‎‌⁪‬‪​⁮‌‪‏‭‮⁫‎‪‭⁪​‏‌‬‭​‍‍‫⁪‍‬⁭‪‪‍‎⁪​‫‍‫‍‮
+    IL_0006: stloc.0
+    IL_0007: ldc.i4 991069628
+    IL_000c: ldc.i4 1393208201
+    IL_0011: xor
+    IL_0012: dup
+    IL_0013: stloc.2
+    IL_0014: ldc.i4.6
+    IL_0015: rem.un
+    IL_0016: switch (IL_0041, IL_00ad, IL_fffffff7, IL_009b, IL_0030, IL_007e)
+    IL_0033: br IL_00c1
+    IL_0038: ldloc.1
+    IL_0039: call Client.LoginMod::‪​​‮‌‬⁬⁫⁬‬‬‪⁭⁬​⁪‫‫⁯‫⁬‬⁪⁮​​⁭‪‎‍​‭‫⁪‍⁬⁭‏⁭‭‮
+    IL_003e: brfalse.s IL_0048
+    IL_0040: ldc.i4 -442140826
+    IL_0045: dup
+    IL_0046: br.s IL_004e
+    IL_0048: ldc.i4 -886458380
+    IL_004d: dup
+    IL_004e: pop
+    IL_004f: ldloc.2
+    IL_0050: ldc.i4 1486169976
+    IL_0055: mul
+    IL_0056: xor
+    IL_0057: br.s IL_000c
+    IL_0059: ldloc.0
+    IL_005a: callvirt UnityEngine.GameObject::GetComponent
+    IL_005f: stloc.1
+    IL_0060: ldloc.1
+    IL_0061: ldnull
+    IL_0062: call Client.LoginMod::‭‮‭⁪⁯⁭⁮​‏⁪‫⁮⁯‭‎⁮⁭‍⁯⁭‭⁮‬⁯‭‮‏⁪‬⁮‭‎‬‬‌⁮‬‬⁭‫‮
+    IL_0067: brfalse.s IL_0071
+    IL_0069: ldc.i4 17133577
+    IL_006e: dup
+    IL_006f: br.s IL_0077
+    IL_0071: ldc.i4 721276168
+    IL_0076: dup
+    IL_0077: pop
+    IL_0078: ldloc.2
+    IL_0079: ldc.i4 1019689814
+    IL_007e: mul
+    IL_007f: xor
+    IL_0080: br.s IL_000c
+    IL_0082: ldloc.0
+    IL_0083: ldnull
+    IL_0084: call Client.LoginMod::‭‮‭⁪⁯⁭⁮​‏⁪‫⁮⁯‭‎⁮⁭‍⁯⁭‭⁮‬⁯‭‮‏⁪‬⁮‭‎‬‬‌⁮‬‬⁭‫‮
+    IL_0089: brfalse.s IL_0093
+    IL_008b: ldc.i4 -1963149520
+    IL_0090: dup
+    IL_0091: br.s IL_0099
+    IL_0093: ldc.i4 -1966359897
+    IL_0098: dup
+    IL_0099: pop
+    IL_009a: ldloc.2
+    IL_009b: ldc.i4 929108743
+    IL_00a0: mul
+    IL_00a1: xor
+    IL_00a2: br IL_000c
+    IL_00a7: ldloc.1
+    IL_00a8: call Client.LoginMod::⁫​⁭‪​⁯‮⁭‪​‬⁪‏‮‫‪⁯‎⁪‮⁯‎‬⁯‍‎‌⁭⁪‏‏⁭‌‭⁮‌‏‪⁭‭‮
+    IL_00ad: dup
+    IL_00ae: brtrue.s IL_00b2
+    IL_00b0: pop
+    IL_00b1: ret
+    IL_00b2: call Client.LoginMod::‍‏⁭‏⁪⁮⁮⁫‎⁭⁯⁬‮‌‌‫‭‏‏‏‫⁬‌‪⁫‬‍⁬⁬⁯​‬⁭‮‏⁮‎‬‫‪‮
+    IL_00b7: ldc.i4 65505492
+    IL_00bc: br IL_000c
+    IL_00c1: ret
+
+  // --- METHOD Client.LoginMod::chooseServer
+  // sig: System.Boolean (System.String server)
+  // IL size: 760
+    IL_0000: ldc.i4 1841935525
+    IL_0005: br.s IL_0007
+    IL_0007: call ::⁯⁮‎‎‎⁫⁭⁯​‭⁮‪⁮‮‌‮‍‌⁭‎‪‮‍⁮‪⁬⁯‎⁭⁭‭‮‏⁮⁯‎‎⁬‪‬‮
+    IL_000c: stloc.0
+    IL_000d: ldloc.0
+    IL_000e: call Client.LoginMod::‎‌⁪‬‪​⁮‌‪‏‭‮⁫‎‪‭⁪​‏‌‬‭​‍‍‫⁪‍‬⁭‪‪‍‎⁪​‫‍‫‍‮
+    IL_0013: pop
+    IL_0014: ldc.i4 -1246071475
+    IL_0019: br.s IL_001b
+    IL_001b: call ::‌‎‫⁬​‭‮⁮‍‬⁮‍‪‬‮⁫‫‌‬‪‍⁮‫‫‪‪⁬‬​⁭‫‎‪‪⁯‬⁫⁪⁮‬‮
+    IL_0020: call Client.LoginMod::‎‌⁪‬‪​⁮‌‪‏‭‮⁫‎‪‭⁪​‏‌‬‭​‍‍‫⁪‍‬⁭‪‪‍‎⁪​‫‍‫‍‮
+    IL_0025: stloc.1
+    IL_0026: ldc.i4 -335958716
+    IL_002b: ldc.i4 -1353029960
+    IL_0030: xor
+    IL_0031: dup
+    IL_0032: stloc.s 6
+    IL_0034: ldc.i4.s 20
+    IL_0036: rem.un
+    IL_0037: switch (IL_0291, IL_013e, IL_0210, IL_0270, IL_0094, IL_01d0, IL_0167, IL_01a2, IL_00f3, IL_01c1, IL_0097, IL_02d2, IL_01a7, IL_0075, IL_00f0, IL_00e6, IL_0154, IL_0226, IL_0142, IL_0022)
+    IL_008c: br IL_02f6
+    IL_0091: ldloc.s 4
+    IL_0093: call Client.LoginMod::‬‮‭‮⁬‍‬⁪​​⁯‍​‮⁯⁪⁭‪⁮‬‎‌‫‫​‍‌‬​‭‭‪‍‭‭⁯⁮‮‫⁫‮
+    IL_0098: ldc.i4 1440051040
+    IL_009d: br.s IL_009f
+    IL_009f: call ::‌‎‫⁬​‭‮⁮‍‬⁮‍‪‬‮⁫‫‌‬‪‍⁮‫‫‪‪⁬‬​⁭‫‎‪‪⁯‬⁫⁪⁮‬‮
+    IL_00a4: call Client.LoginMod::⁪⁭⁯⁫⁫⁬‍‭‍​‬⁮⁭‏‭⁮‍⁫⁬⁮‏‌⁫⁯⁬‫‬‍‪⁬⁪​‎‮‏‌​‮‪⁬‮
+    IL_00a9: brtrue.s IL_00b3
+    IL_00ab: ldc.i4 -1477130414
+    IL_00b0: dup
+    IL_00b1: br.s IL_00b9
+    IL_00b3: ldc.i4 -1912139457
+    IL_00b8: dup
+    IL_00b9: pop
+    IL_00ba: br IL_002b
+    IL_00bf: ldc.i4.0
+    IL_00c0: ret
+    IL_00c1: ldloc.s 6
+    IL_00c3: ldc.i4 -1842564064
+    IL_00c8: mul
+    IL_00c9: ldc.i4 2039237983
+    IL_00ce: xor
+    IL_00cf: br IL_002b
+    IL_00d4: ldloc.s 5
+    IL_00d6: call Client.LoginMod::‪‬‏‏⁪⁪⁬‏​‭‍⁪​​‍‪⁮⁫⁪‏⁬⁭‎⁬‮⁮‌‫‏‬‫‫‍‍⁭‎​‫⁪‏‮
+    IL_00db: brfalse.s IL_00e5
+    IL_00dd: ldc.i4 1784569055
+    IL_00e2: dup
+    IL_00e3: br.s IL_00eb
+    IL_00e5: ldc.i4 511000694
+    IL_00ea: dup
+    IL_00eb: pop
+    IL_00ec: ldloc.s 6
+    IL_00ee: ldc.i4 900520056
+    IL_00f3: mul
+    IL_00f4: xor
+    IL_00f5: br IL_002b
+    IL_00fa: ldloc.3
+    IL_00fb: ldc.i4.1
+    IL_00fc: add
+    IL_00fd: stloc.3
+    IL_00fe: ldc.i4 -1351237746
+    IL_0103: br IL_002b
+    IL_0108: ldloc.0
+    IL_0109: call Client.LoginMod::ClickButtonViaPath
+    IL_010e: ldc.i4.0
+    IL_010f: ret
+    IL_0110: ldloc.s 6
+    IL_0112: ldc.i4 939280473
+    IL_0117: mul
+    IL_0118: ldc.i4 772142717
+    IL_011d: xor
+    IL_011e: br IL_002b
+    IL_0123: call Client.MenuMod::get_Instance
+    IL_0128: ldc.i4 -1673588095
+    IL_012d: br.s IL_012f
+    IL_012f: call ::‌‎‫⁬​‭‮⁮‍‬⁮‍‪‬‮⁫‫‌‬‪‍⁮‫‫‪‪⁬‬​⁭‫‎‪‪⁯‬⁫⁪⁮‬‮
+    IL_0134: ldloc.s 5
+    IL_0136: call Client.LoginMod::​‪‭⁮⁬‫‪⁯‎⁬⁪‭‪‎‪​⁯⁭‌‮⁪⁪‭‮⁬‬⁬‭‪‫‪⁮‬‏‍⁬‭‫⁫‬‮
+    IL_013b: callvirt Client.MenuMod::inLog
+    IL_0140: ldc.i4 -1169325323
+    IL_0145: br IL_002b
+    IL_014a: ldloc.3
+    IL_014b: ldloc.2
+    IL_014c: ldlen
+    IL_014d: conv.i4
+    IL_014e: bge.s IL_0158
+    IL_0150: ldc.i4 -2111997228
+    IL_0155: dup
+    IL_0156: br.s IL_015e
+    IL_0158: ldc.i4 -940702091
+    IL_015d: dup
+    IL_015e: pop
+    IL_015f: br IL_002b
+    IL_0164: ldloc.1
+    IL_0165: ldnull
+    IL_0166: call Client.LoginMod::‬‪‭‫‫⁭⁬‪‪⁬‍⁪‭​‮‬⁫‌‬‎‍‫‪‭‎⁫‭​⁪⁯‍⁭⁮⁫‍⁪⁬‎‌⁯‮
+    IL_016b: brtrue.s IL_0175
+    IL_016d: ldc.i4 445866267
+    IL_0172: dup
+    IL_0173: br.s IL_017b
+    IL_0175: ldc.i4 703700370
+    IL_017a: dup
+    IL_017b: pop
+    IL_017c: ldloc.s 6
+    IL_017e: ldc.i4 1960922271
+    IL_0183: mul
+    IL_0184: xor
+    IL_0185: br IL_002b
+    IL_018a: ldc.i4.1
+    IL_018b: ret
+    IL_018c: ldloc.s 6
+    IL_018e: ldc.i4 1833101036
+    IL_0193: mul
+    IL_0194: ldc.i4 -372524285
+    IL_0199: xor
+    IL_019a: br IL_002b
+    IL_019f: ldloc.s 5
+    IL_01a1: ldarg.0
+    IL_01a2: ldc.i4.5
+    IL_01a3: call Client.LoginMod::⁪‫⁪⁮‏‬⁭​‏‌‭‭⁮⁯‮​⁫⁭⁮⁫⁫⁭‏‍⁫‍⁮‬‮‭⁮‍⁮⁬‏‫‍‮‬‌‮
+    IL_01a8: brfalse.s IL_01b2
+    IL_01aa: ldc.i4 -1296289161
+    IL_01af: dup
+    IL_01b0: br.s IL_01b8
+    IL_01b2: ldc.i4 -637687171
+    IL_01b7: dup
+    IL_01b8: pop
+    IL_01b9: ldloc.s 6
+    IL_01bb: ldc.i4 -576840313
+    IL_01c0: mul
+    IL_01c1: xor
+    IL_01c2: br IL_002b
+    IL_01c7: ldloc.2
+    IL_01c8: ldloc.3
+    IL_01c9: ldelem.ref
+    IL_01ca: stloc.s 4
+    IL_01cc: ldc.i4 -1952354027
+    IL_01d1: br IL_002b
+    IL_01d6: ldloc.1
+    IL_01d7: ldc.i4.1
+    IL_01d8: callvirt UnityEngine.GameObject::GetComponentsInChildren
+    IL_01dd: call Il2CppInterop.Runtime.InteropTypes.Arrays.Il2CppArrayBase`1[[UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]::op_Implicit
+    IL_01e2: stloc.2
+    IL_01e3: ldc.i4 -1183358748
+    IL_01e8: br IL_002b
+    IL_01ed: ldloc.s 4
+    IL_01ef: call Client.LoginMod::⁫​⁭‪​⁯‮⁭‪​‬⁪‏‮‫‪⁯‎⁪‮⁯‎‬⁯‍‎‌⁭⁪‏‏⁭‌‭⁮‌‏‪⁭‭‮
+    IL_01f4: call Client.LoginMod::⁯‍‍‪‭​‫⁯⁫⁫‎‮⁭​‏⁬‬‏‏‫‍‏⁭⁮‎⁮‭‬​‬‬‭‎‭​⁯‮‪‪‪‮
+    IL_01f9: ldloc.s 6
+    IL_01fb: ldc.i4 1442641500
+    IL_0200: mul
+    IL_0201: ldc.i4 1218167849
+    IL_0206: xor
+    IL_0207: br IL_002b
+    IL_020c: call Client.MenuMod::get_Instance
+    IL_0211: ldc.i4 631620077
+    IL_0216: br.s IL_0218
+    IL_0218: call ::‌⁯⁪⁭‫⁪‍‏⁭‫⁮⁪‌‏‭​‎⁫‭⁮‎​‎‌‫‪⁭‍‍‎⁯‍‬⁯​​⁯⁫‭‪‮
+    IL_021d: ldarg.0
+    IL_021e: call Client.LoginMod::​‪‭⁮⁬‫‪⁯‎⁬⁪‭‪‎‪​⁯⁭‌‮⁪⁪‭‮⁬‬⁬‭‪‫‪⁮‬‏‍⁬‭‫⁫‬‮
+    IL_0223: callvirt Client.MenuMod::inLog
+    IL_0228: ldc.i4 -1654352253
+    IL_022d: br IL_002b
+    IL_0232: ldloc.s 4
+    IL_0234: call Client.LoginMod::‪​​‮‌‬⁬⁫⁬‬‬‪⁭⁬​⁪‫‫⁯‫⁬‬⁪⁮​​⁭‪‎‍​‭‫⁪‍⁬⁭‏⁭‭‮
+    IL_0239: brfalse.s IL_0243
+    IL_023b: ldc.i4 -67746148
+    IL_0240: dup
+    IL_0241: br.s IL_0249
+    IL_0243: ldc.i4 -1445615401
+    IL_0248: dup
+    IL_0249: pop
+    IL_024a: ldloc.s 6
+    IL_024c: ldc.i4 -1134816376
+    IL_0251: mul
+    IL_0252: xor
+    IL_0253: br IL_002b
+    IL_0258: ldloc.s 4
+    IL_025a: ldc.i4.1
+    IL_025b: callvirt UnityEngine.Component::GetComponentInChildren
+    IL_0260: dup
+    IL_0261: brtrue.s IL_0267
+    IL_0263: pop
+    IL_0264: ldnull
+    IL_0265: br.s IL_0278
+    IL_0267: call Client.LoginMod::‫⁮⁪‫‮⁪‏‮⁫‪‭‫⁬‌‏⁪‮‍‮‬‮‌‌‌⁫‪‪‮‮‌⁫‍‏⁯‮⁯⁬⁬⁪‍‮
+    IL_026c: dup
+    IL_026d: brtrue.s IL_0273
+    IL_026f: pop
+    IL_0270: ldnull
+    IL_0271: br.s IL_0278
+    IL_0273: call Client.LoginMod::⁯⁮‏‏‫​‎⁫‫‭⁮‭​⁪⁯⁮‌‌⁮‌⁪⁪‬⁮‮⁪‫‍⁬‏⁭‌‏‫‌‏⁮⁮‏⁯‮
+    IL_0278: stloc.s 5
+    IL_027a: call Client.MenuMod::get_Instance
+    IL_027f: ldc.i4 -1311576611
+    IL_0284: br.s IL_0286
+    IL_0286: call ::‌⁯⁪⁭‫⁪‍‏⁭‫⁮⁪‌‏‭​‎⁫‭⁮‎​‎‌‫‪⁭‍‍‎⁯‍‬⁯​​⁯⁫‭‪‮
+    IL_028b: ldloc.s 4
+    IL_028d: call Client.LoginMod::‬‮‭‮⁬‍‬⁪​​⁯‍​‮⁯⁪⁭‪⁮‬‎‌‫‫​‍‌‬​‭‭‪‍‭‭⁯⁮‮‫⁫‮
+    IL_0292: ldc.i4 -487484576
+    IL_0297: br.s IL_0299
+    IL_0299: call ::‪‎‏‮‌⁪‫‭‮⁫‍​⁬⁮⁭‬‫‪‫​‪‎‪‬‏‮⁬‌⁮‭‮⁪‏‬‌‎‪⁫‏⁪‮
+    IL_029e: ldloc.s 5
+    IL_02a0: call Client.LoginMod::‪⁭‭⁪‎‭⁭⁭⁯⁫‮⁫‌⁫‌⁭‌‍‭‫​⁯⁮⁫‍‍‎‬⁭⁯‏​‭⁭⁪⁬‬‬⁭‍‮
+    IL_02a5: callvirt Client.MenuMod::inLog
+    IL_02aa: ldc.i4 -213447620
+    IL_02af: br IL_002b
+    IL_02b4: ldc.i4 1040193997
+    IL_02b9: br.s IL_02bb
+    IL_02bb: call ::‌⁯⁪⁭‫⁪‍‏⁭‫⁮⁪‌‏‭​‎⁫‭⁮‎​‎‌‫‪⁭‍‍‎⁯‍‬⁯​​⁯⁫‭‪‮
+    IL_02c0: call Client.LoginMod::‎‌⁪‬‪​⁮‌‪‏‭‮⁫‎‪‭⁪​‏‌‬‭​‍‍‫⁪‍‬⁭‪‪‍‎⁪​‫‍‫‍‮
+    IL_02c5: ldnull
+    IL_02c6: call Client.LoginMod::‬‪‭‫‫⁭⁬‪‪⁬‍⁪‭​‮‬⁫‌‬‎‍‫‪‭‎⁫‭​⁪⁯‍⁭⁮⁫‍⁪⁬‎‌⁯‮
+    IL_02cb: brfalse.s IL_02d5
+    IL_02cd: ldc.i4 -1813127346
+    IL_02d2: dup
+    IL_02d3: br.s IL_02db
+    IL_02d5: ldc.i4 -1638850309
+    IL_02da: dup
+    IL_02db: pop
+    IL_02dc: br IL_002b
+    IL_02e1: ldc.i4.0
+    IL_02e2: stloc.3
+    IL_02e3: ldloc.s 6
+    IL_02e5: ldc.i4 -580282215
+    IL_02ea: mul
+    IL_02eb: ldc.i4 -1424043150
+    IL_02f0: xor
+    IL_02f1: br IL_002b
+    IL_02f6: ldc.i4.0
+    IL_02f7: ret
+
+  // --- METHOD Client.LoginMod::‪​‫‭‫‍⁭​​‭‪‭‍‭‮‫‫‮‭⁮⁯⁬‎⁬‫⁬​⁯‍‭⁬⁯⁫⁯‫⁪‍‌​‮‮
+  // sig: System.String[] ()
+  // IL size: 6
+    IL_0000: call System.Environment::GetCommandLineArgs
+    IL_0005: ret
+
+  // --- METHOD Client.LoginMod::⁮‬​⁯‮‌⁭⁬‭⁬‬⁫⁮⁬‭‫⁬‌‍‏⁫⁭‫‍⁭⁫‫‮‪⁮‍‭‏⁬⁫‌​‮‬‭‮
+  // sig: System.Boolean (System.String , System.String )
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: call System.String::op_Equality
+    IL_0007: ret
+
+  // --- METHOD Client.LoginMod::‫‭‮‌‪⁪‫‫​‬‪‎⁪‪‏⁭‮‭‍‫⁯⁫‌‪‬‌‬⁬​‎‍‮⁪⁯‪‌‎⁫‭‮
+  // sig: System.String (System.String , System.String , System.String )
+  // IL size: 9
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: ldarg.2
+    IL_0003: call System.String::Concat
+    IL_0008: ret
+
+  // --- METHOD Client.LoginMod::⁪⁭⁯⁫⁫⁬‍‭‍​‬⁮⁭‏‭⁮‍⁫⁬⁮‏‌⁫⁯⁬‫‬‍‪⁬⁪​‎‮‏‌​‮‪⁬‮
+  // sig: System.Boolean (System.String , System.String )
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: call System.String::op_Inequality
+    IL_0007: ret
+
+  // --- METHOD Client.LoginMod::‎‌⁪‬‪​⁮‌‪‏‭‮⁫‎‪‭⁪​‏‌‬‭​‍‍‫⁪‍‬⁭‪‪‍‎⁪​‫‍‫‍‮
+  // sig: UnityEngine.GameObject (System.String )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: call UnityEngine.GameObject::Find
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::‭‮‭⁪⁯⁭⁮​‏⁪‫⁮⁯‭‎⁮⁭‍⁯⁭‭⁮‬⁯‭‮‏⁪‬⁮‭‎‬‬‌⁮‬‬⁭‫‮
+  // sig: System.Boolean (UnityEngine.Object , UnityEngine.Object )
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: call UnityEngine.Object::op_Inequality
+    IL_0007: ret
+
+  // --- METHOD Client.LoginMod::‮‭‍‪‪⁮⁭‫‭‫‏‍‪‏‭‎​​⁭‏‭⁬⁪⁯⁮‭‍‍‍⁮‬⁮⁫‍‌⁮⁮‍⁮‫‮
+  // sig: System.Boolean (UnityEngine.GameObject )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt UnityEngine.GameObject::get_activeInHierarchy
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::‌‮‍‪⁫‎‫⁭‍⁫‫‏​⁮⁫⁮‎⁫‪⁯⁭‏‌‎‫‏‍⁭‪‍‪⁫‭‏‏‫‮⁬⁭‬‮
+  // sig: System.Single ()
+  // IL size: 6
+    IL_0000: call UnityEngine.Time::get_time
+    IL_0005: ret
+
+  // --- METHOD Client.LoginMod::⁫​⁭‪​⁯‮⁭‪​‬⁪‏‮‫‪⁯‎⁪‮⁯‎‬⁯‍‎‌⁭⁪‏‏⁭‌‭⁮‌‏‪⁭‭‮
+  // sig: UnityEngine.UI.Button+ButtonClickedEvent (UnityEngine.UI.Button )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt UnityEngine.UI.Button::get_onClick
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::⁯‍‍‪‭​‫⁯⁫⁫‎‮⁭​‏⁬‬‏‏‫‍‏⁭⁮‎⁮‭‬​‬‬‭‎‭​⁯‮‪‪‪‮
+  // sig: System.Void (UnityEngine.Events.UnityEvent )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt UnityEngine.Events.UnityEvent::Invoke
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮
+  // sig: LoginUIManager ()
+  // IL size: 6
+    IL_0000: call LoginUIManager::gI
+    IL_0005: ret
+
+  // --- METHOD Client.LoginMod::⁬⁮‏‍‎⁬‬⁭⁬⁪‪⁭‪‍‬​⁫‌​‬‭‌‬‏‪‪⁪⁯‫⁪‌‬‬⁭⁬‏⁫‭⁯‮
+  // sig: LoginPanel (LoginUIManager )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt LoginUIManager::get_loginPanel
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::⁯⁫​⁪‬⁭⁭​⁬⁭‪‭⁮‫‮‬⁭‍‪⁮⁬⁭⁭‭⁭⁮‫‍⁮‫‎‍‭⁬‬⁯⁬⁬‬⁫‮
+  // sig: UnityEngine.GameObject (UnityEngine.Component )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt UnityEngine.Component::get_gameObject
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::⁫⁫⁮⁭‭‏‎⁯​​‭‏⁯​⁯⁮⁫‮‎‭‮‬⁪⁮‬⁮​‫‫‍‭⁮⁯‏⁮⁭​‭‭⁯‮
+  // sig: MyInputField (LoginPanel )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt LoginPanel::get_accountField
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::⁫‎‫⁫‪‮⁫‏‍‫‬‏‏‍‌​⁭⁪‫‮‌⁬​‭‏‌‪‍‬‬​‌‫⁭⁭‪⁬‭⁬⁫‮
+  // sig: System.Void (MyInputField , System.String )
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: callvirt MyInputField::setText
+    IL_0007: ret
+
+  // --- METHOD Client.LoginMod::⁫‬⁭‫⁯⁫‪⁫‪‪⁫⁬‌‍⁫‏‭⁮‌‍‪‬‫⁭⁮‮⁬‬‪​‏‪⁫⁪​‮‫⁭‮‫‮
+  // sig: MyInputField (LoginPanel )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt LoginPanel::get_passwordField
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::⁯‎‏‮⁪‏⁭‍‪​⁯‮⁪‍‍‍⁯‏‪‍‏​‪‪⁭‎⁪‫‎‫‬‏⁪‮⁭⁮‪⁭⁫⁪‮
+  // sig: System.Void (LoginPanel )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt LoginPanel::invokeLoginBtn
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::⁭‏‭‬⁭‎‪⁮‪‎‫‫‭⁪‪‍‪‮‭‌‬‌⁮⁯‬‏‫⁬‪‏‬​‮‪‎⁮⁪‌‬⁯‮
+  // sig: CharacterChoosingPanel (LoginUIManager )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt LoginUIManager::get_characterChoosingPanel
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::‍‏⁭‬‭​⁬‪‮⁮‮‎‮​⁯‬‭⁭‌‪‍⁭⁯‮‭​‫⁯‎‫‮‬‪‭⁯⁮‌‬‫⁬‮
+  // sig: System.String (System.Exception )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt System.Exception::get_Message
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::​‪‭⁮⁬‫‪⁯‎⁬⁪‭‪‎‪​⁯⁭‌‮⁪⁪‭‮⁬‬⁬‭‪‫‪⁮‬‏‍⁬‭‫⁫‬‮
+  // sig: System.String (System.String , System.String )
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: call System.String::Concat
+    IL_0007: ret
+
+  // --- METHOD Client.LoginMod::‫‬‪‭‭‮⁫‌‪‪‌‫⁭‭‫⁬‬‌⁬‏‫⁯‌⁫‪​⁯‎‬⁪‪‏‭‮‭‪⁬‮‌⁬‮
+  // sig: System.Boolean (System.String , System.String )
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: callvirt System.String::Equals
+    IL_0007: ret
+
+  // --- METHOD Client.LoginMod::‮‌‫‪‪‏‌⁮⁯‫‍‏⁪‪‍‌‪‎‍‪⁯⁬⁪‬‏⁭‍‌‌‭​‪‮‏‎‮‮⁪‍‌‮
+  // sig: System.Void (System.Int32 , System.Int32 , System.Boolean )
+  // IL size: 9
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: ldarg.2
+    IL_0003: call UnityEngine.Screen::SetResolution
+    IL_0008: ret
+
+  // --- METHOD Client.LoginMod::⁯‎‮‪⁯‍‫⁪‮⁫⁪‌‏‫‮⁬⁪‭‮​⁭​⁪‫⁮‌‬‎⁪⁬⁬​‏​⁬⁯‬⁪⁪⁮‮
+  // sig: System.Byte[] (System.String )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: call System.Convert::FromBase64String
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::‬‫⁪⁫‫⁮​‪⁭‌‬‬‬‎​⁪⁪‭⁪⁬‭‫⁯‭⁬⁯⁯‫‌​‎​‎⁪​‫⁪⁮‏‮‮
+  // sig: System.Text.Encoding ()
+  // IL size: 6
+    IL_0000: call System.Text.Encoding::get_UTF8
+    IL_0005: ret
+
+  // --- METHOD Client.LoginMod::‭⁬⁯‭⁭‫‏​⁫⁯⁪⁬‭⁪⁫‏‏​‬⁮⁮⁫‪⁭⁪​‎‫‪‫‍‮‎‪‭⁬‬‫⁪‫‮
+  // sig: System.String (System.Text.Encoding , System.Byte[] )
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: callvirt System.Text.Encoding::GetString
+    IL_0007: ret
+
+  // --- METHOD Client.LoginMod::‪​​‮‌‬⁬⁫⁬‬‬‪⁭⁬​⁪‫‫⁯‫⁬‬⁪⁮​​⁭‪‎‍​‭‫⁪‍⁬⁭‏⁭‭‮
+  // sig: System.Boolean (UnityEngine.UI.Selectable )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt UnityEngine.UI.Selectable::get_interactable
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::‍‏⁭‏⁪⁮⁮⁫‎⁭⁯⁬‮‌‌‫‭‏‏‏‫⁬‌‪⁫‬‍⁬⁬⁯​‬⁭‮‏⁮‎‬‫‪‮
+  // sig: System.Void (UnityEngine.Events.UnityEvent )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: call UnityEngine.Events.UnityEvent::Invoke
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::‬‪‭‫‫⁭⁬‪‪⁬‍⁪‭​‮‬⁫‌‬‎‍‫‪‭‎⁫‭​⁪⁯‍⁭⁮⁫‍⁪⁬‎‌⁯‮
+  // sig: System.Boolean (UnityEngine.Object , UnityEngine.Object )
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: call UnityEngine.Object::op_Equality
+    IL_0007: ret
+
+  // --- METHOD Client.LoginMod::‬‮‭‮⁬‍‬⁪​​⁯‍​‮⁯⁪⁭‪⁮‬‎‌‫‫​‍‌‬​‭‭‪‍‭‭⁯⁮‮‫⁫‮
+  // sig: System.String (UnityEngine.Object )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt UnityEngine.Object::get_name
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::‫⁮⁪‫‮⁪‏‮⁫‪‭‫⁬‌‏⁪‮‍‮‬‮‌‌‌⁫‪‪‮‮‌⁫‍‏⁯‮⁯⁬⁬⁪‍‮
+  // sig: System.String (TMPro.TMP_Text )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: callvirt TMPro.TMP_Text::get_text
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::⁯⁮‏‏‫​‎⁫‫‭⁮‭​⁪⁯⁮‌‌⁮‌⁪⁪‬⁮‮⁪‫‍⁬‏⁭‌‏‫‌‏⁮⁮‏⁯‮
+  // sig: System.String (System.String )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: call System.String::Trim
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::‪⁭‭⁪‎‭⁭⁭⁯⁫‮⁫‌⁫‌⁭‌‍‭‫​⁯⁮⁫‍‍‎‬⁭⁯‏​‭⁭⁪⁬‬‬⁭‍‮
+  // sig: System.String (System.String , System.String , System.String , System.String )
+  // IL size: 10
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: ldarg.2
+    IL_0003: ldarg.3
+    IL_0004: call System.String::Concat
+    IL_0009: ret
+
+  // --- METHOD Client.LoginMod::‪‬‏‏⁪⁪⁬‏​‭‍⁪​​‍‪⁮⁫⁪‏⁬⁭‎⁬‮⁮‌‫‏‬‫‫‍‍⁭‎​‫⁪‏‮
+  // sig: System.Boolean (System.String )
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: call System.String::IsNullOrEmpty
+    IL_0006: ret
+
+  // --- METHOD Client.LoginMod::⁪‫⁪⁮‏‬⁭​‏‌‭‭⁮⁯‮​⁫⁭⁮⁫⁫⁭‏‍⁫‍⁮‬‮‭⁮‍⁮⁬‏‫‍‮‬‌‮
+  // sig: System.Boolean (System.String , System.String , System.StringComparison )
+  // IL size: 9
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: ldarg.2
+    IL_0003: callvirt System.String::Contains
+    IL_0008: ret
+

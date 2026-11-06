@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QA TestBot - Quản Lý Tài Khoản</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">QA</span>
+    <div>
+      <h1>Quản Lý Tài Khoản - Vũ Trụ Đại Chiến</h1>
+      <div class="subtitle" id="subtitle">Đang tải cấu hình...</div>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="stat-chip">
+      <span class="label">Server</span>
+      <span class="value" id="stat-server">-</span>
+    </div>
+    <div class="stat-chip">
+      <span class="label">Tài khoản</span>
+      <span class="value" id="stat-accounts">0</span>
+    </div>
+    <div class="stat-chip">
+      <span class="label">Thành công</span>
+      <span class="value ok" id="stat-success">0</span>
+    </div>
+    <div class="stat-chip">
+      <span class="label">Đồng thời</span>
+      <span class="value" id="stat-concurrent">-</span>
+    </div>
+
+    <button class="btn btn-primary" id="btn-start">▶ Bắt đầu</button>
+    <button class="btn btn-danger" id="btn-stop">⏹ Dừng khẩn cấp</button>
+    <button class="btn btn-ghost" id="btn-refresh">↻</button>
+  </div>
+</header>
+
+<main class="layout">
+
+  <!-- ============ LEFT: ACCOUNT LIST ============ -->
+  <section class="panel panel-accounts">
+    <div class="panel-head">
+      <h2>Danh sách tài khoản</h2>
+      <div class="panel-head-actions">
+        <button class="btn btn-sm btn-ghost" id="btn-add">+ Thêm</button>
+        <button class="btn btn-sm btn-ghost" id="btn-save-acc" title="Lưu danh sách">💾 Lưu</button>
+      </div>
+    </div>
+
+    <div class="filters">
+      <input type="search" id="filter-search" placeholder="Tìm tài khoản...">
+      <select id="filter-status">
+        <option value="">Tất cả trạng thái</option>
+        <option value="success">Đã vào map</option>
+        <option value="failed">Chưa vào map</option>
+        <option value="running">Đang chạy</option>
+      </select>
+    </div>
+
+    <div class="account-list" id="account-list">
+      <div class="empty">Chưa có tài khoản nào.</div>
+    </div>
+  </section>
+
+  <!-- ============ RIGHT: DETAIL ============ -->
+  <section class="panel panel-detail">
+
+    <div class="tabs">
+      <button class="tab active" data-tab="config">Cấu hình</button>
+      <button class="tab" data-tab="accounts">Tài khoản</button>
+      <button class="tab" data-tab="events">Nhật ký</button>
+      <button class="tab" data-tab="report">Báo cáo</button>
+    </div>
+
+    <!-- TAB: CONFIG -->
+    <div class="tab-panel active" id="tab-config">
+      <div class="grid2">
+        <div class="field">
+          <label>Server đích</label>
+          <input type="text" id="cfg-server-name">
+        </div>
+        <div class="field">
+          <label>Whitelist server (mỗi dòng 1 tên)</label>
+          <textarea id="cfg-allowed" rows="5"></textarea>
+        </div>
+        <div class="field">
+          <label>Số client đồng thời tối đa</label>
+          <input type="number" id="cfg-max-concurrent" min="1" max="50">
+        </div>
+        <div class="field">
+          <label>Giãn cách đăng nhập (giây)</label>
+          <input type="number" id="cfg-stagger" min="0" step="0.5">
+        </div>
+        <div class="field">
+          <label>Timeout mỗi bước (giây)</label>
+          <input type="number" id="cfg-timeout" min="5" step="1">
+        </div>
+        <div class="field">
+          <label>Chu kỳ snapshot (giây)</label>
+          <input type="number" id="cfg-snapshot" min="1" step="0.5">
+        </div>
+        <div class="field">
+          <label>Chuỗi log cần ẩn (mỗi dòng 1 chuỗi)</label>
+          <textarea id="cfg-suppressed" rows="4"></textarea>
+        </div>
+        <div class="field field-check">
+          <label class="check">
+            <input type="checkbox" id="cfg-suppress-nre">
+            <span>Ẩn lỗi <code>NullReferenceException</code> từ Unity</span>
+          </label>
+          <p class="hint">
+            Lọc chỉ áp dụng cho log nguồn <code>Unity</code>. Log của BepInEx và plugin QA TestBot luôn được giữ nguyên.
+          </p>
+        </div>
+      </div>
+
+      <div class="panel-head-actions right">
+        <button class="btn btn-primary" id="btn-save-config">💾 Lưu cấu hình</button>
+      </div>
+
+      <div class="safety-box">
+        <h3>🛡 Giới hạn an toàn (bắt buộc)</h3>
+        <ul>
+          <li>Server đích phải nằm trong whitelist, nếu không tool từ chối chạy.</li>
+          <li>Giới hạn số tài khoản đồng thời (<code>max_concurrent</code>) và giãn cách đăng nhập (<code>stagger_seconds</code>).</li>
+          <li>Dừng khẩn cấp bằng nút <b>Dừng khẩn cấp</b> hoặc tạo file <code>QA_TestBot/config/stop.flag</code> — dừng toàn bộ client trong &lt; 10 giây.</li>
+          <li>Tool không đọc/ghi gói tin, không hook hàm mạng, không sửa dữ liệu nhân vật.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- TAB: ACCOUNTS -->
+    <div class="tab-panel" id="tab-accounts">
+      <table class="grid-table" id="accounts-table">
+        <thead>
+          <tr>
+            <th style="width:28px">#</th>
+            <th>Tài khoản</th>
+            <th>Mật khẩu</th>
+            <th>Server</th>
+            <th>Ghi chú</th>
+            <th style="width:40px"></th>
+          </tr>
+        </thead>
+        <tbody id="accounts-tbody"></tbody>
+      </table>
+      <div class="empty" id="accounts-empty">Chưa có tài khoản nào. Bấm "+ Thêm" để thêm.</div>
+    </div>
+
+    <!-- TAB: EVENTS -->
+    <div class="tab-panel" id="tab-events">
+      <div class="events-toolbar">
+        <select id="events-account"></select>
+        <button class="btn btn-sm btn-ghost" id="btn-clear-events">🗑 Xoá log tài khoản</button>
+      </div>
+      <div class="log-view" id="events-view">
+        <div class="empty">Chọn một tài khoản để xem nhật ký.</div>
+      </div>
+    </div>
+
+    <!-- TAB: REPORT -->
+    <div class="tab-panel" id="tab-report">
+      <div class="panel-head-actions right">
+        <button class="btn btn-primary btn-sm" id="btn-gen-report">📊 Xuất báo cáo (summary.md / .csv)</button>
+      </div>
+      <div id="report-content" class="report"></div>
+    </div>
+
+  </section>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

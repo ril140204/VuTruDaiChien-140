@@ -1,0 +1,35 @@
+{
+  "test_env_confirmed": true,
+  "server_name": "Vũ Trụ 1",
+  "allowed_server_names": [
+    "Vũ Trụ 1",
+    "Vũ Trụ 2",
+    "Vũ Trụ 3",
+    "Liên Vũ Trụ",
+    "Server 1",
+    "Sever 1",
+    "Server 2",
+    "Sever 2",
+    "Server 3",
+    "Sever 3",
+    "Khu 1",
+    "Khu 2",
+    "Server Test",
+    "Thử Nghiệm",
+    "Live"
+  ],
+  "max_concurrent": 3,
+  "stagger_seconds": 6,
+  "step_timeout": 45,
+  "snapshot_interval": 5,
+  "log_dir": "QA_TestBot/output",
+  "account_input_name": "Account",
+  "password_input_name": "Password",
+  "login_button_name": "LoginButton",
+  "server_expand_button_name": "ExpandButton",
+  "suppress_unity_null_reference": true,
+  "suppressed_log_patterns": [
+    "FileNotFoundException",
+    "Could not load the file"
+  ]
+}

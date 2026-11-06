@@ -1,0 +1,272 @@
+// Assembly: QLTK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+// Location: D:\game\VuTruDaiChien_140\QLTK.dll
+
+// ===== TYPE QLTK.Account
+// base: System.Object
+  FIELD private System.Boolean <IsSelected>k__BackingField
+  FIELD private System.Boolean <Nhat>k__BackingField
+  FIELD private System.String <Username>k__BackingField
+  FIELD private System.String <Password>k__BackingField
+  FIELD private System.String <Server>k__BackingField
+  FIELD private System.String <CharIndex>k__BackingField
+  FIELD private System.String <Resolution>k__BackingField
+  FIELD private System.String <Note>k__BackingField
+  FIELD private System.Boolean <UseProxy>k__BackingField
+  FIELD private System.String <ProxyHost>k__BackingField
+  FIELD private System.String <ProxyPort>k__BackingField
+  FIELD private System.String <ProxyUser>k__BackingField
+  FIELD private System.String <ProxyPass>k__BackingField
+  FIELD private System.String <ProxyStatus>k__BackingField
+
+  // --- METHOD QLTK.Account::get_IsSelected
+  // sig: System.Boolean ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Account::<IsSelected>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.Account::set_IsSelected
+  // sig: System.Void (System.Boolean value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.Account::<IsSelected>k__BackingField
+    IL_0007: ret
+
+  // --- METHOD QLTK.Account::get_Nhat
+  // sig: System.Boolean ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Account::<Nhat>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.Account::set_Nhat
+  // sig: System.Void (System.Boolean value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.Account::<Nhat>k__BackingField
+    IL_0007: ret
+
+  // --- METHOD QLTK.Account::get_Username
+  // sig: System.String ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Account::<Username>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.Account::set_Username
+  // sig: System.Void (System.String value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.Account::<Username>k__BackingField
+    IL_0007: ret
+
+  // --- METHOD QLTK.Account::get_Password
+  // sig: System.String ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Account::<Password>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.Account::set_Password
+  // sig: System.Void (System.String value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.Account::<Password>k__BackingField
+    IL_0007: ret
+
+  // --- METHOD QLTK.Account::get_Server
+  // sig: System.String ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Account::<Server>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.Account::set_Server
+  // sig: System.Void (System.String value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.Account::<Server>k__BackingField
+    IL_0007: ret
+
+  // --- METHOD QLTK.Account::get_CharIndex
+  // sig: System.String ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Account::<CharIndex>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.Account::set_CharIndex
+  // sig: System.Void (System.String value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.Account::<CharIndex>k__BackingField
+    IL_0007: ret
+
+  // --- METHOD QLTK.Account::get_Resolution
+  // sig: System.String ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Account::<Resolution>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.Account::set_Resolution
+  // sig: System.Void (System.String value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.Account::<Resolution>k__BackingField
+    IL_0007: ret
+
+  // --- METHOD QLTK.Account::get_Note
+  // sig: System.String ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Account::<Note>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.Account::set_Note
+  // sig: System.Void (System.String value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.Account::<Note>k__BackingField
+    IL_0007: ret
+
+  // --- METHOD QLTK.Account::get_UseProxy
+  // sig: System.Boolean ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Account::<UseProxy>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.Account::set_UseProxy
+  // sig: System.Void (System.Boolean value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.Account::<UseProxy>k__BackingField
+    IL_0007: ret
+
+  // --- METHOD QLTK.Account::get_ProxyHost
+  // sig: System.String ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Account::<ProxyHost>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.Account::set_ProxyHost
+  // sig: System.Void (System.String value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.Account::<ProxyHost>k__BackingField
+    IL_0007: ret
+
+  // --- METHOD QLTK.Account::get_ProxyPort
+  // sig: System.String ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Account::<ProxyPort>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.Account::set_ProxyPort
+  // sig: System.Void (System.String value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.Account::<ProxyPort>k__BackingField
+    IL_0007: ret
+
+  // --- METHOD QLTK.Account::get_ProxyUser
+  // sig: System.String ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Account::<ProxyUser>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.Account::set_ProxyUser
+  // sig: System.Void (System.String value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.Account::<ProxyUser>k__BackingField
+    IL_0007: ret
+
+  // --- METHOD QLTK.Account::get_ProxyPass
+  // sig: System.String ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Account::<ProxyPass>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.Account::set_ProxyPass
+  // sig: System.Void (System.String value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.Account::<ProxyPass>k__BackingField
+    IL_0007: ret
+
+  // --- METHOD QLTK.Account::get_ProxyDisplay
+  // sig: System.String ()
+  // IL size: 120
+    IL_0000: ldarg.0
+    IL_0001: call QLTK.Account::get_UseProxy
+    IL_0006: brfalse.s IL_0054
+    IL_0008: ldc.i4 -1801252018
+    IL_000d: ldc.i4 -778781105
+    IL_0012: xor
+    IL_0013: dup
+    IL_0014: stloc.0
+    IL_0015: ldc.i4.4
+    IL_0016: rem.un
+    IL_0017: switch (IL_0051, IL_0022, IL_004c, IL_0004)
+    IL_002c: br.s IL_0061
+    IL_002e: ldarg.0
+    IL_002f: call QLTK.Account::get_ProxyHost
+    IL_0034: call System.String::IsNullOrWhiteSpace
+    IL_0039: brtrue.s IL_0043
+    IL_003b: ldc.i4 -179406002
+    IL_0040: dup
+    IL_0041: br.s IL_0049
+    IL_0043: ldc.i4 -166351892
+    IL_0048: dup
+    IL_0049: pop
+    IL_004a: ldloc.0
+    IL_004b: ldc.i4 1810766741
+    IL_0050: mul
+    IL_0051: xor
+    IL_0052: br.s IL_000d
+    IL_0054: ldstr ""
+    IL_0059: ret
+    IL_005a: ldc.i4 -1613056037
+    IL_005f: br.s IL_000d
+    IL_0061: ldarg.0
+    IL_0062: call QLTK.Account::get_ProxyHost
+    IL_0067: ldstr ":"
+    IL_006c: ldarg.0
+    IL_006d: call QLTK.Account::get_ProxyPort
+    IL_0072: call System.String::Concat
+    IL_0077: ret
+
+  // --- METHOD QLTK.Account::get_ProxyStatus
+  // sig: System.String ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.Account::<ProxyStatus>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.Account::set_ProxyStatus
+  // sig: System.Void (System.String value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.Account::<ProxyStatus>k__BackingField
+    IL_0007: ret
+

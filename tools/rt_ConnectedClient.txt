@@ -1,0 +1,38 @@
+// Assembly: QLTK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+// Location: D:\game\VuTruDaiChien_140\QLTK.dll
+
+// ===== TYPE QLTK.ConnectedClient
+// base: System.Object
+  FIELD private System.Net.Sockets.TcpClient <Client>k__BackingField
+  FIELD private System.String <STT>k__BackingField
+
+  // --- METHOD QLTK.ConnectedClient::get_Client
+  // sig: System.Net.Sockets.TcpClient ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.ConnectedClient::<Client>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.ConnectedClient::set_Client
+  // sig: System.Void (System.Net.Sockets.TcpClient value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.ConnectedClient::<Client>k__BackingField
+    IL_0007: ret
+
+  // --- METHOD QLTK.ConnectedClient::get_STT
+  // sig: System.String ()
+  // IL size: 7
+    IL_0000: ldarg.0
+    IL_0001: ldfld QLTK.ConnectedClient::<STT>k__BackingField
+    IL_0006: ret
+
+  // --- METHOD QLTK.ConnectedClient::set_STT
+  // sig: System.Void (System.String value)
+  // IL size: 8
+    IL_0000: ldarg.0
+    IL_0001: ldarg.1
+    IL_0002: stfld QLTK.ConnectedClient::<STT>k__BackingField
+    IL_0007: ret
+

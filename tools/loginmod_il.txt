@@ -1,0 +1,228 @@
+// ===== TYPE Client.LoginMod
+// base: System.Object
+public System.String autoUser
+private System.String ‫‮‍‭​‪‎‍​‮⁫⁭‭‏⁬‮‭‍⁪‪‏‮⁬⁯⁯⁬⁮⁬⁪⁫⁫‏‎⁯​‌⁯​‮⁯‮
+private System.String ‎‌‎⁪‏‪‫‌‭‪⁪‭​‮‬‪⁬‭⁫‏⁪⁭⁫‏‬⁪⁫‍⁪‬⁮‍‎⁫‎⁬‎‫‍‪‮
+private System.Boolean ‎⁫‍‪⁫‮‬‌‏​‍⁮‪‬⁭‍⁮⁫⁯‪‬‫⁬‮‬‎‏‪‫‮⁮‪‭‪‍‮‫‬‎‮
+private System.Boolean ‫⁭‭​‎⁯‌⁬‪‌⁬​‮‫‌‪‌‬‮​‍‌⁫⁮⁮‮⁮‭⁪‫‬​‭‮⁪‭⁭‍‭‭‮
+private System.Boolean ‍⁯‮⁯‍‬‏‪​⁬⁯‍⁮⁮⁪‍⁫⁭‪‏‪‭⁯⁬⁮⁭‎⁫⁯‎‮‍​‌‬‬​‬⁮‍‮
+private System.Single ‍‬⁭⁫⁭⁫‪‭⁭‫‭⁮‪‌⁮​‎⁪‏‍‏⁬‏⁮‎‫⁪​⁭‌​‏‎⁫‎​⁪⁮‮‪‮
+private System.String ‬‏⁫⁪‭⁭⁭‏‎‭‬‭‏‫‬‎⁫‮‬⁪⁫‫​‎‏‌⁭⁭‌‍​⁬​‌⁬‬‭‮⁯‮
+private System.String ‫⁬‌‭⁯‭‫‪‪⁮⁪‌⁪‬⁫⁭‬⁯‭​​⁪‪⁬⁭⁫‎⁮‏⁫​‌‮⁭⁭‭⁯‭⁭⁪‮
+public static System.Boolean nhatItem
+private System.String ⁫⁮‬‪​⁭⁬‬‍‌‬‬‎‫‫‮⁬⁪​‍‍⁪​⁫‏⁮​‭‭‏‬⁭​‎⁮‪⁪⁬‏⁪‮
+private System.Single ⁭‎‭‪⁯‪‪​‌⁬⁮⁫⁯⁪⁯​⁪‭⁫‭‍⁯‫‫⁫⁪⁮‪‏⁪‮⁯‪‎⁭⁬⁫⁭⁫‮
+private System.Boolean ⁯‎⁯‫‬⁪‫‏‪‪‭‪‬‫⁪‫‪‫‮⁭‮‎‮⁫‌‪⁫⁫‭⁫‪‫‌⁯‮⁭⁬⁯‎⁫‮
+private System.Single ⁫‏⁮‬‭⁭‮‬‌‏‌​‪‍⁮‮‫‪⁯‪‌‪‍‏‌‏‭⁭‮⁮‫⁫‍⁬⁫⁫‎⁮‎‪‮
+public static System.Int32 STT
+
+  // --- METHOD System.Void Client.LoginMod::Start()
+  // sig: System.Void (Client.LoginMod )
+
+  // --- METHOD System.Void Client.LoginMod::Update()
+  // sig: System.Void (Client.LoginMod )
+
+  // --- METHOD System.Void Client.LoginMod::Update22()
+  // sig: System.Void (Client.LoginMod )
+  conv.ovf.u1.un
+  stsfld
+  conv.i1
+  dup
+
+  // --- METHOD System.String Client.LoginMod::‌⁪‫‬⁯⁬‍‫‌⁫‪‮‬⁪⁯​‎‮⁯⁯‎‍​‌‏​‬‌‏‪‎‫‪⁭⁯‭⁫​‪⁭‮(System.String)
+  // sig: System.String (Client.LoginMod , System.String )
+
+  // --- METHOD System.Void Client.LoginMod::ClickButtonViaPath(System.String)
+  // sig: System.Void (System.String path)
+
+  // --- METHOD System.Boolean Client.LoginMod::chooseServer(System.String)
+  // sig: System.Boolean (System.String server)
+
+  // --- METHOD System.Void Client.LoginMod::.ctor()
+  // sig: System.Void (Client.LoginMod )
+  UNKNOWN1
+  UNKNOWN1
+  ldind.r8
+  ldlen
+  conv.u4
+  mkrefany
+  br.s
+  ldarga.s
+  stind.i2
+  UNKNOWN1
+  prefix7
+  stelem.i4
+  prefix6
+  ldind.i4
+  conv.ovf.i
+  UNKNOWN1
+  UNKNOWN1
+  unbox.any
+  conv.r.un
+  ldind.ref
+  UNKNOWN1
+  conv.ovf.i8.un
+  UNKNOWN1
+  UNKNOWN1
+  UNKNOWN1
+  endfinally
+  stelem
+  conv.ovf.i8.un
+
+  // --- METHOD System.String[] Client.LoginMod::‪​‫‭‫‍⁭​​‭‪‭‍‭‮‫‫‮‭⁮⁯⁬‎⁬‫⁬​⁯‍‭⁬⁯⁫⁯‫⁪‍‌​‮‮()
+  // sig: System.String[] ()
+
+  // --- METHOD System.Boolean Client.LoginMod::⁮‬​⁯‮‌⁭⁬‭⁬‬⁫⁮⁬‭‫⁬‌‍‏⁫⁭‫‍⁭⁫‫‮‪⁮‍‭‏⁬⁫‌​‮‬‭‮(System.String,System.String)
+  // sig: System.Boolean (System.String , System.String )
+
+  // --- METHOD System.String Client.LoginMod::‫‭‮‌‪⁪‫‫​‬‪‎⁪‪‏⁭‮‭‍‫⁯⁫‌‪‬‌‬⁬​‎‍‮⁪⁯‪‌‎⁫‭‮(System.String,System.String,System.String)
+  // sig: System.String (System.String , System.String , System.String )
+
+  // --- METHOD System.Boolean Client.LoginMod::⁪⁭⁯⁫⁫⁬‍‭‍​‬⁮⁭‏‭⁮‍⁫⁬⁮‏‌⁫⁯⁬‫‬‍‪⁬⁪​‎‮‏‌​‮‪⁬‮(System.String,System.String)
+  // sig: System.Boolean (System.String , System.String )
+
+  // --- METHOD UnityEngine.GameObject Client.LoginMod::‎‌⁪‬‪​⁮‌‪‏‭‮⁫‎‪‭⁪​‏‌‬‭​‍‍‫⁪‍‬⁭‪‪‍‎⁪​‫‍‫‍‮(System.String)
+  // sig: UnityEngine.GameObject (System.String )
+
+  // --- METHOD System.Boolean Client.LoginMod::‭‮‭⁪⁯⁭⁮​‏⁪‫⁮⁯‭‎⁮⁭‍⁯⁭‭⁮‬⁯‭‮‏⁪‬⁮‭‎‬‬‌⁮‬‬⁭‫‮(UnityEngine.Object,UnityEngine.Object)
+  // sig: System.Boolean (UnityEngine.Object , UnityEngine.Object )
+
+  // --- METHOD System.Boolean Client.LoginMod::‮‭‍‪‪⁮⁭‫‭‫‏‍‪‏‭‎​​⁭‏‭⁬⁪⁯⁮‭‍‍‍⁮‬⁮⁫‍‌⁮⁮‍⁮‫‮(UnityEngine.GameObject)
+  // sig: System.Boolean (UnityEngine.GameObject )
+
+  // --- METHOD System.Single Client.LoginMod::‌‮‍‪⁫‎‫⁭‍⁫‫‏​⁮⁫⁮‎⁫‪⁯⁭‏‌‎‫‏‍⁭‪‍‪⁫‭‏‏‫‮⁬⁭‬‮()
+  // sig: System.Single ()
+
+  // --- METHOD UnityEngine.UI.Button/ButtonClickedEvent Client.LoginMod::⁫​⁭‪​⁯‮⁭‪​‬⁪‏‮‫‪⁯‎⁪‮⁯‎‬⁯‍‎‌⁭⁪‏‏⁭‌‭⁮‌‏‪⁭‭‮(UnityEngine.UI.Button)
+  // sig: UnityEngine.UI.Button/ButtonClickedEvent (UnityEngine.UI.Button )
+
+  // --- METHOD System.Void Client.LoginMod::⁯‍‍‪‭​‫⁯⁫⁫‎‮⁭​‏⁬‬‏‏‫‍‏⁭⁮‎⁮‭‬​‬‬‭‎‭​⁯‮‪‪‪‮(UnityEngine.Events.UnityEvent)
+  // sig: System.Void (UnityEngine.Events.UnityEvent )
+
+  // --- METHOD LoginUIManager Client.LoginMod::‎⁯​⁯‫⁬​‭‍⁮⁯‌‮‌‍⁪‍⁬⁭⁭‌⁪‍⁮⁫⁯⁮‬‍⁪⁯⁯‏​⁮⁭⁭‬‮‌‮()
+  // sig: LoginUIManager ()
+  conv.ovf.i1
+  conv.ovf.u2
+  brtrue.s
+  bge
+  conv.ovf.u1
+  ldind.i
+  unbox.any
+  isinst
+  ldloc.1
+  ldloc.3
+  UNKNOWN1
+  prefixref
+  prefix5
+  jmp
+  UNKNOWN1
+  UNKNOWN1
+  or
+  ldc.i4.7
+  ldarg.0
+  mul
+  UNKNOWN1
+  stelem.ref
+  stsfld
+  bgt.un.s
+  unbox.any
+
+  // --- METHOD LoginPanel Client.LoginMod::⁬⁮‏‍‎⁬‬⁭⁬⁪‪⁭‪‍‬​⁫‌​‬‭‌‬‏‪‪⁪⁯‫⁪‌‬‬⁭⁬‏⁫‭⁯‮(LoginUIManager)
+  // sig: LoginPanel (LoginUIManager )
+  shr.un
+  ldloc.1
+  ldloc.3
+
+  // --- METHOD UnityEngine.GameObject Client.LoginMod::⁯⁫​⁪‬⁭⁭​⁬⁭‪‭⁮‫‮‬⁭‍‪⁮⁬⁭⁭‭⁭⁮‫‍⁮‫‎‍‭⁬‬⁯⁬⁬‬⁫‮(UnityEngine.Component)
+  // sig: UnityEngine.GameObject (UnityEngine.Component )
+
+  // --- METHOD MyInputField Client.LoginMod::⁫⁫⁮⁭‭‏‎⁯​​‭‏⁯​⁯⁮⁫‮‎‭‮‬⁪⁮‬⁮​‫‫‍‭⁮⁯‏⁮⁭​‭‭⁯‮(LoginPanel)
+  // sig: MyInputField (LoginPanel )
+
+  // --- METHOD System.Void Client.LoginMod::⁫‎‫⁫‪‮⁫‏‍‫‬‏‏‍‌​⁭⁪‫‮‌⁬​‭‏‌‪‍‬‬​‌‫⁭⁭‪⁬‭⁬⁫‮(MyInputField,System.String)
+  // sig: System.Void (MyInputField , System.String )
+
+  // --- METHOD MyInputField Client.LoginMod::⁫‬⁭‫⁯⁫‪⁫‪‪⁫⁬‌‍⁫‏‭⁮‌‍‪‬‫⁭⁮‮⁬‬‪​‏‪⁫⁪​‮‫⁭‮‫‮(LoginPanel)
+  // sig: MyInputField (LoginPanel )
+
+  // --- METHOD System.Void Client.LoginMod::⁯‎‏‮⁪‏⁭‍‪​⁯‮⁪‍‍‍⁯‏‪‍‏​‪‪⁭‎⁪‫‎‫‬‏⁪‮⁭⁮‪⁭⁫⁪‮(LoginPanel)
+  // sig: System.Void (LoginPanel )
+
+  // --- METHOD CharacterChoosingPanel Client.LoginMod::⁭‏‭‬⁭‎‪⁮‪‎‫‫‭⁪‪‍‪‮‭‌‬‌⁮⁯‬‏‫⁬‪‏‬​‮‪‎⁮⁪‌‬⁯‮(LoginUIManager)
+  // sig: CharacterChoosingPanel (LoginUIManager )
+
+  // --- METHOD System.String Client.LoginMod::‍‏⁭‬‭​⁬‪‮⁮‮‎‮​⁯‬‭⁭‌‪‍⁭⁯‮‭​‫⁯‎‫‮‬‪‭⁯⁮‌‬‫⁬‮(System.Exception)
+  // sig: System.String (System.Exception )
+
+  // --- METHOD System.String Client.LoginMod::​‪‭⁮⁬‫‪⁯‎⁬⁪‭‪‎‪​⁯⁭‌‮⁪⁪‭‮⁬‬⁬‭‪‫‪⁮‬‏‍⁬‭‫⁫‬‮(System.String,System.String)
+  // sig: System.String (System.String , System.String )
+
+  // --- METHOD System.Boolean Client.LoginMod::‫‬‪‭‭‮⁫‌‪‪‌‫⁭‭‫⁬‬‌⁬‏‫⁯‌⁫‪​⁯‎‬⁪‪‏‭‮‭‪⁬‮‌⁬‮(System.String,System.String)
+  // sig: System.Boolean (System.String , System.String )
+
+  // --- METHOD System.Void Client.LoginMod::‮‌‫‪‪‏‌⁮⁯‫‍‏⁪‪‍‌‪‎‍‪⁯⁬⁪‬‏⁭‍‌‌‭​‪‮‏‎‮‮⁪‍‌‮(System.Int32,System.Int32,System.Boolean)
+  // sig: System.Void (System.Int32 , System.Int32 , System.Boolean )
+  ldind.i4
+  conv.i2
+  UNKNOWN1
+  neg
+
+  // --- METHOD System.Byte[] Client.LoginMod::⁯‎‮‪⁯‍‫⁪‮⁫⁪‌‏‫‮⁬⁪‭‮​⁭​⁪‫⁮‌‬‎⁪⁬⁬​‏​⁬⁯‬⁪⁪⁮‮(System.String)
+  // sig: System.Byte[] (System.String )
+  mul.ovf
+  bne.un
+  UNKNOWN1
+  xor
+  endfinally
+  br
+  UNKNOWN1
+  newobj
+  break
+  ldelem.u2
+  UNKNOWN1
+  switch ()
+
+  // --- METHOD System.Text.Encoding Client.LoginMod::‬‫⁪⁫‫⁮​‪⁭‌‬‬‬‎​⁪⁪‭⁪⁬‭‫⁯‭⁬⁯⁯‫‌​‎​‎⁪​‫⁪⁮‏‮‮()
+  // sig: System.Text.Encoding ()
+  newarr
+  UNKNOWN1
+  conv.i
+  conv.i8
+  ldc.r8 4.886015628427471E-273
+  ldc.i4.6
+  unbox.any
+  brfalse
+
+  // --- METHOD System.String Client.LoginMod::‭⁬⁯‭⁭‫‏​⁫⁯⁪⁬‭⁪⁫‏‏​‬⁮⁮⁫‪⁭⁪​‎‫‪‫‍‮‎‪‭⁬‬‫⁪‫‮(System.Text.Encoding,System.Byte[])
+  // sig: System.String (System.Text.Encoding , System.Byte[] )
+
+  // --- METHOD System.Boolean Client.LoginMod::‪​​‮‌‬⁬⁫⁬‬‬‪⁭⁬​⁪‫‫⁯‫⁬‬⁪⁮​​⁭‪‎‍​‭‫⁪‍⁬⁭‏⁭‭‮(UnityEngine.UI.Selectable)
+  // sig: System.Boolean (UnityEngine.UI.Selectable )
+
+  // --- METHOD System.Void Client.LoginMod::‍‏⁭‏⁪⁮⁮⁫‎⁭⁯⁬‮‌‌‫‭‏‏‏‫⁬‌‪⁫‬‍⁬⁬⁯​‬⁭‮‏⁮‎‬‫‪‮(UnityEngine.Events.UnityEvent)
+  // sig: System.Void (UnityEngine.Events.UnityEvent )
+
+  // --- METHOD System.Boolean Client.LoginMod::‬‪‭‫‫⁭⁬‪‪⁬‍⁪‭​‮‬⁫‌‬‎‍‫‪‭‎⁫‭​⁪⁯‍⁭⁮⁫‍⁪⁬‎‌⁯‮(UnityEngine.Object,UnityEngine.Object)
+  // sig: System.Boolean (UnityEngine.Object , UnityEngine.Object )
+
+  // --- METHOD System.String Client.LoginMod::‬‮‭‮⁬‍‬⁪​​⁯‍​‮⁯⁪⁭‪⁮‬‎‌‫‫​‍‌‬​‭‭‪‍‭‭⁯⁮‮‫⁫‮(UnityEngine.Object)
+  // sig: System.String (UnityEngine.Object )
+  UNKNOWN1
+  UNKNOWN1
+  blt.un
+
+  // --- METHOD System.String Client.LoginMod::‫⁮⁪‫‮⁪‏‮⁫‪‭‫⁬‌‏⁪‮‍‮‬‮‌‌‌⁫‪‪‮‮‌⁫‍‏⁯‮⁯⁬⁬⁪‍‮(TMPro.TMP_Text)
+  // sig: System.String (TMPro.TMP_Text )
+
+  // --- METHOD System.String Client.LoginMod::⁯⁮‏‏‫​‎⁫‫‭⁮‭​⁪⁯⁮‌‌⁮‌⁪⁪‬⁮‮⁪‫‍⁬‏⁭‌‏‫‌‏⁮⁮‏⁯‮(System.String)
+  // sig: System.String (System.String )
+
+  // --- METHOD System.String Client.LoginMod::‪⁭‭⁪‎‭⁭⁭⁯⁫‮⁫‌⁫‌⁭‌‍‭‫​⁯⁮⁫‍‍‎‬⁭⁯‏​‭⁭⁪⁬‬‬⁭‍‮(System.String,System.String,System.String,System.String)
+  // sig: System.String (System.String , System.String , System.String , System.String )
+
+  // --- METHOD System.Boolean Client.LoginMod::‪‬‏‏⁪⁪⁬‏​‭‍⁪​​‍‪⁮⁫⁪‏⁬⁭‎⁬‮⁮‌‫‏‬‫‫‍‍⁭‎​‫⁪‏‮(System.String)
+  // sig: System.Boolean (System.String )
+
+  // --- METHOD System.Boolean Client.LoginMod::⁪‫⁪⁮‏‬⁭​‏‌‭‭⁮⁯‮​⁫⁭⁮⁫⁫⁭‏‍⁫‍⁮‬‮‭⁮‍⁮⁬‏‫‍‮‬‌‮(System.String,System.String,System.StringComparison)
+  // sig: System.Boolean (System.String , System.String , System.StringComparison )
+

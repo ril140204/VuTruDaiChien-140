@@ -1,0 +1,518 @@
+// ===== TYPE Client.SocketClient/‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮
+// base: System.Object
+public static readonly Client.SocketClient/‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮ <>9
+public static System.Action <>9__15_0
+public static System.Action <>9__15_1
+public static System.Action <>9__15_2
+public static System.Action <>9__15_3
+public static System.Action <>9__15_4
+
+  // --- METHOD System.Void Client.SocketClient/‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::.cctor()
+  // sig: System.Void ()
+
+  // --- METHOD System.Void Client.SocketClient/‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::.ctor()
+  // sig: System.Void (Client.SocketClient/‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮ )
+  blt
+  UNKNOWN1
+
+  // --- METHOD System.Void Client.SocketClient/‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::‬⁪⁭‎‭⁮‍⁯‎‮‎​⁫‏​⁬⁮⁯⁬‮‫⁪⁯‎⁫⁬‫‍‎⁪‮‭‎‌‫‏⁫⁪‮‏‮()
+  // sig: System.Void (Client.SocketClient/‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮ )
+
+  // --- METHOD System.Void Client.SocketClient/‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::‬‫⁫⁭⁯‭‍‌‭‌‏‍‎⁫‌⁯‏‮⁯⁮⁪‪⁭⁫⁭‍⁮‬⁬⁭⁯⁪⁭‪‭⁫‪‏‍‍‮()
+  // sig: System.Void (Client.SocketClient/‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮ )
+
+  // --- METHOD System.Void Client.SocketClient/‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::⁯⁪⁪‍‪‮‮‫‭‏⁭⁪‌‍​‎‎‬‏‫‭⁬⁪‌⁯‭⁫‍⁯‍⁮‭⁫⁮⁬⁫⁪‏‫⁮‮()
+  // sig: System.Void (Client.SocketClient/‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮ )
+
+  // --- METHOD System.Void Client.SocketClient/‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::‬‪⁯‪‍⁬‏⁭‎‬‌⁯⁮⁮‌‌​‏‪‭⁬​‮​‮‎⁯‮⁭‌⁫⁮⁭‎‌‌‌⁮⁫‬‮()
+  // sig: System.Void (Client.SocketClient/‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮ )
+
+  // --- METHOD System.Void Client.SocketClient/‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮::⁮⁪‮⁫‏⁫⁭‭​‬‎‎‌​‭‍‌‭⁬⁮‎‮‬⁭‪‏‭​⁬‫⁯⁯‏‮‌⁬⁪​‭‬‮()
+  // sig: System.Void (Client.SocketClient/‍‮​‬‭‌‪‫‬‫⁮‬⁯⁮‎⁭‬⁬‏​‮‎‮⁬⁭‏‪‪‭‪‭‍‫​⁪‭⁪‍‍‮ )
+
+
+// ===== TYPE Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮
+// base: System.Object
+public System.Int32 ‎⁪‏‮‫⁮‪‭‍⁭⁯⁭‮⁮⁬‮‪‎‭‫‌‭⁯​​⁫‬‬‌‭⁯‪⁪⁭‫⁬‎‪‏‌‮
+public System.Int32 ​‮‮⁬⁬‏‬⁭⁫⁯⁫‮‫⁫‪‪‏⁭‬⁯⁯⁬⁬⁫​⁮⁮‭‏⁪‪‪⁬⁭‪​​⁬‏‎‮
+public System.String ⁭‌‫⁫⁪⁯‌‪⁭‍‍⁮⁫‌⁪‮⁬​⁯‍‎⁮‮‮‎⁮‮⁭⁪‫⁭‌⁮‪​⁪‪⁪⁯‬‮
+public System.Int32 ‍​‮‭‍‪‭⁫‌‭‮‮‏‪‬‫⁯‮‏⁭⁪‏​⁬⁮‬‪‭‍⁯‎‫‍⁪‬‍‫‮⁯⁬‮
+public System.Int32 ⁬⁫‮​​‭‪‌‬‪⁪‎⁫⁯⁪‪‪‮‭⁮⁫‎‍⁯‫‎‏‎​⁬⁮‫‪‫⁬⁬⁫⁮‮‮‮
+public System.Int32 ⁬​​‭‍‭‏‍⁪‫‬‌‮‎⁯⁭⁫⁫⁮⁪⁬‌⁫⁪​‫‪‫‎⁫⁯⁮⁯⁪⁯‌⁯‌‪‪‮
+public System.Int32 ​‍‪‭‍⁫⁫‍‮⁫‏⁮⁪​‮⁪‍⁮⁭⁭⁮‬‭‮​⁪⁯‫⁪‪‏‎⁮⁪‏⁯‏‌‪‭‮
+public System.Int32 ‎⁭‭⁭​‌⁯⁯⁮‌‍⁪‍‪‮‏‌​‬⁪⁪‪‪‏​‍‎‏⁫⁬‏‏⁪‪‎​⁮⁪⁪‮
+public System.Int32 ​‏⁪‪‭⁬‫‍⁯‪‪‌⁫‎​‏⁬‏⁫‪‍‏⁪⁯‫‌‏‏​‏‫‌​‮⁫‍‌⁮‪‬‮
+public System.Int32 ⁫‌‬⁭‍‍⁪‭⁬⁪‪⁯‭‏⁮⁫‬‪‮⁬‏‏⁮‪‪‬‎⁯‎‪‌⁫‪‌‏⁮⁪‪‌‎‮
+public System.Int32 ‬⁫⁯⁮​⁭‏‍‪‏‪⁭⁪‍‭⁬⁯​‭⁮‮‍‪‍⁯‫‏‍‮‌‌⁯‮‍‍‮‪⁯⁮‬‮
+
+  // --- METHOD System.Void Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::.ctor()
+  // sig: System.Void (Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮ )
+  blt
+  UNKNOWN1
+
+  // --- METHOD System.Void Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎‭‌‬‪⁭‬‏⁮‭‪‮⁮‬‮‎⁭⁯⁫⁯‬‮‬⁬‫‎⁪‬‌‏‌‬​‪⁭‫​‭‫‏‮()
+  // sig: System.Void (Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮ )
+  unbox
+  ldind.i1
+  unbox
+  stind.r4
+  leave
+  box
+  prefix5
+  ldc.i4.4
+  ldc.i4.6
+  brtrue.s
+  ble.un.s
+  stind.i1
+  stind.i
+  conv.ovf.i2
+  conv.ovf.i2
+  UNKNOWN1
+  ldarg.1
+  mul
+  mkrefany
+  prefix6
+  UNKNOWN1
+  bgt
+  stelem.r8
+  stind.i
+  UNKNOWN1
+  stelem.ref
+  not
+  conv.ovf.i4
+  UNKNOWN1
+  sub.ovf
+  ldloca.s
+  ldelem.i
+  prefix2
+  ldc.r8 -7.653286331659387E-177
+
+  // --- METHOD System.Void Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁯⁯‮⁭‬⁭‍‬⁪‬‪‭‏‌⁪‌​‫⁫⁭⁯‭⁯‮⁬⁭‭‍⁫⁭‮‫‏⁯‎⁮⁫‍⁪‌‮()
+  // sig: System.Void (Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮ )
+
+  // --- METHOD System.Void Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁯​‫‪⁪⁪‬⁯⁫‏⁪‍‬‎‮‬⁯‪‍⁬⁯‭⁮‬‬​‫‫‮⁮⁮⁭‮‬⁭⁯‍⁯⁯‭‮()
+  // sig: System.Void (Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮ )
+
+  // --- METHOD System.Void Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎‮⁫⁫⁪‭⁪⁯‏‮⁮⁬‎⁬⁪‌‮‫‏⁮⁭‏‪⁮‮‪​‏‍⁫⁪⁯‎⁫‍⁭⁯‍‍‎‮()
+  // sig: System.Void (Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮ )
+
+  // --- METHOD System.Void Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁭⁯⁭⁮​‪‪⁪⁫⁬⁬‍‌‫⁫⁪‭‎‍‌‮‮⁮⁫⁯⁭‫‫⁪‌‍‎⁮‌‭‌‏​⁭‌‮()
+  // sig: System.Void (Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮ )
+  shr
+  ldarg.1
+  UNKNOWN1
+  stobj
+  ldc.i4.7
+  stelem
+  br.s
+  break
+  bgt.un
+  stelem.r8
+  UNKNOWN1
+  ldstr ""
+  UNKNOWN1
+  stobj
+  leave
+  conv.i8
+  ldelem.i2
+  stloc.s
+  cpobj
+  stind.ref
+
+  // --- METHOD System.Void Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‎‭‌‎⁯‫⁫‎‭⁬‌⁯⁭⁪‮‍‪‏‏⁪‪‏‫⁭‍‫‬⁫‪‏‫⁯‬⁫‭‪‪‮‬‍‮()
+  // sig: System.Void (Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮ )
+
+  // --- METHOD System.Void Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁪‮‪‭‎⁭‎‌‌‎​⁪‬⁬⁫⁪‫​‫‮‬‍‪⁬‫‭‍⁬‭‪‎⁮‌‭⁭⁪‫‭‏⁮‮()
+  // sig: System.Void (Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮ )
+
+  // --- METHOD System.Void Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁪⁭⁭⁪‭⁯⁭⁬‪​⁯‭​‏‬⁯‍‫⁮‍‪‪⁭⁪‭‮⁭⁮‫‌‎⁭‍‏‮⁬⁬‪⁭‍‮()
+  // sig: System.Void (Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮ )
+
+  // --- METHOD System.Void Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‮⁮⁪‪⁯‫‫‬‭⁯‪‬⁫⁭⁬‍⁭⁪⁬⁫⁬‬​⁫‫‬⁮‪‌⁬‪‎⁭‬‌‏‎‏⁪⁯‮()
+  // sig: System.Void (Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮ )
+
+  // --- METHOD System.Void Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::⁪‍⁫​⁯‌‪​‌⁯‎‭⁫⁮⁯‏‮‭‌⁯‫‬‮⁬‬‭⁯​‎⁭​⁮‫‮‫‌‎⁫‬⁭‮(System.Int32,System.Int32,System.Boolean)
+  // sig: System.Void (System.Int32 , System.Int32 , System.Boolean )
+  ldind.i4
+  conv.i2
+  UNKNOWN1
+  neg
+
+  // --- METHOD System.Void Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‌‪⁮‫⁮‍‫⁫⁬‌‌‎⁮⁪⁯⁭‫‏‭‌‮‭⁯‬​‎‌⁪‎‮​‮‭‪⁭‪‏‬‫‏‮(System.Int32)
+  // sig: System.Void (System.Int32 )
+
+  // --- METHOD System.Void Client.SocketClient/‌‮‬⁫⁬⁫‏‭⁬​‭‫‮‏⁭​‮⁪‏⁬⁯‪⁭‬‏‫‍‎⁭⁫​⁭‪‮⁮⁫⁭⁬‪‬‮::‫⁫‮‏‬‏‪‬‭‭⁬‫⁮‪‍⁭⁯‌‌‏‌‌‌​⁫⁭​‌‫‎⁫‮​⁫‏⁫‪‪‭⁬‮(System.Int32)
+  // sig: System.Void (System.Int32 )
+
+
+// ===== TYPE Client.SocketClient/‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮
+// base: System.Object
+public System.String ‬⁪⁮⁮‌​‏‬‫⁯‏‍‌‬‮‬⁪⁮​‬‬‬‫⁯⁫‏⁫⁪‌⁯‌‮‮‌‭‏‮⁮‪‪‮
+public Client.SocketClient ⁮‍‮⁫​‍‍‎⁮‍‍‍‎⁬⁯‪⁫⁫⁪‌‬‪⁪​⁬‍⁪‍⁮⁬‫‎⁬‫‬‎‪‎⁮‍‮
+
+  // --- METHOD System.Void Client.SocketClient/‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::.ctor()
+  // sig: System.Void (Client.SocketClient/‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮ )
+  blt
+  UNKNOWN1
+
+  // --- METHOD System.Void Client.SocketClient/‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‭‌‫⁯‬⁭⁮⁭‫‍‭⁮⁬​‎‬‫⁭‬⁪⁬⁪‍‎‍‬‏​‪‭‍​‌‬⁮‎⁯⁭⁮‎‮()
+  // sig: System.Void (Client.SocketClient/‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮ )
+  stelem.i
+  newobj
+  ldsflda
+  UNKNOWN1
+  UNKNOWN1
+  UNKNOWN1
+  UNKNOWN1
+  ldloca.s
+  UNKNOWN1
+  stind.i8
+  ldind.u4
+  callvirt
+  stloc.0
+  ldarg.1
+  sub.ovf.un
+  conv.u1
+  prefix7
+  UNKNOWN2
+  ble.s
+  ldarg.0
+  UNKNOWN1
+  ckfinite
+  ldarg.2
+  prefixref
+
+  // --- METHOD System.Text.Encoding Client.SocketClient/‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‫⁭‏‪⁯‍‫‫‏‏‏‮‮⁮⁪⁮​⁫‌⁮‫⁪⁪‫⁫‪‪​‍​‬⁭‎‌‎‬⁬‭‍⁬‮()
+  // sig: System.Text.Encoding ()
+  newarr
+  UNKNOWN1
+  conv.i
+  conv.i8
+  ldc.r8 4.886015628427471E-273
+  ldc.i4.6
+  unbox.any
+  brfalse
+
+  // --- METHOD System.Byte[] Client.SocketClient/‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‍⁬‪​‪‬‎​‪‌​‍‫⁪⁭‭‫‫‍‏⁮⁭‎​‍‍‏‏‍‬⁬⁬⁫⁭⁬⁮‏‮⁫⁭‮(System.Text.Encoding,System.String)
+  // sig: System.Byte[] (System.Text.Encoding , System.String )
+
+  // --- METHOD System.Void Client.SocketClient/‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::‌​⁯​⁮⁬‎⁬⁮‍‎⁬‍⁯‬‭‪⁬⁫⁬‏⁮⁬⁪⁭⁫⁭‪‮‮‫​‪‏‪‬⁫‫⁪⁫‮(System.IO.Stream,System.Byte[],System.Int32,System.Int32)
+  // sig: System.Void (System.IO.Stream , System.Byte[] , System.Int32 , System.Int32 )
+  shr.un
+  UNKNOWN1
+  UNKNOWN1
+  ldc.r4 -6.0970525E+13
+  prefixref
+  UNKNOWN1
+  add.ovf
+  UNKNOWN1
+  ckfinite
+  ldstr ""
+  UNKNOWN1
+  stelem.i
+  stelem.i8
+  ldstr ""
+  ldnull
+  ldarg.3
+  stind.r8
+  prefixref
+  UNKNOWN1
+  ldc.i4.6
+  throw
+  box
+  beq
+  conv.ovf.u1.un
+  UNKNOWN1
+  ldind.ref
+  add.ovf.un
+  blt.s
+
+  // --- METHOD System.Void Client.SocketClient/‏‎‭⁫⁮‮‬⁮‍⁪‎​‬⁭⁫‮⁭⁮⁭⁯⁮‪⁮⁮⁯‍‬⁫‍‮⁮⁮‏⁯‎‏‪‍‪‬‮::⁬⁪​⁬⁪‏⁫⁯‮‪⁫‭‫‮‏‎‭‌⁫⁫⁫⁫‮​‫⁮⁬​‬‌⁭‫‭⁬‎⁬‮‬‭‏‮(System.IO.Stream)
+  // sig: System.Void (System.IO.Stream )
+
+
+// ===== TYPE Client.SocketClient/ov:}$2p8wSR445F|ml8d5'3b#
+// base: System.ValueType
+// implements: System.Runtime.CompilerServices.IAsyncStateMachine
+public System.Int32 ‏‭⁪⁭‬‎⁮‌‭⁮‪⁪‌⁪‎‌​‍‮⁬‪⁭⁮​⁯⁪⁯‏‪‪‫‮‎⁬⁫‫‎⁮⁬⁪‮
+public System.Runtime.CompilerServices.AsyncVoidMethodBuilder ⁫‌⁯‎‭‍‪‪‏‫‍⁪‮‍‫⁬‎‌‍⁮‬‎⁮‎‎⁮⁬‏‍⁯⁯⁫⁫‭​‌⁪‎‍⁫‮
+public Client.SocketClient ‭‌⁬‫⁭‍‫‫‪‍‌⁯⁯‮‫⁭‎⁬⁬‍​⁫⁯⁪⁮⁫⁫‮‬⁪⁬‏⁮⁭⁭‏‏‍‬⁭‮
+public System.String ⁯⁬⁬‫⁯⁪⁭‫‬‮‮‎⁬⁫‏‪⁬‪​⁬‮⁪‪⁭⁮‪⁭‬⁬‫‍​⁬⁪⁯⁭​⁪⁬⁮‮
+public System.Int32 ‎⁯‭⁭⁬‪​‌‪‬⁮‮⁫‏‫⁯‎‌‌‎‎‏⁯‎‏‮‮‭‫‪‎‎‌‫‏‮‮​‍‫‮
+private System.Runtime.CompilerServices.TaskAwaiter ⁪‎⁭⁭‪‎‪‏⁭⁬⁫‎‫‪⁬⁫‬‬‏‮‭⁯‎‪⁫‏⁮⁬​‬‫‏‭‍‭‏‪‫‌‭‮
+
+  // --- METHOD System.Void Client.SocketClient/ov:}$2p8wSR445F|ml8d5'3b#::MoveNext()
+  // sig: System.Void (Client.SocketClient/ov:}$2p8wSR445F|ml8d5'3b#& )
+
+  // --- METHOD System.Void Client.SocketClient/ov:}$2p8wSR445F|ml8d5'3b#::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+  // sig: System.Void (Client.SocketClient/ov:}$2p8wSR445F|ml8d5'3b#& , System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
+
+  // --- METHOD System.Net.Sockets.TcpClient Client.SocketClient/ov:}$2p8wSR445F|ml8d5'3b#::⁪‮​⁯​‭⁫‌‬⁭‪⁯​⁪‍‫⁯⁮‎‪⁯‌‏‫‏‫‌​‎⁭⁮‏⁮‮‫‮‏‏‭⁪‮()
+  // sig: System.Net.Sockets.TcpClient ()
+
+  // --- METHOD System.Threading.Tasks.Task Client.SocketClient/ov:}$2p8wSR445F|ml8d5'3b#::⁬​‮‌‮‏‭‬​⁯⁯⁯‬‭⁯⁪​‏‏⁫⁮‭​⁮‍⁭⁬‮‮​‬‌‍⁮⁫⁭⁮‬‏⁭‮(System.Net.Sockets.TcpClient,System.String,System.Int32)
+  // sig: System.Threading.Tasks.Task (System.Net.Sockets.TcpClient , System.String , System.Int32 )
+
+  // --- METHOD System.Runtime.CompilerServices.TaskAwaiter Client.SocketClient/ov:}$2p8wSR445F|ml8d5'3b#::‪⁫‮⁪‬‍‬‌‮⁭⁪‎⁯⁫⁯‭⁫‌‭⁪⁯‎‌​⁫⁭⁯⁬‌⁯‏⁮‏‪‏‮‍⁪‍⁫‮(System.Threading.Tasks.Task)
+  // sig: System.Runtime.CompilerServices.TaskAwaiter (System.Threading.Tasks.Task )
+
+  // --- METHOD System.Net.Sockets.NetworkStream Client.SocketClient/ov:}$2p8wSR445F|ml8d5'3b#::⁫⁫‫‪‭⁮⁮⁬‮‎‫⁪‎​⁮‪⁪‍⁭⁬‌‎‎‌‫⁯⁯​⁬‪‮⁬‍⁮‎‎⁪​⁯‮‮(System.Net.Sockets.TcpClient)
+  // sig: System.Net.Sockets.NetworkStream (System.Net.Sockets.TcpClient )
+  UNKNOWN1
+  add
+  UNKNOWN1
+  ldelem.r4
+  UNKNOWN1
+  conv.r8
+  rem
+  ldelem.r4
+  newobj
+  UNKNOWN1
+  switch ()
+
+  // --- METHOD System.String Client.SocketClient/ov:}$2p8wSR445F|ml8d5'3b#::‬⁮⁬⁬​‌‪‏⁭‬‭‎‭​⁭‪⁮⁭‎⁮​‫​‌‫⁭‫⁮⁮‮‬‪⁬⁪‮‫⁫​⁬⁫‮(System.Exception)
+  // sig: System.String (System.Exception )
+
+  // --- METHOD System.String Client.SocketClient/ov:}$2p8wSR445F|ml8d5'3b#::‫‬‮‭⁪‬​⁬⁯⁯‬⁯‎‫‌‮⁭⁭⁭⁭‭‎​‫‭‎‎‭⁭⁫⁭⁬‪⁭⁭​⁪​‏⁬‮(System.String,System.String)
+  // sig: System.String (System.String , System.String )
+
+  // --- METHOD System.Void Client.SocketClient/ov:}$2p8wSR445F|ml8d5'3b#::⁭⁪⁪⁮‎‌⁬⁭​‮⁮‌⁯‪‮​‎⁮⁬⁬‫‬‎‏⁬⁬⁭‭⁯⁯‏⁮‌‬‮⁭‎‏‬‏‮(System.String)
+  // sig: System.Void (System.String )
+
+
+// ===== TYPE Client.SocketClient/74b639Q-|TMOI"0_$x,AEx-;,
+// base: System.ValueType
+// implements: System.Runtime.CompilerServices.IAsyncStateMachine
+public System.Int32 ⁯‏‏‏⁮‍⁯‫‌‭‭‌‮⁫‭‪‪⁫‪‭‫‍‮⁭‮​‭‭‌⁭‏⁬‮⁪⁬‬‬⁬⁯⁮‮
+public System.Runtime.CompilerServices.AsyncTaskMethodBuilder ‫⁫⁮‫‬⁯‏⁫⁮‍‫‪‎⁫‍‬‎‫‮⁬‎⁮‌⁫⁬⁯‭​⁪‍‬⁫‍‎⁮⁯‏⁮‏‮‮
+public Client.SocketClient ‮⁯⁭‭‫‏‍⁮⁮‪‭‪‪​‮⁬⁯⁪‏‌‬‌‫‬⁭‏‫⁫‬‬⁪​‎⁫‪​⁫‏‏‮‮
+private System.Byte[] ​⁭‪‎⁬‪⁬‎⁬‮‮‭‎‫⁪‭⁪⁫⁫⁯‬‏⁮⁬​‫⁭⁯⁭⁬‫‫‎‎‬‫⁮‮‪‭‮
+private System.Runtime.CompilerServices.TaskAwaiter`1<System.Int32> ‪‌⁫‮‬‮⁯⁯‌⁭⁪⁭⁫‎⁮‌‪‬​⁮​⁬‍‭‬‬‮​‪‬⁭⁬‪‏‌‫‫​⁪‭‮
+
+  // --- METHOD System.Void Client.SocketClient/74b639Q-|TMOI"0_$x,AEx-;,::MoveNext()
+  // sig: System.Void (Client.SocketClient/74b639Q-|TMOI"0_$x,AEx-;,& )
+
+  // --- METHOD System.Void Client.SocketClient/74b639Q-|TMOI"0_$x,AEx-;,::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+  // sig: System.Void (Client.SocketClient/74b639Q-|TMOI"0_$x,AEx-;,& , System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
+
+  // --- METHOD System.Threading.Tasks.Task`1<System.Int32> Client.SocketClient/74b639Q-|TMOI"0_$x,AEx-;,::⁯‬‭‍​⁬‭​‌⁯‍‍⁪⁯⁪‬‏‭‬⁫⁮‍‫‭‏‫‮⁯‌‍‪‮⁮‎⁭‪⁪‫‭‮(System.IO.Stream,System.Byte[],System.Int32,System.Int32)
+  // sig: System.Threading.Tasks.Task`1<System.Int32> (System.IO.Stream , System.Byte[] , System.Int32 , System.Int32 )
+  stind.i4
+  ldelema
+  conv.i2
+  prefixref
+  UNKNOWN1
+  ldfld
+  conv.i2
+  conv.ovf.u4
+  UNKNOWN1
+  conv.ovf.u2.un
+  stelem.i4
+  stelem.i1
+  blt.s
+  xor
+  UNKNOWN1
+  stelem.r4
+  newarr
+  or
+  bge
+  stelem.i1
+  UNKNOWN1
+  conv.ovf.i2.un
+  leave.s
+  conv.ovf.i2
+  conv.ovf.i4
+  ldarg.2
+  ldnull
+  brtrue
+
+  // --- METHOD System.Void Client.SocketClient/74b639Q-|TMOI"0_$x,AEx-;,::‫⁭‪‎‎‍‏‭⁬​‍⁮‬‌‎​‬​‭‍‏‏‍‍⁫⁬⁭‮‬‎⁭⁮‎⁬⁮‪‪‪‬‍‮(System.Array,System.Int32,System.Array,System.Int32,System.Int32)
+  // sig: System.Void (System.Array , System.Int32 , System.Array , System.Int32 , System.Int32 )
+
+  // --- METHOD System.Boolean Client.SocketClient/74b639Q-|TMOI"0_$x,AEx-;,::⁭⁬‌‏‭‪‭⁬⁭⁯⁫⁪‍‌⁮⁪⁮‎‮⁫​‏⁮⁬‫‌⁬⁪‪‮​‫‮⁭⁯​‏‎​‭‮(System.Net.Sockets.TcpClient)
+  // sig: System.Boolean (System.Net.Sockets.TcpClient )
+  UNKNOWN1
+  throw
+  conv.ovf.u8.un
+  UNKNOWN1
+  callvirt
+  UNKNOWN1
+  sub.ovf.un
+  ldc.i8 -6711101806168508774
+  newarr
+  ble.un.s
+  ldelem.i2
+  mul.ovf
+  prefixref
+  conv.ovf.u1
+  conv.i
+  UNKNOWN1
+
+
+// ===== TYPE Client.SocketClient
+// base: System.Object
+private System.Net.Sockets.TcpClient ‪‭‬‬⁯‭⁭‏‬​​⁬⁬‫‫‎‬‪‭⁬⁯⁬‎‮⁫‏‏‪‮⁮‫⁭‏‮⁯​⁭⁭‎‮‮
+private System.Net.Sockets.NetworkStream ‌‭‌‭‏‭⁮‎‮‪⁭‎⁯⁯⁫‪‍⁮⁯‬‎‎‎‍‎‏⁪‏⁭‫‪‪⁫‪⁭‎‏‎‌‎‮
+private System.Boolean ‬​⁫‮‫‍‏⁯‭⁪‮‌‎‪‮⁫‭⁮​⁪‏‏​‌‍‍‏‭‫​‪‌‎‎⁪⁪‏‭‫‮‮
+private System.Action`1<System.String> ⁬‮‏⁯‮‪‭⁮⁬⁯‍⁯⁮‪‍‍‬‫‍‪‏⁭‪‮⁫‮‏‮‮⁫⁭‎⁫‬‍‮⁬​⁬‪‮
+private System.Action ‭‎⁭⁭⁮‮‬‬‫​⁭‪⁮‮⁭‎‮⁯‏⁮⁭⁫‍‮‮⁯‪‍‪‮⁫‌‪‭⁮‫‏⁪‍⁯‮
+private System.Action ⁮⁪‍⁫⁮‏‎‮⁮‭‫‮⁫⁮‏‎‬‍​⁫‎‎⁬⁭⁭‪‏‫‬‏⁫‌‬‎‎⁬‍‏⁬⁯‮
+
+  // --- METHOD System.Void Client.SocketClient::add_OnMessageReceived(System.Action`1<System.String>)
+  // sig: System.Void (Client.SocketClient , System.Action`1<System.String> value)
+
+  // --- METHOD System.Void Client.SocketClient::remove_OnMessageReceived(System.Action`1<System.String>)
+  // sig: System.Void (Client.SocketClient , System.Action`1<System.String> value)
+  conv.ovf.u.un
+  ldind.i4
+  conv.ovf.i8.un
+  stelem.i
+  ldarga.s
+  ldelem.i
+  ckfinite
+  UNKNOWN1
+  and
+  stloc.s
+  ldelem.u2
+  newarr
+  cpobj
+
+  // --- METHOD System.Void Client.SocketClient::add_OnConnected(System.Action)
+  // sig: System.Void (Client.SocketClient , System.Action value)
+
+  // --- METHOD System.Void Client.SocketClient::remove_OnConnected(System.Action)
+  // sig: System.Void (Client.SocketClient , System.Action value)
+
+  // --- METHOD System.Void Client.SocketClient::add_OnDisconnected(System.Action)
+  // sig: System.Void (Client.SocketClient , System.Action value)
+
+  // --- METHOD System.Void Client.SocketClient::remove_OnDisconnected(System.Action)
+  // sig: System.Void (Client.SocketClient , System.Action value)
+
+  // --- METHOD System.Void Client.SocketClient::.ctor()
+  // sig: System.Void (Client.SocketClient )
+  blt
+  UNKNOWN1
+
+  // --- METHOD System.Void Client.SocketClient::ConnectAsync(System.String,System.Int32)
+  // sig: System.Void (Client.SocketClient , System.String ip, System.Int32 port)
+
+  // --- METHOD System.Threading.Tasks.Task Client.SocketClient::‍⁮​‪​‪‌‪‭⁯⁭​‎⁯‏​‍⁯⁫⁪‪‎⁪​‭⁪⁪‍‭⁬⁯⁪‍‮⁯‮⁫‫‬‍‮()
+  // sig: System.Threading.Tasks.Task (Client.SocketClient )
+  stind.i8
+  UNKNOWN1
+  ldarg.2
+  ret
+  UNKNOWN1
+  ldc.i4.3
+  ldc.r8 -3.0742507759912943E-265
+
+  // --- METHOD System.Void Client.SocketClient::⁪​‫⁯‮⁫‬‭‏‏⁭⁬‏⁭⁫‫‬⁯‫⁪⁮​‌⁬‏‍⁮⁮⁭‮⁫‬⁭⁬⁮‫⁯⁫‌‬‮(Client.Message2)
+  // sig: System.Void (Client.SocketClient , Client.Message2 )
+  ldtoken
+  conv.ovf.u2
+  UNKNOWN1
+  UNKNOWN1
+  add.ovf.un
+  UNKNOWN1
+  castclass
+  ldelem.i2
+  ldelem.r4
+  ldc.i4.6
+  ldind.u1
+  bge.s
+  bge.s
+  UNKNOWN1
+  ldc.i4.m1
+  conv.ovf.u
+  nop
+  dup
+  ldind.i1
+  UNKNOWN1
+  conv.i
+  ble.un
+  ldloca.s
+  br
+  ldelem.u1
+  UNKNOWN1
+  UNKNOWN1
+  UNKNOWN1
+  stloc.3
+  mul
+  bgt.un.s
+  ldind.u1
+  ble.s
+  bge.s
+  brtrue.s IL_0005
+  ble.un.s
+  ldtoken
+
+  // --- METHOD System.Void Client.SocketClient::⁭⁫‏⁯‏‭‏‍⁪⁬‎‮⁯‏⁮⁮⁫⁪⁫‍⁮⁮⁭‭‌‫‪‬‎‬‫‮‏⁮‪‏⁪⁮‮‏‮(System.String)
+  // sig: System.Void (Client.SocketClient , System.String )
+  conv.ovf.i2.un
+  conv.u2
+  UNKNOWN1
+  ldloc.1
+  stloc.s
+  UNKNOWN1
+  conv.ovf.i2
+  UNKNOWN1
+  calli
+  conv.r4
+  UNKNOWN1
+  ldelem.r8
+  UNKNOWN1
+  UNKNOWN1
+  conv.ovf.i2.un
+  stind.i
+  UNKNOWN1
+  ldind.ref
+  bgt
+  ldelem.i1
+  ldelem.u2
+  stelem.i1
+  UNKNOWN1
+  conv.ovf.i8.un
+  ldnull
+  UNKNOWN1
+  ldarg.3
+  blt
+  stelem.ref
+  ldloc.0
+  add.ovf
+  UNKNOWN1
+  UNKNOWN1
+  ldfld
+  add.ovf.un
+  castclass
+
+  // --- METHOD System.Void Client.SocketClient::Send(System.String)
+  // sig: System.Void (Client.SocketClient , System.String message)
+
+  // --- METHOD System.Void Client.SocketClient::Disconnect()
+  // sig: System.Void (Client.SocketClient )
+
+  // --- METHOD System.Delegate Client.SocketClient::‭​‮⁮‪‫⁬‬⁬⁯⁪⁪⁯‫‮⁭‪‭⁮‫‬‏⁫⁬⁯‮‏‏‏⁪⁫‬⁮⁯‭​​‪⁯‎‮(System.Delegate,System.Delegate)
+  // sig: System.Delegate (System.Delegate , System.Delegate )
+
+  // --- METHOD System.Delegate Client.SocketClient::‬‏‪‏‎​‎‫⁭⁬‍⁭⁭‫‏‬⁯‌‮‏‪‮⁯‫⁬​‮⁭⁪⁮‎⁪‮‫‭‌‪‍‏‬‮(System.Delegate,System.Delegate)
+  // sig: System.Delegate (System.Delegate , System.Delegate )
+
+  // --- METHOD System.String Client.SocketClient::‏⁬⁫⁯‮⁮⁪‍⁭‎‭‮‮‬⁪‮‭⁯‭‮⁪‮⁮‎​​‮‌⁬‫⁭‏‮⁪⁬‎‍‍⁫⁮‮(System.Exception)
+  // sig: System.String (System.Exception )
+
+  // --- METHOD System.String Client.SocketClient::⁭‎⁯‬‫‏‬‏‬​⁭‎‭⁪⁫‬‮⁫‌‌⁮‎‎‮‫⁭⁬‫⁭‬‮⁮‪‏‬⁫‮‭​‭‮(System.String,System.String)
+  // sig: System.String (System.String , System.String )
+
+  // --- METHOD System.Void Client.SocketClient::⁭‪​⁭​‬‮⁫‮​‭‍‭‪‌‎⁭‏​‮‪⁫‭‪‎⁮⁯‮‬‬‭‏‏⁭​‍‎‪‫⁮‮(System.String)
+  // sig: System.Void (System.String )
+
+  // --- METHOD System.Threading.Tasks.Task Client.SocketClient::‍⁫‍‫⁯‬⁬‍⁯‫⁭‫‏‬‌‎⁮⁮‮‏⁯⁫⁯‪⁫⁯​⁭‍⁬‍‪⁭​​‏⁭‪‍‪‮(System.Action)
+  // sig: System.Threading.Tasks.Task (System.Action )
+
+  // --- METHOD System.Void Client.SocketClient::‎⁮‍‮‫‌‏‫⁫‬​‌⁬‎⁫‪‪⁭‍‫⁬‏‬​‪‎⁫⁬‌‪⁬‬‌⁮‬‍⁪‫⁫‬‮(System.IO.Stream)
+  // sig: System.Void (System.IO.Stream )
+
+  // --- METHOD System.Void Client.SocketClient::​‏‏‮‍‬‫⁬‎‬‪‍‎‬‎⁭​‫⁭⁭‪‬‭‪‌‫‍⁭‌⁮‫‬‎​‬⁪⁯​‫⁭‮(System.Net.Sockets.TcpClient)
+  // sig: System.Void (System.Net.Sockets.TcpClient )
+

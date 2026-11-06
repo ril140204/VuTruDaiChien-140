@@ -1,0 +1,207 @@
+tôi muốn tạo tool tự động đi ruy băng hoàn thành ruy băng ( người dùng dùng phi thuyền bay bay tới Vùng hoang dã, gặp nhân vật Đại tá silver -> đi ruy băng -> chọn level phù hợp với level nhân vật -> vào trong ruy băng bật auto đánh ( dịch chuyển thẳng tới quái ) -> sau khi đánh toàn bộ quái map 1 tiếp tục chuyển qua map 2 (  dịch chuyển thẳng tới nơi để di chuyển qua map 2 ) đánh toàn bộ quái cho tới khi không còn quái ở map cổng thành, tầng 1 2 3 4 sau đó lên tầng thượng ( tự động hút tất cả đồ rơi ra đất vào rương ) ... -> sau khi đánh hết boss và quái ở tầng thượng thì gặp Tổng tư lệnh để nhận thưởng tất cả các mốc ( nhận thưởng hết mốc thưởng thành tích của ruy băng đỏ ( nếu rương đồ bị đầy thì mở rương đồ và sắp xếp lại đồ sau đó quay lại nhận thưởng tới khi không còn nhận được nữa )
+ dưới đây là log mà tôi đã đi hoàn thành 1 lượt ruy băng đỏ bạn có thể đọc qua để tham khảo làm tool cho tôi
+[Message: Preloader] BepInEx 6.0.0-be.791 - Vũ Trụ Đại Chiến (9/18/2026 11:18:52 AM)
+[Message: Preloader] Built from commit b782da4ac54e1072d2857f4a2f77c80c3ef08005
+[Info   :   BepInEx] System platform: Windows 10 64-bit
+[Info   :   BepInEx] Process bitness: 64-bit (x64)
+[Info   :   BepInEx] Running under Unity 2022.3.62f2
+[Info   :   BepInEx] Runtime version: 6.0.7
+[Info   :   BepInEx] Runtime information: .NET 6.0.7
+[Info   : Preloader] 0 patcher plugins loaded
+[Info   : Preloader] 0 assemblies discovered
+[Message:AssemblyPatcher] Executing 0 patch(es)
+[Message:   BepInEx] Chainloader initialized
+[Info   :   BepInEx] 1 plugin to load
+[Info   :   BepInEx] Loading [QLTK Client 140 1.0.0]
+[Warning:Il2CppInterop] Class::Init signatures have been exhausted, using a substitute!
+[Info   :Il2CppInterop] Registered mono type QLTK.Client140.MainThreadDispatcher in il2cpp domain
+[Info   :QLTK Client 140] [QLTK140] Plugin loaded. autologin=True user='txdinh' server='Vũ Trụ 1' char=1 stt=1 res=1x1
+[Info   :Il2CppInterop] Registered mono type QLTK.Client140.LoginMod in il2cpp domain
+[Info   :QLTK Client 140] [QLTK140] [QLTK140] LoginMod da cai. user='txdinh' server='Vũ Trụ 1' char=1 stt=1 res=1x1
+[Info   :Il2CppInterop] Registered mono type QLTK.Client140.GameExplorer in il2cpp domain
+[Info   :QLTK Client 140] [QLTK140] [GameExplorer] Da cai dat. Se explore khi vao MainGameScene.
+[Info   :Il2CppInterop] Registered mono type QLTK.Client140.LiveWatcher in il2cpp domain
+[Info   :QLTK Client 140] [QLTK140] [Live] Ghi log thao tac vao: D:\game\VuTruDaiChien_140\BepInEx\GamePlay.log
+[Message:   BepInEx] Chainloader startup complete
+[Info   :QLTK Client 140] [QLTK140] Da ket noi QLTK server (127.0.0.1:28082)
+[Info   :QLTK Client 140] [QLTK140] [Live] SCENE  |  -> InitScene
+[Info   :QLTK Client 140] [QLTK140] [QLTK140] WaitScene -> WaitLogin
+[Info   :QLTK Client 140] [QLTK140] [Live] SCENE  | InitScene -> LoginScene
+[Info   :QLTK Client 140] [QLTK140] [QLTK140] Da dien tai khoan 'txdinh'
+[Info   :Il2CppInterop] Registered mono type Il2CppInterop.Runtime.DelegateSupport+Il2CppToMonoDelegateReference in il2cpp domain
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | Login | text='ĐĂNG NHẬP' | path=Canvas/LoginPanel/LoginForm/Login | scene=LoginScene
+[Info   :QLTK Client 140] [QLTK140] [QLTK140] Da bam nut Dang Nhap (Button.onClick)
+[Info   :QLTK Client 140] [QLTK140] [QLTK140] WaitLogin -> ClickedLogin
+[Info   :QLTK Client 140] [QLTK140] [QLTK140] Phat hien man chon nhan vat -> ChooseCharacter
+[Info   :QLTK Client 140] [QLTK140] [QLTK140] ClickedLogin -> ChooseCharacter
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | CharacterChoosingPanel MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | LoginPanel DONG
+[Info   :QLTK Client 140] [QLTK140] DUMP: 25 Button trong scene
+[Info   :QLTK Client 140] [QLTK140]   BTN name='Create' active=True interactable=True text='Tạo mới'
+[Info   :QLTK Client 140] [QLTK140]   BTN name='Icon' active=True interactable=True text=''
+[Info   :QLTK Client 140] [QLTK140]   BTN name='Create' active=True interactable=True text='Tạo mới'
+[Info   :QLTK Client 140] [QLTK140]   BTN name='Icon' active=True interactable=True text=''
+[Info   :QLTK Client 140] [QLTK140]   BTN name='JoinGame' active=True interactable=True text='Vào game'
+[Info   :QLTK Client 140] [QLTK140]   BTN name='NotifyMessageObject' active=False interactable=True text='Thông bao mềm'
+[Info   :QLTK Client 140] [QLTK140]   BTN name='WarningObject' active=False interactable=True text=''
+[Info   :QLTK Client 140] [QLTK140]   BTN name='ExpandButton' active=False interactable=True text='Vũ Trụ 1'
+[Info   :QLTK Client 140] [QLTK140]   BTN name='ResetButton' active=False interactable=True text='Xóa dữ liệu'
+[Info   :QLTK Client 140] [QLTK140]   BTN name='Login' active=False interactable=True text='ĐĂNG NHẬP'
+[Info   :QLTK Client 140] [QLTK140]   BTN name='Skill2' active=False interactable=True text=''
+[Info   :QLTK Client 140] [QLTK140]   BTN name='CreateCharacter' active=False interactable=True text='Tạo nhân vật'
+[Info   :QLTK Client 140] [QLTK140]   BTN name='Skill7' active=False interactable=True text=''
+[Info   :QLTK Client 140] [QLTK140]   BTN name='WarningObject' active=True interactable=True text=''
+[Info   :QLTK Client 140] [QLTK140]   BTN name='RegisterButton' active=False interactable=True text=''
+[Info   :QLTK Client 140] [QLTK140]   BTN name='Skill4' active=False interactable=True text=''
+[Info   :QLTK Client 140] [QLTK140]   BTN name='ForgetPassword' active=False interactable=True text='Quên mật khẩu?'
+[Info   :QLTK Client 140] [QLTK140]   BTN name='Skill5' active=False interactable=True text=''
+[Info   :QLTK Client 140] [QLTK140]   BTN name='BackButton' active=False interactable=True text=''
+[Info   :QLTK Client 140] [QLTK140]   BTN name='Skill3' active=False interactable=True text=''
+[Info   :QLTK Client 140] [QLTK140]   BTN name='BackButton' active=True interactable=True text=''
+[Info   :QLTK Client 140] [QLTK140]   BTN name='RegisterButton' active=False interactable=True text='ĐĂNG KÝ'
+[Info   :QLTK Client 140] [QLTK140]   BTN name='Skill1' active=False interactable=True text=''
+[Info   :QLTK Client 140] [QLTK140]   BTN name='LoginButton' active=False interactable=True text=''
+[Info   :QLTK Client 140] [QLTK140]   BTN name='Skill6' active=False interactable=True text=''
+[Info   :QLTK Client 140] [QLTK140] DUMP: 1 CharacterChoosingObject
+[Info   :QLTK Client 140] [QLTK140]   CCO name='CharacterChoosingObject' active=True actionBtn='JoinGame'
+[Info   :QLTK Client 140] [QLTK140] DUMP: 1 CharacterChoosingPanel
+[Info   :QLTK Client 140] [QLTK140]   CCP name='CharacterChoosingPanel' active=True
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | JoinGame | text='Vào game' | path=Canvas/CharacterChoosingPanel/ChooseCharacterLayout/CharacterChoosingObject/JoinGame | scene=LoginScene
+[Info   :QLTK Client 140] [QLTK140] [QLTK140] Bam 'Vao game'
+[Info   :QLTK Client 140] [QLTK140] [QLTK140] ChooseCharacter -> EnterGame
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MainInGameLoadingPanel MO
+[Info   :QLTK Client 140] [QLTK140] [QLTK140] LOGIN_SUCCESS: vao MainGameScene sau 0.16s
+[Info   :QLTK Client 140] [QLTK140] [QLTK140] EnterGame -> Done
+[Info   :QLTK Client 140] [QLTK140] [QLTK140] Da gui STT=1 len QLTK
+[Info   :QLTK Client 140] [QLTK140] [Live] SCENE  | LoginScene -> MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MainInGameLoadingPanel DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | ExpInfo MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | SkillLayout MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | ChangePkModePanel MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | ChatPanel MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | SlotItem MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | QuickInfoPanel MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MyPlayerInfo MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | PkMode MO
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | CloseButton | text='' | path=PopupCanvas/BattleRulePanel(Clone)/CloseButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | SlotUseItemButton | text='X9999' | path=HUDCanvas/SafetyUI/SlotItem/Layout/SlotUseItemButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | BattleRulePanel(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | CapsuleObject | text='Vùng Hoang Dã (Lv15)' | path=.../CapsulePanel(Clone)/Main/Scroll View/Viewport/Content/CapsuleObject | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | CapsulePanel(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [GameExplorer] Da ghi D:\game\VuTruDaiChien_140\BepInEx\GameExplorer.log (12205 ky tu)
+[Info   :QLTK Client 140] [QLTK140] [GameExplorer] Gui file nay cho Claude de yeu cau tool moi!
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MainInGameLoadingPanel MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MainInGameLoadingPanel DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractPanelButton | text='Tham gia bằng vé' | path=DontDestroyObject/ObjectPoolHandler/InteractPanelButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractPanelButton | text='Level 80 - 89' | path=DontDestroyObject/ObjectPoolHandler/InteractPanelButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MainInGameLoadingPanel MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | NpcInteractPanel(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | Name DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MainInGameLoadingPanel DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MainInGameLoadingPanel MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | StatusTextUI(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MainInGameLoadingPanel DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | StatusTextUI(Clone) MO
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InventoryButton | text='Túi đồ' | path=HUDCanvas/SafetyUI/QuickFeatureMenu/ButtonLayout/InventoryButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | Accessory | text='Phụ kiện' | path=PopupCanvas/CharacterMenu(Clone)/SubtabContainer/InventoryTab Has SortBtn/TabManager/Accessory | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | CloseButton | text='' | path=PopupCanvas/CharacterMenu(Clone)/CloseButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | CharacterMenu(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MainInGameLoadingPanel MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | StatusTextUI(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MainInGameLoadingPanel DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | StatusTextUI(Clone) MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | SystemChatObject(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InventoryButton | text='Túi đồ' | path=HUDCanvas/SafetyUI/QuickFeatureMenu/ButtonLayout/InventoryButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | CharacterMenu(Clone) MO
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | ItemPreviewCanClick | text='x9' | path=.../InventoryTab Has SortBtn/Scroll View/Viewport/Content/ItemBox2/ItemPreviewCanClick | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | TooltipBtn | text='Sử dụng' | path=DontDestroyObject/ObjectPoolHandler/TooltipBtn | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | ItemPreviewCanClick | text='x34' | path=.../InventoryTab Has SortBtn/Scroll View/Viewport/Content/ItemBox2/ItemPreviewCanClick | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | TooltipBtn | text='Sử dụng' | path=DontDestroyObject/ObjectPoolHandler/TooltipBtn | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | ItemPreviewCanClick | text='x2311' | path=.../InventoryTab Has SortBtn/Scroll View/Viewport/Content/ItemBox2/ItemPreviewCanClick | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | TooltipBtn | text='Sử dụng' | path=DontDestroyObject/ObjectPoolHandler/TooltipBtn | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | CloseButton | text='' | path=PopupCanvas/CharacterMenu(Clone)/CloseButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | CharacterMenu(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MainInGameLoadingPanel MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | StatusTextUI(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | Name MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MainInGameLoadingPanel DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | StatusTextUI(Clone) MO
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractButton | text='Enter' | path=HUDCanvas/SkillLayout/InteractButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MainInGameLoadingPanel MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | StatusTextUI(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | Name MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MainInGameLoadingPanel DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | StatusTextUI(Clone) MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | SystemChatObject(Clone) MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | SystemChatObject(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | SystemChatObject(Clone) MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | SystemChatObject(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MainInGameLoadingPanel MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | StatusTextUI(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | Name MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | Name MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MainInGameLoadingPanel DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | StatusTextUI(Clone) MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | SystemChatObject(Clone) MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | SystemChatObject(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | AutoAttackButton | text='Tab' | path=HUDCanvas/SkillLayout/AutoAttackButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | NpcInteractPanel(Clone) MO
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InteractPanelButton | text='Nhận thưởng' | path=DontDestroyObject/ObjectPoolHandler/InteractPanelButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | NpcInteractPanel(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | SubmitBtn | text='Nhận ngay' | path=.../MilestoneRewardTab/ItemScroll View/Viewport/Content/MilestoneRewardObject/SubmitBtn | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | ReceiveGiftPanel(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | SubmitBtn | text='Nhận ngay' | path=.../MilestoneRewardTab/ItemScroll View/Viewport/Content/MilestoneRewardObject/SubmitBtn | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | ReceiveGiftPanel(Clone) MO
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | SubmitBtn | text='Nhận ngay' | path=.../MilestoneRewardTab/ItemScroll View/Viewport/Content/MilestoneRewardObject/SubmitBtn | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | ReceiveGiftPanel(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | SubmitBtn | text='Nhận ngay' | path=.../MilestoneRewardTab/ItemScroll View/Viewport/Content/MilestoneRewardObject/SubmitBtn | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | ReceiveGiftPanel(Clone) MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | ReceiveGiftPanel(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | SubmitBtn | text='Nhận ngay' | path=.../MilestoneRewardTab/ItemScroll View/Viewport/Content/MilestoneRewardObject/SubmitBtn | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | ReceiveGiftPanel(Clone) MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | ReceiveGiftPanel(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | SubmitBtn | text='Nhận ngay' | path=.../MilestoneRewardTab/ItemScroll View/Viewport/Content/MilestoneRewardObject/SubmitBtn | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | ReceiveGiftPanel(Clone) MO
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | ReceiveGiftPanel(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | SystemChatObject(Clone) MO
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | CloseButton | text='' | path=PopupCanvas/MilestoneRewardPanel(Clone)/CloseButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | InventoryButton | text='Túi đồ' | path=HUDCanvas/SafetyUI/QuickFeatureMenu/ButtonLayout/InventoryButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | MilestoneRewardPanel(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | CharacterMenu(Clone) MO
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | SortButton | text='Sắp xếp' | path=PopupCanvas/CharacterMenu(Clone)/SubtabContainer/InventoryTab Has SortBtn/SortButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | SortButton | text='Sắp xếp' | path=PopupCanvas/CharacterMenu(Clone)/SubtabContainer/InventoryTab Has SortBtn/SortButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | StatusTextUI(Clone) DONG
+[Info   :QLTK Client 140] [QLTK140] [Live] CLICK  | CloseButton | text='' | path=PopupCanvas/CharacterMenu(Clone)/CloseButton | scene=MainGameScene
+[Info   :QLTK Client 140] [QLTK140] [Live] PANEL  | CharacterMenu(Clone) DONG

@@ -1,0 +1,84 @@
+// ===== TYPE Client.Message2
+// base: System.Object
+private System.SByte ⁬‎‮‫⁫‭​‪⁪‎‎‪‌‬‪⁪‎⁭‎‫⁯‮‎‎‮⁪‬⁬⁫‫‬‌‌⁮‏⁯‌​⁮⁫‮
+private System.IO.MemoryStream ‏⁪‎‎‭‎‭‬⁬‍⁬⁬⁬⁬⁫‍‎‌⁭‪‮⁪‫‭‮⁮‬‌‏⁯‍‬⁪⁫⁭‬‫‌‏‫‮
+private System.IO.BinaryReader ‎‫‏‮‎‭⁫‮⁫⁭‏‭‭⁪⁭‌​​⁮‮‎‫⁯‬‫⁪‫⁮‬⁬⁯‌​‍⁭‍⁪​⁭‫‮
+// property: System.SByte () Command
+
+  // --- METHOD System.SByte Client.Message2::get_Command()
+  // sig: System.SByte (Client.Message2 )
+
+  // --- METHOD System.Void Client.Message2::⁮‬⁯⁬‌⁪‪‫‬⁯⁯‌‪‮‫‏‫⁫​⁭‏​​‬​⁬‭⁯⁮⁮​‪⁭⁭⁮‎‍​‌⁪‮(System.SByte)
+  // sig: System.Void (Client.Message2 , System.SByte )
+
+  // --- METHOD System.Void Client.Message2::.ctor(System.SByte,System.Byte[])
+  // sig: System.Void (Client.Message2 , System.SByte , System.Byte[] )
+
+  // --- METHOD System.SByte Client.Message2::ReadByte()
+  // sig: System.SByte (Client.Message2 )
+  stind.i8
+  conv.u8
+  conv.ovf.i8.un
+  castclass
+  conv.ovf.i.un
+  ldsfld
+  UNKNOWN1
+  nop
+  conv.ovf.u4.un
+  ldarg.2
+  mul
+  ldelem.u4
+  stelem.r4
+  ldelem.i8
+  box
+  ldobj
+
+  // --- METHOD System.Int16 Client.Message2::ReadShort()
+  // sig: System.Int16 (Client.Message2 )
+
+  // --- METHOD System.Int32 Client.Message2::ReadInt()
+  // sig: System.Int32 (Client.Message2 )
+
+  // --- METHOD System.String Client.Message2::ReadString()
+  // sig: System.String (Client.Message2 )
+  UNKNOWN1
+  div
+  ldarg.3
+  ldc.i4.m1
+  UNKNOWN1
+  UNKNOWN1
+  ldelem.i
+  UNKNOWN1
+  UNKNOWN1
+  stind.ref
+  sub.ovf.un
+  UNKNOWN1
+  switch ()
+
+  // --- METHOD System.Void Client.Message2::Cleanup()
+  // sig: System.Void (Client.Message2 )
+
+  // --- METHOD System.IO.MemoryStream Client.Message2::⁮‍⁮⁬‮⁪⁬⁫⁫⁬‌‌‎‬​‎‮‬⁮⁭‪‍‎⁯‎​‍⁯⁪‫⁯‫⁬‍‎⁪‮⁮‮⁪‮(System.Byte[])
+  // sig: System.IO.MemoryStream (System.Byte[] )
+
+  // --- METHOD System.IO.BinaryReader Client.Message2::⁬⁯‌‮‌‪‬‭‎‌‬‍‎​‮‍⁯⁪‮‍‪⁫‌⁮‫‎⁬⁪⁬⁯‬⁫⁪⁮‫⁬⁬‌⁮‮‮(System.IO.Stream)
+  // sig: System.IO.BinaryReader (System.IO.Stream )
+
+  // --- METHOD System.Byte Client.Message2::‮‌‎⁬‌‍⁫​⁯⁬⁬‭‭‏‎⁭‫⁯⁫⁬‪‍‍⁯‌‫‌‎‌‮​⁭‌‏⁮⁬⁫⁪‎‍‮(System.IO.BinaryReader)
+  // sig: System.Byte (System.IO.BinaryReader )
+
+  // --- METHOD System.Int16 Client.Message2::‮‭⁬‮‬⁬‮‭⁫‮​⁯⁪‬‪‪‫‎⁪​⁪‌‬‌‪⁯⁪‫‫⁪⁮‫‎‭​‮‎‌⁫‫‮(System.IO.BinaryReader)
+  // sig: System.Int16 (System.IO.BinaryReader )
+
+  // --- METHOD System.Int32 Client.Message2::⁬⁯‍⁮‭⁫⁯‎‌​⁯⁬‭‪⁭⁮​‭⁯​‭⁪⁬⁯⁬‮‌⁯‏‬‍​‪‎‌⁬‬‮⁮‏‮(System.IO.BinaryReader)
+  // sig: System.Int32 (System.IO.BinaryReader )
+
+  // --- METHOD System.String Client.Message2::‬⁮‍​‎‎‬​⁫‭‭‫⁫⁪⁭‍‮‭⁬‮⁯‫‌‬⁫⁬‍⁮‍⁮‪‬‬‌‬‏⁫‎‎⁫‮(System.IO.BinaryReader)
+  // sig: System.String (System.IO.BinaryReader )
+
+  // --- METHOD System.Void Client.Message2::‫‬‮⁬⁯‮⁭‭‬⁮‌⁮⁬⁯​⁪​⁫​⁬‫‭‌⁮‮⁭‌⁪‬⁯‫⁭​‭​‌⁬⁮‍⁯‮(System.IO.BinaryReader)
+  // sig: System.Void (System.IO.BinaryReader )
+
+  // --- METHOD System.Void Client.Message2::‫⁮‭⁬‍‍⁪‎⁬‮‎​⁫‮​⁬‏​‪‌‌‪⁫⁭⁬‬‬⁬‎‪⁭​⁫⁬‎⁫‌‏‪⁯‮(System.IO.Stream)
+  // sig: System.Void (System.IO.Stream )
+
