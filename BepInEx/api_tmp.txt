@@ -1,0 +1,418 @@
+﻿>>> Da gui 2 lenh:
+    api InteractButton
+    api NPC
+09:33:09.902  CMD    | api InteractButton
+09:33:10.025  ===== API InteractButton =====
+09:33:10.027    BASE: MyButton
+09:33:10.028    -- Fields (69):
+09:33:10.029       private static IntPtr NativeFieldInfoPtr_shortcutName
+09:33:10.030       private static IntPtr NativeFieldInfoPtr_shortcutObject
+09:33:10.031       private static IntPtr NativeMethodInfoPtr_FIACGGLLIAF_Private_Void_0
+09:33:10.031       private static IntPtr NativeMethodInfoPtr_COLDJNONJEK_Private_Void_0
+09:33:10.032       private static IntPtr NativeMethodInfoPtr_NNCAOPENKGG_Private_Void_0
+09:33:10.032       private static IntPtr NativeMethodInfoPtr_FPHMFKNLGCP_Private_Void_0
+09:33:10.033       private static IntPtr NativeMethodInfoPtr_GPNKOEDCLOH_Protected_Void_0
+09:33:10.033       private static IntPtr NativeMethodInfoPtr_AEFCACNOFIC_Protected_Void_0
+09:33:10.035       private static IntPtr NativeMethodInfoPtr_NNELOFEDJKE_Protected_Void_0
+09:33:10.036       private static IntPtr NativeMethodInfoPtr_KPMLDHCEONP_Protected_Void_0
+09:33:10.036       private static IntPtr NativeMethodInfoPtr_CAADPJGFGML_Private_Void_0
+09:33:10.037       private static IntPtr NativeMethodInfoPtr_ECDBLNDFHDP_Protected_Void_0
+09:33:10.037       private static IntPtr NativeMethodInfoPtr__ctor_Public_Void_0
+09:33:10.038       private static IntPtr NativeMethodInfoPtr_JCEPOGALLJC_Protected_Void_0
+09:33:10.038       private static IntPtr NativeMethodInfoPtr_KBNHPOONNOG_Private_Void_0
+09:33:10.042       private static IntPtr NativeMethodInfoPtr_IDLEDLDAHAG_Private_Void_0
+09:33:10.043       private static IntPtr NativeMethodInfoPtr_EGHKNJAEPGM_Protected_Void_0
+09:33:10.044       private static IntPtr NativeMethodInfoPtr_EPHPKMCFGIN_Protected_Void_0
+09:33:10.045       private static IntPtr NativeMethodInfoPtr_KDKGNLBIJCP_Protected_Void_0
+09:33:10.045       private static IntPtr NativeMethodInfoPtr_HMHBKINCFHF_Protected_Void_0
+09:33:10.046       private static IntPtr NativeMethodInfoPtr_KFNJHJJCFGK_Private_Void_0
+09:33:10.046       private static IntPtr NativeMethodInfoPtr_DLCFIMFFIJB_Private_Void_0
+09:33:10.047       private static IntPtr NativeMethodInfoPtr_OFIJNEMHMCD_Private_Void_0
+09:33:10.048       private static IntPtr NativeMethodInfoPtr_HKCCNGBAAJM_Private_Void_0
+09:33:10.049       private static IntPtr NativeMethodInfoPtr_LMHGJGCLMBL_Private_Void_0
+09:33:10.050       private static IntPtr NativeMethodInfoPtr_MCCDAONFKDE_Protected_Void_0
+09:33:10.051       private static IntPtr NativeMethodInfoPtr_MBEIODKIGFN_Private_Void_0
+09:33:10.051       private static IntPtr NativeMethodInfoPtr_AFFENFOJDKM_Private_Void_0
+09:33:10.052       private static IntPtr NativeMethodInfoPtr_IEGCCCGFHNN_Protected_Void_0
+09:33:10.053       private static IntPtr NativeMethodInfoPtr_DCPELKKFAEC_Private_Void_0
+09:33:10.053       private static IntPtr NativeMethodInfoPtr_MLJEFFNHINA_Protected_Void_0
+09:33:10.054       private static IntPtr NativeMethodInfoPtr_NJHBLNFFHKN_Protected_Void_0
+09:33:10.057       private static IntPtr NativeMethodInfoPtr_MLFDFFPDFBI_Private_Void_0
+09:33:10.057       private static IntPtr NativeMethodInfoPtr_BHDEOEDDPLA_Private_Void_0
+09:33:10.058       private static IntPtr NativeMethodInfoPtr_BJKGMJICADM_Protected_Void_0
+09:33:10.059       private static IntPtr NativeMethodInfoPtr_KIJIHEGJFOK_Protected_Void_0
+09:33:10.059       private static IntPtr NativeMethodInfoPtr_NHONLGKCLFP_Protected_Void_0
+09:33:10.060       private static IntPtr NativeMethodInfoPtr_LCAMGKMBDMH_Protected_Void_0
+09:33:10.060       private static IntPtr NativeMethodInfoPtr_OHNAOMNBOOH_Private_Void_0
+09:33:10.061       private static IntPtr NativeMethodInfoPtr_BGJGPEBKKLI_Protected_Void_0
+09:33:10.062       private static IntPtr NativeMethodInfoPtr_NKIFLNCMBPI_Private_Void_0
+09:33:10.063       private static IntPtr NativeMethodInfoPtr_EDBDHHKCBGD_Private_Void_0
+09:33:10.064       private static IntPtr NativeMethodInfoPtr_HDEEAPOEJND_Private_Void_0
+09:33:10.064       private static IntPtr NativeMethodInfoPtr_CLGABGAOFBN_Private_Void_0
+09:33:10.065       private static IntPtr NativeMethodInfoPtr_JLDHMAAKOJB_Private_Void_0
+09:33:10.066       private static IntPtr NativeMethodInfoPtr_GBGMGIACIHG_Private_Void_0
+09:33:10.066       private static IntPtr NativeMethodInfoPtr_LHJBLJMFIIH_Protected_Void_0
+09:33:10.067       private static IntPtr NativeMethodInfoPtr_GJHJDCNJCAH_Private_Void_0
+09:33:10.067       private static IntPtr NativeMethodInfoPtr_OMPLGFLKLOH_Protected_Void_0
+09:33:10.068       private static IntPtr NativeMethodInfoPtr_OAALIGDAJJI_Protected_Void_0
+09:33:10.069       private static IntPtr NativeMethodInfoPtr_HDNNIHKDBOH_Protected_Void_0
+09:33:10.069       private static IntPtr NativeMethodInfoPtr_MGFAOKHMBAG_Private_Void_0
+09:33:10.072       private static IntPtr NativeMethodInfoPtr_NBGCPILEGIH_Private_Void_0
+09:33:10.072       private static IntPtr NativeMethodInfoPtr_DNCPLPANGCA_Protected_Void_0
+09:33:10.073       private static IntPtr NativeMethodInfoPtr_LJACPJPJEFB_Private_Void_0
+09:33:10.074       private static IntPtr NativeMethodInfoPtr_MNBPDPAHHGJ_Private_Void_0
+09:33:10.074       private static IntPtr NativeMethodInfoPtr_EFLDBEOFHAG_Private_Void_0
+09:33:10.075       private static IntPtr NativeMethodInfoPtr_NOPFONIHGMI_Private_Void_0
+09:33:10.076       private static IntPtr NativeMethodInfoPtr_PAIODJHCEMG_Protected_Void_0
+09:33:10.077       private static IntPtr NativeMethodInfoPtr_EOPNPGOIDPD_Private_Void_0
+09:33:10.077       private static IntPtr NativeMethodInfoPtr_MKKHPEMCOKO_Private_Void_0
+09:33:10.078       private static IntPtr NativeMethodInfoPtr_Awake_Protected_Void_0
+09:33:10.079       private static IntPtr NativeMethodInfoPtr_BIMBOCCCABL_Private_Void_0
+09:33:10.079       private static IntPtr NativeMethodInfoPtr_LODNNGHCPBJ_Private_Void_0
+09:33:10.080       private static IntPtr NativeMethodInfoPtr_ILJGHMKNNCL_Private_Void_0
+09:33:10.080       private static IntPtr NativeMethodInfoPtr_MLGEHOGFABK_Private_Void_0
+09:33:10.081       private static IntPtr NativeMethodInfoPtr_NDAODICPEDK_Private_Void_0
+09:33:10.082       protected Boolean isWrapped
+09:33:10.082       protected IntPtr pooledPtr
+09:33:10.083    -- Properties (26):
+09:33:10.084       String shortcutName (getset)
+09:33:10.085       ShortcutObject shortcutObject (getset)
+09:33:10.086       MyUIText buttonName (getset)
+09:33:10.088       Button button (getset)
+09:33:10.088       Image buttonImage (getset)
+09:33:10.089       FPOJCIFNGDP clickSfxType (getset)
+09:33:10.090       List`1 GHOPINBMDFG (getset)
+09:33:10.091       RectTransform PEIHFOFPNPI (getset)
+09:33:10.092       RectTransform AGCCBAPENCG (get)
+09:33:10.092       CancellationTokenSource m_CancellationTokenSource (getset)
+09:33:10.093       CancellationToken destroyCancellationToken (get)
+09:33:10.094       Boolean useGUILayout (getset)
+09:33:10.094       Boolean enabled (getset)
+09:33:10.095       Boolean isActiveAndEnabled (get)
+09:33:10.095       Transform transform (get)
+09:33:10.098       GameObject gameObject (get)
+09:33:10.099       String tag (getset)
+09:33:10.099       IntPtr m_CachedPtr (getset)
+09:33:10.100       Int32 OffsetOfInstanceIDInCPlusPlusObject (getset)
+09:33:10.100       String objectIsNullMessage (getset)
+09:33:10.101       String cloneDestroyedMessage (getset)
+09:33:10.101       String name (getset)
+09:33:10.102       HideFlags hideFlags (getset)
+09:33:10.105       IntPtr ObjectClass (get)
+09:33:10.106       IntPtr Pointer (get)
+09:33:10.106       Boolean WasCollected (get)
+09:33:10.107    -- Methods (68):
+09:33:10.107       String get_shortcutName()
+09:33:10.108       Void set_shortcutName(String )
+09:33:10.108       ShortcutObject get_shortcutObject()
+09:33:10.109       Void set_shortcutObject(ShortcutObject )
+09:33:10.109       Void FIACGGLLIAF()
+09:33:10.110       Void COLDJNONJEK()
+09:33:10.111       Void NNCAOPENKGG()
+09:33:10.112       Void FPHMFKNLGCP()
+09:33:10.113       Void GPNKOEDCLOH()
+09:33:10.113       Void AEFCACNOFIC()
+09:33:10.114       Void NNELOFEDJKE()
+09:33:10.114       Void KPMLDHCEONP()
+09:33:10.115       Void CAADPJGFGML()
+09:33:10.115       Void ECDBLNDFHDP()
+09:33:10.116       Void JCEPOGALLJC()
+09:33:10.116       Void KBNHPOONNOG()
+09:33:10.117       Void IDLEDLDAHAG()
+09:33:10.120       Void EGHKNJAEPGM()
+09:33:10.120       Void EPHPKMCFGIN()
+09:33:10.121       Void KDKGNLBIJCP()
+09:33:10.121       Void HMHBKINCFHF()
+09:33:10.122       Void KFNJHJJCFGK()
+09:33:10.122       Void DLCFIMFFIJB()
+09:33:10.123       Void OFIJNEMHMCD()
+09:33:10.123       Void HKCCNGBAAJM()
+09:33:10.124       Void LMHGJGCLMBL()
+09:33:10.125       Void MCCDAONFKDE()
+09:33:10.126       Void MBEIODKIGFN()
+09:33:10.126       Void AFFENFOJDKM()
+09:33:10.127       Void IEGCCCGFHNN()
+09:33:10.127       Void DCPELKKFAEC()
+09:33:10.128       Void MLJEFFNHINA()
+09:33:10.128       Void NJHBLNFFHKN()
+09:33:10.129       Void MLFDFFPDFBI()
+09:33:10.129       Void BHDEOEDDPLA()
+09:33:10.130       Void BJKGMJICADM()
+09:33:10.130       Void KIJIHEGJFOK()
+09:33:10.131       Void NHONLGKCLFP()
+09:33:10.132       Void LCAMGKMBDMH()
+09:33:10.133       Void OHNAOMNBOOH()
+09:33:10.135       Void BGJGPEBKKLI()
+09:33:10.136       Void NKIFLNCMBPI()
+09:33:10.136       Void EDBDHHKCBGD()
+09:33:10.137       Void HDEEAPOEJND()
+09:33:10.137       Void CLGABGAOFBN()
+09:33:10.138       Void JLDHMAAKOJB()
+09:33:10.142       Void GBGMGIACIHG()
+09:33:10.142       Void LHJBLJMFIIH()
+09:33:10.143       Void GJHJDCNJCAH()
+09:33:10.143       Void OMPLGFLKLOH()
+09:33:10.144       Void OAALIGDAJJI()
+09:33:10.144       Void HDNNIHKDBOH()
+09:33:10.145       Void MGFAOKHMBAG()
+09:33:10.146       Void NBGCPILEGIH()
+09:33:10.147       Void DNCPLPANGCA()
+09:33:10.147       Void LJACPJPJEFB()
+09:33:10.148       Void MNBPDPAHHGJ()
+09:33:10.148       Void EFLDBEOFHAG()
+09:33:10.150       Void NOPFONIHGMI()
+09:33:10.151       Void PAIODJHCEMG()
+09:33:10.152       Void EOPNPGOIDPD()
+09:33:10.153       Void MKKHPEMCOKO()
+09:33:10.153       Void Awake()
+09:33:10.154       Void BIMBOCCCABL()
+09:33:10.155       Void LODNNGHCPBJ()
+09:33:10.155       Void ILJGHMKNNCL()
+09:33:10.156       Void MLGEHOGFABK()
+09:33:10.156       Void NDAODICPEDK()
+09:33:10.157  ===== HET API =====
+09:33:10.157  CMD    | api NPC
+09:33:10.158  ===== API NPC =====
+09:33:10.159    BASE: Character
+09:33:10.160    -- Fields (95):
+09:33:10.161       private static IntPtr NativeFieldInfoPtr_nameController
+09:33:10.161       private static IntPtr NativeFieldInfoPtr_worldCanvasSorting
+09:33:10.162       private static IntPtr NativeFieldInfoPtr_npcSpineObject
+09:33:10.162       private static IntPtr NativeFieldInfoPtr_npcMissionState
+09:33:10.163       private static IntPtr NativeFieldInfoPtr_npcWorldCanvas
+09:33:10.165       private static IntPtr NativeFieldInfoPtr_KFCDABDBFNN
+09:33:10.166       private static IntPtr NativeFieldInfoPtr_HDGOHMEJOKJ
+09:33:10.167       private static IntPtr NativeFieldInfoPtr_BNKFEHOJNMF
+09:33:10.168       private static IntPtr NativeFieldInfoPtr_MFFEOCLGBDH
+09:33:10.168       private static IntPtr NativeFieldInfoPtr_onChangeState
+09:33:10.169       private static IntPtr NativeMethodInfoPtr_BHDFEJOOCFH_Public_Void_KPKCEDIHLLP_0
+09:33:10.169       private static IntPtr NativeMethodInfoPtr_getHitBox_Public_Virtual_EHFGOCJKIMG_0
+09:33:10.170       private static IntPtr NativeMethodInfoPtr_AOPDHFOFMDO_Private_Void_0
+09:33:10.170       private static IntPtr NativeMethodInfoPtr_upLocalHp_Public_Virtual_Void_Int32_0
+09:33:10.171       private static IntPtr NativeMethodInfoPtr_onDamageTarget_Public_Virtual_Void_GMLAJACHBDP_0
+09:33:10.171       private static IntPtr NativeMethodInfoPtr_getChatPopupManager_Public_Virtual_Final_New_ChatPopupManager_0
+09:33:10.172       private static IntPtr NativeMethodInfoPtr_DPJNHFJJJMG_Protected_Void_0
+09:33:10.172       private static IntPtr NativeMethodInfoPtr_getChatTemplateId_Public_Virtual_Final_New_Int32_0
+09:33:10.173       private static IntPtr NativeMethodInfoPtr_FixedUpdate_Protected_Void_0
+09:33:10.174       private static IntPtr NativeMethodInfoPtr_PHBNAFFHLCA_Private_Void_0
+09:33:10.175       private static IntPtr NativeMethodInfoPtr_EMHFLPLFBJF_Public_Void_KPKCEDIHLLP_0
+09:33:10.176       private static IntPtr NativeMethodInfoPtr_IGCNBMKDCME_Protected_Void_0
+09:33:10.176       private static IntPtr NativeMethodInfoPtr_onDespawn_Public_Virtual_Void_0
+09:33:10.177       private static IntPtr NativeMethodInfoPtr_GIAOHEKFDIE_Public_Virtual_Final_New_ChatPopupManager_0
+09:33:10.177       private static IntPtr NativeMethodInfoPtr__ctor_Public_Void_0
+09:33:10.178       private static IntPtr NativeMethodInfoPtr_PCNOMDNIKCO_Protected_Void_0
+09:33:10.178       private static IntPtr NativeMethodInfoPtr_BJEKJPIKKAP_Private_Void_0
+09:33:10.179       private static IntPtr NativeMethodInfoPtr_getSortingOrder_Public_Virtual_Int32_0
+09:33:10.182       private static IntPtr NativeMethodInfoPtr_CBEKIOOAHEB_Private_Void_0
+09:33:10.182       private static IntPtr NativeMethodInfoPtr_PACAKBGECCJ_Protected_Void_0
+09:33:10.183       private static IntPtr NativeMethodInfoPtr_FOIOJCDKGCE_Public_Void_KPKCEDIHLLP_0
+09:33:10.183       private static IntPtr NativeMethodInfoPtr_MCJDGKHGNJC_Public_Virtual_Final_New_Void_0
+09:33:10.184       private static IntPtr NativeMethodInfoPtr_NJIMAGJNGGK_Public_Virtual_Final_New_ChatPopupManager_0
+09:33:10.184       private static IntPtr NativeMethodInfoPtr_show_Public_Virtual_Void_0
+09:33:10.185       private static IntPtr NativeMethodInfoPtr_MPMAICCKNPB_Private_Void_0
+09:33:10.185       private static IntPtr NativeMethodInfoPtr_AHFEICMDLKC_Protected_Virtual_Void_0
+09:33:10.186       private static IntPtr NativeMethodInfoPtr_takeDamage_Public_Virtual_Void_GMLAJACHBDP_0
+09:33:10.187       private static IntPtr NativeMethodInfoPtr_isLocalDied_Public_Virtual_Boolean_0
+09:33:10.188       private static IntPtr NativeMethodInfoPtr_BOAJPNOMDOM_Protected_Void_0
+09:33:10.188       private static IntPtr NativeMethodInfoPtr_getId_Public_Virtual_Int32_0
+09:33:10.189       private static IntPtr NativeMethodInfoPtr_CNICFAJKMCH_Public_Virtual_Final_New_ChatPopupManager_0
+09:33:10.189       private static IntPtr NativeMethodInfoPtr_LFOBAOPGDLL_Public_Void_KPKCEDIHLLP_0
+09:33:10.190       private static IntPtr NativeMethodInfoPtr_CJKIDJIDIPP_Public_Virtual_Final_New_ChatPopupManager_0
+09:33:10.190       private static IntPtr NativeMethodInfoPtr_FCPAKIKPIDA_Public_Virtual_Final_New_Int32_0
+09:33:10.191       private static IntPtr NativeMethodInfoPtr_setPosition_Public_Virtual_Void_Vector2_0
+09:33:10.191       private static IntPtr NativeMethodInfoPtr_HDMJICEICGN_Private_Void_0
+09:33:10.192       private static IntPtr NativeMethodInfoPtr_POJBMFMGEGD_Public_Virtual_Final_New_ChatPopupManager_0
+09:33:10.192       private static IntPtr NativeMethodInfoPtr_BLENOHBPAPJ_Public_Void_KPKCEDIHLLP_0
+09:33:10.193       private static IntPtr NativeMethodInfoPtr_KCNFHBJKGOJ_Public_Virtual_Final_New_Void_0
+09:33:10.196       private static IntPtr NativeMethodInfoPtr_GLDEKNHCMEP_Private_Void_0
+09:33:10.197       private static IntPtr NativeMethodInfoPtr_onSpawn_Public_Virtual_Void_0
+09:33:10.197       private static IntPtr NativeMethodInfoPtr_Update_Protected_Void_0
+09:33:10.198       private static IntPtr NativeMethodInfoPtr_showView_Public_Virtual_Void_0
+09:33:10.198       private static IntPtr NativeMethodInfoPtr_KOFJJJILAFE_Private_Void_0
+09:33:10.199       private static IntPtr NativeMethodInfoPtr_MKDKFNADMAC_Public_EACNBMKAIFM_0
+09:33:10.199       private static IntPtr NativeMethodInfoPtr_canAttack_Public_Virtual_Boolean_0
+09:33:10.200       private static IntPtr NativeMethodInfoPtr_KEPFOAOFIEB_Public_Virtual_Final_New_Int32_0
+09:33:10.201       private static IntPtr NativeMethodInfoPtr_AFFBECPCFIH_Public_Virtual_Final_New_ChatPopupManager_0
+09:33:10.202       private static IntPtr NativeMethodInfoPtr_EOFBOPFJBOL_Protected_Void_0
+09:33:10.202       private static IntPtr NativeMethodInfoPtr_getPosition_Public_Virtual_Vector2_0
+09:33:10.203       private static IntPtr NativeMethodInfoPtr_getDir_Public_Virtual_Int32_0
+09:33:10.204       private static IntPtr NativeMethodInfoPtr_IOIMAJGIDOA_Public_Virtual_Final_New_Void_0
+09:33:10.204       private static IntPtr NativeMethodInfoPtr_LGFOGFBJELH_Public_EACNBMKAIFM_0
+09:33:10.205       private static IntPtr NativeMethodInfoPtr_getInfo_Public_EACNBMKAIFM_0
+09:33:10.205       private static IntPtr NativeMethodInfoPtr_AGMHOCPCDOO_Public_Virtual_Final_New_Void_0
+09:33:10.206       private static IntPtr NativeMethodInfoPtr_performCombat_Public_Virtual_Void_PKFAEFEDFHM_0
+09:33:10.206       private static IntPtr NativeMethodInfoPtr_getUSpeed_Public_Virtual_Single_0
+09:33:10.207       private static IntPtr NativeMethodInfoPtr_isDied_Public_Virtual_Boolean_0
+09:33:10.207       private static IntPtr NativeMethodInfoPtr_HJHFJENELNO_Public_Void_KPKCEDIHLLP_0
+09:33:10.208       private static IntPtr NativeMethodInfoPtr_GMGPIGADEDM_Public_Virtual_Final_New_ChatPopupManager_0
+09:33:10.209       private static IntPtr NativeMethodInfoPtr_ADOIGINAANB_Private_Void_0
+09:33:10.209       private static IntPtr NativeMethodInfoPtr_getY_Public_Virtual_Single_0
+09:33:10.212       private static IntPtr NativeMethodInfoPtr_subRealHp_Public_Virtual_Void_Int32_0
+09:33:10.212       private static IntPtr NativeMethodInfoPtr_hideView_Public_Virtual_Void_0
+09:33:10.213       private static IntPtr NativeMethodInfoPtr_CIOGPMFCEKF_Private_Void_0
+09:33:10.213       private static IntPtr NativeMethodInfoPtr_addChatPopup_Public_Virtual_Void_String_0
+09:33:10.214       private static IntPtr NativeMethodInfoPtr_interact_Public_Virtual_Final_New_Void_0
+09:33:10.215       private static IntPtr NativeMethodInfoPtr_BCACCCEJAKK_Protected_Void_0
+09:33:10.216       private static IntPtr NativeMethodInfoPtr_PNELKMKIMID_Public_Virtual_Final_New_ChatPopupManager_0
+09:33:10.216       private static IntPtr NativeMethodInfoPtr_getSkinId_Public_Virtual_Int32_0
+09:33:10.217       private static IntPtr NativeMethodInfoPtr_setData_Public_Void_KPKCEDIHLLP_0
+09:33:10.217       private static IntPtr NativeMethodInfoPtr_JJIGEPPDHDD_Public_Void_KPKCEDIHLLP_0
+09:33:10.218       private static IntPtr NativeMethodInfoPtr_HKPIKDFOCOG_Private_Void_0
+09:33:10.218       private static IntPtr NativeMethodInfoPtr_getX_Public_Virtual_Single_0
+09:33:10.219       private static IntPtr NativeMethodInfoPtr_KDEHACEGBLF_Protected_Void_0
+09:33:10.219       private static IntPtr NativeMethodInfoPtr_serverSetPosition_Public_Virtual_Void_Int32_Int32_0
+09:33:10.220       private static IntPtr NativeMethodInfoPtr_GPECMGBAMDL_Public_Virtual_Final_New_Void_0
+09:33:10.220       private static IntPtr NativeMethodInfoPtr_setDir_Public_Virtual_Void_Int32_0
+09:33:10.221       private static IntPtr NativeMethodInfoPtr_BPBOIFOCIAP_Private_Void_0
+09:33:10.222       private static IntPtr NativeMethodInfoPtr_PMPFJDOKPBJ_Public_Virtual_Final_New_Void_0
+09:33:10.223       private static IntPtr NativeMethodInfoPtr_isOnGround_Public_Virtual_Boolean_0
+09:33:10.223       private static IntPtr NativeMethodInfoPtr_AHKMKHDAOMA_Public_EACNBMKAIFM_0
+09:33:10.224       private static IntPtr NativeMethodInfoPtr_GMCOIOHMMCF_Private_Void_0
+09:33:10.224       protected Boolean isWrapped
+09:33:10.225       protected IntPtr pooledPtr
+09:33:10.227    -- Properties (41):
+09:33:10.228       NameNpcController nameController (getset)
+09:33:10.229       WorldCanvasSorting worldCanvasSorting (getset)
+09:33:10.230       NPCSpineObject npcSpineObject (getset)
+09:33:10.231       NpcMissionState npcMissionState (getset)
+09:33:10.231       NpcWorldCanvas npcWorldCanvas (getset)
+09:33:10.232       MDHBIECPKAF KFCDABDBFNN (getset)
+09:33:10.232       EACNBMKAIFM HDGOHMEJOKJ (getset)
+09:33:10.233       IOFFGMFLEKI BNKFEHOJNMF (getset)
+09:33:10.233       CPKLAJOAMPC MFFEOCLGBDH (getset)
+09:33:10.234       Action`1 onChangeState (getset)
+09:33:10.235       FlyingTextManager flyingTextManager (getset)
+09:33:10.236       ChatPopupManager chatPopupManager (getset)
+09:33:10.236       NKPKNHFJKOD KBNENEHINOK (getset)
+09:33:10.237       EIKDJDMDOBB IMLDEOPLPAA (getset)
+09:33:10.238       LGJDMOPLAOP HBHINEGBGMC (getset)
+09:33:10.238       GIKIBDDPOIN IINFDDBMENC (getset)
+09:33:10.239       HOMGOMCHFOO KOJOCBDPLJK (getset)
+09:33:10.240       FGMCPGIAICA NCAHPJPEECM (getset)
+09:33:10.240       MDPBAFLNLNG LEHIOPGAICN (getset)
+09:33:10.243       BNJDEPFBJOG LDKKEPIOGHG (getset)
+09:33:10.244       KLCKJHFIDNL MOJBALFGGNA (getset)
+09:33:10.245       MENCMPBDKLO CFECOFEDHGN (getset)
+09:33:10.245       ACPPFGJFPGJ _GIDGDPMCOGP_k__BackingField (getset)
+09:33:10.246       ACPPFGJFPGJ IHGGMMADPDL (getset)
+09:33:10.247       CancellationTokenSource m_CancellationTokenSource (getset)
+09:33:10.247       CancellationToken destroyCancellationToken (get)
+09:33:10.248       Boolean useGUILayout (getset)
+09:33:10.248       Boolean enabled (getset)
+09:33:10.249       Boolean isActiveAndEnabled (get)
+09:33:10.250       Transform transform (get)
+09:33:10.251       GameObject gameObject (get)
+09:33:10.251       String tag (getset)
+09:33:10.252       IntPtr m_CachedPtr (getset)
+09:33:10.253       Int32 OffsetOfInstanceIDInCPlusPlusObject (getset)
+09:33:10.253       String objectIsNullMessage (getset)
+09:33:10.254       String cloneDestroyedMessage (getset)
+09:33:10.254       String name (getset)
+09:33:10.255       HideFlags hideFlags (getset)
+09:33:10.258       IntPtr ObjectClass (get)
+09:33:10.259       IntPtr Pointer (get)
+09:33:10.259       Boolean WasCollected (get)
+09:33:10.260    -- Methods (102):
+09:33:10.261       NameNpcController get_nameController()
+09:33:10.261       Void set_nameController(NameNpcController )
+09:33:10.262       WorldCanvasSorting get_worldCanvasSorting()
+09:33:10.263       Void set_worldCanvasSorting(WorldCanvasSorting )
+09:33:10.264       NPCSpineObject get_npcSpineObject()
+09:33:10.265       Void set_npcSpineObject(NPCSpineObject )
+09:33:10.266       NpcMissionState get_npcMissionState()
+09:33:10.267       Void set_npcMissionState(NpcMissionState )
+09:33:10.267       NpcWorldCanvas get_npcWorldCanvas()
+09:33:10.268       Void set_npcWorldCanvas(NpcWorldCanvas )
+09:33:10.269       MDHBIECPKAF get_KFCDABDBFNN()
+09:33:10.269       Void set_KFCDABDBFNN(MDHBIECPKAF )
+09:33:10.270       EACNBMKAIFM get_HDGOHMEJOKJ()
+09:33:10.271       Void set_HDGOHMEJOKJ(EACNBMKAIFM )
+09:33:10.272       IOFFGMFLEKI get_BNKFEHOJNMF()
+09:33:10.275       Void set_BNKFEHOJNMF(IOFFGMFLEKI )
+09:33:10.276       CPKLAJOAMPC get_MFFEOCLGBDH()
+09:33:10.276       Void set_MFFEOCLGBDH(CPKLAJOAMPC )
+09:33:10.278       Action`1 get_onChangeState()
+09:33:10.279       Void set_onChangeState(Action`1 )
+09:33:10.279       Void BHDFEJOOCFH(KPKCEDIHLLP LNOBKLIJECA)
+09:33:10.280       EHFGOCJKIMG getHitBox()
+09:33:10.281       Void AOPDHFOFMDO()
+09:33:10.281       Void upLocalHp(Int32 PFIHIDCDDHD)
+09:33:10.282       Void onDamageTarget(GMLAJACHBDP AANDJNCOPKI)
+09:33:10.283       ChatPopupManager getChatPopupManager()
+09:33:10.284       Void DPJNHFJJJMG()
+09:33:10.285       Int32 getChatTemplateId()
+09:33:10.286       Void FixedUpdate()
+09:33:10.286       Void PHBNAFFHLCA()
+09:33:10.287       Void EMHFLPLFBJF(KPKCEDIHLLP LNOBKLIJECA)
+09:33:10.288       Void IGCNBMKDCME()
+09:33:10.290       Void onDespawn()
+09:33:10.291       ChatPopupManager GIAOHEKFDIE()
+09:33:10.292       Void PCNOMDNIKCO()
+09:33:10.293       Void BJEKJPIKKAP()
+09:33:10.294       Int32 getSortingOrder()
+09:33:10.294       Void CBEKIOOAHEB()
+09:33:10.295       Void PACAKBGECCJ()
+09:33:10.296       Void FOIOJCDKGCE(KPKCEDIHLLP LNOBKLIJECA)
+09:33:10.296       Void MCJDGKHGNJC()
+09:33:10.297       ChatPopupManager NJIMAGJNGGK()
+09:33:10.298       Void show()
+09:33:10.299       Void MPMAICCKNPB()
+09:33:10.300       Void AHFEICMDLKC()
+09:33:10.300       Void takeDamage(GMLAJACHBDP AANDJNCOPKI)
+09:33:10.301       Boolean isLocalDied()
+09:33:10.302       Void BOAJPNOMDOM()
+09:33:10.302       Int32 getId()
+09:33:10.303       ChatPopupManager CNICFAJKMCH()
+09:33:10.304       Void LFOBAOPGDLL(KPKCEDIHLLP LNOBKLIJECA)
+09:33:10.307       ChatPopupManager CJKIDJIDIPP()
+09:33:10.307       Int32 FCPAKIKPIDA()
+09:33:10.308       Void setPosition(Vector2 IBGGGGDOCOH)
+09:33:10.309       Void HDMJICEICGN()
+09:33:10.309       ChatPopupManager POJBMFMGEGD()
+09:33:10.310       Void BLENOHBPAPJ(KPKCEDIHLLP LNOBKLIJECA)
+09:33:10.311       Void KCNFHBJKGOJ()
+09:33:10.312       Void GLDEKNHCMEP()
+09:33:10.313       Void onSpawn()
+09:33:10.314       Void Update()
+09:33:10.314       Void showView()
+09:33:10.315       Void KOFJJJILAFE()
+09:33:10.316       EACNBMKAIFM MKDKFNADMAC()
+09:33:10.316       Boolean canAttack()
+09:33:10.317       Int32 KEPFOAOFIEB()
+09:33:10.318       ChatPopupManager AFFBECPCFIH()
+09:33:10.319       Void EOFBOPFJBOL()
+09:33:10.321       Vector2 getPosition()
+09:33:10.322       Int32 getDir()
+09:33:10.323       Void IOIMAJGIDOA()
+09:33:10.323       EACNBMKAIFM LGFOGFBJELH()
+09:33:10.324       EACNBMKAIFM getInfo()
+09:33:10.325       Void AGMHOCPCDOO()
+09:33:10.326       Void performCombat(PKFAEFEDFHM HBFINADKDDG)
+09:33:10.327       Single getUSpeed()
+09:33:10.328       Boolean isDied()
+09:33:10.328       Void HJHFJENELNO(KPKCEDIHLLP LNOBKLIJECA)
+09:33:10.329       ChatPopupManager GMGPIGADEDM()
+09:33:10.330       Void ADOIGINAANB()
+09:33:10.330       Single getY()
+09:33:10.331       Void subRealHp(Int32 PFIHIDCDDHD)
+09:33:10.331       Void hideView()
+09:33:10.333       Void CIOGPMFCEKF()
+09:33:10.334       Void addChatPopup(String CENCNFAHNJC)
+09:33:10.336       Void interact()
+09:33:10.337       Void BCACCCEJAKK()
+09:33:10.338       ChatPopupManager PNELKMKIMID()
+09:33:10.338       Int32 getSkinId()
+09:33:10.339       Void setData(KPKCEDIHLLP LNOBKLIJECA)
+09:33:10.340       Void JJIGEPPDHDD(KPKCEDIHLLP LNOBKLIJECA)
+09:33:10.341       Void HKPIKDFOCOG()
+09:33:10.342       Single getX()
+09:33:10.343       Void KDEHACEGBLF()
+09:33:10.343       Void serverSetPosition(Int32 DIHIIAAOKEH, Int32 HFHBDEKPDEA)
+09:33:10.344       Void GPECMGBAMDL()
+09:33:10.345       Void setDir(Int32 ACHCHAJABEB)
+09:33:10.345       Void BPBOIFOCIAP()
+09:33:10.346       Void PMPFJDOKPBJ()
+09:33:10.347       Boolean isOnGround()
+09:33:10.348       EACNBMKAIFM AHKMKHDAOMA()
+09:33:10.348       Void GMCOIOHMMCF()
+09:33:10.349  ===== HET API =====

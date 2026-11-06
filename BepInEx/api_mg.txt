@@ -1,0 +1,415 @@
+﻿>>> Da gui 1 lenh:
+    api MainGame
+10:09:33.458  CMD    | api MainGame
+10:09:33.588  ===== API MainGame =====
+10:09:33.589    BASE: UnityEngine.MonoBehaviour
+10:09:33.590    -- Fields (176):
+10:09:33.591       private static IntPtr NativeFieldInfoPtr_UIManager
+10:09:33.592       private static IntPtr NativeFieldInfoPtr_canvasManager
+10:09:33.592       private static IntPtr NativeFieldInfoPtr_focus
+10:09:33.593       private static IntPtr NativeFieldInfoPtr_pingObject
+10:09:33.594       private static IntPtr NativeFieldInfoPtr_mapViewCamera
+10:09:33.594       private static IntPtr NativeFieldInfoPtr_moveSfxManager
+10:09:33.595       private static IntPtr NativeFieldInfoPtr_objectMapInfoBarManager
+10:09:33.595       private static IntPtr NativeFieldInfoPtr_effectTimePanel
+10:09:33.596       private static IntPtr NativeFieldInfoPtr_joystickComponent
+10:09:33.597       private static IntPtr NativeFieldInfoPtr_cursorObjectController
+10:09:33.598       private static IntPtr NativeFieldInfoPtr_CJNDEPBKHIB
+10:09:33.598       private static IntPtr NativeFieldInfoPtr_autoAttackMobData
+10:09:33.599       private static IntPtr NativeFieldInfoPtr__MIHMBDKLLBK_k__BackingField
+10:09:33.600       private static IntPtr NativeFieldInfoPtr_FKHCJKBLFDM
+10:09:33.601       private static IntPtr NativeFieldInfoPtr__FPIEAIGIOAL_k__BackingField
+10:09:33.601       private static IntPtr NativeFieldInfoPtr__GKBBNMGADCM_k__BackingField
+10:09:33.601       private static IntPtr NativeFieldInfoPtr__HBIJJBPCGMM_k__BackingField
+10:09:33.602       private static IntPtr NativeFieldInfoPtr_GCCMPOOGKDM
+10:09:33.602       private static IntPtr NativeMethodInfoPtr_GCNEOOAAPEG_Private_Void_0
+10:09:33.603       private static IntPtr NativeMethodInfoPtr_CGNAMIIGGEL_Private_Void_0
+10:09:33.604       private static IntPtr NativeMethodInfoPtr_getMapViewCamera_Public_MapViewCamera_0
+10:09:33.604       private static IntPtr NativeMethodInfoPtr_NFKCKJMNCJJ_Public_MainGameCanvasManager_0
+10:09:33.605       private static IntPtr NativeMethodInfoPtr_HFBDMNPMAGI_Public_Void_0
+10:09:33.605       private static IntPtr NativeMethodInfoPtr_HAMHNJLLNHP_Public_Boolean_0
+10:09:33.606       private static IntPtr NativeMethodInfoPtr_OGCCPBMPIOP_Public_ObjectMapInfoBarManager_0
+10:09:33.606       private static IntPtr NativeMethodInfoPtr_JPHCAKCMEOO_Public_Void_EventHandler_1_Boolean_0
+10:09:33.606       private static IntPtr NativeMethodInfoPtr_OnEnable_Private_Void_0
+10:09:33.607       private static IntPtr NativeMethodInfoPtr_FBACCDMLFBF_Private_Void_0
+10:09:33.607       private static IntPtr NativeMethodInfoPtr_MAFOKINEOMA_Public_JoystickComponent_0
+10:09:33.607       private static IntPtr NativeMethodInfoPtr_get_isInitialized_Public_get_Boolean_0
+10:09:33.608       private static IntPtr NativeMethodInfoPtr_AOKJGKAIADA_Public_Boolean_0
+10:09:33.608       private static IntPtr NativeMethodInfoPtr_GJLKCBAAFHP_Private_Void_0
+10:09:33.609       private static IntPtr NativeMethodInfoPtr_JAEHAHKAELN_Public_Void_0
+10:09:33.609       private static IntPtr NativeMethodInfoPtr_get_isOnAutoMode_Public_get_Boolean_0
+10:09:33.609       private static IntPtr NativeMethodInfoPtr_GMBPJAJBNGC_Public_Void_Boolean_0
+10:09:33.610       private static IntPtr NativeMethodInfoPtr_NJLFJOKDGIO_Public_EffectTimePanelPresenter_0
+10:09:33.611       private static IntPtr NativeMethodInfoPtr_getMoveSfxManager_Public_MoveSfxManager_0
+10:09:33.611       private static IntPtr NativeMethodInfoPtr_PFNGNEEMJEO_Private_Void_0
+10:09:33.612       private static IntPtr NativeMethodInfoPtr_OFPIMBCDPNC_Private_Void_0
+10:09:33.614       private static IntPtr NativeMethodInfoPtr_JNLAMGNAPAB_Public_JoystickComponent_0
+10:09:33.614       private static IntPtr NativeMethodInfoPtr_HALJBOFOHAK_Public_Void_EventHandler_1_Boolean_0
+10:09:33.615       private static IntPtr NativeMethodInfoPtr_HBIAFGCOFPL_Public_Void_0
+10:09:33.615       private static IntPtr NativeMethodInfoPtr_ABCDCDDEHMN_Public_Void_EventHandler_1_Boolean_0
+10:09:33.616       private static IntPtr NativeMethodInfoPtr_GPPEHCAIJHE_Public_MainGameUIManager_0
+10:09:33.616       private static IntPtr NativeMethodInfoPtr_HLCPPAMOEOL_Private_Void_0
+10:09:33.617       private static IntPtr NativeMethodInfoPtr_getCursorObjectController_Public_CursorObjectController_0
+10:09:33.618       private static IntPtr NativeMethodInfoPtr_KALIKMGLJFO_Private_Void_0
+10:09:33.618       private static IntPtr NativeMethodInfoPtr_JBHMDPBPECH_Private_set_Void_Boolean_0
+10:09:33.619       private static IntPtr NativeMethodInfoPtr_NNDCBKIPIPD_Public_MoveSfxManager_0
+10:09:33.619       private static IntPtr NativeMethodInfoPtr_HLHOGLOCEKI_Private_AutoAttackMobData_Int32_0
+10:09:33.620       private static IntPtr NativeMethodInfoPtr_GILGMACCHML_Public_PingObject_0
+10:09:33.620       private static IntPtr NativeMethodInfoPtr_NPKIMEBFBCN_Public_PingObject_0
+10:09:33.620       private static IntPtr NativeMethodInfoPtr_EKDIACMCAPG_Private_set_Void_BEFBABGIBAI_0
+10:09:33.621       private static IntPtr NativeMethodInfoPtr_DDPNLJANCBC_Public_JoystickComponent_0
+10:09:33.621       private static IntPtr NativeMethodInfoPtr_DGOFKOLPJPB_Public_Boolean_0
+10:09:33.622       private static IntPtr NativeMethodInfoPtr_OCNNFGINGJO_Public_Static_MainGame_0
+10:09:33.622       private static IntPtr NativeMethodInfoPtr_JPJJDCKMAMH_Public_MainGameUIManager_0
+10:09:33.622       private static IntPtr NativeMethodInfoPtr_CNDIPKFHEKO_Public_Void_Int32_Boolean_0
+10:09:33.623       private static IntPtr NativeMethodInfoPtr_CHJADLMPPAI_Private_set_Void_Boolean_0
+10:09:33.623       private static IntPtr NativeMethodInfoPtr_EFDFNLLFKIJ_Private_Void_0
+10:09:33.624       private static IntPtr NativeMethodInfoPtr_PLEBFKEPJLP_Private_AutoAttackMobData_Int32_0
+10:09:33.624       private static IntPtr NativeMethodInfoPtr_OJNBPLLFLIG_Public_BEFBABGIBAI_0
+10:09:33.625       private static IntPtr NativeMethodInfoPtr_getPingObject_Public_PingObject_0
+10:09:33.625       private static IntPtr NativeMethodInfoPtr_add_onAutoAttackDataChanged_Public_add_Void_EventHandler_1_Boolean_0
+10:09:33.626       private static IntPtr NativeMethodInfoPtr_KLJBEEFBFIO_Public_Boolean_0
+10:09:33.626       private static IntPtr NativeMethodInfoPtr_getUIManager_Public_MainGameUIManager_0
+10:09:33.627       private static IntPtr NativeMethodInfoPtr_PKNECDJLNMP_Private_Void_Boolean_0
+10:09:33.627       private static IntPtr NativeMethodInfoPtr_GGNJOGJKIMI_Private_Void_0
+10:09:33.627       private static IntPtr NativeMethodInfoPtr_get_nextMapControl_Public_get_BEFBABGIBAI_0
+10:09:33.629       private static IntPtr NativeMethodInfoPtr_FGLIFLIPIGL_Public_Static_MainGame_0
+10:09:33.630       private static IntPtr NativeMethodInfoPtr_PAHFNIONPME_Public_EffectTimePanelPresenter_0
+10:09:33.630       private static IntPtr NativeMethodInfoPtr_DKGHCAAEBDJ_Public_BEFBABGIBAI_0
+10:09:33.630       private static IntPtr NativeMethodInfoPtr_NBELPKPBDFJ_Private_Void_0
+10:09:33.631       private static IntPtr NativeMethodInfoPtr_HFHLLBBMFJA_Public_Void_EventHandler_1_Boolean_0
+10:09:33.632       private static IntPtr NativeMethodInfoPtr_gI_Public_Static_MainGame_0
+10:09:33.633       private static IntPtr NativeMethodInfoPtr_NFKKBJDAOHE_Private_AutoAttackMobData_Int32_0
+10:09:33.633       private static IntPtr NativeMethodInfoPtr_NANJKCNFCDI_Private_Void_0
+10:09:33.633       private static IntPtr NativeMethodInfoPtr_BAFAIKJFPGG_Public_Boolean_0
+10:09:33.634       private static IntPtr NativeMethodInfoPtr_AOHFJOFILNF_Public_Void_0
+10:09:33.634       private static IntPtr NativeMethodInfoPtr_HIGIOOAMLAO_Private_Void_Boolean_0
+10:09:33.634       private static IntPtr NativeMethodInfoPtr_KLGPKHDDFGH_Private_Void_Boolean_0
+10:09:33.635       private static IntPtr NativeMethodInfoPtr_DJNKBOJBFNP_Public_Boolean_0
+10:09:33.635       private static IntPtr NativeMethodInfoPtr_KKGJGCBLHOA_Private_Void_0
+10:09:33.636       private static IntPtr NativeMethodInfoPtr_KJKBCMFJIDD_Public_Static_MainGame_0
+10:09:33.636       private static IntPtr NativeMethodInfoPtr_MLFGBLCDFKG_Public_MainGameUIManager_0
+10:09:33.636       private static IntPtr NativeMethodInfoPtr_FMLCFAFNOOD_Private_Void_0
+10:09:33.637       private static IntPtr NativeMethodInfoPtr_IPDBDJCMJPB_Public_Void_EventHandler_1_Boolean_0
+10:09:33.637       private static IntPtr NativeMethodInfoPtr_PDEJEBDFINO_Public_BEFBABGIBAI_0
+10:09:33.638       private static IntPtr NativeMethodInfoPtr_NNJBJEPMHMI_Public_CursorObjectController_0
+10:09:33.638       private static IntPtr NativeMethodInfoPtr_CBGEACJMANF_Private_Void_0
+10:09:33.639       private static IntPtr NativeMethodInfoPtr_IJALNGJHJOJ_Public_Static_MainGame_0
+10:09:33.640       private static IntPtr NativeMethodInfoPtr_getCanvasManager_Public_MainGameCanvasManager_0
+10:09:33.640       private static IntPtr NativeMethodInfoPtr_remove_onAutoAttackDataChanged_Public_rem_Void_EventHandler_1_Boolean_0
+10:09:33.640       private static IntPtr NativeMethodInfoPtr_IDKDNCKAGMN_Private_Void_0
+10:09:33.641       private static IntPtr NativeMethodInfoPtr_MIDHCNFNABK_Private_Void_0
+10:09:33.641       private static IntPtr NativeMethodInfoPtr_KLMPPFCAFOB_Public_Void_0
+10:09:33.641       private static IntPtr NativeMethodInfoPtr_PGNLEACBMFJ_Private_AutoAttackMobData_Int32_0
+10:09:33.642       private static IntPtr NativeMethodInfoPtr_updateAutoAttackMobData_Public_Void_0
+10:09:33.642       private static IntPtr NativeMethodInfoPtr_MKCHLFKJDDB_Public_Static_MainGame_0
+10:09:33.643       private static IntPtr NativeMethodInfoPtr_EAPAIIBCKGM_Public_Static_MainGame_0
+10:09:33.643       private static IntPtr NativeMethodInfoPtr_BAPMLOBDLEM_Public_ObjectMapInfoBarManager_0
+10:09:33.643       private static IntPtr NativeMethodInfoPtr_IGCAOIKDIAB_Private_Void_0
+10:09:33.646       private static IntPtr NativeMethodInfoPtr_Update_Private_Void_0
+10:09:33.646       private static IntPtr NativeMethodInfoPtr_AIMHKBOGFNL_Private_Void_BEFBABGIBAI_0
+10:09:33.647       private static IntPtr NativeMethodInfoPtr_IHIFBKFCPIB_Private_Void_0
+10:09:33.647       private static IntPtr NativeMethodInfoPtr_initUI_Public_Void_0
+10:09:33.648       private static IntPtr NativeMethodInfoPtr_setPlayerOnAutoMode_Public_Void_Boolean_0
+10:09:33.648       private static IntPtr NativeMethodInfoPtr_JKEBDKKFDDE_Public_Void_Int32_Boolean_0
+10:09:33.648       private static IntPtr NativeMethodInfoPtr_AEKADLCOJFE_Private_Void_0
+10:09:33.649       private static IntPtr NativeMethodInfoPtr_CPBOFLIIJGK_Private_Void_0
+10:09:33.649       private static IntPtr NativeMethodInfoPtr_OPOMMGHAMJI_Public_Static_MainGame_0
+10:09:33.650       private static IntPtr NativeMethodInfoPtr_BPMFFPKLEAA_Public_PingObject_0
+10:09:33.650       private static IntPtr NativeMethodInfoPtr_CJOGFJADJOK_Public_Boolean_0
+10:09:33.651       private static IntPtr NativeMethodInfoPtr_OBILAHEEOCI_Public_Void_Boolean_0
+10:09:33.651       private static IntPtr NativeMethodInfoPtr_MGJMLCNLKOI_Private_Void_Boolean_0
+10:09:33.652       private static IntPtr NativeMethodInfoPtr_get_isAutoAttackOn_Public_get_Boolean_0
+10:09:33.653       private static IntPtr NativeMethodInfoPtr_NFIFDNDDELM_Public_Focus_0
+10:09:33.653       private static IntPtr NativeMethodInfoPtr_FDCHIMENAEM_Private_Void_Boolean_0
+10:09:33.654       private static IntPtr NativeMethodInfoPtr_ONLENCACDBJ_Public_MapViewCamera_0
+10:09:33.654       private static IntPtr NativeMethodInfoPtr_KALJHMLACDI_Public_Focus_0
+10:09:33.655       private static IntPtr NativeMethodInfoPtr_GABBINPPNEH_Private_Void_Boolean_0
+10:09:33.655       private static IntPtr NativeMethodInfoPtr_AABMHCBGLGF_Private_set_Void_Boolean_0
+10:09:33.655       private static IntPtr NativeMethodInfoPtr_KEAMMJHFNKF_Public_EffectTimePanelPresenter_0
+10:09:33.656       private static IntPtr NativeMethodInfoPtr_getEffectTimePanel_Public_EffectTimePanelPresenter_0
+10:09:33.656       private static IntPtr NativeMethodInfoPtr_AIOJFJOFDCP_Public_MainGameCanvasManager_0
+10:09:33.656       private static IntPtr NativeMethodInfoPtr_HBKDCKPCAKB_Public_MapViewCamera_0
+10:09:33.657       private static IntPtr NativeMethodInfoPtr_MAPLKGJADON_Public_PingObject_0
+10:09:33.657       private static IntPtr NativeMethodInfoPtr_HCMBAFOJCDG_Public_Void_EventHandler_1_Boolean_0
+10:09:33.658       private static IntPtr NativeMethodInfoPtr_CFJCFKIAFIG_Private_Void_0
+10:09:33.658       private static IntPtr NativeMethodInfoPtr_MLBLJIKEPOH_Public_Void_Int32_Boolean_0
+10:09:33.659       private static IntPtr NativeMethodInfoPtr_NBOILBEPGDO_Private_Void_Boolean_0
+10:09:33.661       private static IntPtr NativeMethodInfoPtr_LLLIEJPEBBN_Public_Void_0
+10:09:33.661       private static IntPtr NativeMethodInfoPtr_BNJDOMHPFBP_Public_PingObject_0
+10:09:33.662       private static IntPtr NativeMethodInfoPtr_BAHBMOPCCOL_Public_MainGameUIManager_0
+10:09:33.662       private static IntPtr NativeMethodInfoPtr_JMIDKCGGMEF_Private_Void_0
+10:09:33.663       private static IntPtr NativeMethodInfoPtr_Awake_Private_Void_0
+10:09:33.663       private static IntPtr NativeMethodInfoPtr_hasJoystick_Public_Boolean_0
+10:09:33.664       private static IntPtr NativeMethodInfoPtr_CPJCDGKKMII_Public_Boolean_0
+10:09:33.664       private static IntPtr NativeMethodInfoPtr_LCCIIGIODJF_Public_PingObject_0
+10:09:33.664       private static IntPtr NativeMethodInfoPtr_JENJFENLLDN_Private_Void_0
+10:09:33.665       private static IntPtr NativeMethodInfoPtr_CAOCPCOKNCI_Public_Void_0
+10:09:33.665       private static IntPtr NativeMethodInfoPtr_JMLOEGGGJDK_Public_Void_EventHandler_1_Boolean_0
+10:09:33.665       private static IntPtr NativeMethodInfoPtr_GGCBNIJOBHL_Private_Void_Boolean_0
+10:09:33.666       private static IntPtr NativeMethodInfoPtr_JCBHBAFJEHL_Public_Void_EventHandler_1_Boolean_0
+10:09:33.667       private static IntPtr NativeMethodInfoPtr__ctor_Public_Void_0
+10:09:33.667       private static IntPtr NativeMethodInfoPtr_DNPKKNNDBFA_Private_Void_Boolean_0
+10:09:33.668       private static IntPtr NativeMethodInfoPtr_FOBLEAMELGA_Public_Focus_0
+10:09:33.668       private static IntPtr NativeMethodInfoPtr_DNMMLDJPHHM_Public_Void_0
+10:09:33.669       private static IntPtr NativeMethodInfoPtr_FLADGONJJFB_Public_ObjectMapInfoBarManager_0
+10:09:33.669       private static IntPtr NativeMethodInfoPtr_EFFEBFBCEOO_Public_Boolean_0
+10:09:33.669       private static IntPtr NativeMethodInfoPtr_CPEDNHGHCDM_Private_Void_0
+10:09:33.670       private static IntPtr NativeMethodInfoPtr_AKNFJHABFOM_Private_Void_0
+10:09:33.670       private static IntPtr NativeMethodInfoPtr_FGPHMGBJNHK_Private_Void_Boolean_0
+10:09:33.670       private static IntPtr NativeMethodInfoPtr_BFKIDHBCFAH_Private_Void_0
+10:09:33.671       private static IntPtr NativeMethodInfoPtr_DMDLKHGPFFL_Public_Boolean_0
+10:09:33.671       private static IntPtr NativeMethodInfoPtr_getObjectMapInfoBarManager_Public_ObjectMapInfoBarManager_0
+10:09:33.672       private static IntPtr NativeMethodInfoPtr_PCPOICMKFMJ_Public_Boolean_0
+10:09:33.672       private static IntPtr NativeMethodInfoPtr_MMGFNPDOKBB_Public_Void_Boolean_0
+10:09:33.673       private static IntPtr NativeMethodInfoPtr_JGHEILPPIOP_Private_Void_BEFBABGIBAI_0
+10:09:33.674       private static IntPtr NativeMethodInfoPtr_NEDMPBGONKA_Public_BEFBABGIBAI_0
+10:09:33.675       private static IntPtr NativeMethodInfoPtr_KKCJGNLOFLM_Public_Static_MainGame_0
+10:09:33.676       private static IntPtr NativeMethodInfoPtr_OnDisable_Private_Void_0
+10:09:33.677       private static IntPtr NativeMethodInfoPtr_AKAOHIJEGJP_Public_MainGameCanvasManager_0
+10:09:33.677       private static IntPtr NativeMethodInfoPtr_LAOMBNFFMHE_Private_Void_Boolean_0
+10:09:33.678       private static IntPtr NativeMethodInfoPtr_updateAutoMobValue_Public_Void_Int32_Boolean_0
+10:09:33.678       private static IntPtr NativeMethodInfoPtr_GDIMFFPMICD_Public_Boolean_0
+10:09:33.678       private static IntPtr NativeMethodInfoPtr_getJoystickComponent_Public_JoystickComponent_0
+10:09:33.679       private static IntPtr NativeMethodInfoPtr_IOODCDPGHIF_Private_Void_0
+10:09:33.679       private static IntPtr NativeMethodInfoPtr_ECDBLNDFHDP_Private_Void_0
+10:09:33.680       private static IntPtr NativeMethodInfoPtr_EIABGIBOOPG_Public_CursorObjectController_0
+10:09:33.681       private static IntPtr NativeMethodInfoPtr_PBJCFMDBFCI_Public_MoveSfxManager_0
+10:09:33.681       private static IntPtr NativeMethodInfoPtr_LJNJFJPKHMA_Public_Focus_0
+10:09:33.682       private static IntPtr NativeMethodInfoPtr_getFocus_Public_Focus_0
+10:09:33.682       private static IntPtr NativeMethodInfoPtr_AOGPKJJOFOK_Public_MainGameCanvasManager_0
+10:09:33.682       protected Boolean isWrapped
+10:09:33.683       protected IntPtr pooledPtr
+10:09:33.683    -- Properties (39):
+10:09:33.684       MainGameUIManager UIManager (getset)
+10:09:33.684       MainGameCanvasManager canvasManager (getset)
+10:09:33.685       Focus focus (getset)
+10:09:33.685       PingObject pingObject (getset)
+10:09:33.685       MapViewCamera mapViewCamera (getset)
+10:09:33.686       MoveSfxManager moveSfxManager (getset)
+10:09:33.686       ObjectMapInfoBarManager objectMapInfoBarManager (getset)
+10:09:33.687       EffectTimePanelPresenter effectTimePanel (getset)
+10:09:33.687       JoystickComponent joystickComponent (getset)
+10:09:33.688       CursorObjectController cursorObjectController (getset)
+10:09:33.688       Boolean CJNDEPBKHIB (getset)
+10:09:33.689       Dictionary`2 autoAttackMobData (getset)
+10:09:33.689       Boolean _MIHMBDKLLBK_k__BackingField (getset)
+10:09:33.690       EventHandler`1 FKHCJKBLFDM (getset)
+10:09:33.691       Boolean _FPIEAIGIOAL_k__BackingField (getset)
+10:09:33.692       Boolean _GKBBNMGADCM_k__BackingField (getset)
+10:09:33.692       BEFBABGIBAI _HBIJJBPCGMM_k__BackingField (getset)
+10:09:33.693       MainGame GCCMPOOGKDM (getset)
+10:09:33.693       Boolean NCAOKLGBPOI (getset)
+10:09:33.694       Boolean BKJINDIJANL (getset)
+10:09:33.695       Boolean BLJEMOOGPGD (getset)
+10:09:33.695       BEFBABGIBAI BJDAIHINOJI (getset)
+10:09:33.696       CancellationTokenSource m_CancellationTokenSource (getset)
+10:09:33.696       CancellationToken destroyCancellationToken (get)
+10:09:33.696       Boolean useGUILayout (getset)
+10:09:33.697       Boolean enabled (getset)
+10:09:33.697       Boolean isActiveAndEnabled (get)
+10:09:33.698       Transform transform (get)
+10:09:33.703       GameObject gameObject (get)
+10:09:33.704       String tag (getset)
+10:09:33.704       IntPtr m_CachedPtr (getset)
+10:09:33.705       Int32 OffsetOfInstanceIDInCPlusPlusObject (getset)
+10:09:33.705       String objectIsNullMessage (getset)
+10:09:33.705       String cloneDestroyedMessage (getset)
+10:09:33.707       String name (getset)
+10:09:33.708       HideFlags hideFlags (getset)
+10:09:33.709       IntPtr ObjectClass (get)
+10:09:33.709       IntPtr Pointer (get)
+10:09:33.710       Boolean WasCollected (get)
+10:09:33.710    -- Methods (191):
+10:09:33.711       Boolean get_isAutoAttackOn()
+10:09:33.711       Boolean get_isInitialized()
+10:09:33.711       Boolean get_isOnAutoMode()
+10:09:33.712       Dictionary`2 get_autoAttackMobData()
+10:09:33.712       Void AABMHCBGLGF(Boolean OMKIFANJPLO)
+10:09:33.713       Void JBHMDPBPECH(Boolean OMKIFANJPLO)
+10:09:33.713       Void CHJADLMPPAI(Boolean OMKIFANJPLO)
+10:09:33.713       MainGameUIManager get_UIManager()
+10:09:33.714       Void set_UIManager(MainGameUIManager )
+10:09:33.714       MainGameCanvasManager get_canvasManager()
+10:09:33.715       Void set_canvasManager(MainGameCanvasManager )
+10:09:33.716       Focus get_focus()
+10:09:33.716       Void set_focus(Focus )
+10:09:33.717       PingObject get_pingObject()
+10:09:33.717       Void set_pingObject(PingObject )
+10:09:33.717       MapViewCamera get_mapViewCamera()
+10:09:33.718       Void set_mapViewCamera(MapViewCamera )
+10:09:33.718       MoveSfxManager get_moveSfxManager()
+10:09:33.718       Void set_moveSfxManager(MoveSfxManager )
+10:09:33.719       ObjectMapInfoBarManager get_objectMapInfoBarManager()
+10:09:33.719       Void set_objectMapInfoBarManager(ObjectMapInfoBarManager )
+10:09:33.720       EffectTimePanelPresenter get_effectTimePanel()
+10:09:33.720       Void set_effectTimePanel(EffectTimePanelPresenter )
+10:09:33.720       JoystickComponent get_joystickComponent()
+10:09:33.721       Void set_joystickComponent(JoystickComponent )
+10:09:33.723       CursorObjectController get_cursorObjectController()
+10:09:33.724       Void set_cursorObjectController(CursorObjectController )
+10:09:33.724       Boolean get_CJNDEPBKHIB()
+10:09:33.724       Void set_CJNDEPBKHIB(Boolean )
+10:09:33.725       Void set_autoAttackMobData(Dictionary`2 )
+10:09:33.725       Boolean get__MIHMBDKLLBK_k__BackingField()
+10:09:33.725       Void set__MIHMBDKLLBK_k__BackingField(Boolean )
+10:09:33.726       EventHandler`1 get_FKHCJKBLFDM()
+10:09:33.726       Void set_FKHCJKBLFDM(EventHandler`1 )
+10:09:33.727       Boolean get__FPIEAIGIOAL_k__BackingField()
+10:09:33.727       Void set__FPIEAIGIOAL_k__BackingField(Boolean )
+10:09:33.727       Boolean get__GKBBNMGADCM_k__BackingField()
+10:09:33.728       Void set__GKBBNMGADCM_k__BackingField(Boolean )
+10:09:33.729       BEFBABGIBAI get__HBIJJBPCGMM_k__BackingField()
+10:09:33.729       Void set__HBIJJBPCGMM_k__BackingField(BEFBABGIBAI )
+10:09:33.730       static MainGame get_GCCMPOOGKDM()
+10:09:33.730       static Void set_GCCMPOOGKDM(MainGame )
+10:09:33.731       BEFBABGIBAI get_nextMapControl()
+10:09:33.731       Void EKDIACMCAPG(BEFBABGIBAI OMKIFANJPLO)
+10:09:33.731       Void Update()
+10:09:33.732       Void AIMHKBOGFNL(BEFBABGIBAI OMKIFANJPLO)
+10:09:33.732       Void IHIFBKFCPIB()
+10:09:33.733       Void initUI()
+10:09:33.733       Void setPlayerOnAutoMode(Boolean OMKIFANJPLO)
+10:09:33.733       Void JKEBDKKFDDE(Int32 NHOJNCPFCKN, Boolean OMKIFANJPLO)
+10:09:33.734       Void AEKADLCOJFE()
+10:09:33.734       Void CPBOFLIIJGK()
+10:09:33.734       static MainGame OPOMMGHAMJI()
+10:09:33.735       PingObject BPMFFPKLEAA()
+10:09:33.736       Boolean CJOGFJADJOK()
+10:09:33.736       Void OBILAHEEOCI(Boolean OMKIFANJPLO)
+10:09:33.737       Void MGJMLCNLKOI(Boolean OMKIFANJPLO)
+10:09:33.738       Focus NFIFDNDDELM()
+10:09:33.739       Void FDCHIMENAEM(Boolean OMKIFANJPLO)
+10:09:33.739       MapViewCamera ONLENCACDBJ()
+10:09:33.739       Focus KALJHMLACDI()
+10:09:33.740       Void GABBINPPNEH(Boolean OMKIFANJPLO)
+10:09:33.740       EffectTimePanelPresenter KEAMMJHFNKF()
+10:09:33.740       EffectTimePanelPresenter getEffectTimePanel()
+10:09:33.741       MainGameCanvasManager AIOJFJOFDCP()
+10:09:33.741       MapViewCamera HBKDCKPCAKB()
+10:09:33.742       PingObject MAPLKGJADON()
+10:09:33.742       Void HCMBAFOJCDG(EventHandler`1 OMKIFANJPLO)
+10:09:33.743       Void CFJCFKIAFIG()
+10:09:33.744       Void MLBLJIKEPOH(Int32 NHOJNCPFCKN, Boolean OMKIFANJPLO)
+10:09:33.744       Void NBOILBEPGDO(Boolean OMKIFANJPLO)
+10:09:33.745       Void LLLIEJPEBBN()
+10:09:33.745       PingObject BNJDOMHPFBP()
+10:09:33.745       MainGameUIManager BAHBMOPCCOL()
+10:09:33.746       Void JMIDKCGGMEF()
+10:09:33.746       Void Awake()
+10:09:33.747       Boolean hasJoystick()
+10:09:33.747       Boolean CPJCDGKKMII()
+10:09:33.747       PingObject LCCIIGIODJF()
+10:09:33.748       Void JENJFENLLDN()
+10:09:33.748       Void CAOCPCOKNCI()
+10:09:33.748       Void JMLOEGGGJDK(EventHandler`1 OMKIFANJPLO)
+10:09:33.749       Void GGCBNIJOBHL(Boolean OMKIFANJPLO)
+10:09:33.750       Void JCBHBAFJEHL(EventHandler`1 OMKIFANJPLO)
+10:09:33.751       Void DNPKKNNDBFA(Boolean OMKIFANJPLO)
+10:09:33.751       Focus FOBLEAMELGA()
+10:09:33.752       Void DNMMLDJPHHM()
+10:09:33.753       ObjectMapInfoBarManager FLADGONJJFB()
+10:09:33.754       Boolean EFFEBFBCEOO()
+10:09:33.754       Void CPEDNHGHCDM()
+10:09:33.755       Void AKNFJHABFOM()
+10:09:33.755       Void FGPHMGBJNHK(Boolean OMKIFANJPLO)
+10:09:33.755       Void BFKIDHBCFAH()
+10:09:33.756       Boolean DMDLKHGPFFL()
+10:09:33.757       ObjectMapInfoBarManager getObjectMapInfoBarManager()
+10:09:33.758       Boolean PCPOICMKFMJ()
+10:09:33.758       Void MMGFNPDOKBB(Boolean OMKIFANJPLO)
+10:09:33.758       Void JGHEILPPIOP(BEFBABGIBAI OMKIFANJPLO)
+10:09:33.759       BEFBABGIBAI NEDMPBGONKA()
+10:09:33.759       static MainGame KKCJGNLOFLM()
+10:09:33.759       Void OnDisable()
+10:09:33.760       MainGameCanvasManager AKAOHIJEGJP()
+10:09:33.760       Void LAOMBNFFMHE(Boolean OMKIFANJPLO)
+10:09:33.760       Void updateAutoMobValue(Int32 NHOJNCPFCKN, Boolean OMKIFANJPLO)
+10:09:33.761       Boolean GDIMFFPMICD()
+10:09:33.761       JoystickComponent getJoystickComponent()
+10:09:33.761       Void IOODCDPGHIF()
+10:09:33.762       Void ECDBLNDFHDP()
+10:09:33.762       CursorObjectController EIABGIBOOPG()
+10:09:33.763       MoveSfxManager PBJCFMDBFCI()
+10:09:33.764       Focus LJNJFJPKHMA()
+10:09:33.764       Focus getFocus()
+10:09:33.765       MainGameCanvasManager AOGPKJJOFOK()
+10:09:33.765       Void GCNEOOAAPEG()
+10:09:33.766       Void CGNAMIIGGEL()
+10:09:33.766       MapViewCamera getMapViewCamera()
+10:09:33.766       MainGameCanvasManager NFKCKJMNCJJ()
+10:09:33.767       Void HFBDMNPMAGI()
+10:09:33.767       Boolean HAMHNJLLNHP()
+10:09:33.767       ObjectMapInfoBarManager OGCCPBMPIOP()
+10:09:33.768       Void JPHCAKCMEOO(EventHandler`1 OMKIFANJPLO)
+10:09:33.769       Void OnEnable()
+10:09:33.770       Void FBACCDMLFBF()
+10:09:33.771       JoystickComponent MAFOKINEOMA()
+10:09:33.772       Boolean AOKJGKAIADA()
+10:09:33.772       Void GJLKCBAAFHP()
+10:09:33.773       Void JAEHAHKAELN()
+10:09:33.773       Void GMBPJAJBNGC(Boolean OMKIFANJPLO)
+10:09:33.773       EffectTimePanelPresenter NJLFJOKDGIO()
+10:09:33.774       MoveSfxManager getMoveSfxManager()
+10:09:33.774       Void PFNGNEEMJEO()
+10:09:33.774       Void OFPIMBCDPNC()
+10:09:33.775       JoystickComponent JNLAMGNAPAB()
+10:09:33.775       Void HALJBOFOHAK(EventHandler`1 OMKIFANJPLO)
+10:09:33.775       Void HBIAFGCOFPL()
+10:09:33.776       Void ABCDCDDEHMN(EventHandler`1 OMKIFANJPLO)
+10:09:33.776       MainGameUIManager GPPEHCAIJHE()
+10:09:33.777       Void HLCPPAMOEOL()
+10:09:33.778       CursorObjectController getCursorObjectController()
+10:09:33.778       Void KALIKMGLJFO()
+10:09:33.779       MoveSfxManager NNDCBKIPIPD()
+10:09:33.779       AutoAttackMobData HLHOGLOCEKI(Int32 NHOJNCPFCKN)
+10:09:33.780       PingObject GILGMACCHML()
+10:09:33.780       PingObject NPKIMEBFBCN()
+10:09:33.780       JoystickComponent DDPNLJANCBC()
+10:09:33.781       Boolean DGOFKOLPJPB()
+10:09:33.781       static MainGame OCNNFGINGJO()
+10:09:33.781       MainGameUIManager JPJJDCKMAMH()
+10:09:33.782       Void CNDIPKFHEKO(Int32 NHOJNCPFCKN, Boolean OMKIFANJPLO)
+10:09:33.782       Void EFDFNLLFKIJ()
+10:09:33.783       AutoAttackMobData PLEBFKEPJLP(Int32 NHOJNCPFCKN)
+10:09:33.783       BEFBABGIBAI OJNBPLLFLIG()
+10:09:33.785       PingObject getPingObject()
+10:09:33.786       Void add_onAutoAttackDataChanged(EventHandler`1 OMKIFANJPLO)
+10:09:33.786       Boolean KLJBEEFBFIO()
+10:09:33.787       MainGameUIManager getUIManager()
+10:09:33.787       Void PKNECDJLNMP(Boolean OMKIFANJPLO)
+10:09:33.787       Void GGNJOGJKIMI()
+10:09:33.788       static MainGame FGLIFLIPIGL()
+10:09:33.788       EffectTimePanelPresenter PAHFNIONPME()
+10:09:33.788       BEFBABGIBAI DKGHCAAEBDJ()
+10:09:33.789       Void NBELPKPBDFJ()
+10:09:33.789       Void HFHLLBBMFJA(EventHandler`1 OMKIFANJPLO)
+10:09:33.789       static MainGame gI()
+10:09:33.790       AutoAttackMobData NFKKBJDAOHE(Int32 NHOJNCPFCKN)
+10:09:33.790       Void NANJKCNFCDI()
+10:09:33.791       Boolean BAFAIKJFPGG()
+10:09:33.792       Void AOHFJOFILNF()
+10:09:33.792       Void HIGIOOAMLAO(Boolean OMKIFANJPLO)
+10:09:33.793       Void KLGPKHDDFGH(Boolean OMKIFANJPLO)
+10:09:33.793       Boolean DJNKBOJBFNP()
+10:09:33.793       Void KKGJGCBLHOA()
+10:09:33.794       static MainGame KJKBCMFJIDD()
+10:09:33.794       MainGameUIManager MLFGBLCDFKG()
+10:09:33.795       Void FMLCFAFNOOD()
+10:09:33.795       Void IPDBDJCMJPB(EventHandler`1 OMKIFANJPLO)
+10:09:33.795       BEFBABGIBAI PDEJEBDFINO()
+10:09:33.796       CursorObjectController NNJBJEPMHMI()
+10:09:33.796       Void CBGEACJMANF()
+10:09:33.796       static MainGame IJALNGJHJOJ()
+10:09:33.797       MainGameCanvasManager getCanvasManager()
+10:09:33.797       Void remove_onAutoAttackDataChanged(EventHandler`1 OMKIFANJPLO)
+10:09:33.798       Void IDKDNCKAGMN()
+10:09:33.799       Void MIDHCNFNABK()
+10:09:33.799       Void KLMPPFCAFOB()
+10:09:33.801       AutoAttackMobData PGNLEACBMFJ(Int32 NHOJNCPFCKN)
+10:09:33.801       Void updateAutoAttackMobData()
+10:09:33.802       static MainGame MKCHLFKJDDB()
+10:09:33.802       static MainGame EAPAIIBCKGM()
+10:09:33.803       ObjectMapInfoBarManager BAPMLOBDLEM()
+10:09:33.803       Void IGCAOIKDIAB()
+10:09:33.804  ===== HET API =====

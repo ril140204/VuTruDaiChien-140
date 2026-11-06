@@ -1,0 +1,349 @@
+﻿>>> Da gui 1 lenh:
+    api AutoAttackButton
+10:04:22.029  CMD    | api AutoAttackButton
+10:04:22.168  ===== API AutoAttackButton =====
+10:04:22.169    BASE: MyButtonNoText
+10:04:22.170    -- Fields (152):
+10:04:22.171       private static IntPtr NativeFieldInfoPtr_enableBackground
+10:04:22.172       private static IntPtr NativeFieldInfoPtr_disableBackground
+10:04:22.173       private static IntPtr NativeFieldInfoPtr_vfx
+10:04:22.174       private static IntPtr NativeFieldInfoPtr_shortcutName
+10:04:22.174       private static IntPtr NativeFieldInfoPtr_shortcutObject
+10:04:22.175       private static IntPtr NativeFieldInfoPtr_NNKDCIFJNOH
+10:04:22.175       private static IntPtr NativeFieldInfoPtr_JOIGNLOHBLL
+10:04:22.175       private static IntPtr NativeFieldInfoPtr_ODGIDCAIJHP
+10:04:22.176       private static IntPtr NativeMethodInfoPtr_GOFHHCJLDKM_Private_Void_0
+10:04:22.176       private static IntPtr NativeMethodInfoPtr_IBNBBMOHDGH_Private_Void_0
+10:04:22.177       private static IntPtr NativeMethodInfoPtr_HCEHBALJCID_Private_Void_0
+10:04:22.177       private static IntPtr NativeMethodInfoPtr_FBNKACOADPF_Private_Void_0
+10:04:22.178       private static IntPtr NativeMethodInfoPtr_PBEIBIMPFEA_Private_Void_0
+10:04:22.179       private static IntPtr NativeMethodInfoPtr_LMDDMIDNCMG_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.179       private static IntPtr NativeMethodInfoPtr_AJFKIEBEAPC_Private_Void_0
+10:04:22.180       private static IntPtr NativeMethodInfoPtr_BPIENLFEOCE_Protected_Void_0
+10:04:22.181       private static IntPtr NativeMethodInfoPtr_KKMDDNAAPAA_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.182       private static IntPtr NativeMethodInfoPtr_OHCHAKGNNMO_Private_Void_0
+10:04:22.182       private static IntPtr NativeMethodInfoPtr_PGCFMMIGDKK_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.183       private static IntPtr NativeMethodInfoPtr_AHHELHMMBKD_Private_Void_Object_Boolean_0
+10:04:22.183       private static IntPtr NativeMethodInfoPtr_BNNHPNALHEL_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.184       private static IntPtr NativeMethodInfoPtr_JDDBDDHDMMD_Private_Void_0
+10:04:22.185       private static IntPtr NativeMethodInfoPtr_MJLGLNMAMPP_Protected_Void_0
+10:04:22.185       private static IntPtr NativeMethodInfoPtr_HOGJDOKMNPN_Protected_Void_0
+10:04:22.186       private static IntPtr NativeMethodInfoPtr_FJILDAKHBON_Private_Void_0
+10:04:22.186       private static IntPtr NativeMethodInfoPtr_EHLPALLPNLH_Private_Void_0
+10:04:22.187       private static IntPtr NativeMethodInfoPtr_EEFFGEILMAN_Private_Void_Object_Boolean_0
+10:04:22.187       private static IntPtr NativeMethodInfoPtr_OnDisable_Private_Void_0
+10:04:22.188       private static IntPtr NativeMethodInfoPtr_PMCMNACJHOP_Private_Void_0
+10:04:22.189       private static IntPtr NativeMethodInfoPtr_EMADMMAGEJL_Private_Void_0
+10:04:22.190       private static IntPtr NativeMethodInfoPtr_DKKCNMFEHNB_Private_Void_0
+10:04:22.190       private static IntPtr NativeMethodInfoPtr_EAAFPNADKLN_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.191       private static IntPtr NativeMethodInfoPtr_EGPDFNHFJKP_Private_Void_0
+10:04:22.191       private static IntPtr NativeMethodInfoPtr_GPMDINILFFO_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.192       private static IntPtr NativeMethodInfoPtr_KDBDFMAEKPO_Private_Void_0
+10:04:22.193       private static IntPtr NativeMethodInfoPtr_HJPCBMCEJFC_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.194       private static IntPtr NativeMethodInfoPtr_OFABLGKOJFH_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.194       private static IntPtr NativeMethodInfoPtr_GLKPFAFCJOJ_Private_Void_0
+10:04:22.195       private static IntPtr NativeMethodInfoPtr_JIFKECEDCCI_Private_Void_0
+10:04:22.195       private static IntPtr NativeMethodInfoPtr_HALNGGCEDGD_Private_Void_Object_Boolean_0
+10:04:22.197       private static IntPtr NativeMethodInfoPtr_LOPECEMAEJO_Private_Void_0
+10:04:22.197       private static IntPtr NativeMethodInfoPtr_OnPointerDown_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.198       private static IntPtr NativeMethodInfoPtr_GDGAMDBHBEP_Private_Void_0
+10:04:22.199       private static IntPtr NativeMethodInfoPtr_Awake_Protected_Void_0
+10:04:22.200       private static IntPtr NativeMethodInfoPtr_MKFDPKODJEH_Private_Void_Object_Boolean_0
+10:04:22.201       private static IntPtr NativeMethodInfoPtr_KMBIJBLNGJH_Private_Void_0
+10:04:22.201       private static IntPtr NativeMethodInfoPtr_LHEMOKPKDNP_Protected_Void_0
+10:04:22.202       private static IntPtr NativeMethodInfoPtr_BFPLAKDIEFK_Private_Void_0
+10:04:22.202       private static IntPtr NativeMethodInfoPtr_BICGAEIMDJF_Private_Void_0
+10:04:22.202       private static IntPtr NativeMethodInfoPtr_KOAHONCINAA_Private_Void_0
+10:04:22.203       private static IntPtr NativeMethodInfoPtr_AEIHANEAHCP_Private_Void_0
+10:04:22.203       private static IntPtr NativeMethodInfoPtr_OJOOPKPNOLN_Private_Void_0
+10:04:22.204       private static IntPtr NativeMethodInfoPtr_IGCECGMLGHB_Private_Void_0
+10:04:22.204       private static IntPtr NativeMethodInfoPtr_HLCMCOEANLH_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.205       private static IntPtr NativeMethodInfoPtr_EBJGHFHEIHA_Private_Void_0
+10:04:22.205       private static IntPtr NativeMethodInfoPtr_PDAADCDFCAO_Private_Void_0
+10:04:22.206       private static IntPtr NativeMethodInfoPtr_BIMBOCCCABL_Private_Void_0
+10:04:22.207       private static IntPtr NativeMethodInfoPtr_FPAHKKMGADI_Private_Void_0
+10:04:22.207       private static IntPtr NativeMethodInfoPtr_DEOFIHKKKHD_Private_Void_0
+10:04:22.208       private static IntPtr NativeMethodInfoPtr_GKJINBFDOOB_Private_Void_0
+10:04:22.208       private static IntPtr NativeMethodInfoPtr_CNGFPDCLMFN_Private_Void_0
+10:04:22.208       private static IntPtr NativeMethodInfoPtr_PMPOFKILJGM_Private_Void_0
+10:04:22.209       private static IntPtr NativeMethodInfoPtr_JBKEJBKFGIJ_Private_Void_0
+10:04:22.209       private static IntPtr NativeMethodInfoPtr_EGMHJFFMCOJ_Private_Void_Object_Boolean_0
+10:04:22.210       private static IntPtr NativeMethodInfoPtr_AOJGFAAAHJD_Private_Void_0
+10:04:22.210       private static IntPtr NativeMethodInfoPtr_KDFGGCPHOKI_Protected_Void_0
+10:04:22.210       private static IntPtr NativeMethodInfoPtr_FEMGJPEPHDG_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.212       private static IntPtr NativeMethodInfoPtr_AFMDAFBAGCE_Private_Void_Object_Boolean_0
+10:04:22.213       private static IntPtr NativeMethodInfoPtr_HKAGJKEJDNG_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.214       private static IntPtr NativeMethodInfoPtr_MNBPDPAHHGJ_Private_Void_0
+10:04:22.214       private static IntPtr NativeMethodInfoPtr_GGCMPGPNCFB_Private_Void_0
+10:04:22.215       private static IntPtr NativeMethodInfoPtr_LCAMGKMBDMH_Protected_Void_0
+10:04:22.215       private static IntPtr NativeMethodInfoPtr_KGCMIHKHKLK_Private_Void_0
+10:04:22.216       private static IntPtr NativeMethodInfoPtr_KCNBDKAPEJL_Private_Void_0
+10:04:22.216       private static IntPtr NativeMethodInfoPtr_HOCMKJFJJKP_Private_Void_0
+10:04:22.216       private static IntPtr NativeMethodInfoPtr_HNMKBDBCIGL_Protected_Void_0
+10:04:22.217       private static IntPtr NativeMethodInfoPtr_KFPFLJACKFF_Private_Void_0
+10:04:22.217       private static IntPtr NativeMethodInfoPtr_KHLLBLFCOPF_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.218       private static IntPtr NativeMethodInfoPtr_EEHDMCEHGBM_Private_Void_0
+10:04:22.218       private static IntPtr NativeMethodInfoPtr_GKEHDCINGEE_Private_Void_0
+10:04:22.219       private static IntPtr NativeMethodInfoPtr_LJPHBECBAEL_Private_Void_0
+10:04:22.219       private static IntPtr NativeMethodInfoPtr_GKKGMHOBFMJ_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.220       private static IntPtr NativeMethodInfoPtr_NCAAHFKCEAD_Private_Void_0
+10:04:22.221       private static IntPtr NativeMethodInfoPtr_HPFNFNEGAFJ_Private_Void_0
+10:04:22.221       private static IntPtr NativeMethodInfoPtr_EIBACOGGKAF_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.222       private static IntPtr NativeMethodInfoPtr_OBFBFKEDBLK_Protected_Void_0
+10:04:22.222       private static IntPtr NativeMethodInfoPtr_HKCCNGBAAJM_Private_Void_0
+10:04:22.223       private static IntPtr NativeMethodInfoPtr_IKAKKFOIJKM_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.224       private static IntPtr NativeMethodInfoPtr_CNFHPLMGHHI_Private_Void_Object_Boolean_0
+10:04:22.224       private static IntPtr NativeMethodInfoPtr_LEJICIONGFG_Protected_Void_0
+10:04:22.225       private static IntPtr NativeMethodInfoPtr_INGAABOMFLB_Private_Void_0
+10:04:22.225       private static IntPtr NativeMethodInfoPtr_DAFLMOEJFEM_Private_Void_0
+10:04:22.226       private static IntPtr NativeMethodInfoPtr_JPGJGABMOCG_Private_Void_0
+10:04:22.227       private static IntPtr NativeMethodInfoPtr_EFLDBEOFHAG_Private_Void_0
+10:04:22.230       private static IntPtr NativeMethodInfoPtr_EIBOMCEPLAN_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.230       private static IntPtr NativeMethodInfoPtr_NCEAGGHCBME_Private_Void_0
+10:04:22.231       private static IntPtr NativeMethodInfoPtr_GFPLBGHDMLI_Private_Void_0
+10:04:22.231       private static IntPtr NativeMethodInfoPtr_PHKEHHGPNDN_Private_Void_0
+10:04:22.232       private static IntPtr NativeMethodInfoPtr_ECKOHMLKPHD_Private_Void_0
+10:04:22.232       private static IntPtr NativeMethodInfoPtr_GNIIFJPIJFB_Private_Void_0
+10:04:22.234       private static IntPtr NativeMethodInfoPtr_CEDBEJBIAPI_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.235       private static IntPtr NativeMethodInfoPtr_EMCINHAHKPA_Private_Void_Object_Boolean_0
+10:04:22.235       private static IntPtr NativeMethodInfoPtr_CFKDCGHDNGD_Private_Void_0
+10:04:22.236       private static IntPtr NativeMethodInfoPtr_EGHKNJAEPGM_Protected_Void_0
+10:04:22.236       private static IntPtr NativeMethodInfoPtr_LNJBJJFHABK_Protected_Void_0
+10:04:22.237       private static IntPtr NativeMethodInfoPtr_OFIHOGFDDBF_Private_Void_0
+10:04:22.237       private static IntPtr NativeMethodInfoPtr_JEAKPEEGONA_Private_Void_0
+10:04:22.238       private static IntPtr NativeMethodInfoPtr_AKGKFCLFOJI_Private_Void_0
+10:04:22.238       private static IntPtr NativeMethodInfoPtr_OnEnable_Private_Void_0
+10:04:22.239       private static IntPtr NativeMethodInfoPtr_PBDENJKCILH_Private_Void_0
+10:04:22.239       private static IntPtr NativeMethodInfoPtr_CFJCFKIAFIG_Private_Void_0
+10:04:22.239       private static IntPtr NativeMethodInfoPtr_GFIKKAKMBKK_Private_Void_0
+10:04:22.240       private static IntPtr NativeMethodInfoPtr_HFKFJGGMFNK_Private_Void_0
+10:04:22.241       private static IntPtr NativeMethodInfoPtr_ICEHPKLCBAH_Private_Void_0
+10:04:22.241       private static IntPtr NativeMethodInfoPtr_LIJFFNKNCEI_Private_Void_0
+10:04:22.242       private static IntPtr NativeMethodInfoPtr_HIFLEPMPCFH_Protected_Void_0
+10:04:22.244       private static IntPtr NativeMethodInfoPtr_GCKAKOJEBGK_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.245       private static IntPtr NativeMethodInfoPtr_DGGLLGPMHKM_Private_Void_0
+10:04:22.245       private static IntPtr NativeMethodInfoPtr_JNFIOCJIKKL_Private_Void_0
+10:04:22.246       private static IntPtr NativeMethodInfoPtr_COEJOFBOIDH_Private_Void_0
+10:04:22.246       private static IntPtr NativeMethodInfoPtr_BPBMNNGFAGI_Private_Void_0
+10:04:22.247       private static IntPtr NativeMethodInfoPtr_MMIKAKEOLAO_Private_Void_0
+10:04:22.247       private static IntPtr NativeMethodInfoPtr_FPKKKABOKMF_Private_Void_Object_Boolean_0
+10:04:22.248       private static IntPtr NativeMethodInfoPtr_NBNELAGJFIB_Private_Void_Object_Boolean_0
+10:04:22.249       private static IntPtr NativeMethodInfoPtr_MNIGKDAGJAC_Private_Void_0
+10:04:22.249       private static IntPtr NativeMethodInfoPtr_ABPDFIBBHPG_Private_Void_0
+10:04:22.250       private static IntPtr NativeMethodInfoPtr_KANICHDBCEJ_Protected_Void_0
+10:04:22.250       private static IntPtr NativeMethodInfoPtr_DMLFFADJJDE_Private_Void_0
+10:04:22.251       private static IntPtr NativeMethodInfoPtr_JDJIGGBBAEL_Private_Void_0
+10:04:22.251       private static IntPtr NativeMethodInfoPtr_JIGHBHMPGBE_Private_Void_0
+10:04:22.251       private static IntPtr NativeMethodInfoPtr_MHCDMNEEICF_Private_Void_0
+10:04:22.252       private static IntPtr NativeMethodInfoPtr_EIIEGDKKDDO_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.252       private static IntPtr NativeMethodInfoPtr_CKNIIDMBPKO_Private_Void_0
+10:04:22.253       private static IntPtr NativeMethodInfoPtr_OJGMPKENLBH_Private_Void_0
+10:04:22.253       private static IntPtr NativeMethodInfoPtr__ctor_Public_Void_0
+10:04:22.254       private static IntPtr NativeMethodInfoPtr_MBDJIMJLLLF_Private_Void_0
+10:04:22.255       private static IntPtr NativeMethodInfoPtr_PANPJJGIFLB_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.256       private static IntPtr NativeMethodInfoPtr_JLNGGFECJOL_Private_Void_0
+10:04:22.256       private static IntPtr NativeMethodInfoPtr_BGPIPLPCHGE_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.257       private static IntPtr NativeMethodInfoPtr_AALOBIDCLCO_Private_Void_0
+10:04:22.257       private static IntPtr NativeMethodInfoPtr_GBGMGIACIHG_Private_Void_0
+10:04:22.258       private static IntPtr NativeMethodInfoPtr_JOIJFFDIHNF_Private_Void_0
+10:04:22.260       private static IntPtr NativeMethodInfoPtr_ILEOKOBNHAC_Private_Void_0
+10:04:22.260       private static IntPtr NativeMethodInfoPtr_FGCHOPOPOGB_Private_Void_0
+10:04:22.261       private static IntPtr NativeMethodInfoPtr_OnPointerUp_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.262       private static IntPtr NativeMethodInfoPtr_LDBGELMNIKJ_Private_Void_0
+10:04:22.263       private static IntPtr NativeMethodInfoPtr_FMLCFAFNOOD_Private_Void_0
+10:04:22.263       private static IntPtr NativeMethodInfoPtr_Update_Private_Void_0
+10:04:22.264       private static IntPtr NativeMethodInfoPtr_DPBGIIAAHCE_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.264       private static IntPtr NativeMethodInfoPtr_DOCNIELKJMC_Public_Virtual_Final_New_Void_PointerEventData_0
+10:04:22.265       protected Boolean isWrapped
+10:04:22.265       protected IntPtr pooledPtr
+10:04:22.266    -- Properties (31):
+10:04:22.266       Sprite enableBackground (getset)
+10:04:22.267       Sprite disableBackground (getset)
+10:04:22.267       GameObject vfx (getset)
+10:04:22.267       String shortcutName (getset)
+10:04:22.269       ShortcutObject shortcutObject (getset)
+10:04:22.269       Boolean NNKDCIFJNOH (getset)
+10:04:22.270       Int64 JOIGNLOHBLL (getset)
+10:04:22.270       Int32 ODGIDCAIJHP (getset)
+10:04:22.271       Button button (getset)
+10:04:22.271       Image buttonImage (getset)
+10:04:22.272       FPOJCIFNGDP clickSfxType (getset)
+10:04:22.272       List`1 GHOPINBMDFG (getset)
+10:04:22.274       RectTransform PEIHFOFPNPI (getset)
+10:04:22.276       RectTransform AGCCBAPENCG (get)
+10:04:22.277       CancellationTokenSource m_CancellationTokenSource (getset)
+10:04:22.277       CancellationToken destroyCancellationToken (get)
+10:04:22.277       Boolean useGUILayout (getset)
+10:04:22.278       Boolean enabled (getset)
+10:04:22.278       Boolean isActiveAndEnabled (get)
+10:04:22.279       Transform transform (get)
+10:04:22.279       GameObject gameObject (get)
+10:04:22.279       String tag (getset)
+10:04:22.280       IntPtr m_CachedPtr (getset)
+10:04:22.280       Int32 OffsetOfInstanceIDInCPlusPlusObject (getset)
+10:04:22.281       String objectIsNullMessage (getset)
+10:04:22.281       String cloneDestroyedMessage (getset)
+10:04:22.281       String name (getset)
+10:04:22.282       HideFlags hideFlags (getset)
+10:04:22.283       IntPtr ObjectClass (get)
+10:04:22.283       IntPtr Pointer (get)
+10:04:22.284       Boolean WasCollected (get)
+10:04:22.284    -- Methods (157):
+10:04:22.285       Boolean get_NNKDCIFJNOH()
+10:04:22.285       Int64 get_JOIGNLOHBLL()
+10:04:22.285       Sprite get_enableBackground()
+10:04:22.286       Void set_enableBackground(Sprite )
+10:04:22.286       Sprite get_disableBackground()
+10:04:22.291       Void set_disableBackground(Sprite )
+10:04:22.292       GameObject get_vfx()
+10:04:22.292       Void set_vfx(GameObject )
+10:04:22.293       String get_shortcutName()
+10:04:22.294       Void set_shortcutName(String )
+10:04:22.294       ShortcutObject get_shortcutObject()
+10:04:22.295       Void set_shortcutObject(ShortcutObject )
+10:04:22.295       Void set_NNKDCIFJNOH(Boolean )
+10:04:22.296       Void set_JOIGNLOHBLL(Int64 )
+10:04:22.297       static Int32 get_ODGIDCAIJHP()
+10:04:22.298       static Void set_ODGIDCAIJHP(Int32 )
+10:04:22.298       Void ECKOHMLKPHD()
+10:04:22.299       Void GNIIFJPIJFB()
+10:04:22.299       Void CEDBEJBIAPI(PointerEventData EMMAHNKLLHE)
+10:04:22.300       Void EMCINHAHKPA(Object MLNNGHBOGFE, Boolean OMKIFANJPLO)
+10:04:22.300       Void CFKDCGHDNGD()
+10:04:22.301       Void EGHKNJAEPGM()
+10:04:22.301       Void LNJBJJFHABK()
+10:04:22.302       Void OFIHOGFDDBF()
+10:04:22.302       Void JEAKPEEGONA()
+10:04:22.303       Void AKGKFCLFOJI()
+10:04:22.304       Void OnEnable()
+10:04:22.306       Void PBDENJKCILH()
+10:04:22.307       Void CFJCFKIAFIG()
+10:04:22.307       Void GFIKKAKMBKK()
+10:04:22.308       Void HFKFJGGMFNK()
+10:04:22.308       Void ICEHPKLCBAH()
+10:04:22.308       Void LIJFFNKNCEI()
+10:04:22.309       Void HIFLEPMPCFH()
+10:04:22.309       Void GCKAKOJEBGK(PointerEventData EMMAHNKLLHE)
+10:04:22.310       Void DGGLLGPMHKM()
+10:04:22.311       Void JNFIOCJIKKL()
+10:04:22.311       Void COEJOFBOIDH()
+10:04:22.312       Void BPBMNNGFAGI()
+10:04:22.312       Void MMIKAKEOLAO()
+10:04:22.313       Void FPKKKABOKMF(Object MLNNGHBOGFE, Boolean OMKIFANJPLO)
+10:04:22.313       Void NBNELAGJFIB(Object MLNNGHBOGFE, Boolean OMKIFANJPLO)
+10:04:22.314       Void MNIGKDAGJAC()
+10:04:22.314       Void ABPDFIBBHPG()
+10:04:22.314       Void KANICHDBCEJ()
+10:04:22.315       Void DMLFFADJJDE()
+10:04:22.315       Void JDJIGGBBAEL()
+10:04:22.316       Void JIGHBHMPGBE()
+10:04:22.317       Void MHCDMNEEICF()
+10:04:22.318       Void EIIEGDKKDDO(PointerEventData EMMAHNKLLHE)
+10:04:22.319       Void CKNIIDMBPKO()
+10:04:22.319       Void OJGMPKENLBH()
+10:04:22.320       Void MBDJIMJLLLF()
+10:04:22.322       Void PANPJJGIFLB(PointerEventData EMMAHNKLLHE)
+10:04:22.323       Void JLNGGFECJOL()
+10:04:22.324       Void BGPIPLPCHGE(PointerEventData EMMAHNKLLHE)
+10:04:22.325       Void AALOBIDCLCO()
+10:04:22.326       Void GBGMGIACIHG()
+10:04:22.326       Void JOIJFFDIHNF()
+10:04:22.327       Void ILEOKOBNHAC()
+10:04:22.327       Void FGCHOPOPOGB()
+10:04:22.328       Void OnPointerUp(PointerEventData EMMAHNKLLHE)
+10:04:22.328       Void LDBGELMNIKJ()
+10:04:22.328       Void FMLCFAFNOOD()
+10:04:22.329       Void Update()
+10:04:22.329       Void DPBGIIAAHCE(PointerEventData EMMAHNKLLHE)
+10:04:22.330       Void DOCNIELKJMC(PointerEventData EMMAHNKLLHE)
+10:04:22.330       Void GOFHHCJLDKM()
+10:04:22.331       Void IBNBBMOHDGH()
+10:04:22.332       Void HCEHBALJCID()
+10:04:22.333       Void FBNKACOADPF()
+10:04:22.333       Void PBEIBIMPFEA()
+10:04:22.334       Void LMDDMIDNCMG(PointerEventData EMMAHNKLLHE)
+10:04:22.334       Void AJFKIEBEAPC()
+10:04:22.335       Void BPIENLFEOCE()
+10:04:22.335       Void KKMDDNAAPAA(PointerEventData EMMAHNKLLHE)
+10:04:22.338       Void OHCHAKGNNMO()
+10:04:22.339       Void PGCFMMIGDKK(PointerEventData EMMAHNKLLHE)
+10:04:22.339       Void AHHELHMMBKD(Object MLNNGHBOGFE, Boolean OMKIFANJPLO)
+10:04:22.340       Void BNNHPNALHEL(PointerEventData EMMAHNKLLHE)
+10:04:22.340       Void JDDBDDHDMMD()
+10:04:22.340       Void MJLGLNMAMPP()
+10:04:22.341       Void HOGJDOKMNPN()
+10:04:22.341       Void FJILDAKHBON()
+10:04:22.342       Void EHLPALLPNLH()
+10:04:22.342       Void EEFFGEILMAN(Object MLNNGHBOGFE, Boolean OMKIFANJPLO)
+10:04:22.342       Void OnDisable()
+10:04:22.343       Void PMCMNACJHOP()
+10:04:22.343       Void EMADMMAGEJL()
+10:04:22.344       Void DKKCNMFEHNB()
+10:04:22.344       Void EAAFPNADKLN(PointerEventData EMMAHNKLLHE)
+10:04:22.345       Void EGPDFNHFJKP()
+10:04:22.346       Void GPMDINILFFO(PointerEventData EMMAHNKLLHE)
+10:04:22.346       Void KDBDFMAEKPO()
+10:04:22.347       Void HJPCBMCEJFC(PointerEventData EMMAHNKLLHE)
+10:04:22.347       Void OFABLGKOJFH(PointerEventData EMMAHNKLLHE)
+10:04:22.348       Void GLKPFAFCJOJ()
+10:04:22.348       Void JIFKECEDCCI()
+10:04:22.348       Void HALNGGCEDGD(Object MLNNGHBOGFE, Boolean OMKIFANJPLO)
+10:04:22.349       Void LOPECEMAEJO()
+10:04:22.349       Void OnPointerDown(PointerEventData EMMAHNKLLHE)
+10:04:22.350       Void GDGAMDBHBEP()
+10:04:22.350       Void Awake()
+10:04:22.351       Void MKFDPKODJEH(Object MLNNGHBOGFE, Boolean OMKIFANJPLO)
+10:04:22.353       Void KMBIJBLNGJH()
+10:04:22.354       Void LHEMOKPKDNP()
+10:04:22.355       Void BFPLAKDIEFK()
+10:04:22.355       Void BICGAEIMDJF()
+10:04:22.355       Void KOAHONCINAA()
+10:04:22.356       Void AEIHANEAHCP()
+10:04:22.356       Void OJOOPKPNOLN()
+10:04:22.357       Void IGCECGMLGHB()
+10:04:22.357       Void HLCMCOEANLH(PointerEventData EMMAHNKLLHE)
+10:04:22.358       Void EBJGHFHEIHA()
+10:04:22.359       Void PDAADCDFCAO()
+10:04:22.360       Void BIMBOCCCABL()
+10:04:22.361       Void FPAHKKMGADI()
+10:04:22.361       Void DEOFIHKKKHD()
+10:04:22.362       Void GKJINBFDOOB()
+10:04:22.362       Void CNGFPDCLMFN()
+10:04:22.363       Void PMPOFKILJGM()
+10:04:22.363       Void JBKEJBKFGIJ()
+10:04:22.364       Void EGMHJFFMCOJ(Object MLNNGHBOGFE, Boolean OMKIFANJPLO)
+10:04:22.364       Void AOJGFAAAHJD()
+10:04:22.365       Void KDFGGCPHOKI()
+10:04:22.366       Void FEMGJPEPHDG(PointerEventData EMMAHNKLLHE)
+10:04:22.367       Void AFMDAFBAGCE(Object MLNNGHBOGFE, Boolean OMKIFANJPLO)
+10:04:22.369       Void HKAGJKEJDNG(PointerEventData EMMAHNKLLHE)
+10:04:22.369       Void MNBPDPAHHGJ()
+10:04:22.370       Void GGCMPGPNCFB()
+10:04:22.370       Void LCAMGKMBDMH()
+10:04:22.371       Void KGCMIHKHKLK()
+10:04:22.371       Void KCNBDKAPEJL()
+10:04:22.371       Void HOCMKJFJJKP()
+10:04:22.372       Void HNMKBDBCIGL()
+10:04:22.373       Void KFPFLJACKFF()
+10:04:22.374       Void KHLLBLFCOPF(PointerEventData EMMAHNKLLHE)
+10:04:22.374       Void EEHDMCEHGBM()
+10:04:22.375       Void GKEHDCINGEE()
+10:04:22.375       Void LJPHBECBAEL()
+10:04:22.376       Void GKKGMHOBFMJ(PointerEventData EMMAHNKLLHE)
+10:04:22.376       Void NCAAHFKCEAD()
+10:04:22.377       Void HPFNFNEGAFJ()
+10:04:22.377       Void EIBACOGGKAF(PointerEventData EMMAHNKLLHE)
+10:04:22.377       Void OBFBFKEDBLK()
+10:04:22.378       Void HKCCNGBAAJM()
+10:04:22.378       Void IKAKKFOIJKM(PointerEventData EMMAHNKLLHE)
+10:04:22.378       Void CNFHPLMGHHI(Object MLNNGHBOGFE, Boolean OMKIFANJPLO)
+10:04:22.379       Void LEJICIONGFG()
+10:04:22.380       Void INGAABOMFLB()
+10:04:22.381       Void DAFLMOEJFEM()
+10:04:22.381       Void JPGJGABMOCG()
+10:04:22.382       Void EFLDBEOFHAG()
+10:04:22.382       Void EIBOMCEPLAN(PointerEventData EMMAHNKLLHE)
+10:04:22.382       Void NCEAGGHCBME()
+10:04:22.383       Void GFPLBGHDMLI()
+10:04:22.385       Void PHKEHHGPNDN()
+10:04:22.385  ===== HET API =====

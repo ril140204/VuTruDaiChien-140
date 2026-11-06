@@ -1,0 +1,14 @@
+# ===== Git LFS =====
+# GitHub chan file > 100MB. Cac file vuot ngan duoc day sang LFS:
+#   - Vung Hoang Da_Data/resources.assets.resS   (~331 MB)
+#   - tools/dump/script.json                       (~102 MB)
+#
+# Cac file lon khac (GameAssembly.dll 66MB, il2cpp.h 39MB, dump.cs 38MB,
+# shape_140.json 33MB, UnityPlayer.dll 30MB) van nam trong git thuong
+# vi duoi ngan 100MB.
+
+# Game asset resource stream
+*.resS filter=lfs diff=lfs merge=lfs -text
+
+# Il2CppDumper output > 100MB
+tools/dump/script.json filter=lfs diff=lfs merge=lfs -text
